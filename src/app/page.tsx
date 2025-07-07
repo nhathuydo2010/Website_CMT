@@ -301,13 +301,16 @@ const productsColor = [
             id={product.code} // 👈 THÊM id THEO MÃ SẢN PHẨM
             className="border p-4 text-center flex flex-col justify-between min-h-[400px]"
           >
-            <Image
-              src={product.image}
-              alt={product.name}
-              width={200}
-              height={200}
-              className="mx-auto object-contain h-[250px] w-auto"
-            />
+           <Link href={`/sanpham/maytrangden/${product.code}`}>
+          <Image
+            src={product.image}
+            alt={product.name}
+            width={200}
+            height={200}
+            className="mx-auto object-contain h-[250px] w-auto cursor-pointer hover:scale-105 transition-transform"
+          />
+        </Link>
+
             <div className="mt-4">
               <p className="text-green-600 font-medium text-base">{product.name}</p>
               <p className="text-red-600 font-bold text-base mt-1">Giá: {product.price}</p>
@@ -326,13 +329,15 @@ const productsColor = [
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 px-4 py-6">
           {productsColor.map((product, index) => (
             <div key={index} className="border p-4 text-center flex flex-col justify-between min-h-[400px]">
-               <Image
-                src={product.image}
-                alt={product.name}
-                width={200}
-                height={200}
-                className="mx-auto object-contain h-[250px] w-auto"
-              />
+              <Link href={`/sanpham/maymau/${product.code}`}>
+          <Image
+            src={product.image}
+            alt={product.name}
+            width={200}
+            height={200}
+            className="mx-auto object-contain h-[250px] w-auto cursor-pointer hover:scale-105 transition-transform"
+          />
+        </Link>
               <p className="text-green-600 font-medium mt-2">{product.name}</p>
               <p className="text-red-600 font-bold mt-1">Giá: {product.price}</p>
               <p className="text-sm text-gray-500 mt-1">Mã sản phẩm: {product.code}</p>
