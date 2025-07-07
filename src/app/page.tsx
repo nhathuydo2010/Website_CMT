@@ -10,13 +10,7 @@ export default function Header() {
     label: "SẢN PHẨM",
     href: "/sanpham",
     submenu: [
-      { label: "Máy Photocopy Trắng Đen", href: "#trangden",
-        submenu: [
-      { label: "Máy Photocopy Apeos 5570", href: "#trangden"  },
-      { label: "Máy Photocopy a1", href: "#mau" },
-      { label: "Máy Photocopy a2", href: "#mau" },
-      { label: "Máy Photocopy a3", href: "#mau" },
-    ],
+      { label: "Máy Photocopy Trắng Đen", href: "#maytrangden",
         },
       { label: "Máy Photocopy Màu", href: "#mau" },
     ],
@@ -189,45 +183,87 @@ const productsColor = [
   <button className="hover:underline">SẢN PHẨM</button>
 
   {/* Dropdown cấp 1 */}
-  <ul className="absolute top-full left-0 bg-white text-black shadow-md min-w-[200px] opacity-0 invisible group-hover:opacity-100 group-hover:visible transition duration-200 z-50">
+ <ul className="absolute top-[calc(100%+8px)] left-0 bg-white text-black shadow-md min-w-[200px] opacity-0 invisible group-hover:opacity-100 group-hover:visible transition duration-200 z-50">
+
+
+    {/* Mục có submenu cấp 2 */}
+   <li className="relative group/trangden px-4 py-2 hover:bg-gray-100">
+  <div className="flex items-center justify-between">
+    <Link href="/sanpham/maytrangden">Máy Photocopy Trắng Đen</Link>
+    <span className="ml-2">&#9656;</span>
+  </div>
+
+  {/* Submenu cấp 2 */}
+  <ul className="absolute top-0 left-full bg-white text-black shadow-md min-w-[180px] opacity-0 invisible group-hover/trangden:opacity-100 group-hover/trangden:visible transition duration-200 z-50">
+    <li className="hover:bg-gray-100 px-4 py-2">
+      <Link href="/sanpham/maytrangden/5570">Máy Photocopy Apeos 5570</Link>
+    </li>
+    <li className="hover:bg-gray-100 px-4 py-2">
+      <Link href="/sanpham/maytrangden/4570">Máy Photocopy Apeos 4570</Link>
+    </li>
+    <li className="hover:bg-gray-100 px-4 py-2">
+      <Link href="/sanpham/maytrangden/7580">Máy Photocopy Apeos 7580</Link>
+    </li>
+    <li className="hover:bg-gray-100 px-4 py-2">
+      <Link href="/sanpham/maytrangden/6580">Máy Photocopy Apeos 6580</Link>
+    </li>
+    <li className="hover:bg-gray-100 px-4 py-2">
+      <Link href="/sanpham/maytrangden/3060">Máy Photocopy Apeos 3060</Link>
+    </li>
+    <li className="hover:bg-gray-100 px-4 py-2">
+      <Link href="/sanpham/maytrangden/2560">Máy Photocopy Apeos 2560</Link>
+    </li>
+    <li className="hover:bg-gray-100 px-4 py-2">
+      <Link href="/sanpham/maytrangden/3560">Máy Photocopy Apeos 3560</Link>
+    </li>
+  </ul>
+</li>
 
     {/* Mục có submenu cấp 2 */}
     <li className="relative group/trangden px-4 py-2 hover:bg-gray-100">
       <div className="flex items-center justify-between">
-        <Link href="/sanpham/trangden">Máy Photocopy Trắng Đen</Link>
+        <Link href="/sanpham">Máy Photocopy Màu</Link>
         <span className="ml-2">&#9656;</span>
       </div>
 
       {/* Submenu cấp 2 - CHỈ hiện khi hover mục Máy Photocopy Trắng Đen */}
       <ul className="absolute top-0 left-full bg-white text-black shadow-md min-w-[180px] opacity-0 invisible group-hover/trangden:opacity-100 group-hover/trangden:visible transition duration-200 z-50">
         <li className="hover:bg-gray-100 px-4 py-2">
-          <Link href="#trangden">Máy Photocopy Apeos 5570</Link>
+          <Link href="/sanpham/maymau/C7071">Máy Photocopy Apeos C7071</Link>
         </li>
         <li className="hover:bg-gray-100 px-4 py-2">
-          <Link href="#mau">Máy Photocopy Apeos 4570</Link>
+          <Link href="/sanpham/maymau/C6571">Máy Photocopy Apeos C6571</Link>
         </li>
         <li className="hover:bg-gray-100 px-4 py-2">
-          <Link href="#mau">Máy Photocopy Apeos 7580</Link>
+          <Link href="/sanpham/maymau/C5571">Máy Photocopy Apeos C5571</Link>
         </li>
         <li className="hover:bg-gray-100 px-4 py-2">
-          <Link href="#mau">Máy Photocopy Apeos 6580</Link>
+          <Link href="/sanpham/maymau/C4571">Máy Photocopy Apeos C4571</Link>
         </li>
         <li className="hover:bg-gray-100 px-4 py-2">
-          <Link href="#mau">Máy Photocopy Apeos 3060</Link>
+          <Link href="/sanpham/maymau/C3061">Máy Photocopy Apeos C3061</Link>
         </li>
         <li className="hover:bg-gray-100 px-4 py-2">
-          <Link href="#mau">Máy Photocopy Apeos 2560</Link>
+          <Link href="/sanpham/maymau/C2561">Máy Photocopy Apeos C2561</Link>
+        </li>
+         <li className="hover:bg-gray-100 px-4 py-2">
+          <Link href="/sanpham/maymau/C2061">Máy Photocopy Apeos C2061</Link>
+        </li>
+         <li className="hover:bg-gray-100 px-4 py-2">
+          <Link href="/sanpham/maymau/C8180">Máy Photocopy Apeos C8180</Link>
+        </li>
+        <li className="hover:bg-gray-100 px-4 py-2">
+          <Link href="/sanpham/maymau/C7580">Máy Photocopy Apeos C7580</Link>
+        </li>
+         <li className="hover:bg-gray-100 px-4 py-2">
+          <Link href="/sanpham/maymau/C6580">Máy Photocopy Apeos C6580</Link>
+        </li>
+        <li className="hover:bg-gray-100 px-4 py-2">
+          <Link href="/sanpham/maymau/C3567">Máy Photocopy Apeos C3567</Link>
         </li>
       </ul>
     </li>
 
-    {/* Các mục còn lại không có submenu */}
-    <li className="hover:bg-gray-100 px-4 py-2">
-      <Link href="/sanpham/mau">Máy Photocopy Màu</Link>
-    </li>
-    <li className="hover:bg-gray-100 px-4 py-2">
-      <Link href="/sanpham/mucloai">Mực / Linh kiện</Link>
-    </li>
   </ul>
 </li>
 
@@ -255,12 +291,16 @@ const productsColor = [
     </div>
     {/* MÁY PHOTOCOPY TRẮNG ĐEN */}
       <div className="max-w-screen-xl mx-auto" id="trangden">
-        <div className="bg-red-700 text-white text-lg font-bold px-4 py-2 mt-4">
+        <div className="bg-red-600 text-white text-lg font-bold px-4 py-2 mt-4 text-center rounded-full shadow-2xl ">
           MÁY PHOTOCOPY TRẮNG ĐEN
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 px-4 py-6">
-          {productsBlackWhite.map((product, index) => (
-            <div key={index} className="border p-4 text-center flex flex-col justify-between min-h-[400px]">
+        {productsBlackWhite.map((product, index) => (
+          <div
+            key={index}
+            id={product.code} // 👈 THÊM id THEO MÃ SẢN PHẨM
+            className="border p-4 text-center flex flex-col justify-between min-h-[400px]"
+          >
             <Image
               src={product.image}
               alt={product.name}
@@ -274,13 +314,13 @@ const productsColor = [
               <p className="text-gray-600 text-sm mt-1">Mã sản phẩm: {product.code}</p>
             </div>
           </div>
-          ))}
-        </div>
+        ))}
+      </div>
       </div>
 
       {/* MÁY PHOTOCOPY MÀU */}
       <div className="max-w-screen-xl mx-auto" id="mau">
-        <div className="bg-red-700 text-white text-lg font-bold px-4 py-2 mt-4">
+        <div className="bg-red-600 text-white text-lg font-bold px-4 py-2 mt-4 text-center rounded-full shadow-2xl">
           MÁY PHOTOCOPY MÀU
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 px-4 py-6">
