@@ -17,7 +17,7 @@ export default function BanDo() {
               <div className="flex items-center space-x-[2px]">
                 <Image src="/logo.png" alt="Xerox Logo" width={150} height={25} />
                 <span className="text-[15px] font-semibold text-red-600">
-                  CÔNG TY CỔ PHẦN MÁY TÍNH VIỆT NAM
+                  CÔNG TY CỔ PHẦN MÁY TÍNH VIỆT NAM 
                 </span>
               </div> 
 
