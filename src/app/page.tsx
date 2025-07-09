@@ -279,21 +279,25 @@ const productsColor = [
 </nav>
 
 
-     <div className="w-full max-w-screen-xl mx-auto py-5">
-      <Image
-        src="/banner.png"
-        alt="Banner Công ty Siêu Nhanh"
-        width={1000}
-        height={400}
-        className="w-full h-auto object-cover rounded-md shadow-xl"
-        priority
-      />
-    </div>
+<div className="w-full max-w-screen-xl mx-auto py-5 flex justify-center">
+  <Image
+    src="/banner.jpg"
+    alt="Banner Công ty Siêu Nhanh"
+    width={1000}
+    height={200}
+    className="w-[900px] h-auto object-cover rounded-md shadow-xl"
+    priority
+  />
+</div>
+
     {/* MÁY PHOTOCOPY TRẮNG ĐEN */}
       <div className="max-w-screen-xl mx-auto" id="trangden">
-        <div className="bg-red-600 text-white text-lg font-bold px-4 py-2 mt-4 text-center rounded-full shadow-2xl ">
+        <a
+          href={`/sanpham/maytrangden/`}
+          className="block bg-red-600 text-white text-lg font-bold px-4 py-2 mt-4 text-center rounded-full shadow-2xl hover:bg-red-700 transition"
+        >
           MÁY PHOTOCOPY TRẮNG ĐEN
-        </div>
+        </a>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 px-4 py-6">
         {productsBlackWhite.map((product, index) => (
           <div
@@ -323,9 +327,12 @@ const productsColor = [
 
       {/* MÁY PHOTOCOPY MÀU */}
       <div className="max-w-screen-xl mx-auto" id="mau">
-        <div className="bg-red-600 text-white text-lg font-bold px-4 py-2 mt-4 text-center rounded-full shadow-2xl">
+       <a
+          href={`/sanpham/maymau/`}
+          className="block bg-red-600 text-white text-lg font-bold px-4 py-2 mt-4 text-center rounded-full shadow-2xl hover:bg-red-700 transition"
+        >
           MÁY PHOTOCOPY MÀU
-        </div>
+        </a>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 px-4 py-6">
           {productsColor.map((product, index) => (
             <div key={index} className="border p-4 text-center flex flex-col justify-between min-h-[400px]">
@@ -344,6 +351,61 @@ const productsColor = [
             </div>
           ))}
         </div>
+        <footer className="bg-white border-t mt-12 text-sm text-gray-700">
+  <div className="max-w-screen-xl mx-auto py-8 px-4 grid grid-cols-1 md:grid-cols-3 gap-6">
+    {/* Cột 1: Về công ty */}
+    <div>
+      <h3 className="font-bold text-blue-900 mb-2">Về Ezone</h3>
+      <p className="mb-2">
+        Với các giải pháp công nghệ tốt nhất, Haravan là tất cả những gì bạn cần để xây dựng thương hiệu online,
+        thành công trong bán lẻ và marketing đột phá.
+      </p>
+      <img src="/logo-dathongbao.png" alt="Đã Thông Báo" className="w-32 mt-2" />
+    </div>
+
+    {/* Cột 2: Hỗ trợ khách hàng */}
+    <div>
+      <h3 className="font-bold text-blue-900 mb-2">Hỗ trợ khách hàng</h3>
+      <ul className="space-y-1 list-disc list-inside text-gray-800">
+        <li><a href="#" className="hover:underline">Tìm kiếm</a></li>
+        <li><a href="#" className="hover:underline">Giới thiệu</a></li>
+        <li><a href="#" className="hover:underline">Chính sách đổi trả</a></li>
+        <li><a href="#" className="hover:underline">Chính sách bảo mật</a></li>
+        <li><a href="#" className="hover:underline">Điều khoản dịch vụ</a></li>
+        <li><a href="#" className="hover:underline">Liên hệ</a></li>
+      </ul>
+    </div>
+
+    {/* Cột 3: Chăm sóc khách hàng */}
+    <div>
+      <h3 className="font-bold text-blue-900 mb-2">Chăm sóc khách hàng</h3>
+      <p className="flex items-center space-x-2 text-blue-700 font-bold text-lg">
+        📞 <span>1900.636.099</span>
+      </p>
+      <p className="mt-1">
+        <a href="mailto:hi@haravan.com" className="text-blue-600 hover:underline">
+          hi@haravan.com
+        </a>
+      </p>
+      <div className="mt-3">
+        <p className="mb-1 font-semibold">Follow Us</p>
+        <div className="flex space-x-2">
+          <a href="#"><i className="fab fa-facebook border p-2 rounded hover:bg-gray-100"></i></a>
+          <a href="#"><i className="fab fa-twitter border p-2 rounded hover:bg-gray-100"></i></a>
+          <a href="#"><i className="fab fa-instagram border p-2 rounded hover:bg-gray-100"></i></a>
+          <a href="#"><i className="fab fa-google-plus-g border p-2 rounded hover:bg-gray-100"></i></a>
+          <a href="#"><i className="fab fa-youtube border p-2 rounded hover:bg-gray-100"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  {/* Dòng bản quyền */}
+  <div className="text-center text-xs text-gray-500 border-t py-3">
+    Copyright © 2025 Ezone. Powered by Haravan
+  </div>
+</footer>
+
       </div>
       </div>
   );
