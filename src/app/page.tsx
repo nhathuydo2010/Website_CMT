@@ -3,24 +3,6 @@ import Image from "next/image";
 import Link from "next/link";
 
 export default function Header() {
- const navItems = [
-  { label: "TRANG CHỦ", href: "/" },
-  { label: "GIỚI THIỆU", href: "/gioithieu" },
-  {
-    label: "SẢN PHẨM",
-    href: "/sanpham",
-    submenu: [
-      { label: "Máy Photocopy Trắng Đen", href: "#maytrangden",
-        },
-      { label: "Máy Photocopy Màu", href: "#mau" },
-    ],
-  },
-  { label: "TIN TỨC & SỰ KIỆN", href: "#" },
-  { label: "DỊCH VỤ", href: "/dichvu" },
-  { label: "TUYỂN DỤNG", href: "/tuyendung" },
-  { label: "LIÊN HỆ", href: "/lienhe" },
-];
-
   const productsBlackWhite = [
   {
     name: 'Máy Photocopy Apeos 5570',
