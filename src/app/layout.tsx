@@ -4,6 +4,7 @@ import "./globals.css";
 import TopBar from "./combonents/TopBar";
 import LogoSearch from "./combonents/LogoSearch";
 import NavigationMenu from "./combonents/Navbar";
+import Footer from "./combonents/Footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -28,11 +29,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+        {/* Top bar with logo and search */}
         <TopBar />
         <LogoSearch />
         <NavigationMenu />
         {/* Main content area */}
         <main>{children}</main>
+        {/* Footer */}
+        <Footer />
       </body>
     </html>
   );
