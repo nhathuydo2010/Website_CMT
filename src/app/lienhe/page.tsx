@@ -69,7 +69,7 @@ export default function LienHe() {
           </div>
         </div>
         {/* Form Submit */}
-        <section className="p-6 sm:p-10 max-w-xl mx-auto">
+        <section className="p-6 sm:p-10 max-w-xl border border-gray-300 rounded-md shadow-sm bg-white text-left">
           <h2 className="text-2xl font-semibold text-red-600 mb-4">Gửi thông tin liên hệ</h2>
           <form ref={formRef} onSubmit={handleSubmit} className="space-y-4">
             <div>
