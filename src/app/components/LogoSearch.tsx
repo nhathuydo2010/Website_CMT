@@ -36,8 +36,7 @@ export default function LogoSearch() {
           <a href="tel:02838296594" className="block hover:underline">028.382.965.94</a>
         </div>
         </div>  
-          </div>
       </div>
-    
+    </div>
   );
 }
