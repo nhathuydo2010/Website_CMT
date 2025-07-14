@@ -15,17 +15,11 @@ export default function LienHe() {
           {/* Thông tin liên hệ */}
           <div className="flex-1 text-gray-800 space-y-2 text-[16px]">
             <p><strong>CÔNG TY CỔ PHẦN MÁY TÍNH VIỆT NAM </strong></p>
-            <p>Địa chỉ: 26 Lý Tự Trọng, Phường Bến Nghé, Quận 1 Tp.HCM</p>
-            {/* <p>Điện thoại: 0888 186 238 – 0706 888 606</p> */}
-            <p>Hotline: <strong className="text-red-600">083.8226.166</strong></p>
-            <p>Email: <a href="mailto:info@trongnhansolutions.com" className="text-blue-600 underline">ktxerox@cmt.vn</a></p>
-            <p>
-              Website:{" "}
-              <a href="https://trongnhansolutions.com" target="_blank" className="text-blue-600 underline">trongnhansolutions.com</a>,{" "}
-              <a href="https://mayphotocopyricoh.vn" target="_blank" className="text-blue-600 underline">mayphotocopyricoh.vn</a>,{" "}
-              <a href="https://mayphotocopyricoh.info" target="_blank" className="text-blue-600 underline">mayphotocopyricoh.info</a>,{" "}
-              <a href="https://mayphotocopyricoh.com.vn" target="_blank" className="text-blue-600 underline">mayphotocopyricoh.com.vn</a>
-            </p>
+            <p>Địa chỉ: 26 Lý Tự Trọng, Phường Sài Gòn,TP.HCM</p>
+            {/* <p>Điện thoại: 0908.100.201 – 028.382.261.66</p> */}
+            <p>Hotline: <strong className="text-red-600"> 0908.100.201 – 028.382.261.66</strong></p>
+            <p>Email: <a href="mailto:info@trongnhansolutions.com" className="text-blue-600 underline">cmtfujifilm@cmt.vn</a></p>
+            
             <p>Mã số thuế: <strong>0313896779</strong></p>
           </div>
 

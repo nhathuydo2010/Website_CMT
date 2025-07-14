@@ -29,7 +29,7 @@ export default function Footer() {
                 <div>
                     <h3 className="font-bold text-blue-900 mb-2">Chăm sóc khách hàng</h3>
                     <p className="flex items-center space-x-2 text-blue-700 font-bold text-lg">
-                        📞 <span>028.382.261.66</span>
+                        📞 <a href="tel:02838226166" className="block hover:underline">028.382.261.66</a>
 
                     </p>
                     <p className="mt-1">
