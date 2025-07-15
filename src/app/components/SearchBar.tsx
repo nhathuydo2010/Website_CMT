@@ -93,7 +93,7 @@ export default function SearchBarWithCategoryBoxed({ products = [], categories =
 
       {/* Kết quả gợi ý */}
       {showResults && query.length > 1 && (
-        <ul className="absolute z-[999] top-full left-0 right-0 mt-1 bg-white border border-gray-300 rounded shadow-lg max-h-[300px] overflow-y-auto">
+       <ul className="absolute z-[900] top-full left-0 right-0 mt-1 bg-white border border-gray-300 rounded shadow-lg max-h-[300px] overflow-y-auto">
           {filtered.length > 0 ? (
             filtered.map((item, idx) => (
               <li

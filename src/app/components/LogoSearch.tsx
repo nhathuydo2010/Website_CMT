@@ -19,7 +19,7 @@ export default function LogoSearch() {
         {/* THANH TÌM KIẾM (Ở GIỮA) */}
         <div className="flex-1 mx-8">
           <SearchBarWithCategoryBoxed
-            products={[
+            products={[ 
               ...productsBlackWhite.map((p) => ({ ...p, category: "Trắng Đen" })),
               ...productsColor.map((p) => ({ ...p, category: "Màu" })),
             ]}

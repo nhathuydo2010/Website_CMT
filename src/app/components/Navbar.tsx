@@ -48,7 +48,7 @@ const navItems = [
 
 export default function Navbar() {
   return (
-    <nav className="bg-red-600 text-white font-semibold text-sm relative z-50">
+    <nav className="bg-red-600 text-white font-semibold text-sm sticky top-[1px] z-40">
       <ul className="flex justify-center space-x-10 py-3 relative">
         {navItems.map((item, index) => (
           <li key={index} className="relative group">
