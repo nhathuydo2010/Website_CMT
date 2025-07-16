@@ -13,10 +13,10 @@ export default function LienHePage() {
 
     try {
       const result = await emailjs.sendForm(
-        'service_zz85lyo',
-        'template_0gg4hec',
+        'service_21v8nra',
+        'template_z8vvk2l',
         formRef.current,
-        'EFOXIg-6SSEw0pj4W'
+        'oXtLWqMs8Dt9Xji-y' // Your user ID
       );
       alert('Gửi liên hệ thành công!');
       formRef.current.reset();
@@ -30,7 +30,7 @@ export default function LienHePage() {
     <main className="p-6 sm:p-10 max-w-7xl mx-auto">
       <div className="grid md:grid-cols-2 border rounded-lg shadow-md overflow-hidden">
         {/* LEFT: Form */}
-        <div className="bg-white p-8">
+        <div className="bg-white p-8 text-black">
           <h2 className="text-2xl font-semibold mb-6">Liên hệ với chúng tôi</h2>
           <form ref={formRef} onSubmit={handleSubmit} className="space-y-4">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -82,15 +82,7 @@ export default function LienHePage() {
             <p className="flex items-center gap-2"><FaMapMarkerAlt className="text-red-600" /> 26 Lý Tự Trọng, Phường Sài Gòn, Tp.HCM</p>
             <p className="flex items-center gap-2"><FaPhoneAlt className="text-red-600" /> 083.8226.166</p>
             <p className="flex items-center gap-2"><FaEnvelope className="text-red-600" /> ktxerox@cmt.vn</p>
-            <p className="flex items-start gap-2">
-              <FaGlobe className="text-red-600 mt-1" />
-              <span>
-                <a href="https://trongnhansolutions.com" className="underline text-blue-600">trongnhansolutions.com</a>,<br />
-                <a href="https://mayphotocopyricoh.vn" className="underline text-blue-600">mayphotocopyricoh.vn</a>,<br />
-                <a href="https://mayphotocopyricoh.info" className="underline text-blue-600">mayphotocopyricoh.info</a>,<br />
-                <a href="https://mayphotocopyricoh.com.vn" className="underline text-blue-600">mayphotocopyricoh.com.vn</a>
-              </span>
-            </p>
+            <p className="flex items-start gap-2"> </p>
             <p><strong>Mã số thuế:</strong> 0313896779</p>
           </div>
         </div>
