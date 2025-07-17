@@ -11,7 +11,7 @@ export default function LogoSearch() {
         {/* LOGO + TÊN CÔNG TY (BÊN TRÁI) */}
         <div className="flex items-center space-x-3">
           <Image src="/logo.png" alt="Logo" width={80} height={50} />
-          <span className="text-orange-600 text-lg font-bold uppercase">
+          <span className="text-red-600 text-lg font-bold uppercase">
             CÔNG TY CỔ PHẦN MÁY TÍNH VIỆT NAM
           </span>
         </div>
