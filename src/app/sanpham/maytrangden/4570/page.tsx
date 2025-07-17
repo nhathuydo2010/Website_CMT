@@ -71,12 +71,12 @@ export default function Product7580Page() {
           <h1 className="text-2xl font-bold text-red-600 mb-2">{product.name}</h1>
           <p className="text-xl text-green-600 font-semibold mb-4">Giá: {product.price}</p>
           <ul className="list-disc list-inside text-sm text-gray-700 space-y-1">
-            <li>02 khay tự động (500 tờ/khay) & 01 khay tay (96 tờ)</li>
-            <li>Trọng lượng giấy: 60 – 256 gsm</li>
-            <li>Bộ nạp và đảo bản gốc tự động (DADF)</li>
-            <li>Bộ đảo bản sao (Duplex)</li>
-            <li>Bộ nhớ: Tối đa 4GB. SSD: 128GB</li>
-            <li>Màn hình cảm ứng màu 7 inch</li>
+            <li>02 khay tự động (520 tờ/khay) & 01 khay tay (90 tờ).</li>
+            <li>(Trọng lượng giấy: 52 - 300 gsm).</li>
+            <li>Bộ nạp và đảo bản gốc tự động (DADF).</li>
+            <li>Bộ đảo bản sao (Duplex).</li>
+            <li>Bộ nhớ: Tối đa 4GB. SSD: 128GB.</li>
+            <li>Màn hình cảm ứng màu 10 inch.</li>
           </ul>
           <div className="relative w-full max-w-[350px] border border-red-600 mt-4 rounded">
             {/* Ruy băng khuyến mãi */}

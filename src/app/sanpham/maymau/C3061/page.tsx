@@ -118,187 +118,187 @@ export default function Product7580Page() {
         </div>
       </div>
       <RelatedProductSlider1 />
-     {/* 🔻 Mô tả & Thông số kỹ thuật trong cùng 1 hàng */}
-           <div className="mt-12 flex flex-col lg:flex-row gap-8">
-     
-             {/* Cột trái: Mô tả sản phẩm */}
-             <div className="lg:w-2/3 w-full">
-               <h2 className="text-xl font-bold text-black mb-4 uppercase">Mô Tả Sản Phẩm</h2>
-               <h3 className="text-[30px] font-bold text-red-700 mb-2">
-                 Máy Photocopy Apeos C3061
-               </h3>
-               <h4 className="text-lg font-semibold text-blue-700 mb-2">
-                 Dòng máy cao cấp từ FUJIFILM - Giải pháp in ấn thông minh cho văn phòng hiện đại
-               </h4>
-               <p className="text-black text-justify mb-4">
-                 Được thiết kế để tăng tốc hành trình chuyển đổi số của bạn (DX), dòng Apeos mới với các tính năng
-                 tích hợp thông minh và liền mạch sẽ chứng minh được rằng đây là đối tác kỹ thuật số đáng tin cậy.
-               </p>
-     
-               <div className="w-full flex justify-center my-6">
-                 <Image
-                   src="/images/Apeos C3061C2561C2061.png"
-                   alt="Máy Photocopy Apeos 5570 minh họa"
-                   width={600}
-                   height={400}
-                   className="rounded-lg shadow-lg"
-                 />
-               </div>
-               <div className="mt-12 transition-all duration-500 ease-in-out">
-                 {showFullDescription && (
-                   <div className="animate-fade-in">
-                     <div className="mt-12">
-                       <h2 className="text-[22px] font-bold text-black mb-6 uppercase">
-                         Các giải pháp hoàn toàn có khả năng mở rộng giúp bạn khởi đầu hành trình chuyển đổi số
-                       </h2>
-     
-                       <div className="space-y-6 text-[15px] text-black leading-relaxed">
-                         <div>
-                           <h3 className="font-semibold text-cyan-700 mb-2">
-                             Thiết kế nhỏ gọn – Tinh tế – Dễ sử dụng
-                           </h3>
-                           <ul className="list-disc pl-5 space-y-1">
-                             <li>Kích thước chỉ 577 x 659 mm, phù hợp với mọi không gian văn phòng.</li>
-                             <li>Màn hình cảm ứng 7 inch thân thiện, tùy biến ứng dụng theo người dùng</li>
-                             <li>Hỗ trợ kết nối thông minh qua QR Code, NFC, AirPrint, Mopria, và ứng dụng Print Utility</li>
-                           </ul>
-                           <img src="/images/vanhanh8.png" alt="Bố trí linh hoạt" className="mx-auto rounded-lg shadow mt-3" />
-                         </div>
-     
-                         <div>
-                           <h3 className="font-semibold text-cyan-700 mb-2">
-                             Hiệu suất mạnh mẽ – In màu chuyên nghiệp
-                           </h3>
-                           <ul className="list-disc pl-5 space-y-1">
-                             <li>Tốc độ in tùy model:</li>
-                             <ul className="list-none pl-1 space-y-1">
-                               <li>→ Apeos C3061: 30 trang/phút (màu & đen trắng)</li>
-                               <li>→ Apeos C2561: 25 trang/phút</li>
-                               <li>→ Apeos C2061: 20 trang/phút</li>
-                             </ul>
-                             <li>Độ phân giải in: 1.200 x 2.400 dpi, cho hình ảnh sắc nét, màu sắc chuẩn xác</li>
-                             <li>Sao chụp và quét hai mặt tự động tốc độ cao (tối đa 80 trang/phút)</li>
-     
-                           </ul>
-                         </div>
-     
-                         <div>
-                           <h3 className="font-semibold text-cyan-700 mb-2">
-                             Kích thước nhỏ gọn phù hợp với mọi không gian văn phòng
-                           </h3>
-                           <p>Thiết kế nhỏ gọn với chiều rộng 577 mm và chiều sâu 659 mm*
-                             phù hợp với mọi nơi, kể cả những không gian chật hẹp, giúp tối đa
-                             hóa việc sử dụng không gian văn phòng.</p>
-     
-                         </div>
-                         <div>
-                           <h3 className="font-semibold text-cyan-700 mb-2">
-                             Sản xuất tài liệu quảng cáo nội bộ và theo yêu cầu
-                           </h3>
-                           <p>Hỗ trợ nhiều kích thước và địnhlượng giấy khác nhau*1, cho bạn sự linh hoạt trong việc cá nhân hóa và in trên phong bì, thư trực tiếp, áp phích, biểu ngữ quảng cáo hoặc màn hình POP dài .</p>
-                           <p className="text-sm italic mt-1">
-                             *1: Định lượng giấy từ 52 đến 300 gsm.
-                             <br />*2: Giấy dài lên tới 297 x 1.200 mm
-                             <img src="/images/vanhanh9.png" alt="Bố trí linh hoạt" className="w-full max-w-[300px] mx-auto rounded-lg shadow mt-3" />
-                           </p>
-                         </div>
-                         <div>
-                           <h3 className="font-semibold text-cyan-700 mb-2">
-                             Bảng điều khiển 7 inch dễ sử dụng
-                           </h3>
-                           <ul className="list-disc pl-5 space-y-1">
-                             <li> Thao tác dễ dàng và trực quan bằng cách chạm ngón tay</li>
-                             <li>Màn hình chính cho phép tùy chỉnh ứng dụng thường dùng theo sở thích cá nhân</li>
-                             <li>Có thể “ghim” cài đặt hay dùng để truy cập nhanh mỗi ngày</li>
-                             <li>Hỗ trợ kết nối thiết bị di động qua quét mã QR hoặc NFC</li>
-                             <li>Dễ dàng thực hiện các tác vụ Sao chụp, In, Quét, Fax bằng ứng dụng Print Utility</li>
-                             <img src="/images/vanhanh10.png" alt="Bố trí linh hoạt" className="w-full max-w-[400px] mx-auto rounded-lg shadow mt-3" />
-                           </ul>
-                         </div>
-     
-                         <div>
-                           <h3 className="font-semibold text-cyan-700 mb-2">
-                             Số hóa nhanh các bản gốc dung lượng lớn
-                           </h3>
-                           <ul className="list-disc pl-5 space-y-1">
-                             <li> Quét hình 1 lượt, 2 mặt, lên đến 80 trang/phút*</li>
-                             <li>Hỗ trợ quét tài liệu khổ nhỏ (49 x 85 mm), séc dày và biên lai giấy mỏng (38 đến 128 gsm).</li>
-                             <li>Tài liệu đã quét có thể được chuyển tới e-mail, máy tính hoặc máy chủ dùng chung</li>
-                           </ul>
-                         </div>
-     
-                         <div>
-                           <h3 className="font-semibold text-cyan-700 mb-2">
-                             Quét tài liệu một cách đơn giản
-                           </h3>
-                           <p>Với ScanAuto, ứng dụng bổ trợ thiết bị đa chức năng được cài đặt
-                             sẵn, bạn có thể dễ dàng gửi dữ liệu đã quét chỉ bằng một nút bấm
-                             và thiết bị đa chức năng sẽ tự động chọn cài đặt quét (chẳng hạn
-                             như hướng tài liệu, 1 mặt hoặc 2 mặt) phù hợp với tài liệu đó.</p>
-                           <p>Tên tệp có thể được chỉ định từ các cài đặt trước trên màn hình
-                             giao diện người dùng, đảm bảo các tệp được quét sẽ không bị thất
-                             lạc trên máy tính.</p>
-                           <img src="/images/vanhanh11.png" alt="Bố trí linh hoạt" className="w-full max-w-[400px] mx-auto rounded-lg shadow mt-3" />
-                         </div>
-                       </div>
-                     </div>
-     
-                   </div>
-                 )}
-     
-                 <div className="flex justify-center mt-6">
-                   <button
-                     onClick={() => setShowFullDescription(!showFullDescription)}
-                     className="px-6 py-2 border border-blue-500 text-blue-600 rounded-full hover:bg-blue-100 transition"
-                   >
-                     {showFullDescription ? "Ẩn bớt ▲" : "XEM THÊM ▼"}
-                   </button>
-                 </div>
-               </div>
-     
-               {showFullDescription && (
-                 <div className="mt-10 animate-fade-in">
-                   {/* giữ nguyên nội dung mô tả chi tiết của bạn ở đây */}
-                 </div>
-               )}
-             </div>
-     
-             {/* Cột phải: Thông số kỹ thuật */}
-             <div className="lg:w-1/3 w-full">
-               <h2 className="text-xl font-bold text-black mb-4 uppercase text-center">Thông Số Kỹ Thuật</h2>
-               <div className="overflow-x-auto">
-                 <table className="min-w-full table-auto border border-gray-300 text-sm text-black">
-                   <tbody>
-                     {(showFullSpecs ? product.specs : product.specs.slice(0, 6)).map((line, index) => {
-                       const parts = line.split(":");
-                       const isPair = parts.length > 1;
-                       return (
-                         <tr key={index} className="even:bg-gray-50">
-                           <td className="border border-gray-300 font-medium px-3 py-2 w-1/3 bg-gray-100 text-black">
-                             {isPair ? parts[0].trim() : "Thông tin khác"}
-                           </td>
-                           <td className="border border-gray-300 px-3 py-2 text-black">
-                             {isPair ? parts.slice(1).join(":").trim() : line}
-                           </td>
-                         </tr>
-                       );
-                     })}
-                   </tbody>
-                 </table>
-                 {/* Nút XEM THÊM / ẨN BỚT */}
-                 <div className="flex justify-center mt-4">
-                   <button
-                     onClick={() => setShowFullSpecs(!showFullSpecs)}
-                     className="px-6 py-2 border border-blue-500 text-blue-600 rounded-full hover:bg-blue-100 transition"
-                   >
-                     {showFullSpecs ? "Ẩn bớt ▲" : "XEM THÊM ▼"}
-                   </button>
-                 </div>
-               </div>
-             </div>
-     
-           </div>
-         </div>
-     
-       );
-     }
+      {/* 🔻 Mô tả & Thông số kỹ thuật trong cùng 1 hàng */}
+      <div className="mt-12 flex flex-col lg:flex-row gap-8">
+
+        {/* Cột trái: Mô tả sản phẩm */}
+        <div className="lg:w-2/3 w-full">
+          <h2 className="text-xl font-bold text-black mb-4 uppercase">Mô Tả Sản Phẩm</h2>
+          <h3 className="text-[30px] font-bold text-red-700 mb-2">
+            Máy Photocopy Apeos C3061
+          </h3>
+          <h4 className="text-lg font-semibold text-blue-700 mb-2">
+            Dòng máy cao cấp từ FUJIFILM - Giải pháp in ấn thông minh cho văn phòng hiện đại
+          </h4>
+          <p className="text-black text-justify mb-4">
+            Được thiết kế để tăng tốc hành trình chuyển đổi số của bạn (DX), dòng Apeos mới với các tính năng
+            tích hợp thông minh và liền mạch sẽ chứng minh được rằng đây là đối tác kỹ thuật số đáng tin cậy.
+          </p>
+
+          <div className="w-full flex justify-center my-6">
+            <Image
+              src="/images/Apeos C3061C2561C2061.png"
+              alt="Máy Photocopy Apeos 5570 minh họa"
+              width={600}
+              height={400}
+              className="rounded-lg shadow-lg"
+            />
+          </div>
+          <div className="mt-12 transition-all duration-500 ease-in-out">
+            {showFullDescription && (
+              <div className="animate-fade-in">
+                <div className="mt-12">
+                  <h2 className="text-[22px] font-bold text-black mb-6 uppercase">
+                    Các giải pháp hoàn toàn có khả năng mở rộng giúp bạn khởi đầu hành trình chuyển đổi số
+                  </h2>
+
+                  <div className="space-y-6 text-[15px] text-black leading-relaxed">
+                    <div>
+                      <h3 className="font-semibold text-cyan-700 mb-2">
+                        Thiết kế nhỏ gọn – Tinh tế – Dễ sử dụng
+                      </h3>
+                      <ul className="list-disc pl-5 space-y-1">
+                        <li>Kích thước chỉ 577 x 659 mm, phù hợp với mọi không gian văn phòng.</li>
+                        <li>Màn hình cảm ứng 7 inch thân thiện, tùy biến ứng dụng theo người dùng</li>
+                        <li>Hỗ trợ kết nối thông minh qua QR Code, NFC, AirPrint, Mopria, và ứng dụng Print Utility</li>
+                      </ul>
+                      <img src="/images/vanhanh8.png" alt="Bố trí linh hoạt" className="mx-auto rounded-lg shadow mt-3" />
+                    </div>
+
+                    <div>
+                      <h3 className="font-semibold text-cyan-700 mb-2">
+                        Hiệu suất mạnh mẽ – In màu chuyên nghiệp
+                      </h3>
+                      <ul className="list-disc pl-5 space-y-1">
+                        <li>Tốc độ in tùy model:</li>
+                        <ul className="list-none pl-1 space-y-1">
+                          <li>→ Apeos C3061: 30 trang/phút (màu & đen trắng)</li>
+                          <li>→ Apeos C2561: 25 trang/phút</li>
+                          <li>→ Apeos C2061: 20 trang/phút</li>
+                        </ul>
+                        <li>Độ phân giải in: 1.200 x 2.400 dpi, cho hình ảnh sắc nét, màu sắc chuẩn xác</li>
+                        <li>Sao chụp và quét hai mặt tự động tốc độ cao (tối đa 80 trang/phút)</li>
+
+                      </ul>
+                    </div>
+
+                    <div>
+                      <h3 className="font-semibold text-cyan-700 mb-2">
+                        Kích thước nhỏ gọn phù hợp với mọi không gian văn phòng
+                      </h3>
+                      <p>Thiết kế nhỏ gọn với chiều rộng 577 mm và chiều sâu 659 mm*
+                        phù hợp với mọi nơi, kể cả những không gian chật hẹp, giúp tối đa
+                        hóa việc sử dụng không gian văn phòng.</p>
+
+                    </div>
+                    <div>
+                      <h3 className="font-semibold text-cyan-700 mb-2">
+                        Sản xuất tài liệu quảng cáo nội bộ và theo yêu cầu
+                      </h3>
+                      <p>Hỗ trợ nhiều kích thước và địnhlượng giấy khác nhau*1, cho bạn sự linh hoạt trong việc cá nhân hóa và in trên phong bì, thư trực tiếp, áp phích, biểu ngữ quảng cáo hoặc màn hình POP dài .</p>
+                      <p className="text-sm italic mt-1">
+                        *1: Định lượng giấy từ 52 đến 300 gsm.
+                        <br />*2: Giấy dài lên tới 297 x 1.200 mm
+                        <img src="/images/vanhanh9.png" alt="Bố trí linh hoạt" className="w-full max-w-[300px] mx-auto rounded-lg shadow mt-3" />
+                      </p>
+                    </div>
+                    <div>
+                      <h3 className="font-semibold text-cyan-700 mb-2">
+                        Bảng điều khiển 7 inch dễ sử dụng
+                      </h3>
+                      <ul className="list-disc pl-5 space-y-1">
+                        <li> Thao tác dễ dàng và trực quan bằng cách chạm ngón tay</li>
+                        <li>Màn hình chính cho phép tùy chỉnh ứng dụng thường dùng theo sở thích cá nhân</li>
+                        <li>Có thể “ghim” cài đặt hay dùng để truy cập nhanh mỗi ngày</li>
+                        <li>Hỗ trợ kết nối thiết bị di động qua quét mã QR hoặc NFC</li>
+                        <li>Dễ dàng thực hiện các tác vụ Sao chụp, In, Quét, Fax bằng ứng dụng Print Utility</li>
+                        <img src="/images/vanhanh10.png" alt="Bố trí linh hoạt" className="w-full max-w-[400px] mx-auto rounded-lg shadow mt-3" />
+                      </ul>
+                    </div>
+
+                    <div>
+                      <h3 className="font-semibold text-cyan-700 mb-2">
+                        Số hóa nhanh các bản gốc dung lượng lớn
+                      </h3>
+                      <ul className="list-disc pl-5 space-y-1">
+                        <li> Quét hình 1 lượt, 2 mặt, lên đến 80 trang/phút*</li>
+                        <li>Hỗ trợ quét tài liệu khổ nhỏ (49 x 85 mm), séc dày và biên lai giấy mỏng (38 đến 128 gsm).</li>
+                        <li>Tài liệu đã quét có thể được chuyển tới e-mail, máy tính hoặc máy chủ dùng chung</li>
+                      </ul>
+                    </div>
+
+                    <div>
+                      <h3 className="font-semibold text-cyan-700 mb-2">
+                        Quét tài liệu một cách đơn giản
+                      </h3>
+                      <p>Với ScanAuto, ứng dụng bổ trợ thiết bị đa chức năng được cài đặt
+                        sẵn, bạn có thể dễ dàng gửi dữ liệu đã quét chỉ bằng một nút bấm
+                        và thiết bị đa chức năng sẽ tự động chọn cài đặt quét (chẳng hạn
+                        như hướng tài liệu, 1 mặt hoặc 2 mặt) phù hợp với tài liệu đó.</p>
+                      <p>Tên tệp có thể được chỉ định từ các cài đặt trước trên màn hình
+                        giao diện người dùng, đảm bảo các tệp được quét sẽ không bị thất
+                        lạc trên máy tính.</p>
+                      <img src="/images/vanhanh11.png" alt="Bố trí linh hoạt" className="w-full max-w-[400px] mx-auto rounded-lg shadow mt-3" />
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            )}
+
+            <div className="flex justify-center mt-6">
+              <button
+                onClick={() => setShowFullDescription(!showFullDescription)}
+                className="px-6 py-2 border border-blue-500 text-blue-600 rounded-full hover:bg-blue-100 transition"
+              >
+                {showFullDescription ? "Ẩn bớt ▲" : "XEM THÊM ▼"}
+              </button>
+            </div>
+          </div>
+
+          {showFullDescription && (
+            <div className="mt-10 animate-fade-in">
+              {/* giữ nguyên nội dung mô tả chi tiết của bạn ở đây */}
+            </div>
+          )}
+        </div>
+
+        {/* Cột phải: Thông số kỹ thuật */}
+        <div className="lg:w-1/3 w-full">
+          <h2 className="text-xl font-bold text-black mb-4 uppercase text-center">Thông Số Kỹ Thuật</h2>
+          <div className="overflow-x-auto">
+            <table className="min-w-full table-auto border border-gray-300 text-sm text-black">
+              <tbody>
+                {(showFullSpecs ? product.specs : product.specs.slice(0, 6)).map((line, index) => {
+                  const parts = line.split(":");
+                  const isPair = parts.length > 1;
+                  return (
+                    <tr key={index} className="even:bg-gray-50">
+                      <td className="border border-gray-300 font-medium px-3 py-2 w-1/3 bg-gray-100 text-black">
+                        {isPair ? parts[0].trim() : "Thông tin khác"}
+                      </td>
+                      <td className="border border-gray-300 px-3 py-2 text-black">
+                        {isPair ? parts.slice(1).join(":").trim() : line}
+                      </td>
+                    </tr>
+                  );
+                })}
+              </tbody>
+            </table>
+            {/* Nút XEM THÊM / ẨN BỚT */}
+            <div className="flex justify-center mt-4">
+              <button
+                onClick={() => setShowFullSpecs(!showFullSpecs)}
+                className="px-6 py-2 border border-blue-500 text-blue-600 rounded-full hover:bg-blue-100 transition"
+              >
+                {showFullSpecs ? "Ẩn bớt ▲" : "XEM THÊM ▼"}
+              </button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  );
+}

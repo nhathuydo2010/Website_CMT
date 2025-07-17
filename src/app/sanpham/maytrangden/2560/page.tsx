@@ -30,14 +30,16 @@ const product = {
     'Khổ giấy: A5–A3',
     'Thu nhỏ/phóng to: 25–400% (tăng giảm từng 1%)',
     'In mạng: Tốc độ 25 trang A4/phút, Độ phân giải chuẩn: 600 x 600dpi, tối đa: 1200 x 1200dpi',
-    'Hệ điều hành hỗ trợ: Windows 10/8.1 (32bit/64bit), Windows Server 2012/2016/2019 (64bit), Mac OS X/macOS 11/10.15/10.14/10.13',
+    'Hệ điều hành hỗ trợ: Windows 10/11, macOS 10.14 trở lên',
     'Ngôn ngữ mô tả trang: PCL5 / PCL6',
-    'Kết nối mạng: Ethernet 100BASE-T / 100BASE-TX / 10BASE-T, USB',
-    'Scan màu: Tốc độ 55 trang A4/phút, Scan vào PC/Server/Email',
+    'Kết nối mạng: Ethernet 100BASE-TX / 10BASE-T, USB, tuỳ chọn Wi-Fi',
+    'Scan màu: Tốc độ 55 trang A4/phút, Scan vào PC/Email/Folder/USB',
     'Định dạng file scan: PDF, TIFF, JPEG,... Độ phân giải tối đa: 600 x 600dpi',
     'Cung cấp nguồn điện: AC220–240V, 8A, 50/60Hz',
-    'Kích thước: Rộng 590 x Sâu 659 x Cao 885 mm',
-    'Trọng lượng: 65 kg',
+    'Kích thước: Rộng 590 x Sâu 659 x Cao 885 mm (2 khay)',
+    'Trọng lượng: 65 kg (2 khay)',
+    'Màn hình: Cảm ứng màu 7 inch nghiêng',
+    'Bộ nhớ RAM: 4GB / SSD 128GB',
     'Khuyến mãi: Tặng chân tủ để máy VN',
   ],
 };
@@ -69,12 +71,12 @@ export default function Product7580Page() {
           <h1 className="text-2xl font-bold text-red-600 mb-2">{product.name}</h1>
           <p className="text-xl text-green-600 font-semibold mb-4">Giá: {product.price}</p>
           <ul className="list-disc list-inside text-sm text-gray-700 space-y-1">
-            <li>02 khay tự động (500 tờ/khay) & 01 khay tay (96 tờ)</li>
-            <li>Trọng lượng giấy: 60 – 256 gsm</li>
-            <li>Bộ nạp và đảo bản gốc tự động (DADF)</li>
-            <li>Bộ đảo bản sao (Duplex)</li>
-            <li>Bộ nhớ: Tối đa 4GB. SSD: 128GB</li>
-            <li>Màn hình cảm ứng màu 7 inch</li>
+            <li>02 khay tự động (500 tờ/ khay) & 01 khay tay (96 tờ).</li>
+            <li>Trọng lượng giấy: 60 - 256 gsm.</li>
+            <li>Bộ nạp và đảo bản gốc tự động (DADF).</li>
+            <li>Bộ đảo bản sao (Duplex).</li>
+            <li>Bộ nhớ: Tối đa 4GB. SSD: 128GB.</li>
+            <li>Màn hình cảm ứng màu 7 inch.</li>
           </ul>
           <div className="relative w-full max-w-[350px] border border-red-600 mt-4 rounded">
             {/* Ruy băng khuyến mãi */}
@@ -126,15 +128,16 @@ export default function Product7580Page() {
         <div className="lg:w-2/3 w-full">
           <h2 className="text-xl font-bold text-black mb-4 uppercase">Mô Tả Sản Phẩm</h2>
           <h3 className="text-[30px] font-bold text-blue-700 mb-2">
-            Máy Photocopy Apeos 5570
+            Máy Photocopy Apeos 2560
           </h3>
           <h4 className="text-lg font-semibold text-blue-700 mb-2">
-            Hiệu suất vượt trội, vận hành thông minh
+            Nhỏ gọn – Hiệu suất cao – Bảo mật toàn diện – Hỗ trợ làm việc từ xa
           </h4>
           <p className="text-black text-justify mb-4">
-            <strong>Apeos 5570</strong> là dòng máy photocopy kỹ thuật số cao cấp, được thiết kế cho môi trường văn phòng hiện đại
-            với yêu cầu xử lý tài liệu nhanh, bảo mật cao và khả năng tùy biến linh hoạt. Thiết bị mang đến sự kết hợp hoàn hảo
-            giữa tốc độ vận hành mạnh mẽ, tính năng tự động hóa thông minh và giao diện điều khiển dễ sử dụng.
+            <strong>Apeos 2560</strong> là dòng thiết bị đa chức năng đen trắng A3 đến từ <strong>FUJIFILM Business Innovation</strong>,
+            mang đến khả năng vận hành nhanh chóng, chất lượng in ấn vượt trội và độ bảo mật cao.
+            Thiết bị hỗ trợ làm việc linh hoạt trong môi trường văn phòng hiện đại hoặc từ xa, với giao diện dễ sử dụng và khả năng tích hợp mạnh mẽ
+            với các dịch vụ điện toán đám mây và thiết bị di động.
           </p>
 
           <div className="w-full flex justify-center my-6">
@@ -157,78 +160,99 @@ export default function Product7580Page() {
                   <div className="space-y-6 text-[15px] text-black leading-relaxed">
                     <div>
                       <h3 className="font-semibold text-cyan-700 mb-2">
-                        Giảm thiểu thời gian chờ đợi cho năng suất cao hơn
+                        Thiết kế nhỏ gọn – Thiết lập dễ dàng
                       </h3>
                       <ul className="list-disc pl-5 space-y-1">
-                        <li>Thời gian cho ra bản sao chụp đầu tiên chỉ trong 3,6*¹ giây</li>
-                        <li>Thời gian khởi động máy chưa đầy 30 giây*² và thời gian khôi phục là 11 giây</li>
-                        <li>Smart WelcomeEyes phát hiện người dùng và tự động “đánh thức” máy từ chế độ nghỉ</li>
-                      </ul>
-                      <p className="text-sm italic mt-1">*1: A4 LEF – *2: Tính chỉnh khi hợp sẵn / Dịch vụ tùy chỉnh: Khi được kích hoạt.</p>
-                    </div>
-
-                    <div>
-                      <h3 className="font-semibold text-cyan-700 mb-2">
-                        Giảm thiểu rủi ro bảo mật thông tin không chủ ý với các cảnh báo rõ ràng
-                      </h3>
-                      <ul className="list-disc pl-5 space-y-1">
-                        <li>Nhắc người dùng lấy tài liệu góc hoặc tài liệu in bị bỏ lại trên các khay</li>
-                        <li>Hạn chế khả năng quên tài liệu tại Khay giữa hoặc Khay nạp</li>
-                        <li>Đèn ở Khay giữa thông báo thêm khi nhận được bản trên Khay hỏng</li>
-                        <li>Phát âm báo khi có các tài liệu bản gốc bỏ quên trên mặt kính quét</li>
+                        <li>Kích thước máy chỉ rộng 590 mm x sâu 659 mm</li>
+                        <li>Linh hoạt chọn cấu hình: 2 khay hoặc 4 khay</li>
+                        <li>Chiều cao phù hợp với người dùng khuyết tật (đáp ứng ADA)</li>
                       </ul>
                     </div>
 
                     <div>
                       <h3 className="font-semibold text-cyan-700 mb-2">
-                        Hoạt động dễ dàng với cơ chế khay có thể thu vào
+                        Chất lượng hình ảnh vượt trội
                       </h3>
                       <ul className="list-disc pl-5 space-y-1">
-                        <li>Đẩy nhẹ để đóng</li>
-                        <li>Thu vào một cách nhẹ nhàng</li>
-                        <li>Kéo ra là dễ dàng</li>
+                        <li>Độ phân giải in lên đến 1.200 x 1.200 dpi sử dụng đầu in LED</li>
+                        <li>Bộ xử lý nâng cao tái tạo mịn các ký tự, không răng cưa</li>
+                        <li>Sử dụng mực EA-Eco LGK thân thiện môi trường, bóng thấp</li>
                       </ul>
                     </div>
 
                     <div>
                       <h3 className="font-semibold text-cyan-700 mb-2">
-                        Trích xuất thông tin nhanh chóng cho các quy trình công việc khối lượng lớn
+                        Khởi động nhanh – Hiệu suất cao
                       </h3>
                       <ul className="list-disc pl-5 space-y-1">
-                        <li>Có thể đọc lên đến 160 trang/phút* ở tốc độ cao khi Quét</li>
-                        <li>Bộ nạp bản gốc có thể quét đồng thời một lần một hoặc hai mặt tài liệu khối lượng lớn</li>
-                        <li>Bộ nạp bản gốc có khả năng phát hiện nhiều loại giấy – Có thể nạp giấy từ 38 đến 209 gsm</li>
-                        <li>Thiết kế nạp dễ dàng, hỗ trợ nhiều khổ giấy tùy chỉnh</li>
+                        <li>Màn hình thao tác hiển thị trong 6 giây</li>
+                        <li>In bản đầu tiên chỉ trong 4,5 giây</li>
+                        <li>Khởi động toàn hệ thống dưới 28 giây</li>
                       </ul>
                     </div>
 
                     <div>
                       <h3 className="font-semibold text-cyan-700 mb-2">
-                        Thao tác nhanh chóng với tính năng quét Bộ nạp và đảo bản gốc tự động cho các tài liệu có kích thước tùy chỉnh
+                        Quét nhanh và thông minh
                       </h3>
                       <ul className="list-disc pl-5 space-y-1">
-                        <li>Hỗ trợ kích cỡ tối thiểu 49 mm (R) x 85 mm (D)*</li>
-                        <li>Quét ngay lập tức mà không cần nhập thủ công từng kích thước gốc</li>
-                        <li>Tự động chuyển đổi bản gốc có kích thước tùy chỉnh thành khổ tiêu chuẩn</li>
-                        <li>Nạp và tải nhiều tờ gốc cùng nhau</li>
+                        <li>Quét 2 mặt 1 lượt lên đến 80 trang/phút</li>
+                        <li>Tự động chuyển khổ giấy nhỏ thành chuẩn để in/quét</li>
+                        <li>Hỗ trợ nạp tài liệu nhiều khổ giấy, từ 38 – 209 gsm</li>
                       </ul>
-                      <p className="text-sm italic mt-1">* Áp dụng cho giấy có trọng lượng 38 – 209 gsm.</p>
                     </div>
 
                     <div>
                       <h3 className="font-semibold text-cyan-700 mb-2">
-                        Nhiều tùy chọn hoàn thiện khác nhau sẵn sàng để đáp ứng nhu cầu của bạn
+                        Hỗ trợ quét/in trực tiếp qua USB
+                      </h3>
+                      <p>Có thể lưu file quét trực tiếp hoặc in từ USB mà không cần máy tính.</p>
+                    </div>
+
+                    <div>
+                      <h3 className="font-semibold text-cyan-700 mb-2">
+                        Nhiều tùy chọn hoàn thiện tài liệu
                       </h3>
                       <ul className="list-disc pl-5 space-y-1">
-                        <li>Hỗ trợ Dập không ghim*¹ đơn và đôi</li>
-                        <li>Dập ghim*² / Đục lỗ / Dập ghim lồng / Gập chéo / Gập làm ba / Gập đôi sách</li>
-                        <li>Nhiều bộ hoàn thiện: A2 / B4-B5 / C4-C5 / C4-C5 + CD3</li>
+                        <li>Bộ hoàn thiện A2 và B4/B5 hỗ trợ chia bộ, dập ghim, gập đôi, dập lỗ</li>
+                        <li>Hỗ trợ dập không ghim lên đến 10 tờ</li>
                       </ul>
-                      <p className="text-sm italic mt-1">
-                        *1: Các mẫu khung đơn: Bộ hoàn thiện B5, Bộ hoàn thiện C5 và Bộ hoàn thiện C5 có bộ đóng sách.
-                        <br />*2: Sẽ cần bộ hoàn thiện B5 và B6.
-                      </p>
                     </div>
+
+                    <div>
+                      <h3 className="font-semibold text-cyan-700 mb-2">
+                        Vận hành dễ dàng – Điều khiển di động
+                      </h3>
+                      <ul className="list-disc pl-5 space-y-1">
+                        <li>Điện thoại thông minh trở thành bảng điều khiển bằng app Print Utility</li>
+                        <li>Truy cập nhanh các tính năng thường dùng</li>
+                        <li>Kết nối nhanh bằng mã QR, Wi-Fi Direct</li>
+                      </ul>
+                    </div>
+
+                    <div>
+                      <h3 className="font-semibold text-cyan-700 mb-2">
+                        Hỗ trợ làm việc từ xa – Bảo mật mạnh mẽ
+                      </h3>
+                      <ul className="list-disc pl-5 space-y-1">
+                        <li>In từ xa với Cloud On-Demand Print</li>
+                        <li>Nhận Fax không giấy qua email</li>
+                        <li>Hỗ trợ xác thực người dùng bằng thẻ, mã hóa dữ liệu, TPM 2.0</li>
+                        <li>Tuân thủ chuẩn bảo mật ISO/IEC 15408</li>
+                      </ul>
+                    </div>
+
+                    <div>
+                      <h3 className="font-semibold text-cyan-700 mb-2">
+                        Tối ưu năng lượng và bảo vệ môi trường
+                      </h3>
+                      <ul className="list-disc pl-5 space-y-1">
+                        <li>Tiết kiệm điện năng nhờ đầu in LED</li>
+                        <li>Dập không ghim giảm rác thải văn phòng</li>
+                        <li>Đạt chứng nhận Green Value – hạng Silver</li>
+                      </ul>
+                    </div>
+
                   </div>
                 </div>
 
@@ -236,90 +260,97 @@ export default function Product7580Page() {
                 {/* 🔻 An toàn và bảo mật */}
                 <div className="mt-12">
                   <h2 className="text-[22px] font-bold text-black mb-6 uppercase">
-                    An toàn và bảo mật
+                    Bảo vệ thông tin quan trọng
                   </h2>
 
                   <div className="space-y-6 text-[15px] text-black leading-relaxed">
                     <div>
                       <h3 className="font-semibold text-cyan-700 mb-2">
-                        Bố cục đơn giản với menu điều hướng dễ dàng
+                        Bảo vệ khỏi người dùng trái phép
                       </h3>
                       <p>Giao diện màu nền đen và xám mang đến độ tương phản cao hơn, giúp nhận diện dễ dàng.</p>
                       <ul className="list-disc pl-5 space-y-1">
-                        <li>Các biểu tượng được dán trái đều giúp nhận diện dễ dàng</li>
-                        <li>Các bước vận hành nhất quán của từng chức năng giúp dễ dàng lặp lại</li>
-                        <li>Khả năng tùy chỉnh màn hình chính theo sở thích cá nhân cho phép truy cập dễ dàng các chức năng thường xuyên sử dụng</li>
-                        <li>Các cài đặt ghim nhanh cho các tác vụ sử dụng thường xuyên có thể lưu lại</li>
-                        <li>Hiển thị ánh sáng để nhận thấy báo hiệu công việc hoàn tất hoặc có lỗi</li>
-                        <li>Thông báo bằng âm thanh nhẹ để cảnh báo và thu hút sự chú ý</li>
+                        <li>Xác thực cục bộ</li>
+                        <li>Xác thực bởi Máy chủ từ xa*</li>
+                        <li>Xác thực thẻ IC*</li>
+                        <li>Quyền truy cập tính năng của người dùng cụ thể</li>
+                        <li>In xác thực cá nhân</li>
                       </ul>
                     </div>
 
                     <div>
                       <h3 className="font-semibold text-cyan-700 mb-2">
-                        Điện thoại thông minh trở thành “bảng điều khiển di động”
+                        Bảo vệ khỏi truy cập trái phép
                       </h3>
                       <p>
-                        Kết nối liền mạch với các thiết bị di động cho các tác vụ sao chụp, Fax, In, Quét*¹ bằng cách sử dụng ứng dụng Print Utility*².
+                        Bảo vệ cài đặt thiết bị ở nhiều cấp độ bằng cách phân vùng rõ
+                        ràng các hạn chế thay đổi cho các đối tượng mục tiêu khác nhau
+                        - Người dùng cuối, quản trị viên CNTT và Kỹ sư dịch vụ.
                       </p>
                       <ul className="list-disc pl-5 space-y-1">
-                        <li>Thiết bị di động có thể được sử dụng làm bảng điều khiển thay thế để kiểm soát hoạt động nhằm giảm tiếp xúc không cần thiết</li>
-                        <li>Các cài đặt thường xuyên sử dụng có thể được lưu dưới dạng “Yêu thích”</li>
-                        <li>Gửi fax hoặc email trực tiếp từ tất cả các chức năng từ trong điện thoại thông minh</li>
-                        <li>Hạn chế tiếp xúc với máy in để đảm bảo vệ sinh</li>
-                        <li>Thiết lập kết nối Wi-Fi trực tiếp nhanh chóng bằng cách quét mã QR trên bảng điều khiển</li>
+                        <li>Thiết đặt thao tác đại diện dịch vụ</li>
+                        <li>Khóa tài khoản để ngăn ngừa truy cập trái phép</li>
+                        <li>Thông tin để thay đổi mật khẩu mặc định</li>
+                        <li>Cảnh báo hiển thị khi sử dụng địa chỉ IP toàn cầu</li>
                       </ul>
-                      <p className="text-sm italic mt-1">
-                        *1: Email, Quét vào thư mục <br />
-                        *2: Tải xuống miễn phí từ Google Play™ hoặc App Store
+                      <p>
+                        Ngăn chặn cài đặt chương trình trái phép mà không cần thông
+                        báo. Hỗ trợ kiểm tra CNTT tiện lợi với nhật ký dữ liệu thiết bị để
+                        dễ dàng theo dõi.
                       </p>
+                      <ul className="list-disc pl-5 space-y-1">
+                        <li>Xác minh chữ ký phần mềm</li>
+                        <li>Hạn chế cập nhật từ xa</li>
+                        <li>Lọc địa chỉ IP</li>
+                        <li>Phát hiện can thiệp trái phép khi khởi động và tự động khôi phục khi phát
+                          hiện có can thiệp trái phép</li>
+                        <li>Ngăn ngừa giả mạo khi vận hành</li>
+                        <li>Nhật ký kiểm duyệt</li>
+                        <li>Truyền hệ thống nhật ký kiểm duyệt</li>
+                      </ul>
                     </div>
 
                     <div>
                       <h3 className="font-semibold text-cyan-700 mb-2">
-                        Tính linh hoạt trong bố cục văn phòng
+                        Bảo vệ dữ liệu
                       </h3>
-                      <p>Hỗ trợ môi trường LAN không dây*¹.</p>
+                      <p>Bảo vệ chống lại các ý định xâm nhập dữ liệu như tấn công, can
+                        thiệp sửa đổi cài đặt thiết bị/hệ thống</p>
                       <ul className="list-disc pl-5 space-y-1">
-                        <li>Hỗ trợ từ cổng di chuyển thiết bị trong văn phòng nhỏ kết nối Wi-Fi</li>
-                        <li>Có thể kết nối với tối đa 5 thiết bị đa chức với tính năng kết nối wi-fi trực tiếp (Wi-Fi Direct) cùng lúc</li>
-                        <li>Hỗ trợ in trực tiếp qua thiết bị di động*²</li>
-                        <li>Hỗ trợ Print Utility, AirPrint và Mopria® Print Service</li>
+                        <li>Mã hóa tài liệu đã lưu</li>
+                        <li>Sử dụng chip TPM* 2.0 để quản lý khóa mã hóa</li>
+                        <li>Xóa cài đặt và thông tin tài liệu cùng lúc</li>
                       </ul>
-                      <p className="text-sm italic mt-1">
-                        *1: Tùy chọn <br />
-                        *2: Khi kết nối Wi-Fi Direct
+                      <p>
+                        Bảo vệ thông tin bằng mã hóa mạnh mẽ khi truyền giữa các thiết
+                        bị, máy chủ, v.v.
                       </p>
+                      <ul className="list-disc pl-5 space-y-1">
+                        <li>Mã hóa đường dẫn giao tiếp bằng SSL/TLS hoặc IPsec</li>
+                        <li>Mã hóa khi truyền qua SMBv3 và SFTP</li>
+                        <li>Mã hóa tệp quét/chữ ký</li>
+                        <li>Mã hóa email và chữ ký bởi S/MIME</li>
+                        <li>Hạn chế phiên bản TLS</li>
+                        <li>Mật mã học đường cong Elliptic</li>
+                        <li>WPA3</li>
+                      </ul>
                     </div>
 
                     <div>
                       <h3 className="font-semibold text-cyan-700 mb-2">
-                        In từ mọi thiết bị đa chức năng trong văn phòng
+                        Ngăn ngừa lỗi vận hành
                       </h3>
                       <p>
-                        Với Server-less On-Demand Print (In theo nhu cầu không qua máy chủ)*, bạn có thể in và nhận bản in từ mọi bản thiết bị đa chức năng được kết nối.
+                        Ngăn chặn rò rỉ thông tin do những sai lầm vô tình của quản trị
+                        viên và người dùng.
                       </p>
                       <ul className="list-disc pl-5 space-y-1">
-                        <li>Cải thiện năng suất bằng cách in từ mọi thiết bị đa chức năng khác khi đang được sử dụng</li>
-                        <li>Có thể liên kết đến 100 thiết bị</li>
-                        <li>Có thể sửa đổi các cài đặt tác vụ cụ thể để đáp ứng để tiết kiệm thời gian (1 mặt đến 2 mặt, thêm dập ghim, tất cả đều đen trắng)</li>
+                        <li>Quét tài liệu để gửi đến đích cố định</li>
+                        <li>Nhập lại người nhận fax</li>
+                        <li>Ghi chú</li>
+                        <li>In văn bản ẩn*</li>
+                        <li>Chức năng nhúng và theo dõi mã số hóa*</li>
                       </ul>
-                      <p className="text-sm italic mt-1">* Tùy chọn</p>
-                    </div>
-
-                    <div>
-                      <h3 className="font-semibold text-cyan-700 mb-2">
-                        Quản lý thiết bị đơn giản với Xác thực không cần máy chủ
-                      </h3>
-                      <p>
-                        Xác thực không qua máy chủ* cho phép thông tin người dùng được đồng bộ hóa giữa các thiết bị đa chức năng trong cùng một nhóm, giúp giảm khối lượng công việc của quản trị viên.
-                      </p>
-                      <ul className="list-disc pl-5 space-y-1">
-                        <li>Chỉ cần chạm thẻ của bạn để liên kết ID người dùng với thiết bị đa chức năng</li>
-                        <li>Thông tin ID được chia sẻ sử dụng được với các thiết bị đa chức năng khác trong cùng một mạng</li>
-                        <li>Xác thực có thể được thực hiện với bất kỳ thiết bị nào trong văn phòng</li>
-                      </ul>
-                      <p className="text-sm italic mt-1">* Tùy chọn</p>
                     </div>
                   </div>
                 </div>
