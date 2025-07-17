@@ -1,19 +1,32 @@
 export default function Footer() {
     return (
         <footer className="bg-white border-t mt-12 text-sm text-gray-700">
-            <div className="max-w-screen-xl mx-auto py-8 px-4 grid grid-cols-1 md:grid-cols-3 gap-6">
-                {/* Cột 1: Về công ty */}
+            <div className="max-w-screen-xl mx-auto py-8 px-4 grid grid-cols-1 md:grid-cols-4 gap-x-8">
+                
+                {/* Cột 1: Thông tin liên hệ */}
                 <div>
-                    <h3 className="font-bold text-blue-900 mb-2">Công ty Cổ Phần Máy Tính Việt Nam (CMT)</h3>
+                    <h3 className="font-bold text-blue-900 mb-2">Thông tin liên hệ</h3>
+                    <div className="mb-2 flex items-center space-x-1 font-semibold text-red-600">
+                        <img src="/logo.png" alt="Logo" width={40} height={40} />
+                        <span className="text-[14px]">Công Ty Cổ Phần Máy Tính Việt Nam</span>
+                    </div>
+                    <p className="mb-2">Kinh doanh máy photocopy & cho thuê máy photocopy.</p>
+                    <p className="mb-2">Trụ sở: 26 Lý Tự Trọng, Phường Sài Gòn, TP.HCM</p>
+                    <p className="mb-2">📞 028.382.261.66 - 0908.100.201</p>
                     <p className="mb-2">
-                        Là doanh nghiệp chuyên ngành máy tính, máy thiết bị văn phòng, Máy photocopy đa chức năng. Chúng tôi cung cấp các giải pháp về photocopy, in ấn, quản lý, thiết bị máy tính, laptop... dùng cho cá nhân, văn phòng, công ty và  dự án….
-
+                        ✉️ <a href="mailto:cmtfujifilm@cmt.vn" className="text-blue-600 underline">
+                            cmtfujifilm@cmt.vn
+                        </a>
                     </p>
-                    <img src="/logo-dathongbao.png" alt="Đã Thông Báo" className="w-32 mt-2" />
+                    <p className="mb-2">
+                        🔗 <a href="https://cmt.vn/" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">
+                            https://cmt.vn/
+                        </a>
+                    </p>
                 </div>
 
                 {/* Cột 2: Hỗ trợ khách hàng */}
-                <div>
+                <div className="border-l pl-4">
                     <h3 className="font-bold text-blue-900 mb-2">Hỗ trợ khách hàng</h3>
                     <ul className="space-y-1 list-disc list-inside text-gray-800">
                         <li><a href="#" className="hover:underline">Tìm kiếm</a></li>
@@ -24,29 +37,26 @@ export default function Footer() {
                         <li><a href="#" className="hover:underline">Liên hệ</a></li>
                     </ul>
                 </div>
-
+ {/* Cột 4: Sơ đồ đường đi */}
+                <div className="border-l pl-4">
+                    <h3 className="font-bold text-blue-900 mb-2">Sơ đồ đường đi</h3>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.5008162012673!2d106.7003386!3d10.7782564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f47e034caa3%3A0xed52e7103d821b4e!2zMjYgTMO9IFThu6sgVHLhu41uZywgQsOqbiBOZ2jhu4ssIFF14bqtbiAxLCBI4buTIENow60gTWluaCwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2sus!4v1719400176436!5m2!1svi!2sus"
+                        width="100%"
+                        height="200"
+                        style={{ border: 0 }}
+                        allowFullScreen
+                        loading="lazy"
+                        referrerPolicy="no-referrer-when-downgrade"
+                        className="rounded"
+                    ></iframe>
+                </div>
                 {/* Cột 3: Chăm sóc khách hàng */}
-                <div>
+                <div className="border-l pl-4">
                     <h3 className="font-bold text-blue-900 mb-2">Chăm sóc khách hàng</h3>
-                    <p className="flex items-center space-x-2 text-blue-700 font-bold text-lg">
-                        📞 <a href="tel:02838226166" className="block hover:underline">028.382.261.66</a>
-
+                    <p className="text-blue-700 font-bold text-lg">
+                        📞 <a href="tel:02838226166" className="hover:underline">028.382.261.66</a>
                     </p>
-                    <p className="mt-1">
-                        <a href="mailto:cmtfujifilm@cmt.vn" className="text-blue-600 hover:underline">
-                            cmtfujifilm@cmt.vn
-                        </a>
-                    </p>
-                    {/* <div className="mt-3">
-        <p className="mb-1 font-semibold">Follow Us</p>
-        <div className="flex space-x-2">
-          <a href="#"><i className="fab fa-facebook border p-2 rounded hover:bg-gray-100"></i></a>
-          <a href="#"><i className="fab fa-twitter border p-2 rounded hover:bg-gray-100"></i></a>
-          <a href="#"><i className="fab fa-instagram border p-2 rounded hover:bg-gray-100"></i></a>
-          <a href="#"><i className="fab fa-google-plus-g border p-2 rounded hover:bg-gray-100"></i></a>
-          <a href="#"><i className="fab fa-youtube border p-2 rounded hover:bg-gray-100"></i></a>
-        </div>
-      </div> */}
                 </div>
             </div>
 

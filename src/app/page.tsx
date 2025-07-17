@@ -1,7 +1,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-
+import BannerSlider from './components/BannerSlider';
 export default function Header() {
   const productsBlackWhite = [
     {
@@ -125,14 +125,7 @@ export default function Header() {
     <div className="w-full">
 
       <div className="w-full max-w-screen-xl mx-auto py-5 flex justify-center">
-        <Image
-          src="/banner.jpg"
-          alt="Banner Công ty Siêu Nhanh"
-          width={1000}
-          height={500}
-          className="w-[900px] h-auto object-cover rounded-md shadow-xl"
-          priority
-        />
+         <BannerSlider />
       </div>
 
       {/* MÁY PHOTOCOPY TRẮNG ĐEN */}
