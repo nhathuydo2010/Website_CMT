@@ -55,8 +55,22 @@ export default function MayTrangDenPage() {
   return (
     <div className="px-4 py-6">
       <h1 className="text-xl font-bold mb-6 text-center text-red-700 uppercase">
-        Máy Photocopy Màu – Fujifilm Apeos
+        Máy Photocopy Trắng Đen – Fujifilm Apeos
       </h1>
+ {/* Tiêu đề phụ và breadcrumb giống ảnh */}
+      <div className="mb-6">
+        <h2 className="text-2xl font-bold text-red-700">Máy photocopy trắng đen </h2>
+
+        <div className="text-sm text-gray-500 mt-1">
+  <Link href="/" className="mr-1 hover:underline text-gray-500">TRANG CHỦ</Link> / 
+  <Link href="/ban-may-photocopy" className="font-semibold text-black">BÁN MÁY PHOTOCOPY MÀU</Link> 
+  
+</div>
+
+        <p className="mt-2 text-[15px]">
+          Tất cả 7 Máy Photocopy.
+        </p>
+      </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
         {productsBlackWhite.map((product, index) => (
