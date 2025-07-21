@@ -25,26 +25,31 @@ const product = {
   price: "Liên Hệ",
   image: "/productsColor/Apeos C3567.png",
   specs: [
-    "Máy Photocopy kỹ thuật số, Laser trắng đen",
-    "Chức năng: Copy + In trắng đen + Scan màu qua mạng",
-    "Bộ nạp và đảo 2 mặt bản gốc tự động (ARDF)",
-    "Bộ đảo 2 mặt bản sao tự động (Duplex)",
-    "Tốc độ: 50 bản/phút. Khổ giấy lớn nhất: A3, nhỏ nhất: A5",
-    "Khay giấy vào: 2 khay x 550 tờ",
-    "Khay giấy tay: 100 tờ",
-    "Khay giấy ra bản sao: 500 tờ",
-    "Thu Nhỏ / Phóng to: 25% – 400%",
-    "Độ phân giải: 600 dpi",
-    "Dung lượng bộ nhớ: 1 GB + ổ cứng 128 GB",
-    "Màn hình cảm ứng màu thông minh",
-    "Tiết kiệm điện năng, tái sử dụng mực thải",
-    "Sử dụng mực: 4500s (~ 20.000 Trang)",
-    "Tuổi thọ Drum: 500.000 bản",
-    "Công suất trung bình: 30.000 bản/tháng",
-    "Tối đa: 100.000 bản/tháng",
-    "Khởi động: 10s, Chụp liên tục: 999 bản",
-    "Tiêu thụ: 2.0 kW, Nguồn điện: 110V",
-    "Kích thước: 670 x 682 x 895 mm, Trọng lượng: 97 Kg"
+    "Thương hiệu: Fujifilm",
+    "Model: Apeos C3067",
+    "Chức năng: Copy / In mạng / Scan mạng màu, SPDF, Duplex",
+    "Tốc độ copy/in: 30 trang/phút (Màu, Đen trắng)",
+    "Tốc độ scan: 80 trang/phút (Quét 1 lần 2 mặt: 160 trang/phút)",
+    "Bộ nhớ: 6 GB",
+    "Ổ cứng SSD: 256 GB",
+    "Độ phân giải in: 1.200 x 2.400 dpi",
+    "Khay giấy chính: 520 tờ",
+    "Khay giấy tay: 96 tờ",
+    "Kích thước giấy hỗ trợ: A5 – A3",
+    "Sao chụp liên tục: Tối đa 999 tờ",
+    "Tỉ lệ thu phóng: 25% – 400%",
+    "Bộ nạp và đảo bản gốc tự động: SPDF (130 tờ) – Có sẵn",
+    "Bộ đảo bản sao tự động (Duplex): Có",
+    "Chia bộ điện tử: Có sẵn",
+    "Giao diện điều khiển: LCD màu 10,1 inch",
+    "Chuẩn kết nối: Ethernet 10/100/1000Base-TX, USB 3.0",
+    "Tốc độ tối đa: 35 trang/phút",
+    "Thời gian in bản đầu tiên: Đen trắng 4,6 giây, Màu 6,0 giây",
+    "Thời gian khởi động: 20 giây hoặc ít hơn (có thể thay đổi tùy điều kiện sử dụng)",
+    "Khay giấy: Khay bypass",
+    "Ngôn ngữ in: Chuẩn PCL5 / PCL6, Tùy chọn Adobe PostScript 3",
+    "Độ phân giải scan: 600 x 600 dpi, 400 x 400 dpi, 300 x 300 dpi, 200 x 200 dpi",
+    "Kích thước máy (Rộng x Sâu x Cao): 587 x 671 x 1.136 mm (4 khay)"
   ]
 };
 
@@ -73,12 +78,12 @@ export default function Product7580Page() {
           <h1 className="text-2xl font-bold text-red-600 mb-2">{product.name}</h1>
           <p className="text-xl text-green-600 font-semibold mb-4">Giá: {product.price}</p>
           <ul className="list-disc list-inside text-sm text-gray-700 space-y-1">
-            <li>02 khay tự động (500 tờ/khay) & 01 khay tay (96 tờ)</li>
-            <li>Trọng lượng giấy: 60 – 256 gsm</li>
-            <li>Bộ nạp và đảo bản gốc tự động (DADF)</li>
-            <li>Bộ đảo bản sao (Duplex)</li>
-            <li>Bộ nhớ: Tối đa 4GB. SSD: 128GB</li>
-            <li>Màn hình cảm ứng màu 7 inch</li>
+            <li>04 khay tự động (520 tờ/ khay) & 01 khay tay (96 tờ). (Trọng lượng giấy : 52 - 300 gsm).</li>
+            <li>Bộ nạp và đảo bản gốc tự động (DADF).</li>
+            <li>Bộ đảo bản sao (Duplex).</li>
+            <li>Khay chia bộ điên tử (lệch hướng).</li>
+            <li>Bộ nhớ: 6 GB (Bộ nhớ Hệ thống: 4 GB, Bộ nhớ Trang: 2 GB, Tối đa: 6 GB). 256GB SSD storage</li>
+            <li>Giao diện điều khiển : Màn hình cảm ứng màu 10,1 inch.</li>
           </ul>
           <div className="relative w-full max-w-[350px] border border-red-600 mt-4 rounded">
             {/* Ruy băng khuyến mãi */}
@@ -130,15 +135,10 @@ export default function Product7580Page() {
         <div className="lg:w-2/3 w-full">
           <h2 className="text-xl font-bold text-black mb-4 uppercase">Mô Tả Sản Phẩm</h2>
           <h3 className="text-[30px] font-bold text-blue-700 mb-2">
-            Máy Photocopy Apeos 5570
+            Máy Photocopy Apeos 3567
           </h3>
-          <h4 className="text-lg font-semibold text-blue-700 mb-2">
-            Hiệu suất vượt trội, vận hành thông minh
-          </h4>
           <p className="text-black text-justify mb-4">
-            <strong>Apeos 5570</strong> là dòng máy photocopy kỹ thuật số cao cấp, được thiết kế cho môi trường văn phòng hiện đại
-            với yêu cầu xử lý tài liệu nhanh, bảo mật cao và khả năng tùy biến linh hoạt. Thiết bị mang đến sự kết hợp hoàn hảo
-            giữa tốc độ vận hành mạnh mẽ, tính năng tự động hóa thông minh và giao diện điều khiển dễ sử dụng.
+            <strong>Apeos 3567</strong> Máy photocopy Fujifilm Apeos C3067 là một lựa chọn tuyệt vời dành cho các văn phòng và doanh nghiệp hiện đại. Với khả năng in, sao chép và quét mạng màu, model này mang đến hiệu suất vượt trội cùng chất lượng hình ảnh sắc nét.
           </p>
 
           <div className="w-full flex justify-center my-6">
@@ -155,83 +155,123 @@ export default function Product7580Page() {
               <div className="animate-fade-in">
                 <div className="mt-12">
                   <h2 className="text-[22px] font-bold text-black mb-6 uppercase">
-                    Năng suất cao cho hiệu quả công việc cao hơn
+                    Làm việc ở mọi nơi với FUJIFILM IWpro
                   </h2>
 
                   <div className="space-y-6 text-[15px] text-black leading-relaxed">
                     <div>
                       <h3 className="font-semibold text-cyan-700 mb-2">
-                        Giảm thiểu thời gian chờ đợi cho năng suất cao hơn
+                        Nâng cấp hiệu quả kinh doanh của bạn lên một tầm cao mới
                       </h3>
+                      <p>Bằng cách liên kết Apeos C3567 / C3067 / C2567 với FUJIFILM IWpro*, bạn có thể tự động hóa quy trình làm việc đã được chuẩn hóa như quét tài liệu, sắp xếp, xử lý, chia sẻ, quản lý và xuất dữ liệu trên đám mây. Các dịch vụ bên thứ ba cũng có thể được tích hợp liền mạch với FUJIFILM IWpro.<br />
+                        Hơn nữa, nhóm có thể cộng tác từ xa bằng cách sử dụng Không gian làm việc trên đám mây. Có thể xuất an toàn các tài liệu đã đăng ký tại các văn phòng từ xa, cho phép áp dụng các hình thức làm việc kết hợp để có thể làm việc linh hoạt hơn.</p>
+                      <p className="text-sm italic mt-1">* Dịch vụ đám mây do FUJIFILM Business Innovation cung cấp. Cần có hợp đồng riêng cho dịch vụ này.</p>
+                      <img src="/images/c3567_vanhanh.jpg" alt="Vận hành c3567_1" className="mx-auto rounded-lg shadow mt-3" />
+
+                    </div>
+
+                    <div>
+                      <h2 className="text-[22px] font-bold text-black mb-6 uppercase">
+                        Thiết kế đơn giản cho nhu cầu công việc hằng ngày
+                      </h2>
+                      <h3 className="font-semibold text-cyan-700 mb-2">
+                        Bảng điều khiển mới với kích thước lớn 10,1 inch mang lại trải nghiệm trực quan và phù hợp với cá nhân người dùng
+                      </h3>
+                      <img src="/images/c3567_vanhanh1.png" alt="Vận hành c3567" className="mx-auto rounded-lg shadow mt-3" />
                       <ul className="list-disc pl-5 space-y-1">
-                        <li>Thời gian cho ra bản sao chụp đầu tiên chỉ trong 3,6*¹ giây</li>
-                        <li>Thời gian khởi động máy chưa đầy 30 giây*² và thời gian khôi phục là 11 giây</li>
-                        <li>Smart WelcomeEyes phát hiện người dùng và tự động “đánh thức” máy từ chế độ nghỉ</li>
+                        <ul>
+                          <li>Hiển thị tên đăng nhập</li>
+                          <li>Đèn LED nút Home sẽ sáng lên</li>
+                          <li>Vùng cảm ứng NFC</li>
+                          <li>
+                            Dễ dàng kết nối với các thiết bị di động. Sử dụng <strong>Print Utility</strong>*<sup>1</sup>, bạn có thể thực hiện các thao tác cơ bản với thiết bị đa chức năng*<sup>2</sup> từ điện thoại thông minh.
+                            <ul>
+                              <li>*1: Kết nối với máy qua môi trường không dây hoặc kết nối Wi-Fi Direct. Có thể tải xuống miễn phí từ Google Play™ hoặc App Store.</li>
+                              <li>*2: Sao chụp, fax, in, quét.</li>
+                              <li><strong>Ghi chú:</strong> Hỗ trợ in hoặc quét bằng thiết bị di động bằng AirPrint, Mopria® Print Service và Mopria Scan.</li>
+                            </ul>
+                          </li>
+                          <li>Bạn sẽ thấy ánh sáng dịu nhẹ báo hiệu hoàn thành thao tác hoặc có lỗi xảy ra</li>
+                          <li>Kết nối ngay lập tức với các nút ứng dụng</li>
+                          <li>Truy cập nhanh các cài đặt thường dùng</li>
+                          <li>
+                            Trên màn hình Ghim, bạn có thể bắt đầu lại tác vụ từ lịch sử tác vụ. Các cài đặt thường dùng có thể "ghim" lại được để tiết kiệm thời gian.
+                          </li>
+                          <li>
+                            Màn hình trang chính thân thiện với người dùng<br />
+                            → Các nút ứng dụng thường dùng có thể được sắp xếp và tùy chỉnh dựa trên sở thích của từng người dùng.
+                          </li>
+                          <li>
+                            <strong>Bảng điều khiển từ xa</strong><br />
+                            → Người quản trị thiết bị có thể thiết lập và quản lý thiết bị đa chức năng từ xa.<br />
+                            <em>Ghi chú:</em> Trong cùng mạng nội bộ. Khi Bảng điều khiển từ xa đang hoạt động, bạn sẽ không thể thao tác trên bảng điều khiển của thiết bị đa chức năng. Ngoài ra, không thể khởi chạy Bảng điều khiển từ xa khi người dùng đang vận hành thiết bị đa chức năng.
+                          </li>
+                        </ul>
+
                       </ul>
-                      <p className="text-sm italic mt-1">*1: A4 LEF – *2: Tính chỉnh khi hợp sẵn / Dịch vụ tùy chỉnh: Khi được kích hoạt.</p>
+                    </div>
+
+                    <div>
+                      <h2 className="text-[22px] font-bold text-black mb-6 uppercase">Tăng tốc độ số hóa bằng máy quét hiệu suất cao</h2>
+                      <h3 className="font-semibold text-cyan-700 mb-2">
+                        Quét hình 1 lượt, 2 mặt lên đến 160 trang/phút
+                      </h3>
+                      <p>Bộ nạp và đảo bản gốc tự động 1 lượt, quét 2 mặt tự động hiệu suất cao chứa được đến 130 tờ* và quét tài liệu 2 mặt trong một lần nạp, cho phép bạn số hóa các tài liệu lớn nhanh chóng và dễ dàng.</p>
+                      <p className="text-sm italic mt-1">* 70 gsm</p>
                     </div>
 
                     <div>
                       <h3 className="font-semibold text-cyan-700 mb-2">
-                        Giảm thiểu rủi ro bảo mật thông tin không chủ ý với các cảnh báo rõ ràng
+                        Quét hiệu quả các tài liệu có kích thước không theo chuẩn như biên lai
+                      </h3>
+                      <p>Tự động quét đến kích thước tiêu chuẩn gần nhất, loại bỏ yêu cầu nhập kích thước thủ công cho các tài liệu kích thước không theo chuẩn hoặc có kích thước nhỏ*. Các loại séc dày và biên lai giấy mỏng* cũng có thể được số hóa và quản lý dễ dàng trên máy tính.</p>
+                      <p className="text-sm italic mt-1">*  Kích thước không theo chuẩn lên đến 49 x 85 mm. Đối với kích thước từ 49 x 85 mm đến 55 x 91 mm, hỗ trợ định lượng giấy từ 38 đến 209 gsm.</p>
+                    </div>
+
+                    <div>
+                      <h2 className="text-[22px] font-bold text-black mb-6 uppercase">Bảo vệ hành trình chuyển đổi số (DX) của bạn với giải pháp bảo mật hàng đầu thị trường</h2>
+                      <p>Là thiết bị thông tin được kết nối mạng, thiết bị đa chức năng được trang bị các tính năng bảo mật tiên tiến để bảo vệ tài sản thông tin có giá trị của bạn khỏi các cuộc tấn công mạng và các mối đe dọa bảo mật đang phát triển nhanh chóng.</p>
+                      <h3 className="font-semibold text-cyan-700 mb-2">
+                        Bảo vệ khỏi người dùng trái phép
                       </h3>
                       <ul className="list-disc pl-5 space-y-1">
-                        <li>Nhắc người dùng lấy tài liệu góc hoặc tài liệu in bị bỏ lại trên các khay</li>
-                        <li>Hạn chế khả năng quên tài liệu tại Khay giữa hoặc Khay nạp</li>
-                        <li>Đèn ở Khay giữa thông báo thêm khi nhận được bản trên Khay hỏng</li>
-                        <li>Phát âm báo khi có các tài liệu bản gốc bỏ quên trên mặt kính quét</li>
+                        <li>Các hoạt động và truy cập trái phép được ngăn chặn nhờ việc xác thực người dùng và các hạn chế sử dụng.</li>
+                        <li>Mở rộng với Ethernet phụ* cho phép sử dụng một thiết bị đa chức năng duy nhất trên một mạng riêng biệt, v.v.</li>
+                      </ul>
+                      <p className="text-sm italic mt-1">* Tùy chọn</p>
+                    </div>
+
+                    <div>
+                      <h3 className="font-semibold text-cyan-700 mb-2">
+                        Bảo vệ dữ liệu
+                      </h3>
+                      <ul className="list-disc pl-5 space-y-1">
+                        <li>Mã hóa đường dẫn liên lạc bằng TLS và IPsec</li>
+                        <li>Bảo vệ các tệp được quét và e-mail thông qua mã hóa/chữ ký điện tử</li>
+                        <li>Dữ liệu ghi vào SSD được mã hóa bằng mã hóa AES-256 mạnh mẽ, v.v.</li>
                       </ul>
                     </div>
 
                     <div>
                       <h3 className="font-semibold text-cyan-700 mb-2">
-                        Hoạt động dễ dàng với cơ chế khay có thể thu vào
+                        Bảo vệ khỏi truy cập trái phép
                       </h3>
                       <ul className="list-disc pl-5 space-y-1">
-                        <li>Đẩy nhẹ để đóng</li>
-                        <li>Thu vào một cách nhẹ nhàng</li>
-                        <li>Kéo ra là dễ dàng</li>
+                        <li>Chức năng khóa tài khoản</li>
+                        <li>Hạn chế địa chỉ IP có thể truy cập</li>
+                        <li>Ngăn chặn can thiệp trái phép phần mềm trong quá trình khởi động và vận hành thiết bị đa chức năng</li>
+                        <li>Chức năng sửa chữa tự động khi phát hiện hành vi can thiệp trái phép khi khởi động, v.v.</li>
                       </ul>
                     </div>
 
                     <div>
                       <h3 className="font-semibold text-cyan-700 mb-2">
-                        Trích xuất thông tin nhanh chóng cho các quy trình công việc khối lượng lớn
+                        Ngăn chặn rò rỉ thông tin do lỗi vận hành
                       </h3>
                       <ul className="list-disc pl-5 space-y-1">
-                        <li>Có thể đọc lên đến 160 trang/phút* ở tốc độ cao khi Quét</li>
-                        <li>Bộ nạp bản gốc có thể quét đồng thời một lần một hoặc hai mặt tài liệu khối lượng lớn</li>
-                        <li>Bộ nạp bản gốc có khả năng phát hiện nhiều loại giấy – Có thể nạp giấy từ 38 đến 209 gsm</li>
-                        <li>Thiết kế nạp dễ dàng, hỗ trợ nhiều khổ giấy tùy chỉnh</li>
+                        <li>Cố định điểm gửi đến của tài liệu được quét</li>
+                        <li>Nhập 2 lần địa chỉ gửi fax cùng lúc, v.v.</li>
                       </ul>
-                    </div>
-
-                    <div>
-                      <h3 className="font-semibold text-cyan-700 mb-2">
-                        Thao tác nhanh chóng với tính năng quét Bộ nạp và đảo bản gốc tự động cho các tài liệu có kích thước tùy chỉnh
-                      </h3>
-                      <ul className="list-disc pl-5 space-y-1">
-                        <li>Hỗ trợ kích cỡ tối thiểu 49 mm (R) x 85 mm (D)*</li>
-                        <li>Quét ngay lập tức mà không cần nhập thủ công từng kích thước gốc</li>
-                        <li>Tự động chuyển đổi bản gốc có kích thước tùy chỉnh thành khổ tiêu chuẩn</li>
-                        <li>Nạp và tải nhiều tờ gốc cùng nhau</li>
-                      </ul>
-                      <p className="text-sm italic mt-1">* Áp dụng cho giấy có trọng lượng 38 – 209 gsm.</p>
-                    </div>
-
-                    <div>
-                      <h3 className="font-semibold text-cyan-700 mb-2">
-                        Nhiều tùy chọn hoàn thiện khác nhau sẵn sàng để đáp ứng nhu cầu của bạn
-                      </h3>
-                      <ul className="list-disc pl-5 space-y-1">
-                        <li>Hỗ trợ Dập không ghim*¹ đơn và đôi</li>
-                        <li>Dập ghim*² / Đục lỗ / Dập ghim lồng / Gập chéo / Gập làm ba / Gập đôi sách</li>
-                        <li>Nhiều bộ hoàn thiện: A2 / B4-B5 / C4-C5 / C4-C5 + CD3</li>
-                      </ul>
-                      <p className="text-sm italic mt-1">
-                        *1: Các mẫu khung đơn: Bộ hoàn thiện B5, Bộ hoàn thiện C5 và Bộ hoàn thiện C5 có bộ đóng sách.
-                        <br />*2: Sẽ cần bộ hoàn thiện B5 và B6.
-                      </p>
                     </div>
                   </div>
                 </div>
@@ -240,90 +280,87 @@ export default function Product7580Page() {
                 {/* 🔻 An toàn và bảo mật */}
                 <div className="mt-12">
                   <h2 className="text-[22px] font-bold text-black mb-6 uppercase">
-                    An toàn và bảo mật
+                    Hỗ trợ doanh nghiệp ở hiện tại và trong tương lai
                   </h2>
 
                   <div className="space-y-6 text-[15px] text-black leading-relaxed">
                     <div>
                       <h3 className="font-semibold text-cyan-700 mb-2">
-                        Bố cục đơn giản với menu điều hướng dễ dàng
+                        Tạo ấn tượng với mỗi bản in
                       </h3>
-                      <p>Giao diện màu nền đen và xám mang đến độ tương phản cao hơn, giúp nhận diện dễ dàng.</p>
-                      <ul className="list-disc pl-5 space-y-1">
-                        <li>Các biểu tượng được dán trái đều giúp nhận diện dễ dàng</li>
-                        <li>Các bước vận hành nhất quán của từng chức năng giúp dễ dàng lặp lại</li>
-                        <li>Khả năng tùy chỉnh màn hình chính theo sở thích cá nhân cho phép truy cập dễ dàng các chức năng thường xuyên sử dụng</li>
-                        <li>Các cài đặt ghim nhanh cho các tác vụ sử dụng thường xuyên có thể lưu lại</li>
-                        <li>Hiển thị ánh sáng để nhận thấy báo hiệu công việc hoàn tất hoặc có lỗi</li>
-                        <li>Thông báo bằng âm thanh nhẹ để cảnh báo và thu hút sự chú ý</li>
-                      </ul>
+                      <p>Mực in mới phát triển tạo ra màu sắc đặc biệt với mọi tông màu và hình thái, cùng với độ phân giải cao 1.200 x 2.400 dpi, tạo ra đường nét và văn bản chính xác, mang lại sự chuyên nghiệp cho mỗi bản in.</p>
                     </div>
 
                     <div>
                       <h3 className="font-semibold text-cyan-700 mb-2">
-                        Điện thoại thông minh trở thành “bảng điều khiển di động”
+                        Sản xuất tài liệu quảng cáo nội bộ và theo yêu cầu
                       </h3>
                       <p>
-                        Kết nối liền mạch với các thiết bị di động cho các tác vụ sao chụp, Fax, In, Quét*¹ bằng cách sử dụng ứng dụng Print Utility*².
+                        Hỗ trợ nhiều kích thước và định lượng giấy khác nhau<><sup>*1</sup></>, cho bạn sự linh hoạt trong việc cá nhân hóa và in trên phong bì, thư trực tiếp, áp phích, biểu ngữ quảng cáo hoặc màn hình POP dài<sup>*2</sup>.
                       </p>
-                      <ul className="list-disc pl-5 space-y-1">
-                        <li>Thiết bị di động có thể được sử dụng làm bảng điều khiển thay thế để kiểm soát hoạt động nhằm giảm tiếp xúc không cần thiết</li>
-                        <li>Các cài đặt thường xuyên sử dụng có thể được lưu dưới dạng “Yêu thích”</li>
-                        <li>Gửi fax hoặc email trực tiếp từ tất cả các chức năng từ trong điện thoại thông minh</li>
-                        <li>Hạn chế tiếp xúc với máy in để đảm bảo vệ sinh</li>
-                        <li>Thiết lập kết nối Wi-Fi trực tiếp nhanh chóng bằng cách quét mã QR trên bảng điều khiển</li>
-                      </ul>
                       <p className="text-sm italic mt-1">
-                        *1: Email, Quét vào thư mục <br />
-                        *2: Tải xuống miễn phí từ Google Play™ hoặc App Store
+                        *1: Định lượng giấy từ 52 đến 300 gsm<br />
+                        *2: Giấy dài lên tới 297 x 1.200 mm
                       </p>
                     </div>
 
                     <div>
                       <h3 className="font-semibold text-cyan-700 mb-2">
-                        Tính linh hoạt trong bố cục văn phòng
+                        Kích thước nhỏ gọn phù hợp với mọi không gian văn phòng
                       </h3>
-                      <p>Hỗ trợ môi trường LAN không dây*¹.</p>
-                      <ul className="list-disc pl-5 space-y-1">
-                        <li>Hỗ trợ từ cổng di chuyển thiết bị trong văn phòng nhỏ kết nối Wi-Fi</li>
-                        <li>Có thể kết nối với tối đa 5 thiết bị đa chức với tính năng kết nối wi-fi trực tiếp (Wi-Fi Direct) cùng lúc</li>
-                        <li>Hỗ trợ in trực tiếp qua thiết bị di động*²</li>
-                        <li>Hỗ trợ Print Utility, AirPrint và Mopria® Print Service</li>
-                      </ul>
+                      <p>Thiết kế nhỏ gọn với chiều rộng 577 mm và chiều sâu 671 mm* phù hợp với mọi không gian, kể cả những không gian chật hẹp, giúp tối đa hóa việc sử dụng không gian văn phòng.</p>
                       <p className="text-sm italic mt-1">
-                        *1: Tùy chọn <br />
-                        *2: Khi kết nối Wi-Fi Direct
+                        * Đối với cấu hình 1 Khay tiêu chuẩn.
                       </p>
                     </div>
 
                     <div>
+                      <h2 className="text-[22px] font-bold text-black mb-6 uppercase">
+                        Thiệt bị đa chức năng của tương lai
+                      </h2>
+                      <p>FUJIFILM Business Innovation hướng đến giải quyết các vấn đề môi trường thông qua các nỗ lực giảm thiểu biến đổi khí hậu và lưu thông tài nguyên trong các hoạt động kinh doanh. Sản phẩm của chúng tôi được phát triển với những cải tiến và công nghệ độc đáo, giúp cân bằng giữa khả năng sử dụng và giảm tác động đến môi trường.</p>
                       <h3 className="font-semibold text-cyan-700 mb-2">
-                        In từ mọi thiết bị đa chức năng trong văn phòng
+                        Mực in mới và bộ phận sấy mực có nhiệt độ cố định thấp và cho chất lượng hình ảnh cao
                       </h3>
                       <p>
-                        Với Server-less On-Demand Print (In theo nhu cầu không qua máy chủ)*, bạn có thể in và nhận bản in từ mọi bản thiết bị đa chức năng được kết nối.
+                        Sử dụng mực in mới và bộ phận sấy mực cho phép giảm mức tiêu thụ điện năng trong quá trình sấy mực, quy trình tiêu tốn nhiều điện năng nhất đối với các thiết bị đa chức năng.
+                        <br />
+                        Bằng cách sử dụng nhựa resin chức năng, loại mực mới được phát triển của chúng tôi đạt nhiệt độ*1 cố định thấp hàng đầu trong ngành, thấp hơn 15 độ so với mực được sử dụng trong các mẫu trước đó*2.
+                        <br />
+                        Ngoài ra, việc sử dụng bộ phận sấy mực mới sẽ giúp đạt được cả nhiệt độ cố định thấp và chất lượng hình ảnh vượt trội.
                       </p>
-                      <ul className="list-disc pl-5 space-y-1">
-                        <li>Cải thiện năng suất bằng cách in từ mọi thiết bị đa chức năng khác khi đang được sử dụng</li>
-                        <li>Có thể liên kết đến 100 thiết bị</li>
-                        <li>Có thể sửa đổi các cài đặt tác vụ cụ thể để đáp ứng để tiết kiệm thời gian (1 mặt đến 2 mặt, thêm dập ghim, tất cả đều đen trắng)</li>
-                      </ul>
-                      <p className="text-sm italic mt-1">* Tùy chọn</p>
+                      <p className="text-sm italic mt-1">*1: Tính đến tháng 7 năm 2024, theo khảo sát của chúng tôi. <br />
+                        *2: Mực sử dụng trong Apeos C3060 / C2560 / C2060</p>
                     </div>
 
                     <div>
                       <h3 className="font-semibold text-cyan-700 mb-2">
-                        Quản lý thiết bị đơn giản với Xác thực không cần máy chủ
+                        Thiết kế cho hiện tại và tương lai
                       </h3>
                       <p>
-                        Xác thực không qua máy chủ* cho phép thông tin người dùng được đồng bộ hóa giữa các thiết bị đa chức năng trong cùng một nhóm, giúp giảm khối lượng công việc của quản trị viên.
+                        Trong nỗ lực thúc đẩy tái chế tài nguyên, vật liệu nhựa tái chế được sử dụng* cho các bộ phận như nắp trước và khay. Chúng tôi đã khắc phục được trở ngại để tìm ra những cách ngăn chặn tình trạng không đều màu của nhựa tái chế, vốn được cho là khó tạo khuôn. Và bằng cách cải thiện độ bền và độ cứng của các bộ phận, chúng tôi đảm bảo chất lượng của sản phẩm.
+                        <br />
+                        Hơn nữa, sản phẩm đã được thiết kế lại để có thể dễ dàng tháo rời và làm sạch, hỗ trợ việc tái sử dụng và tái chế chúng trong tương lai.
                       </p>
+                      <p className="text-sm italic mt-1">* Trong trường hợp cấu hình 4 khay với Bộ nạp và đảo bản gốc tự động, 15 % tổng trọng lượng nhựa của thiết bị là vật liệu tái chế.</p>
+                    </div>
+
+                    <div>
+                      <h3 className="font-semibold text-cyan-700 mb-2">
+                        Công nghệ tiết kiệm năng lượng
+                      </h3>
                       <ul className="list-disc pl-5 space-y-1">
-                        <li>Chỉ cần chạm thẻ của bạn để liên kết ID người dùng với thiết bị đa chức năng</li>
-                        <li>Thông tin ID được chia sẻ sử dụng được với các thiết bị đa chức năng khác trong cùng một mạng</li>
-                        <li>Xác thực có thể được thực hiện với bất kỳ thiết bị nào trong văn phòng</li>
+                        <li>Tiêu thụ ít năng lượng hơn và nhỏ gọn hơn với khả năng in độ phân giải cao với đầu in LED.</li>
+                        <li>Tiết kiệm điện năng với tính năng khởi động nhanh và tiết kiệm năng lượng thông minh, chỉ cấp nguồn cho các bộ phận cần thiết tùy theo chức năng mà người dùng đang sử dụng.</li>
                       </ul>
-                      <p className="text-sm italic mt-1">* Tùy chọn</p>
+                    </div>
+
+                    <div>
+                      <h3 className="font-semibold text-cyan-700 mb-2">
+                        Góp phần giảm lượng khí CO2 thải ra nhờ thân máy nhẹ
+                      </h3>
+                      <p>Bằng cách tối ưu hóa nhựa và tấm kim loại bằng công nghệ làm mỏng và sửa đổi cấu trúc khung, chúng tôi đã giảm được 27 %* trọng lượng máy trong khi vẫn duy trì độ bền và góp phần giảm lượng khí CO2 thải ra trong quá trình vận chuyển.</p>
+                      <p className="text-sm italic mt-1">* Đối với Model-CPS cấu hình 4 Khay. So với mẫu Apeos C3070 Model-CPS với cấu hình 4 Khay trước đây, không bao gồm mực.</p>
                     </div>
                   </div>
                 </div>
