@@ -130,7 +130,7 @@ export default function Product7580Page() {
           <h3 className="text-[30px] font-bold text-red-700 mb-2">
             Máy Photocopy Apeos  C5571
           </h3>
-          <h4 className="text-lg font-semibold text -blue-700 mb-2">
+          <h4 className="text-lg font-semibold text-blue-700 mb-2">
             Khởi đầu hành trình chuyển đổi số của bạn
           </h4>
           <p className="text-black text-justify mb-4">

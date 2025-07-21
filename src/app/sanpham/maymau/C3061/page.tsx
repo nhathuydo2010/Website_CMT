@@ -24,23 +24,24 @@ const product = {
   name: "Máy Photocopy Apeos C3061",
   price: "Liên Hệ",
   image: "/productsColor/Apeos C3061-C2561-C2061.png",
-  specs: [
+ specs: [
     "Chức năng: Copy / In / Scan 2 mặt tự động",
-    "Copy màu: Tốc độ 25 trang A4/phút (trắng đen & màu), độ phân giải 600 x 600 dpi",
-    "In màu qua mạng: Tốc độ 20 trang A4/phút (trắng đen & màu), độ phân giải chuẩn 1200 x 2400 dpi, độ phân giải cao 1200 x 1200 dpi",
-    "Scan màu: Tốc độ 55 trang A4/phút, độ phân giải tối đa 600 x 600 dpi, hỗ trợ scan vào PC và Email",
-    "Định dạng scan: PDF, TIFF, JPEG,…",
-    "Khổ giấy hỗ trợ: từ A5 đến A3",
+    "Copy màu: Tốc độ 30 trang A4/phút (trắng đen và màu), độ phân giải 600 x 600 dpi",
+    "Khổ giấy hỗ trợ: A5 – A3",
     "Phóng to / Thu nhỏ: 25% – 400% (tăng giảm từng 1%)",
-    "Hệ điều hành hỗ trợ: Windows 11/10 (32bit & 64bit), Windows Server 2016/2019/2022 (64bit)",
-    "Mac OS hỗ trợ: macOS 10.15 đến 14",
+    "In màu qua mạng: Tốc độ 30 trang A4/phút (trắng đen và màu)",
+    "Độ phân giải in thường: 1200 x 2400 dpi; độ phân giải cao: 1200 x 1200 dpi",
+    "Hệ điều hành hỗ trợ: Windows 11 (64bit), Windows 10 (32bit & 64bit), Windows Server 2022/2019/2016 (64bit)",
+    "Hỗ trợ macOS: macOS 14 / 13 / 12 / 11 / 10.15",
     "Ngôn ngữ mô tả trang: PCL5 / PCL6",
-    "Kết nối mạng: Ethernet 1000BASE-T / 100BASE-TX / 10BASE-T, USB",
-    "Nguồn điện: AC 220–240V ±10%, 8A, tần số 50/60Hz",
-    "Kích thước máy: Rộng 577 x Sâu 659 x Cao 872 mm",
-    "Trọng lượng: 75 kg",
-    "Tặng kèm chân tủ để máy VN"
+    "Kết nối: Ethernet 1000BASE-T / 100BASE-TX / 10BASE-T, USB",
+    "Scan màu: Tốc độ 55 trang A4/phút; quét vào PC, Email; định dạng: PDF, TIFF, JPEG...",
+    "Độ phân giải scan tối đa: 600 x 600 dpi",
+    "Nguồn điện: AC220–240V ±10%, 8A, tần số 50/60Hz",
+    "Kích thước: Rộng 577 x Sâu 659 x Cao 872 mm",
+    "Trọng lượng: 75 kg"
   ]
+
 };
 
 export default function Product7580Page() {
@@ -68,11 +69,12 @@ export default function Product7580Page() {
           <h1 className="text-2xl font-bold text-red-600 mb-2">{product.name}</h1>
           <p className="text-xl text-green-600 font-semibold mb-4">Giá: {product.price}</p>
           <ul className="list-disc list-inside text-sm text-gray-700 space-y-1">
-            <li>02 khay tự động (520 tờ/ khay) &  01 khay tay (96 tờ) </li>
-            <li>Trọng lượng giấy: 52 - 300 gsm</li>
+           <li>02 khay tự động (520 tờ/khay) & 01 khay tay (96 tờ)</li>
+            <li>Trọng lượng giấy: 52 – 300 gsm</li>
             <li>Bộ nạp và đảo bản gốc tự động (DADF)</li>
             <li>Bộ đảo bản sao (Duplex)</li>
-            <li>Bộ nhớ: Tối đa 4GB. SSD: 256GB</li>
+            <li>Bộ nhớ: tối đa 4GB</li>
+            <li>Ổ cứng SSD: 256GB</li>
             <li>Màn hình cảm ứng màu 7 inch</li>
           </ul>
           <div className="relative w-full max-w-[350px] border border-red-600 mt-4 rounded">
