@@ -56,7 +56,7 @@ export default function Navbar() {
             {item.submenu ? (
               <>
                 <button className="hover:underline">{item.label}</button>
-                <ul className="absolute top-full left-0 bg-white text-black shadow-lg min-w-[220px] opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
+               <ul className="absolute top-full left-0 bg-white text-black shadow-lg min-w-[250px] rounded-md opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50">
                   {item.submenu.map((sub, subIndex) => (
                     <li key={subIndex} className="relative group/submenu">
                       <div className="flex items-center justify-between px-4 py-2 hover:bg-gray-100 cursor-pointer">
@@ -67,9 +67,10 @@ export default function Navbar() {
                       </div>
                       {/* Submenu cấp 2 */}
                       {sub.children && (
-                        <ul className="absolute top-0 left-full bg-white text-black shadow-lg min-w-[200px] opacity-0 invisible group-hover/submenu:opacity-100 group-hover/submenu:visible transition-all duration-200 z-50">
+                        <ul className="absolute top-0 left-full bg-white text-black shadow-lg min-w-[220px] rounded-md opacity-0 invisible group-hover/submenu:opacity-100 group-hover/submenu:visible transition-all duration-300 z-50">
+
                           {sub.children.map((child, childIndex) => (
-                            <li key={childIndex} className="px-4 py-2 hover:bg-gray-100 whitespace-nowrap">
+                            <li key={childIndex}   className="px-4 py-2 hover:bg-gray-100 transition-all duration-200 rounded-md whitespace-nowrap">
                               <Link href={`${sub.href}/${child.code}`}>
                                 Máy Photocopy {child.label}
                               </Link>
