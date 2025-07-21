@@ -76,12 +76,41 @@ import Link from 'next/link';
 
 
 export default function MayMAUPage() {
-  return (
+   return (
     <div className="px-4 py-6">
+      {/* Hình ảnh banner nằm phía trên tiêu đề */}
+      <div className="mb-4">
+        <Image
+          src="/banner3.png"  // <-- đúng đường dẫn từ thư mục public
+          alt="Banner máy photocopy màu"
+          width={2000}
+          height={400}
+          className="w-full h-auto object-cover rounded"
+        />
+      </div>
+
+      {/* Tiêu đề chính */}
       <h1 className="text-xl font-bold mb-6 text-center text-red-700 uppercase">
         Máy Photocopy Màu – Fujifilm Apeos
       </h1>
 
+
+      {/* Tiêu đề phụ và breadcrumb giống ảnh */}
+      <div className="mb-6">
+        <h2 className="text-2xl font-bold text-red-700">Máy photocopy màu</h2>
+
+        <div className="text-sm text-gray-500 mt-1">
+  <Link href="/" className="mr-1 hover:underline text-gray-500">TRANG CHỦ</Link> / 
+  <Link href="/ban-may-photocopy" className="font-semibold text-black">BÁN MÁY PHOTOCOPY MÀU</Link> 
+  
+</div>
+
+        <p className="mt-2 text-[15px]">
+          Tất cả 11 Máy Photocopy.
+        </p>
+      </div>
+
+      {/* Lưới sản phẩm */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
         {productsColor.map((product, index) => (
           <div
