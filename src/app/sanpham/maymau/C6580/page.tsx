@@ -154,16 +154,19 @@ export default function Product7580Page() {
         {/* Cột trái: Mô tả sản phẩm */}
         <div className="lg:w-2/3 w-full">
           <h2 className="text-xl font-bold text-black mb-4 uppercase">Mô Tả Sản Phẩm</h2>
-          <h3 className="text-[30px] font-bold text-blue-700 mb-2">
+          <h3 className="text-[30px] font-bold text-red-700 mb-2">
             Máy photocopy màu FUJIFILM Apeos C6580
           </h3>
+          <h4 className="text-lg font-semibold text-blue-700 mb-2">
+            Thời đại mới, Apeos mới
+          </h4>
           <p className="text-black text-justify mb-4">
             <strong>Máy photocopy màu FUJIFILM Apeos C6580</strong> không chỉ đơn thuần là một thiết bị in ấn mà còn là một hệ thống quản lý tài liệu toàn diện. Với tốc độ in vượt trội, khả năng bảo mật cao và tích hợp công nghệ hiện đại, máy là giải pháp lý tưởng cho các doanh nghiệp cần tối ưu hóa quy trình làm việc và đảm bảo chất lượng in ấn cao nhất.
           </p>
 
           <div className="w-full flex justify-center my-6">
             <Image
-              src="/images/5530.png"
+              src="/images/C8180C7580C6580.png"
               alt="Máy Photocopy Apeos 5570 minh họa"
               width={600}
               height={400}

@@ -167,7 +167,7 @@ export default function Header() {
       <div className="max-w-screen-xl mx-auto" id="mau">
         <a
           href={`/sanpham/maymau/`}
-          className="block bg-red-600 text-white text-lg font-bold px-4 py-2 mt-4 text-center rounded-full shadow-2xl hover:bg-red-700 transition"
+          className="block bg-red-600 text-white text-lg font-bold pt-2 pb-3 mt-4 text-center rounded-full shadow-2xl hover:bg-red-700 transition"
         >
           MÁY PHOTOCOPY MÀU
         </a>

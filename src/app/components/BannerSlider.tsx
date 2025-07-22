@@ -8,15 +8,13 @@ import 'swiper/css/pagination';
 
 export default function BannerSlider() {
   const banners = [
-    "/banner1.png",
-    "/banner2.png",
     "/banner3.png",
   ];
 
   return (
     <div className="w-full bg-white">
       {/* Kéo dài full màn hình */}
-      <div className="w-full max-w-[800px] mx-auto h-auto py-5">
+      <div className="w-full max-w-[1000px] mx-auto h-auto ">
         <Swiper
           modules={[Autoplay, Pagination]}
           spaceBetween={0}
@@ -31,7 +29,7 @@ export default function BannerSlider() {
               <Image
                 src={src}
                 alt={`Banner ${index + 1}`}
-                width={1920}
+                width={2000}
                 height={600}
                 className="w-full h-auto object-cover"
                 priority={index === 0}

@@ -134,9 +134,12 @@ export default function Product7580Page() {
         {/* Cột trái: Mô tả sản phẩm */}
         <div className="lg:w-2/3 w-full">
           <h2 className="text-xl font-bold text-black mb-4 uppercase">Mô Tả Sản Phẩm</h2>
-          <h3 className="text-[30px] font-bold text-blue-700 mb-2">
-            Máy Photocopy Apeos 3567
+          <h3 className="text-[30px] font-bold text-red-700 mb-2">
+            Máy Photocopy Apeos C3567
           </h3>
+          <h4 className="text-lg font-semibold text-blue-700 mb-2">
+            Thời đại mới, Apeos mới
+          </h4>
           <p className="text-black text-justify mb-4">
             <strong>Apeos 3567</strong> Máy photocopy Fujifilm Apeos C3067 là một lựa chọn tuyệt vời dành cho các văn phòng và doanh nghiệp hiện đại. Với khả năng in, sao chép và quét mạng màu, model này mang đến hiệu suất vượt trội cùng chất lượng hình ảnh sắc nét.
           </p>
