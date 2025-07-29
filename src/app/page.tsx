@@ -125,71 +125,98 @@ export default function Header() {
     <div className="w-full">
 
       <div className="w-full max-w-screen-xl mx-auto py-5 flex justify-center">
-         <BannerSlider />
+        <BannerSlider />
       </div>
 
       {/* MÁY PHOTOCOPY TRẮNG ĐEN */}
-      <div className="max-w-screen-xl mx-auto" id="trangden">
-        <a
+  <div className="w-full bg-white" id="mau">
+  <div className="w-full max-w-[1000px] mx-auto">
+    <a
           href={`/sanpham/maytrangden/`}
-          className="block bg-red-600 text-white text-lg font-bold px-4 py-2 mt-4 text-center rounded-full shadow-2xl hover:bg-red-700 transition"
-        >
+          className="block bg-red-600 text-white text-lg font-bold pt-2 pb-3 mt-4 text-center rounded-full shadow-2xl hover:bg-red-700 transition"
+    >
           MÁY PHOTOCOPY TRẮNG ĐEN
         </a>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 px-4 py-6">
-          {productsBlackWhite.map((product, index) => (
-            <div
-              key={index}
-              id={product.code} // 👈 THÊM id THEO MÃ SẢN PHẨM
-              className="border p-4 text-center flex flex-col justify-between min-h-[400px]"
-            >
-              <Link href={`/sanpham/maytrangden/${product.code}`}>
-                <Image
-                  src={product.image}
-                  alt={product.name}
-                  width={200}
-                  height={200}
-                  className="mx-auto object-contain h-[250px] w-auto cursor-pointer hover:scale-105 transition-transform"
-                />
-              </Link>
+         </div>
+       <div className="w-full max-w-[1000px] mx-auto px-4 py-6">
+  <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+    {productsBlackWhite.map((product, index) => (
+      <div
+        key={index}
+        id={product.code}
+        className="border rounded-lg shadow-sm p-4 flex flex-col h-full hover:shadow-md transition-shadow duration-200"
+      >
+        <div className="flex flex-col h-full">
+          {/* Hình ảnh sản phẩm */}
+          <Link href={`/sanpham/maytrangden/${product.code}`}>
+            <Image
+              src={product.image}
+              alt={product.name}
+              width={200}
+              height={200}
+              className="mx-auto object-contain h-[250px] w-auto cursor-pointer hover:scale-105 transition-transform"
+            />
+          </Link>
 
-              <div className="mt-4">
-                <p className="text-green-600 font-medium text-base">{product.name}</p>
-                <p className="text-red-600 font-bold text-base mt-1">Giá: {product.price}</p>
-                <p className="text-gray-600 text-sm mt-1">Mã sản phẩm: {product.code}</p>
-              </div>
-            </div>
-          ))}
+          {/* Nội dung mô tả */}
+          <div className="mt-4 flex-grow text-center">
+            <p className="text-green-600 font-medium text-base">
+              {product.name}
+            </p>
+            <p className="text-red-600 font-bold text-base mt-1">
+              Giá: {product.price}
+            </p>
+            <p className="text-gray-600 text-sm mt-1">
+              Mã sản phẩm: {product.code}
+            </p>
+          </div>
         </div>
+      </div>
+    ))}
+  </div>
+</div>
       </div>
 
       {/* MÁY PHOTOCOPY MÀU */}
-      <div className="max-w-screen-xl mx-auto" id="mau">
-        <a
-          href={`/sanpham/maymau/`}
-          className="block bg-red-600 text-white text-lg font-bold pt-2 pb-3 mt-4 text-center rounded-full shadow-2xl hover:bg-red-700 transition"
-        >
-          MÁY PHOTOCOPY MÀU
-        </a>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 px-4 py-6">
-          {productsColor.map((product, index) => (
-            <div key={index} className="border p-4 text-center flex flex-col justify-between min-h-[400px]">
-              <Link href={`/sanpham/maymau/${product.code}`}>
-                <Image
-                  src={product.image}
-                  alt={product.name}
-                  width={200}
-                  height={200}
-                  className="mx-auto object-contain h-[250px] w-auto cursor-pointer hover:scale-105 transition-transform"
-                />
-              </Link>
-              <p className="text-green-600 font-medium mt-2">{product.name}</p>
-              <p className="text-red-600 font-bold mt-1">Giá: {product.price}</p>
-              <p className="text-sm text-gray-500 mt-1">Mã sản phẩm: {product.code}</p>
-            </div>
+<div className="w-full bg-white" id="mau">
+  <div className="w-full max-w-[1000px] mx-auto">
+    <a
+      href={`/sanpham/maymau/`}
+      className="block bg-red-600 text-white text-lg font-bold pt-2 pb-3 mt-4 text-center rounded-full shadow-2xl hover:bg-red-700 transition"
+    >
+      MÁY PHOTOCOPY MÀU
+    </a>
+ <div className="w-full max-w-[1000px] mx-auto px-4 py-6">
+  <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+    {productsColor.map((product, index) => (
+      <div
+        key={index}
+        className="border rounded-lg shadow-sm p-4 flex flex-col h-full hover:shadow-md transition-shadow duration-200"
+      >
+        <div className="flex flex-col h-full">
+          {/* Hình ảnh sản phẩm */}
+          <Link href={`/sanpham/maymau/${product.code}`}>
+            <Image
+              src={product.image}
+              alt={product.name}
+              width={200}
+              height={200}
+              className="mx-auto object-contain h-[250px] w-auto cursor-pointer hover:scale-105 transition-transform"
+            />
+          </Link> 
+               {/* Thông tin sản phẩm */}
+          <div className="mt-4 flex-grow text-center">
+            <p className="text-green-600 font-medium text-base">{product.name}</p>
+            <p className="text-red-600 font-bold text-base mt-1">Giá: {product.price}</p>
+            <p className="text-sm text-gray-500 mt-1">Mã sản phẩm: {product.code}</p>
+          </div>
+          </div>
+      </div>
           ))}
         </div>
       </div>
-    </div>
+</div>
+</div>
+</div>
   );
 }

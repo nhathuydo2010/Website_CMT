@@ -3,89 +3,89 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
- const productsColor = [
-    {
-      name: 'Máy Photocopy Apeos C7071',
-      price: 'Liên Hệ',
-      code: 'C7071',
-      image: '/productsColor/Apeos C7071-C6571-C5571-C4571.png',
-    },
-    {
-      name: 'Máy Photocopy Apeos C6571',
-      price: 'Liên Hệ',
-      code: 'C6571',
-      image: '/productsColor/Apeos C7071-C6571-C5571-C4571.png',
-    },
-    {
-      name: 'Máy Photocopy Apeos C5571',
-      price: 'Liên Hệ',
-      code: 'C5571',
-      image: '/productsColor/Apeos C7071-C6571-C5571-C4571.png',
-    },
-    {
-      name: 'Máy Photocopy Apeos C4571',
-      price: 'Liên Hệ',
-      code: 'C4571',
-      image: '/productsColor/Apeos C7071-C6571-C5571-C4571.png',
-    },
+const productsColor = [
+  {
+    name: 'Máy Photocopy Apeos C7071',
+    price: 'Liên Hệ',
+    code: 'C7071',
+    image: '/productsColor/Apeos C7071-C6571-C5571-C4571.png',
+  },
+  {
+    name: 'Máy Photocopy Apeos C6571',
+    price: 'Liên Hệ',
+    code: 'C6571',
+    image: '/productsColor/Apeos C7071-C6571-C5571-C4571.png',
+  },
+  {
+    name: 'Máy Photocopy Apeos C5571',
+    price: 'Liên Hệ',
+    code: 'C5571',
+    image: '/productsColor/Apeos C7071-C6571-C5571-C4571.png',
+  },
+  {
+    name: 'Máy Photocopy Apeos C4571',
+    price: 'Liên Hệ',
+    code: 'C4571',
+    image: '/productsColor/Apeos C7071-C6571-C5571-C4571.png',
+  },
 
-    {
-      name: 'Máy Photocopy Apeos C3061',
-      price: 'Liên Hệ',
-      code: 'C3061',
-      image: '/productsColor/Apeos C3061-C2561-C2061.png',
-    },
-    {
-      name: 'Máy Photocopy Apeos C2561',
-      price: 'Liên Hệ',
-      code: 'C2561',
-      image: '/productsColor/Apeos C3061-C2561-C2061.png',
-    },
-    {
-      name: 'Máy Photocopy Apeos C2061',
-      price: 'Liên Hệ',
-      code: 'C2061',
-      image: '/productsColor/Apeos C3061-C2561-C2061.png',
-    },
-    {
-      name: 'Máy Photocopy Apeos C8180',
-      price: 'Liên Hệ',
-      code: 'C8180',
-      image: '/productsColor/Apeos C8180-C7580-C6580.png',
-    }, {
-      name: 'Máy Photocopy Apeos C7580',
-      price: 'Liên Hệ',
-      code: 'C7580',
-      image: '/productsColor/Apeos C8180-C7580-C6580.png',
-    }, {
-      name: 'Máy Photocopy Apeos C6580',
-      price: 'Liên Hệ',
-      code: 'C6580',
-      image: '/productsColor/Apeos C8180-C7580-C6580.png',
-    },
-    {
-      name: 'Máy Photocopy Apeos C3567',
-      price: 'Liên Hệ',
-      code: 'C3567',
-      image: '/productsColor/Apeos C3567.png',
-    },
-    // Thêm các sản phẩm màu khác...
-  ];
+  {
+    name: 'Máy Photocopy Apeos C3061',
+    price: 'Liên Hệ',
+    code: 'C3061',
+    image: '/productsColor/Apeos C3061-C2561-C2061.png',
+  },
+  {
+    name: 'Máy Photocopy Apeos C2561',
+    price: 'Liên Hệ',
+    code: 'C2561',
+    image: '/productsColor/Apeos C3061-C2561-C2061.png',
+  },
+  {
+    name: 'Máy Photocopy Apeos C2061',
+    price: 'Liên Hệ',
+    code: 'C2061',
+    image: '/productsColor/Apeos C3061-C2561-C2061.png',
+  },
+  {
+    name: 'Máy Photocopy Apeos C8180',
+    price: 'Liên Hệ',
+    code: 'C8180',
+    image: '/productsColor/Apeos C8180-C7580-C6580.png',
+  }, {
+    name: 'Máy Photocopy Apeos C7580',
+    price: 'Liên Hệ',
+    code: 'C7580',
+    image: '/productsColor/Apeos C8180-C7580-C6580.png',
+  }, {
+    name: 'Máy Photocopy Apeos C6580',
+    price: 'Liên Hệ',
+    code: 'C6580',
+    image: '/productsColor/Apeos C8180-C7580-C6580.png',
+  },
+  {
+    name: 'Máy Photocopy Apeos C3567',
+    price: 'Liên Hệ',
+    code: 'C3567',
+    image: '/productsColor/Apeos C3567.png',
+  },
+  // Thêm các sản phẩm màu khác...
+];
 
 
 
 
 export default function MayMAUPage() {
-   return (
-    <div className="px-4 py-6">
-      {/* Hình ảnh banner nằm phía trên tiêu đề */}
+  return (
+    <div className="px-0 pt-0 pb-0">
+      {/* Hình ảnh banner nằm sát navbar */}
       <div className="mb-4">
         <Image
-          src="/banner3.png"  // <-- đúng đường dẫn từ thư mục public
+          src="/banner.png"
           alt="Banner máy photocopy màu"
-          width={2000}
-          height={400}
-          className="w-full h-auto object-cover rounded"
+          width={1584}
+          height={396}
+          className="w-full h-auto object-cover rounded-none"
         />
       </div>
 
@@ -100,10 +100,10 @@ export default function MayMAUPage() {
         <h2 className="text-2xl font-bold text-red-700">Máy photocopy màu</h2>
 
         <div className="text-sm text-gray-500 mt-1">
-  <Link href="/" className="mr-1 hover:underline text-gray-500">TRANG CHỦ</Link> / 
-  <Link href="/ban-may-photocopy" className="font-semibold text-black">BÁN MÁY PHOTOCOPY MÀU</Link> 
-  
-</div>
+          <Link href="/" className="mr-1 hover:underline text-gray-500">TRANG CHỦ</Link> /
+          <Link href="/ban-may-photocopy" className="font-semibold text-black">BÁN MÁY PHOTOCOPY MÀU</Link>
+
+        </div>
 
         <p className="mt-2 text-[15px]">
           Tất cả 11 Máy Photocopy.
