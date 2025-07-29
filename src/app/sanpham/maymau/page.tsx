@@ -2,7 +2,9 @@
 
 import Image from 'next/image';
 import Link from 'next/link';
-
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Autoplay } from 'swiper/modules';
+import 'swiper/css';
 const productsColor = [
   {
     name: 'Máy Photocopy Apeos C7071',
@@ -77,17 +79,54 @@ const productsColor = [
 
 export default function MayMAUPage() {
   return (
-    <div className="px-0 pt-0 pb-0">
+    <div className="px-4 sm:px-6 lg:px-10 py-6 max-w-7xl mx-auto">
       {/* Hình ảnh banner nằm sát navbar */}
-      <div className="mb-4">
+      <Swiper
+      modules={[Autoplay]}
+      loop={true}
+      autoplay={{
+        delay: 5000, // 👈 Chuyển sau mỗi 5000ms = 5 giây
+        disableOnInteraction: false,
+      }}
+      className="w-full"
+    >
+      <SwiperSlide>
         <Image
           src="/banner.png"
-          alt="Banner máy photocopy màu"
+          alt="Banner 1"
           width={1584}
           height={396}
-          className="w-full h-auto object-cover rounded-none"
+          className="w-full h-auto object-cover"
         />
-      </div>
+      </SwiperSlide>
+      <SwiperSlide>
+        <Image
+          src="/banner4.png"
+          alt="Banner 2"
+          width={1584}
+          height={396}
+          className="w-full h-auto object-cover"
+        />
+      </SwiperSlide>
+      <SwiperSlide>
+        <Image
+          src="/banner5.png"
+          alt="Banner 3"
+          width={1584}
+          height={396}
+          className="w-full h-auto object-cover"
+        />
+      </SwiperSlide>
+         <SwiperSlide>
+        <Image
+          src="/banner6.png"
+          alt="Banner 3"
+          width={1584}
+          height={396}
+          className="w-full h-auto object-cover"
+        />
+      </SwiperSlide>
+    </Swiper>
 
       {/* Tiêu đề chính */}
       <h1 className="text-xl font-bold mb-6 text-center text-red-700 uppercase">
@@ -105,7 +144,7 @@ export default function MayMAUPage() {
 
         </div>
 
-        <p className="mt-2 text-[15px]">
+        <p className="mt-2 text-[15px] text-black">
           Tất cả 11 Máy Photocopy.
         </p>
       </div>

@@ -2,7 +2,9 @@
 
 import Image from 'next/image';
 import Link from 'next/link';
-
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Autoplay } from 'swiper/modules';
+import 'swiper/css';
 const productsBlackWhite = [
   {
     name: 'Máy Photocopy Apeos 5570',
@@ -53,10 +55,59 @@ const productsBlackWhite = [
 
 export default function MayTrangDenPage() {
   return (
-    <div className="px-4 py-6">
-      <h1 className="text-xl font-bold mb-6 text-center text-red-700 uppercase">
-        Máy Photocopy Trắng Đen – Fujifilm Apeos
-      </h1>
+    <div className="px-4 sm:px-6 lg:px-10 py-6 max-w-7xl mx-auto">
+ <div className="mb-4">
+     <Swiper
+      modules={[Autoplay]}
+      loop={true}
+      autoplay={{
+        delay: 5000, // 👈 Chuyển sau mỗi 5000ms = 5 giây
+        disableOnInteraction: false,
+      }}
+      className="w-full"
+    >
+      <SwiperSlide>
+        <Image
+          src="/banner.png"
+          alt="Banner 1"
+          width={1584}
+          height={396}
+          className="w-full h-auto object-cover"
+        />
+      </SwiperSlide>
+      <SwiperSlide>
+        <Image
+          src="/banner4.png"
+          alt="Banner 2"
+          width={1584}
+          height={396}
+          className="w-full h-auto object-cover"
+        />
+      </SwiperSlide>
+      <SwiperSlide>
+        <Image
+          src="/banner5.png"
+          alt="Banner 3"
+          width={1584}
+          height={396}
+          className="w-full h-auto object-cover"
+        />
+      </SwiperSlide>
+         <SwiperSlide>
+              <Image
+                src="/banner6.png"
+                alt="Banner 3"
+                width={1584}
+                height={396}
+                className="w-full h-auto object-cover"
+              />
+            </SwiperSlide>
+    </Swiper>
+      </div>
+     <h1 className="text-xl font-bold mb-6 text-center text-red-700 uppercase">
+  Máy Photocopy Trắng Đen – Fujifilm Apeos
+</h1>
+
  {/* Tiêu đề phụ và breadcrumb giống ảnh */}
       <div className="mb-6">
         <h2 className="text-2xl font-bold text-red-700">Máy photocopy trắng đen </h2>
@@ -67,17 +118,17 @@ export default function MayTrangDenPage() {
   
 </div>
 
-        <p className="mt-2 text-[15px]">
+        <p className="mt-2 text-[15px]  text-black">
           Tất cả 7 Máy Photocopy.
         </p>
       </div>
+<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+  {productsBlackWhite.map((product, index) => (
+    <div
+      key={index}
+      className="bg-white border border-gray-200 rounded-xl p-4 shadow hover:shadow-lg transition duration-300 flex flex-col justify-between text-center"
+    >
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-        {productsBlackWhite.map((product, index) => (
-          <div
-            key={index}
-            className="border rounded-lg p-4 text-center flex flex-col justify-between hover:shadow-lg transition"
-          >
             <Link href={`/sanpham/maytrangden/${product.code}`}>
               <Image
                 src={product.image}

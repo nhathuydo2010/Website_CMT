@@ -30,11 +30,11 @@ export default function Footer() {
                     <h3 className="font-bold text-blue-900 mb-2">Hỗ trợ khách hàng</h3>
                     <ul className="space-y-1 list-disc list-inside text-gray-800">
                         <li><a href="#" className="hover:underline">Tìm kiếm</a></li>
-                        <li><a href="#" className="hover:underline">Giới thiệu</a></li>
-                        <li><a href="#" className="hover:underline">Chính sách đổi trả</a></li>
-                        <li><a href="#" className="hover:underline">Chính sách bảo mật</a></li>
-                        <li><a href="#" className="hover:underline">Điều khoản dịch vụ</a></li>
-                        <li><a href="#" className="hover:underline">Liên hệ</a></li>
+                        <li><a href="/gioithieu" className="hover:underline">Giới thiệu</a></li>
+                        <li><a href="/dichvu" className="hover:underline">Chính sách bảo hành</a></li>
+                        <li><a href="/dichvu" className="hover:underline">Chính sách bảo trì</a></li>
+                        <li><a href="/dichvu" className="hover:underline">Cho thuê máy Photocopy</a></li>
+                        <li><a href="/lienhe" className="hover:underline">Liên hệ</a></li>
                     </ul>
                 </div>
  {/* Cột 4: Sơ đồ đường đi */}
