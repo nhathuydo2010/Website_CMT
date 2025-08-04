@@ -7,35 +7,43 @@ export default function LogoSearch() {
   return (
     <div className="w-full bg-white shadow py-3 px-4 sm:px-6 sticky top-0 z-50">
       <div className="flex flex-col md:flex-row md:items-center md:justify-between max-w-screen-xl mx-auto space-y-3 md:space-y-0">
-        
+
         {/* LOGO + TÊN CÔNG TY */}
-        <div className="flex items-center space-x-3 justify-center md:justify-start">
-          <Image src="/logo.png" alt="Logo" width={70} height={45} />
-          <span className="text-red-600 text-center md:text-left text-base md:text-lg font-bold uppercase leading-snug">
-            CÔNG TY CỔ PHẦN MÁY TÍNH VIỆT NAM
-          </span>
-        </div>
+       <div className="flex-shrink-0 flex items-center space-x-3 md:min-w-[280px]">
+  <Image src="/logo.png" alt="Logo" width={80} height={60} />
+  <span className="text-red-600 text-[15px] md:text-[20px] font-bold uppercase leading-snug whitespace-nowrap">
+    CÔNG TY CỔ PHẦN MÁY TÍNH VIỆT NAM
+  </span>
+</div>
 
         {/* THANH TÌM KIẾM */}
-        <div className="w-full md:flex-1 md:mx-8">
-          <SearchBarWithCategoryBoxed
-            products={[
-              ...productsBlackWhite.map((p) => ({ ...p, category: "Trắng Đen" })),
-              ...productsColor.map((p) => ({ ...p, category: "Màu" })),
-            ]}
-            categories={["Trắng Đen", "Màu"]}
-          />
-        </div>
+        <div className="flex-grow md:mx-4">
+  <SearchBarWithCategoryBoxed
+    products={[
+      ...productsBlackWhite.map((p) => ({ ...p, category: "Trắng Đen" })),
+      ...productsColor.map((p) => ({ ...p, category: "Màu" })),
+    ]}
+    categories={["Trắng Đen", "Màu"]}
+  />
+</div>
+        <div className="flex items-center justify-center md:justify-end space-x-6 text-blue-800 font-semibold">
+          {/* Email */}
+        <div className="flex items-center space-x-2">
+    <Image src="/images/mail.png" alt="Mail Icon" width={20} height={20} />
+    <a href="mailto:cmtfujifilm@cmt.vn" className="hover:underline text-[16px]">
+      cmtfujifilm@cmt.vn
+    </a>
+  </div>
 
-        {/* THÔNG TIN LIÊN HỆ */}
-        <div className="flex items-center justify-center md:justify-end space-x-2 text-blue-800 font-semibold">
-          <Image src="/images/phone.png" alt="Phone Icon" width={28} height={28} />
-          <div className="text-sm leading-tight text-center md:text-left">
-            <a href="tel:0908100201" className="block hover:underline">0908.100.201</a>
-            <a href="tel:02838226166" className="block hover:underline">028.382.261.66</a>
-            <a href="tel:02838296594" className="block hover:underline">028.382.965.94</a>
-          </div>
-        </div>  
+  {/* Điện thoại */}
+ <div className="flex items-center space-x-2">
+    <Image src="/images/phone.png" alt="Phone Icon" width={20} height={20} />
+    <a href="tel:0908100201" className="hover:underline text-[16px]">
+      0908.100.201
+    </a>
+  </div>
+</div>
+
       </div>
     </div>
   );

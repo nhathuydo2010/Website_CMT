@@ -81,9 +81,8 @@ export default function LienHePage() {
             <p><strong>CÔNG TY CỔ PHẦN MÁY TÍNH VIỆT NAM</strong></p>
             <p className="flex items-center gap-2"><FaMapMarkerAlt className="text-red-600" /> 26 Lý Tự Trọng, Phường Sài Gòn, Tp.HCM</p>
             <p className="flex items-center gap-2"><FaPhoneAlt className="text-red-600" /> 083.8226.166</p>
-            <p className="flex items-center gap-2"><FaEnvelope className="text-red-600" /> ktxerox@cmt.vn</p>
+            <p className="flex items-center gap-2"><FaEnvelope className="text-red-600" /> cmtfujifilm@cmt.vn</p>
             <p className="flex items-start gap-2"> </p>
-            <p><strong>Mã số thuế:</strong> 0313896779</p>
           </div>
         </div>
       </div>

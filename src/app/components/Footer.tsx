@@ -58,6 +58,11 @@ export default function Footer() {
                     <h3 className="font-bold text-blue-900 mb-2">Chăm sóc khách hàng</h3>
                     <p className="text-blue-700 font-bold text-lg">
                         📞 <a href="tel:02838226166" className="hover:underline">028.382.261.66</a>
+                      
+                    </p>
+                      <p className="text-blue-700 font-bold text-lg">
+                        📞 <a href="tel:02838296594" className="hover:underline">028.382.965.94</a>
+
                     </p>
                 </div>
             </div>

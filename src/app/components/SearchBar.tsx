@@ -72,7 +72,7 @@ export default function SearchBarWithCategoryBoxed({ products = [], categories =
         />
 
         {/* Nút tìm kiếm */}
-        <button className="flex items-center gap-1 px-4 py-2 bg-gray-100 hover:bg-gray-200 text-sm text-gray-700 border-l border-gray-300">
+        <button className="flex items-center gap-1 px-4 py-2 bg-gray-100 hover:bg-gray-200 text-sm text-gray-700 border-l border-gray-300 whitespace-nowrap">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="w-4 h-4 text-gray-500"
