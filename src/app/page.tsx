@@ -2,6 +2,7 @@
   import Image from "next/image";
   import Link from "next/link"; 
   import BannerSlider from './components/BannerSlider';
+    import BannerWrapper from './components/BannerWrapper';
   export default function Header() {
     const productsBlackWhite = [
       {
@@ -126,31 +127,11 @@
 
         <div className="w-full max-w-screen-xl mx-auto py-5 flex justify-center">
           <BannerSlider />
+          <BannerWrapper />
         </div>
 
         {/* MÁY PHOTOCOPY TRẮNG ĐEN */}
     <div className="w-full bg-white" id="mau">
-      <div className="flex w-full max-w-screen-xl mx-auto py-5">
-    {/* BANNER BÊN TRÁI */}
-    <div className="hidden xl:block fixed right-65 top-58 z-30">
-      <Image
-        src="/skybanner.png"
-        alt="Skyscraper Banner"
-        width={160} // hoặc 200 tùy độ rộng mong muốn
-        height={600} // hoặc chiều cao ảnh thật
-        className="rounded shadow-lg"
-      />
-    </div>
-      <div className="hidden xl:block fixed left-65 top-58 z-30">
-      <Image
-        src="/skybanner1.png"
-        alt="Skyscraper Banner"
-        width={160} // hoặc 200 tùy độ rộng mong muốn
-        height={600} // hoặc chiều cao ảnh thật
-        className="rounded shadow-lg"
-      />
-    </div>
-      </div>
       
     <div className="w-full max-w-[1000px] mx-auto">
       <a
