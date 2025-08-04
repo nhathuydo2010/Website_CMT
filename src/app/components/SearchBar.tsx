@@ -1,7 +1,7 @@
-'use client';
+"use client";
 
-import { useState, useRef, useEffect } from 'react';
-import Link from 'next/link';
+import { useState, useRef, useEffect } from "react";
+import Link from "next/link";
 
 interface Product {
   name: string;
@@ -16,9 +16,12 @@ interface Props {
   categories: string[];
 }
 
-export default function SearchBarWithCategoryBoxed({ products = [], categories = [] }: Props) {
-  const [query, setQuery] = useState('');
-  const [category, setCategory] = useState('Tất cả');
+export default function SearchBarWithCategoryBoxed({
+  products = [],
+  categories = [],
+}: Props) {
+  const [query, setQuery] = useState("");
+  const [category, setCategory] = useState("Tất cả");
   const [showResults, setShowResults] = useState(false);
   const wrapperRef = useRef<HTMLDivElement>(null);
 
@@ -27,31 +30,35 @@ export default function SearchBarWithCategoryBoxed({ products = [], categories =
       item.name.toLowerCase().includes(query.toLowerCase()) ||
       item.code.toLowerCase().includes(query.toLowerCase());
     const matchCategory =
-      category === 'Tất cả' || item.category?.toLowerCase() === category.toLowerCase();
+      category === "Tất cả" ||
+      item.category?.toLowerCase() === category.toLowerCase();
     return matchKeyword && matchCategory;
   });
 
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
-      if (wrapperRef.current && !wrapperRef.current.contains(event.target as Node)) {
+      if (
+        wrapperRef.current &&
+        !wrapperRef.current.contains(event.target as Node)
+      ) {
         setShowResults(false);
       }
     };
-    document.addEventListener('mousedown', handleClickOutside);
-    return () => document.removeEventListener('mousedown', handleClickOutside);
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
   }, []);
 
   return (
     <div className="relative w-full max-w-2xl mx-auto" ref={wrapperRef}>
-      {/* Khung chính: Dropdown + Input + Button */}
-      <div className="flex items-center w-full rounded-md overflow-hidden border border-gray-300 bg-white shadow-sm">
+      {/* Thanh tìm kiếm */}
+      <div className="flex flex-col sm:flex-row w-full rounded-lg overflow-hidden border border-gray-300 bg-white shadow-sm focus-within:shadow-md transition">
         {/* Dropdown danh mục */}
         <select
           value={category}
           onChange={(e) => setCategory(e.target.value)}
-          className="px-3 py-2 text-sm text-black bg-white outline-none border-r border-gray-300"
+          className="px-3 py-2 text-sm text-gray-700 bg-gray-50 outline-none border-b sm:border-b-0 sm:border-r border-gray-300 w-full sm:w-40 focus:bg-white"
         >
-          <option value="Tất cả">Tất cả danh mục</option>
+          <option value="Tất cả">Tất cả sản phẩm</option>
           {categories.map((cat, idx) => (
             <option key={idx} value={cat}>
               {cat}
@@ -93,34 +100,41 @@ export default function SearchBarWithCategoryBoxed({ products = [], categories =
 
       {/* Kết quả gợi ý */}
       {showResults && query.length > 1 && (
-        <ul className="absolute z-[900] top-full left-0 right-0 mt-1 bg-white border border-gray-300 rounded shadow-lg max-h-[300px] overflow-y-auto">
+        <ul className="absolute z-[900] top-full left-0 right-0 mt-2 bg-white border border-gray-200 rounded-lg shadow-lg max-h-[300px] overflow-y-auto text-sm">
           {filtered.length > 0 ? (
             filtered.map((item, idx) => (
               <li
                 key={idx}
-                className="flex items-start space-x-3 p-2 hover:bg-gray-100 cursor-pointer"
+                className="flex items-center space-x-3 p-3 hover:bg-gray-100 cursor-pointer transition"
               >
                 <img
                   src={item.image}
                   alt={item.name}
-                  width={40}
-                  height={40}
-                  className="object-contain"
+                  width={45}
+                  height={45}
+                  className="object-contain rounded border"
                 />
                 <div className="flex-1">
                   <Link
-                    href={`/sanpham/${item.category?.toLowerCase() === 'màu' ? 'maymau' : 'maytrangden'
-                      }/${item.code}`}
-                    className="text-sm font-medium text-blue-700 hover:underline"
+                    href={`/sanpham/${
+                      item.category?.toLowerCase() === "màu"
+                        ? "maymau"
+                        : "maytrangden"
+                    }/${item.code}`}
+                    className="text-gray-800 font-medium hover:underline"
                   >
                     {item.name}
                   </Link>
-                  <p className="text-red-600 text-sm font-semibold">{item.price} VNĐ</p>
+                  <p className="text-red-600 font-semibold text-sm mt-1">
+                    {item.price} VNĐ
+                  </p>
                 </div>
               </li>
             ))
           ) : (
-            <li className="p-2 text-sm text-gray-500">Không tìm thấy kết quả</li>
+            <li className="p-3 text-gray-500 text-center">
+              Không tìm thấy kết quả
+            </li>
           )}
         </ul>
       )}
