@@ -23,6 +23,8 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+   overflow-x: hidden;
+  max-width: 100vw;
 }
 
 /* ======= Hiệu ứng chạy chữ (marquee) ======= */
@@ -64,3 +66,28 @@ body {
   color: #1d4ed8; /* màu xanh dương đậm */
   top: 40%;
 }
+@media (max-width: 1023px) {
+  .skybanner {
+    display: none !important;
+  }
+}
+/* ✅ Responsive fix cho iPhone và mobile */
+@media (max-width: 1023px) {
+  .skybanner {
+    display: none !important;
+  }
+
+  /* ✅ Thêm padding nhẹ để nội dung không sát viền */
+  body {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+
+  /* ✅ Fix lỗi tràn nội dung nếu có */
+  .container,
+  .wrapper,
+  .page-wrapper,
+  .main-content {
+    max-width: 100%;
+    overflow-x: hidden;
+  }}

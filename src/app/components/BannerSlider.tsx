@@ -11,6 +11,7 @@ export default function BannerSlider() {
     "/banner1.png",
     "/banner3.png",
      "/banner2.png",
+      "/banner7.png",
   ];
 
   return (

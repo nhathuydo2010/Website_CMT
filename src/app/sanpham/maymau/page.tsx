@@ -154,7 +154,7 @@ export default function MayMAUPage() {
         {productsColor.map((product, index) => (
           <div
             key={index}
-            className="border rounded-lg p-4 text-center flex flex-col justify-between hover:shadow-lg transition"
+            className="border rounded-2xl shadow-xl p-4 flex flex-col h-full hover:shadow-2xl transition-shadow duration-300 text-center"
           >
             <Link href={`/sanpham/maymau/${product.code}`}>
               <Image

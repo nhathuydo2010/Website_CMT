@@ -42,7 +42,7 @@ const navItems = [
   },
   { label: "TIN TỨC & SỰ KIỆN", href: "#" },
   { label: "DỊCH VỤ", href: "/dichvu" },
-  { label: "TUYỂN DỤNG", href: "/tuyendung" },
+  { label: "TUYỂN DỤNG", href: "#" },
   { label: "LIÊN HỆ", href: "/lienhe" },
 ];
 

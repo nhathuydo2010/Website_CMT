@@ -7,19 +7,19 @@ import { useState } from 'react';
 import RelatedProductSlider from '../../../components/RelatedProductSlider'
 const productsBlackWhite = [
   {
-    name: 'Máy Photocopy Apeos 2560',
+    name: 'Máy Photocopy Apeos A2560',
     image: '/productsBlackWhite/Apeos 356030602560.png',
     price: 'Liên Hệ',
   },
   {
-    name: 'Máy Photocopy Apeos 3570',
+    name: 'Máy Photocopy Apeos A3570',
     image: '/productsBlackWhite/Apeos 3570.png',
     price: 'Liên Hệ',
   },
   // Add more products as needed
 ];
 const product = {
-  name: "Máy Photocopy Apeos 5570",
+  name: "Máy Photocopy Apeos A5570",
   price: "Liên Hệ",
   image: "/productsBlackWhite/Apeos 5570 4570.png",
   specs: [
@@ -128,7 +128,7 @@ export default function Product7580Page() {
         <div className="lg:w-2/3 w-full">
           <h2 className="text-xl font-bold text-black mb-4 uppercase">Mô Tả Sản Phẩm</h2>
           <h3 className="text-[30px] font-bold text-red-700 mb-2">
-            Máy Photocopy Apeos 5570
+            Máy Photocopy Apeos A5570
           </h3>
           <h4 className="text-lg font-semibold text-blue-700 mb-2">
             Hiệu suất vượt trội, vận hành thông minh

@@ -8,7 +8,7 @@ import RelatedProductSlider from '../../../components/RelatedProductSlider'
 // Example productsBlackWhite array, replace with your actual data or import
 const productsBlackWhite = [
   {
-    name: 'Máy Photocopy Apeos 3060',
+    name: 'Máy Photocopy Apeos A3060',
     image: '/productsBlackWhite/Apeos 356030602560.png',
     price: 'Liên Hệ',
   },
@@ -21,7 +21,7 @@ const productsBlackWhite = [
 ];
 
 const product = {
-  name: 'Máy Photocopy Apeos 3060',
+  name: 'Máy Photocopy Apeos A3060',
   price: 'Liên Hệ',
   image: '/productsBlackWhite/Apeos 356030602560.png',
   specs: [
@@ -45,7 +45,7 @@ const product = {
 };
 export default function Product7580Page() {
   const relatedProducts = productsBlackWhite.filter(
-    (product) => product.name !== 'Máy Photocopy Apeos 2560'
+    (product) => product.name !== 'Máy Photocopy Apeos A3060'
   );
 
   const [showFullDescription, setShowFullDescription] = useState(false);
@@ -128,13 +128,13 @@ export default function Product7580Page() {
         <div className="lg:w-2/3 w-full">
           <h2 className="text-xl font-bold text-black mb-4 uppercase">Mô Tả Sản Phẩm</h2>
           <h3 className="text-[30px] font-bold text-blue-700 mb-2">
-            Máy Photocopy Apeos 3060
+            Máy Photocopy Apeos A3060
           </h3>
           <h4 className="text-lg font-semibold text-blue-700 mb-2">
             Nhỏ gọn – Hiệu suất cao – Bảo mật toàn diện – Hỗ trợ làm việc từ xa
           </h4>
           <p className="text-black text-justify mb-4">
-            <strong>Apeos 2560</strong> là dòng thiết bị đa chức năng đen trắng A3 đến từ <strong>FUJIFILM Business Innovation</strong>,
+            <strong>Apeos A3060</strong> là dòng thiết bị đa chức năng đen trắng A3 đến từ <strong>FUJIFILM Business Innovation</strong>,
             mang đến khả năng vận hành nhanh chóng, chất lượng in ấn vượt trội và độ bảo mật cao.
             Thiết bị hỗ trợ làm việc linh hoạt trong môi trường văn phòng hiện đại hoặc từ xa, với giao diện dễ sử dụng và khả năng tích hợp mạnh mẽ
             với các dịch vụ điện toán đám mây và thiết bị di động.

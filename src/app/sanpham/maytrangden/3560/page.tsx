@@ -8,12 +8,12 @@ import RelatedProductSlider from '../../../components/RelatedProductSlider'
 // Example productsBlackWhite array, replace with your actual data or import
 const productsBlackWhite = [
   {
-    name: 'Máy Photocopy Apeos 2560',
+    name: 'Máy Photocopy Apeos A2560',
     image: '/productsBlackWhite/Apeos 356030602560.png',
     price: 'Liên Hệ',
   },
   {
-    name: 'Máy Photocopy Apeos 3570',
+    name: 'Máy Photocopy Apeos A3570',
     image: '/productsBlackWhite/Apeos 3570.png',
     price: 'Liên Hệ',
   },
@@ -21,7 +21,7 @@ const productsBlackWhite = [
 ];
 
 const product = {
-  name: 'Máy Photocopy Apeos 3560',
+  name: 'Máy Photocopy Apeos A3560',
   price: 'Liên Hệ',
   image: '/productsBlackWhite/Apeos 356030602560.png',
   specs: [
@@ -45,7 +45,7 @@ const product = {
 };
 export default function Product7580Page() {
   const relatedProducts = productsBlackWhite.filter(
-    (product) => product.name !== 'Máy Photocopy Apeos 2560'
+    (product) => product.name !== 'Máy Photocopy Apeos A2560'
   );
 
   const [showFullDescription, setShowFullDescription] = useState(false);
@@ -128,7 +128,7 @@ export default function Product7580Page() {
         <div className="lg:w-2/3 w-full">
           <h2 className="text-xl font-bold text-black mb-4 uppercase">Mô Tả Sản Phẩm</h2>
           <h3 className="text-[30px] font-bold text-blue-700 mb-2">
-            Máy Photocopy Apeos 3560
+            Máy Photocopy Apeos A3560
           </h3>
           <h4 className="text-lg font-semibold text-blue-700 mb-2">
             Nhỏ gọn – Hiệu suất cao – Bảo mật toàn diện – Hỗ trợ làm việc từ xa
