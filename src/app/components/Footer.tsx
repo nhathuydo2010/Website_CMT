@@ -1,6 +1,8 @@
 export default function Footer() {
     return (
-        <footer className="bg-white border-t mt-12 text-sm text-gray-700">
+        <footer 
+           id="footer"  // ← Thêm dòng này để BannerWrapper nhận diện đúng vị trí
+      className="bg-white border-t mt-12 text-sm text-gray-700">
             <div className="max-w-screen-xl mx-auto py-8 px-4 grid grid-cols-1 md:grid-cols-4 gap-x-8">
                 
                 {/* Cột 1: Thông tin liên hệ */}
