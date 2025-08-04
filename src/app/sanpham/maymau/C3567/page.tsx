@@ -198,7 +198,7 @@ export default function Product7580Page() {
                           <li>Kết nối ngay lập tức với các nút ứng dụng</li>
                           <li>Truy cập nhanh các cài đặt thường dùng</li>
                           <li>
-                            Trên màn hình Ghim, bạn có thể bắt đầu lại tác vụ từ lịch sử tác vụ. Các cài đặt thường dùng có thể "ghim" lại được để tiết kiệm thời gian.
+                            Trên màn hình Ghim, bạn có thể bắt đầu lại tác vụ từ lịch sử tác vụ. Các cài đặt thường dùng có thể &quot;ghim&quot; lại được để tiết kiệm thời gian.
                           </li>
                           <li>
                             Màn hình trang chính thân thiện với người dùng<br />
