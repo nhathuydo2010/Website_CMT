@@ -4,7 +4,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { useState } from 'react';
-import RelatedProductSlider1 from '../../../components/RelatedProductSliderColor'
+import RelatedProductSliderColor from '../../../components/RelatedProductSliderColor'
 export const productsColor = [
   {
     name: 'Máy Photocopy Apeos C7071',
@@ -144,7 +144,7 @@ export default function Product7580Page() {
           </div>
         </div>
       </div>
-      <RelatedProductSlider1 />
+      <RelatedProductSliderColor />
       {/* 🔻 Mô tả & Thông số kỹ thuật trong cùng 1 hàng */}
       <div className="mt-12 flex flex-col lg:flex-row gap-8">
 

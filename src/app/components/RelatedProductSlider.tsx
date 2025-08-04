@@ -5,8 +5,9 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import Image from 'next/image';
 import Link from 'next/link';
-import { Navigation } from 'swiper/modules';
+import { Navigation, Autoplay } from 'swiper/modules'; // Thêm Autoplay
 import 'swiper/css/navigation';
+import 'swiper/css/autoplay'; // Import CSS autoplay
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 export default function RelatedProductSlider() {
@@ -32,10 +33,14 @@ export default function RelatedProductSlider() {
           768: { slidesPerView: 3 },
           1024: { slidesPerView: 4 },
         }}
-        modules={[Navigation]}
+        modules={[Navigation, Autoplay]}
         navigation={{
           nextEl: '.swiper-button-next-custom',
           prevEl: '.swiper-button-prev-custom',
+        }}
+        autoplay={{
+          delay: 3000,
+          disableOnInteraction: false,
         }}
       >
         {productsBlackWhite.map((item) => (

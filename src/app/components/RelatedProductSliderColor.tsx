@@ -1,12 +1,13 @@
 'use client';
 
-import { productsColor } from './productsColor'; // đường dẫn đúng tới file dữ liệu sản phẩm màu
+import { productsColor } from './productsColor';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import Image from 'next/image';
 import Link from 'next/link';
-import { Navigation } from 'swiper/modules';
+import { Navigation, Autoplay } from 'swiper/modules'; // Thêm Autoplay
 import 'swiper/css/navigation';
+import 'swiper/css/autoplay'; // Thêm CSS autoplay
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 export default function RelatedProductSliderColor() {
@@ -32,10 +33,14 @@ export default function RelatedProductSliderColor() {
           768: { slidesPerView: 3 },
           1024: { slidesPerView: 4 },
         }}
-        modules={[Navigation]}
+        modules={[Navigation, Autoplay]} // Thêm module Autoplay
         navigation={{
           nextEl: '.swiper-button-next-color',
           prevEl: '.swiper-button-prev-color',
+        }}
+        autoplay={{
+          delay: 3000, // chạy mỗi 3 giây
+          disableOnInteraction: false, // vẫn tiếp tục sau khi tương tác
         }}
       >
         {productsColor.map((item) => (

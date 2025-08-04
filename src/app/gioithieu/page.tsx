@@ -77,7 +77,7 @@ export default function GioiThieuPage() {
           </div>
           <div>
             <Image
-              src="/images/fujifilm.jpeg"
+              src="/images/fujifilm.png"
               alt="Fujifilm photocopy"
               width={600}
               height={400}

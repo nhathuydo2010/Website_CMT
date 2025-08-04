@@ -28,7 +28,7 @@ export default function Footer() {
                 </div>
 
                 {/* Cột 2: Hỗ trợ khách hàng */}
-                <div className="border-l pl-4">
+                <div className="border-0 pl-0">
                     <h3 className="font-bold text-blue-900 mb-2">Hỗ trợ khách hàng</h3>
                     <ul className="space-y-1 list-disc list-inside text-gray-800">
                         <li><a href="#" className="hover:underline">Tìm kiếm</a></li>
@@ -40,7 +40,7 @@ export default function Footer() {
                     </ul>
                 </div>
  {/* Cột 4: Sơ đồ đường đi */}
-                <div className="border-l pl-4">
+                <div className="border-0 pl-0">
                     <h3 className="font-bold text-blue-900 mb-2">Sơ đồ đường đi</h3>
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.5008162012673!2d106.7003386!3d10.7782564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f47e034caa3%3A0xed52e7103d821b4e!2zMjYgTMO9IFThu6sgVHLhu41uZywgQsOqbiBOZ2jhu4ssIFF14bqtbiAxLCBI4buTIENow60gTWluaCwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2sus!4v1719400176436!5m2!1svi!2sus"
@@ -54,7 +54,7 @@ export default function Footer() {
                     ></iframe>
                 </div>
                 {/* Cột 3: Chăm sóc khách hàng */}
-                <div className="border-l pl-4">
+                <div className="border-0  pl-0">
                     <h3 className="font-bold text-blue-900 mb-2">Chăm sóc khách hàng</h3>
                     <p className="text-blue-700 font-bold text-lg">
                         📞 <a href="tel:02838226166" className="hover:underline">028.382.261.66</a>
