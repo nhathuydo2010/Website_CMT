@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { useState } from "react";
 
 const navItems = [
   { label: "TRANG CHỦ", href: "/" },
@@ -47,16 +48,19 @@ const navItems = [
 ];
 
 export default function Navbar() {
+  const [isOpen, setIsOpen] = useState(false);
+  const [openSubmenu, setOpenSubmenu] = useState<number | null>(null);
+
   return (
-    <nav className="bg-red-600 text-white font-semibold text-sm sticky top-[1px] z-40">
-      <ul className="flex justify-center space-x-10 py-3 relative">
+    <nav className="bg-red-600 text-white font-semibold text-sm sticky top-0 z-40">
+      {/* Desktop Menu */}
+      <ul className="hidden md:flex justify-center space-x-10 py-3 relative">
         {navItems.map((item, index) => (
           <li key={index} className="relative group">
-            {/* Nếu có submenu */}
             {item.submenu ? (
               <>
                 <button className="hover:underline">{item.label}</button>
-               <ul className="absolute top-full left-0 bg-white text-black shadow-lg min-w-[250px] rounded-md opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50">
+                <ul className="absolute top-full left-0 bg-white text-black shadow-lg min-w-[250px] rounded-md opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50">
                   {item.submenu.map((sub, subIndex) => (
                     <li key={subIndex} className="relative group/submenu">
                       <div className="flex items-center justify-between px-4 py-2 hover:bg-gray-100 cursor-pointer">
@@ -65,12 +69,13 @@ export default function Navbar() {
                         </Link>
                         {sub.children && <span className="ml-2">&#9656;</span>}
                       </div>
-                      {/* Submenu cấp 2 */}
                       {sub.children && (
                         <ul className="absolute top-0 left-full bg-white text-black shadow-lg min-w-[220px] rounded-md opacity-0 invisible group-hover/submenu:opacity-100 group-hover/submenu:visible transition-all duration-300 z-50">
-
                           {sub.children.map((child, childIndex) => (
-                            <li key={childIndex}   className="px-4 py-2 hover:bg-gray-100 transition-all duration-200 rounded-md whitespace-nowrap">
+                            <li
+                              key={childIndex}
+                              className="px-4 py-2 hover:bg-gray-100 transition-all duration-200 rounded-md whitespace-nowrap"
+                            >
                               <Link href={`${sub.href}/${child.code}`}>
                                 Máy Photocopy {child.label}
                               </Link>
@@ -90,6 +95,58 @@ export default function Navbar() {
           </li>
         ))}
       </ul>
+
+      {/* Mobile Menu */}
+      <div className="md:hidden px-4 py-3 flex justify-between items-center">
+        <h1 className="text-lg font-bold">MENU</h1>
+        <button onClick={() => setIsOpen(!isOpen)} className="text-white text-2xl">
+          ☰
+        </button>
+      </div>
+      {isOpen && (
+        <ul className="md:hidden bg-white text-black shadow-lg space-y-2 px-4 py-3">
+          {navItems.map((item, index) => (
+            <li key={index}>
+              {item.submenu ? (
+                <>
+                  <button
+                    onClick={() => setOpenSubmenu(openSubmenu === index ? null : index)}
+                    className="w-full text-left py-2 font-semibold flex justify-between items-center"
+                  >
+                    {item.label} <span>{openSubmenu === index ? "▲" : "▼"}</span>
+                  </button>
+                  {openSubmenu === index && (
+                    <ul className="pl-4 space-y-1">
+                      {item.submenu.map((sub, subIndex) => (
+                        <li key={subIndex}>
+                          <Link href={sub.href} className="block py-2">
+                            {sub.label}
+                          </Link>
+                          {sub.children && (
+                            <ul className="pl-4 text-sm text-gray-600">
+                              {sub.children.map((child, childIndex) => (
+                                <li key={childIndex}>
+                                  <Link href={`${sub.href}/${child.code}`} className="block py-1">
+                                    Máy Photocopy {child.label}
+                                  </Link>
+                                </li>
+                              ))}
+                            </ul>
+                          )}
+                        </li>
+                      ))}
+                    </ul>
+                  )}
+                </>
+              ) : (
+                <Link href={item.href} className="block py-2 font-semibold">
+                  {item.label}
+                </Link>
+              )}
+            </li>
+          ))}
+        </ul>
+      )}
     </nav>
   );
 }
