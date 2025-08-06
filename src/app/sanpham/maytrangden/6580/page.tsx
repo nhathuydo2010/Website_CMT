@@ -2,22 +2,21 @@
 'use client';
 
 import Image from 'next/image';
-import Link from 'next/link';
 import { useState } from 'react';
 import RelatedProductSlider from '../../../components/RelatedProductSlider'
-const productsBlackWhite = [
-  {
-    name: 'Máy Photocopy Apeos A2560',
-    image: '/productsBlackWhite/Apeos 356030602560.png',
-    price: 'Liên Hệ',
-  },
-  {
-    name: 'Máy Photocopy Apeos A3570',
-    image: '/productsBlackWhite/Apeos 3570.png',
-    price: 'Liên Hệ',
-  },
-  // Add more products as needed
-];
+// const productsBlackWhite = [
+//   {
+//     name: 'Máy Photocopy Apeos A2560',
+//     image: '/productsBlackWhite/Apeos 356030602560.png',
+//     price: 'Liên Hệ',
+//   },
+//   {
+//     name: 'Máy Photocopy Apeos A3570',
+//     image: '/productsBlackWhite/Apeos 3570.png',
+//     price: 'Liên Hệ',
+//   },
+//   // Add more products as needed
+// ];
 
 const product = {
   name: "Máy Photocopy Apeos A6580",
@@ -52,7 +51,7 @@ export default function Product7580Page() {
   const [showFullSpecs, setShowFullSpecs] = useState(false);
 
   return (
-    <div className="w-full max-w-6xl mx-auto px-4 py-8">
+    <div className="bg-white/90 max-w-[1100px] mx-auto rounded-2xl shadow-xl p-4 md:p-6 mt-10">
       <div className="flex flex-col lg:flex-row gap-8">
         <div className="relative w-full lg:w-1/2 border p-4">
           <Image
@@ -162,7 +161,7 @@ export default function Product7580Page() {
                       <p>Khởi động nhanh, cho ra giấy nhanh là những lợi thế mà thiết bị này có thể đáp ứng cho những tình huống cần thiết, nhờ với các tính năng sau</p>
                       <ul className="list-disc pl-5 space-y-1">
                         <li>Thời gian cho ra bản sao chụp đầu tiên 3,0 giây*</li>
-                        <li>Smart WelcomEyes phát hiện thấy người dùng và tự động "đánh thức" thiết bị từ chế độ nghỉ.</li>
+                        <li>Smart WelcomEyes phát hiện thấy người dùng và tự động đánh thức thiết bị từ chế độ nghỉ.</li>
                         <li>Khởi động từ chế độ nghỉ chỉ trong 30 giây.</li>
                       </ul>
                       <p>Dự đoán thời gian hoàn thành tác vụ in để quản lý công việc hiệu quả hơn</p>
@@ -221,12 +220,12 @@ export default function Product7580Page() {
 
                     <div>
                       <h3 className="font-semibold text-cyan-700 mb-2">
-                        Điện thoại thông minh trở thành "bảng điều khiển di động"
+                        Điện thoại thông minh trở thành bảng điều khiển di động
                       </h3>
                       <p>Kết nối liền mạch với các thiết bị di động cho các tác vụ sao chụp, Fax, In, Quét*1 bằng cách sử dụng ứng dụng Print Utility*2.</p>
                       <ul className="list-disc pl-5 space-y-1">
                         <li>Thiết bị di động có thể được sử dụng làm giao diện người dùng thay thế để kiểm soát hoạt động nhằm giảm tiếp xúc chung.</li>
-                        <li>Các cài đặt thường xuyên sử dụng có thể được lưu dưới dạng "Yêu thích"</li>
+                        <li>Các cài đặt thường xuyên sử dụng có thể được lưu dưới dạng Yêu thích</li>
                         <li>Gửi fax hoặc email trực tiếp tới các địa chỉ được lưu trữ trong điện thoại thông minh</li>
                         <li>Hạn chế tiếp xúc với máy in để đảm bảo vệ sinh</li>
                         <li>Thiết lập kết nối Wi-Fi trực tiếp nhanh chóng bằng cách quét mã QR trên bảng điều khiển người dùng</li>
@@ -412,7 +411,7 @@ export default function Product7580Page() {
                     </h2>
                     <div>
                       <h3 className="font-semibold text-cyan-700 mb-2">
-                        Giải quyết vấn đề bằng chức năng "Trợ giúp" trên thiết bị
+                        Giải quyết vấn đề bằng chức năng Trợ giúp trên thiết bị
                       </h3>
                       <ul className="list-disc pl-5 space-y-1">
                         <li>Thông tin Tự trợ giúp có sẵn trên bảng điều khiển</li>
@@ -422,7 +421,7 @@ export default function Product7580Page() {
 
                     <div>
                       <h3 className="font-semibold text-cyan-700 mb-2">
-                        "Hỗ trợ từ xa" với sự hỗ trợ của người vận hành
+                        Hỗ trợ từ xa với sự hỗ trợ của người vận hành
                       </h3>
                       <ul className="list-disc pl-5 space-y-1">
                         <li>Kết nối trực tiếp với Trung tâm trợ giúp</li>

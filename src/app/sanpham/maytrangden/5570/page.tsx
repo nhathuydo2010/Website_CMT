@@ -2,22 +2,22 @@
 'use client';
 
 import Image from 'next/image';
-import Link from 'next/link';
+
 import { useState } from 'react';
 import RelatedProductSlider from '../../../components/RelatedProductSlider'
-const productsBlackWhite = [
-  {
-    name: 'Máy Photocopy Apeos A2560',
-    image: '/productsBlackWhite/Apeos 356030602560.png',
-    price: 'Liên Hệ',
-  },
-  {
-    name: 'Máy Photocopy Apeos A3570',
-    image: '/productsBlackWhite/Apeos 3570.png',
-    price: 'Liên Hệ',
-  },
-  // Add more products as needed
-];
+// const productsBlackWhite = [
+//   {
+//     name: 'Máy Photocopy Apeos A2560',
+//     image: '/productsBlackWhite/Apeos 356030602560.png',
+//     price: 'Liên Hệ',
+//   },
+//   {
+//     name: 'Máy Photocopy Apeos A3570',
+//     image: '/productsBlackWhite/Apeos 3570.png',
+//     price: 'Liên Hệ',
+//   },
+//   // Add more products as needed
+// ];
 const product = {
   name: "Máy Photocopy Apeos A5570",
   price: "Liên Hệ",
@@ -51,7 +51,7 @@ export default function Product7580Page() {
   const [showFullSpecs, setShowFullSpecs] = useState(false);
 
   return (
-    <div className="w-full max-w-6xl mx-auto px-4 py-8">
+    <div className="bg-white/90 max-w-[1100px] mx-auto rounded-2xl shadow-xl p-4 md:p-6 mt-10">
       <div className="flex flex-col lg:flex-row gap-8">
         <div className="relative w-full lg:w-1/2 border p-4">
           <Image

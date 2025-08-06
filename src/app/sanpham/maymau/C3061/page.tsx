@@ -2,24 +2,24 @@
 'use client';
 
 import Image from 'next/image';
-import Link from 'next/link';
+
 import { useState } from 'react';
 import RelatedProductSliderColor from '../../../components/RelatedProductSliderColor'
-export const productsColor = [
-  {
-    name: 'Máy Photocopy Apeos C7071',
-    price: 'Liên Hệ',
-    code: 'C7071',
-    image: '/productsColor/Apeos C7071-C6571-C5571-C4571.png',
-  },
-  {
-    name: 'Máy Photocopy Apeos C6571',
-    price: 'Liên Hệ',
-    code: 'C6571',
-    image: '/productsColor/Apeos C7071-C6571-C5571-C4571.png',
-  },
-  // Add more products as needed
-];
+// export const productsColor = [
+//   {
+//     name: 'Máy Photocopy Apeos C7071',
+//     price: 'Liên Hệ',
+//     code: 'C7071',
+//     image: '/productsColor/Apeos C7071-C6571-C5571-C4571.png',
+//   },
+//   {
+//     name: 'Máy Photocopy Apeos C6571',
+//     price: 'Liên Hệ',
+//     code: 'C6571',
+//     image: '/productsColor/Apeos C7071-C6571-C5571-C4571.png',
+//   },
+//   // Add more products as needed
+// ];
 const product = {
   name: "Máy Photocopy Apeos C3061",
   price: "Liên Hệ",
@@ -49,7 +49,7 @@ export default function Product7580Page() {
   const [showFullSpecs, setShowFullSpecs] = useState(false);
 
   return (
-    <div className="w-full max-w-6xl mx-auto px-4 py-8">
+    <div className="bg-white/90 max-w-[1100px] mx-auto rounded-2xl shadow-xl p-4 md:p-6 mt-10">
       <div className="flex flex-col lg:flex-row gap-8">
         <div className="relative w-full lg:w-1/2 border p-4">
           <Image
@@ -164,7 +164,7 @@ export default function Product7580Page() {
                         <li>Màn hình cảm ứng 7 inch thân thiện, tùy biến ứng dụng theo người dùng</li>
                         <li>Hỗ trợ kết nối thông minh qua QR Code, NFC, AirPrint, Mopria, và ứng dụng Print Utility</li>
                       </ul>
-                      <img src="/images/vanhanh8.png" alt="Bố trí linh hoạt" className="mx-auto rounded-lg shadow mt-3" />
+                      <Image src="/images/vanhanh8.png" alt="Bố trí linh hoạt" className="mx-auto rounded-lg shadow mt-3" />
                     </div>
 
                     <div>
@@ -201,7 +201,7 @@ export default function Product7580Page() {
                       <p className="text-sm italic mt-1">
                         *1: Định lượng giấy từ 52 đến 300 gsm.
                         <br />*2: Giấy dài lên tới 297 x 1.200 mm
-                        <img src="/images/vanhanh9.png" alt="Bố trí linh hoạt" className="w-full max-w-[300px] mx-auto rounded-lg shadow mt-3" />
+                        <Image src="/images/vanhanh9.png" alt="Bố trí linh hoạt" className="w-full max-w-[300px] mx-auto rounded-lg shadow mt-3" />
                       </p>
                     </div>
                     <div>
@@ -214,7 +214,7 @@ export default function Product7580Page() {
                         <li>Có thể “ghim” cài đặt hay dùng để truy cập nhanh mỗi ngày</li>
                         <li>Hỗ trợ kết nối thiết bị di động qua quét mã QR hoặc NFC</li>
                         <li>Dễ dàng thực hiện các tác vụ Sao chụp, In, Quét, Fax bằng ứng dụng Print Utility</li>
-                        <img src="/images/vanhanh10.png" alt="Bố trí linh hoạt" className="w-full max-w-[400px] mx-auto rounded-lg shadow mt-3" />
+                        <Image src="/images/vanhanh10.png" alt="Bố trí linh hoạt" className="w-full max-w-[400px] mx-auto rounded-lg shadow mt-3" />
                       </ul>
                     </div>
 
@@ -240,7 +240,7 @@ export default function Product7580Page() {
                       <p>Tên tệp có thể được chỉ định từ các cài đặt trước trên màn hình
                         giao diện người dùng, đảm bảo các tệp được quét sẽ không bị thất
                         lạc trên máy tính.</p>
-                      <img src="/images/vanhanh11.png" alt="Bố trí linh hoạt" className="w-full max-w-[400px] mx-auto rounded-lg shadow mt-3" />
+                      <Image src="/images/vanhanh11.png" alt="Bố trí linh hoạt" className="w-full max-w-[400px] mx-auto rounded-lg shadow mt-3" />
                     </div>
                   </div>
                 </div>

@@ -2,24 +2,24 @@
 'use client';
 
 import Image from 'next/image';
-import Link from 'next/link';
+
 import { useState } from 'react';
 import RelatedProductSliderColor from '../../../components/RelatedProductSliderColor'
-export const productsColor = [
-  {
-    name: 'Máy Photocopy Apeos C7071',
-    price: 'Liên Hệ',
-    code: 'C7071',
-    image: '/productsColor/Apeos C7071-C6571-C5571-C4571.png',
-  },
-  {
-    name: 'Máy Photocopy Apeos C6571',
-    price: 'Liên Hệ',
-    code: 'C6571',
-    image: '/productsColor/Apeos C7071-C6571-C5571-C4571.png',
-  },
-  // Add more products as needed
-];
+// export const productsColor = [
+//   {
+//     name: 'Máy Photocopy Apeos C7071',
+//     price: 'Liên Hệ',
+//     code: 'C7071',
+//     image: '/productsColor/Apeos C7071-C6571-C5571-C4571.png',
+//   },
+//   {
+//     name: 'Máy Photocopy Apeos C6571',
+//     price: 'Liên Hệ',
+//     code: 'C6571',
+//     image: '/productsColor/Apeos C7071-C6571-C5571-C4571.png',
+//   },
+//   // Add more products as needed
+// ];
 const product = {
   name: "Máy Photocopy Apeos C3567",
   price: "Liên Hệ",
@@ -58,7 +58,7 @@ export default function Product7580Page() {
   const [showFullSpecs, setShowFullSpecs] = useState(false);
 
   return (
-    <div className="w-full max-w-6xl mx-auto px-4 py-8">
+    <div className="bg-white/90 max-w-[1100px] mx-auto rounded-2xl shadow-xl p-4 md:p-6 mt-10">
       <div className="flex flex-col lg:flex-row gap-8">
         <div className="relative w-full lg:w-1/2 border p-4">
           <Image
@@ -169,7 +169,7 @@ export default function Product7580Page() {
                       <p>Bằng cách liên kết Apeos C3567 / C3067 / C2567 với FUJIFILM IWpro*, bạn có thể tự động hóa quy trình làm việc đã được chuẩn hóa như quét tài liệu, sắp xếp, xử lý, chia sẻ, quản lý và xuất dữ liệu trên đám mây. Các dịch vụ bên thứ ba cũng có thể được tích hợp liền mạch với FUJIFILM IWpro.<br />
                         Hơn nữa, nhóm có thể cộng tác từ xa bằng cách sử dụng Không gian làm việc trên đám mây. Có thể xuất an toàn các tài liệu đã đăng ký tại các văn phòng từ xa, cho phép áp dụng các hình thức làm việc kết hợp để có thể làm việc linh hoạt hơn.</p>
                       <p className="text-sm italic mt-1">* Dịch vụ đám mây do FUJIFILM Business Innovation cung cấp. Cần có hợp đồng riêng cho dịch vụ này.</p>
-                      <img src="/images/c3567_vanhanh.jpg" alt="Vận hành c3567_1" className="mx-auto rounded-lg shadow mt-3" />
+                      <Image src="/images/c3567_vanhanh.jpg" alt="Vận hành c3567_1" className="mx-auto rounded-lg shadow mt-3" />
 
                     </div>
 
@@ -180,7 +180,7 @@ export default function Product7580Page() {
                       <h3 className="font-semibold text-cyan-700 mb-2">
                         Bảng điều khiển mới với kích thước lớn 10,1 inch mang lại trải nghiệm trực quan và phù hợp với cá nhân người dùng
                       </h3>
-                      <img src="/images/c3567_vanhanh1.png" alt="Vận hành c3567" className="mx-auto rounded-lg shadow mt-3" />
+                      <Image src="/images/c3567_vanhanh1.png" alt="Vận hành c3567" className="mx-auto rounded-lg shadow mt-3" />
                       <ul className="list-disc pl-5 space-y-1">
                         <ul>
                           <li>Hiển thị tên đăng nhập</li>

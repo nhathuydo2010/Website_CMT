@@ -2,24 +2,23 @@
 'use client';
 
 import Image from 'next/image';
-import Link from 'next/link';
 import { useState } from 'react';
 import RelatedProductSliderColor from '../../../components/RelatedProductSliderColor'
-export const productsColor = [
-  {
-    name: 'Máy Photocopy Apeos C7071',
-    price: 'Liên Hệ',
-    code: 'C7071',
-    image: '/productsColor/Apeos C7071-C6571-C5571-C4571.png',
-  },
-  {
-    name: 'Máy Photocopy Apeos C6571',
-    price: 'Liên Hệ',
-    code: 'C6571',
-    image: '/productsColor/Apeos C7071-C6571-C5571-C4571.png',
-  },
-  // Add more products as needed
-];
+// export const productsColor = [
+//   {
+//     name: 'Máy Photocopy Apeos C7071',
+//     price: 'Liên Hệ',
+//     code: 'C7071',
+//     image: '/productsColor/Apeos C7071-C6571-C5571-C4571.png',
+//   },
+//   {
+//     name: 'Máy Photocopy Apeos C6571',
+//     price: 'Liên Hệ',
+//     code: 'C6571',
+//     image: '/productsColor/Apeos C7071-C6571-C5571-C4571.png',
+//   },
+//   // Add more products as needed
+// ];
 const product = {
   name: "Máy Photocopy Apeos C6571",
   price: "Liên Hệ",
@@ -50,7 +49,7 @@ export default function Product7580Page() {
 
 
   return (
-    <div className="w-full max-w-6xl mx-auto px-4 py-8">
+    <div className="bg-white/90 max-w-[1100px] mx-auto rounded-2xl shadow-xl p-4 md:p-6 mt-10">
       <div className="flex flex-col lg:flex-row gap-8">
         <div className="relative w-full lg:w-1/2 border p-4">
           <Image
@@ -254,7 +253,7 @@ export default function Product7580Page() {
                         <p>Bộ nạp và đảo bản gốc tự động C2-PC có thể trữ lên tới 250 tờ tài liệu và đọc các tài liệu này ở tốc độ cao, lên đến 270 trang/phút* cho tác vụ quét hình 1 lượt, 2 mặt để có thể sao chụp hoặc quét nhanh. Hơn nữa, chức năng phát hiện giấy kép giúp ngăn ngừa các hiện tượng như thiếu tờ in do có các tài liệu bị bỏ qua, nhằm đảm bảo công việc xử lý hay lưu dữ liệu ra suôn sẻ.</p>
                         <p className="text-sm italic">* Quét hình 1 lượt, 2 mặt bằng giấy tiêu chuẩn của FUJIFILM (A4 LEF), 200 dpi, Lưu tới ổ lưu mục.</p>
                       </div>
-                      <img src="/images/vanhanh2.png" alt="Quét nhanh" className="mx-auto rounded-lg shadow  mt-3" />
+                      <Image src="/images/vanhanh2.png" alt="Quét nhanh" className="mx-auto rounded-lg shadow  mt-3" />
                     </div>
 
                     <div className="space-y-4">
@@ -262,7 +261,7 @@ export default function Product7580Page() {
                         <h3 className="font-semibold text-cyan-700 mb-2">Khay giấy đóng nhẹ và êm ái</h3>
                         <p>Khay giấy có cơ chế thu hồi, bạn chỉ cần đẩy nhẹ để khay giấy tự động thu hồi từ từ và yên tĩnh.</p>
                       </div>
-                      <img src="/images/vanhanh3.png" alt="Khay giấy đóng nhẹ" className="mx-auto rounded-lg shadow  mt-3" />
+                      <Image src="/images/vanhanh3.png" alt="Khay giấy đóng nhẹ" className="mx-auto rounded-lg shadow  mt-3" />
                     </div>
 
                     <div className="space-y-4">
@@ -270,7 +269,7 @@ export default function Product7580Page() {
                         <h3 className="font-semibold text-cyan-700 mb-2">In ấn chất lượng cao, rõ ràng và sắc nét</h3>
                         <p>Khi sử dụng mực Super EA-Eco, các chữ và nét mảnh hiển rõ, hiệu ứng chuyển đổi màu sắc mượt mà hiển thị đúng các cảm nhận được tại thao tác chính xác, góp phần tạo nên chất lượng hình ảnh cao.</p>
                       </div>
-                      <img src="/images/vanhanh4.png" alt="In chất lượng cao" className="mx-auto rounded-lg shadow  mt-3" />
+                      <Image src="/images/vanhanh4.png" alt="In chất lượng cao" className="mx-auto rounded-lg shadow  mt-3" />
                     </div>
 
                     <div className="space-y-4">
@@ -282,7 +281,7 @@ export default function Product7580Page() {
                           được nhận ở Khay hông.</p>
 
                       </div>
-                      <img src="/images/vanhanh5.png" alt="In từ mọi thiết bị" className="mx-auto rounded-lg shadow  mt-3" />
+                      <Image src="/images/vanhanh5.png" alt="In từ mọi thiết bị" className="mx-auto rounded-lg shadow  mt-3" />
                     </div>
                     <div className="space-y-4">
                       <div>
@@ -295,7 +294,7 @@ export default function Product7580Page() {
                         <p className="text-sm italic">*  Hỗ trợ giấy từ 52 đến 300 gsm, từ giấy mỏng đến giấy dày như giấy chứng
                           nhận.</p>
                       </div>
-                      <img src="/images/vanhanh6.png" alt="Bố trí linh hoạt" className="mx-auto rounded-lg shadow  mt-3" />
+                      <Image src="/images/vanhanh6.png" alt="Bố trí linh hoạt" className="mx-auto rounded-lg shadow  mt-3" />
                     </div>
                     <div className="space-y-4">
                       <div>
@@ -306,7 +305,7 @@ export default function Product7580Page() {
                           hoạt động tuyệt vời, phản hồi mọi thao tác chạm và vuốt để điều hướng một cách dễ dàng.</p>
                         <p className="text-sm italic">* Giấy 80 gsm.</p>
                       </div>
-                      <img src="/images/vanhanh7.png" alt="Bố trí linh hoạt" className="mx-auto rounded-lg shadow  mt-3" />
+                      <Image src="/images/vanhanh7.png" alt="Bố trí linh hoạt" className="mx-auto rounded-lg shadow  mt-3" />
                     </div>
                   </div>
                 </div>

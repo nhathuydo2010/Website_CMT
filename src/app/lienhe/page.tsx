@@ -2,7 +2,7 @@
 
 import React, { useRef } from 'react';
 import emailjs from 'emailjs-com';
-import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt, FaGlobe } from 'react-icons/fa';
+import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa';
 
 export default function LienHePage() {
   const formRef = useRef<HTMLFormElement>(null);
@@ -12,8 +12,8 @@ export default function LienHePage() {
     if (!formRef.current) return;
 
     try {
-      const result = await emailjs.sendForm(
-        'service_21v8nra',
+      await emailjs.sendForm(
+        'service_lgnh1gk',
         'template_z8vvk2l',
         formRef.current,
         'oXtLWqMs8Dt9Xji-y' // Your user ID
@@ -27,8 +27,8 @@ export default function LienHePage() {
   };
 
   return (
-    <main className="p-6 sm:p-10 max-w-7xl mx-auto">
-      <div className="grid md:grid-cols-2 border rounded-lg shadow-md overflow-hidden">
+    <main className="bg-white/90 max-w-[1100px] mx-auto rounded-2xl shadow-xl p-4 md:p-6 mt-10">
+      <div className="grid md:grid-cols-2 rounded-lg shadow-md overflow-hidden">
         {/* LEFT: Form */}
         <div className="bg-white p-8 text-black">
           <h2 className="text-2xl font-semibold mb-6">Liên hệ với chúng tôi</h2>
@@ -81,7 +81,7 @@ export default function LienHePage() {
             <p><strong>CÔNG TY CỔ PHẦN MÁY TÍNH VIỆT NAM</strong></p>
             <p className="flex items-center gap-2"><FaMapMarkerAlt className="text-red-600" /> 26 Lý Tự Trọng, Phường Sài Gòn, Tp.HCM</p>
             <p className="flex items-center gap-2"><FaPhoneAlt className="text-red-600" /> 083.8226.166</p>
-            <p className="flex items-center gap-2"><FaEnvelope className="text-red-600" /> cmtfujifilm@cmt.vn</p>
+            <p className="flex items-center gap-2"><FaEnvelope className="text-red-600" /> cmt-market@cmt.vn</p>
             <p className="flex items-start gap-2"> </p>
           </div>
         </div>

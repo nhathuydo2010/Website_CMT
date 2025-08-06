@@ -30,16 +30,16 @@ export default function LogoSearch() {
           {/* Email */}
         <div className="flex items-center space-x-2">
     <Image src="/images/mail.png" alt="Mail Icon" width={20} height={20} />
-    <a href="mailto:cmtfujifilm@cmt.vn" className="hover:underline text-[16px]">
-      cmtfujifilm@cmt.vn
+    <a href="mailto:cmt-market@cmt.vn" className="hover:underline text-[16px] whitespace-nowrap">
+      cmt-market@cmt.vn
     </a>
   </div>
 
   {/* Điện thoại */}
  <div className="flex items-center space-x-2">
     <Image src="/images/phone.png" alt="Phone Icon" width={20} height={20} />
-    <a href="tel:0908100201" className="hover:underline text-[16px]">
-      0908.100.201
+    <a href="tel:0944333986" className="hover:underline text-[16px]">
+      0944.333.986  
     </a>
   </div>
 </div>

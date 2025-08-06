@@ -2,24 +2,23 @@
 'use client';
 
 import Image from 'next/image';
-import Link from 'next/link';
 import { useState } from 'react';
 import RelatedProductSliderColor from '../../../components/RelatedProductSliderColor'
-export const productsColor = [
-  {
-    name: 'Máy Photocopy Apeos C7071',
-    price: 'Liên Hệ',
-    code: 'C7071',
-    image: '/productsColor/Apeos C7071-C6571-C5571-C4571.png',
-  },
-  {
-    name: 'Máy Photocopy Apeos C6571',
-    price: 'Liên Hệ',
-    code: 'C6571',
-    image: '/productsColor/Apeos C7071-C6571-C5571-C4571.png',
-  },
-  // Add more products as needed
-];
+// export const productsColor = [
+//   {
+//     name: 'Máy Photocopy Apeos C7071',
+//     price: 'Liên Hệ',
+//     code: 'C7071',
+//     image: '/productsColor/Apeos C7071-C6571-C5571-C4571.png',
+//   },
+//   {
+//     name: 'Máy Photocopy Apeos C6571',
+//     price: 'Liên Hệ',
+//     code: 'C6571',
+//     image: '/productsColor/Apeos C7071-C6571-C5571-C4571.png',
+//   },
+//   // Add more products as needed
+// ];
 const product = {
   name: "Máy Photocopy Apeos C8180",
   price: "Liên Hệ",
@@ -77,7 +76,7 @@ export default function Product7580Page() {
   const [showFullSpecs, setShowFullSpecs] = useState(false);
 
   return (
-    <div className="w-full max-w-6xl mx-auto px-4 py-8">
+    <div className="bg-white/90 max-w-[1100px] mx-auto rounded-2xl shadow-xl p-4 md:p-6 mt-10">
       <div className="flex flex-col lg:flex-row gap-8">
         <div className="relative w-full lg:w-1/2 border p-4">
           <Image
@@ -292,14 +291,14 @@ export default function Product7580Page() {
                   <div className="space-y-6 text-[15px] text-black leading-relaxed">
                     <div>
                       <h3 className="font-semibold text-cyan-700 mb-2">
-                        Đầu in LED có độ phân giải cao "đầu tiên trên thế giới"
+                        Đầu in LED có độ phân giải cao đầu tiên trên thế giới
                       </h3>
                       <p>Công nghệ hiện đại nhất giúp mang đến hình ảnh có chất lượng chuyên nghiệp và bản in có độ phân giải cao.</p>
                       <ul className="list-disc pl-5 space-y-1">
                         <li>Đầu in LED đầu tiên trên thế giới* với độ phân giải 2.400 dpi.</li>
                         <li>Màu sắc sống động với mực Super EA Eco và các hạt mực nhỏ nhất giúp phân cấp màu sắc liền mạch.</li>
                         <li>Tái tạo lại hình ảnh rõ nét có đường nét mịn và văn bản nhỏ.</li>
-                        <li>Tính năng "Gloss" mang lại một độ bóng đẹp tuyệt vời cho bài in. (ví dụ như ảnh.)</li>
+                        <li>Tính năng Gloss mang lại một độ bóng đẹp tuyệt vời cho bài in. (ví dụ như ảnh.)</li>
                       </ul>
                       <p className="text-sm italic mt-1">
                         * Phương pháp chụp ảnh quang điện khô. Kể từ tháng 3 năm 2021. Theo nghiên cứu của chúng tôi.
@@ -477,7 +476,7 @@ export default function Product7580Page() {
                         <li>Bộ hoàn thiện D6 có thể thực hiện gia công sau in cho bản in đầu ra ở khối lượng lớn hơn, đồng thời chèn các trang bìa và các trang phân tách</li>
                         <li>Mô-đun giao diện D1* loại mỏng cũng có ở dạng mô-đun kết nối Bộ hoàn thiện D6</li>
                       </ul>
-                      <p className="text-sm italic mt-1"> Ghi chú: Tùy chọn. Xem "Tùy chọn" để biết chi tiết về các tùy chọn đầu ra và gia công sau in. <br />
+                      <p className="text-sm italic mt-1"> Ghi chú: Tùy chọn. Xem (Tùy chọn) để biết chi tiết về các tùy chọn đầu ra và gia công sau in. <br />
                         * Khi mô-đun này được sử dụng, không thể kết nối với Bộ chèn trang D1.</p>
                     </div>
 

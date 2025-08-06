@@ -1,5 +1,5 @@
 "use client";
-
+import Image from "next/image";
 import { useState, useRef, useEffect } from "react";
 import Link from "next/link";
 
@@ -107,20 +107,20 @@ export default function SearchBarWithCategoryBoxed({
                 key={idx}
                 className="flex items-center space-x-3 p-3 hover:bg-gray-100 cursor-pointer transition"
               >
-                <img
+                <Image
                   src={item.image}
                   alt={item.name}
                   width={45}
                   height={45}
                   className="object-contain rounded border"
                 />
+
                 <div className="flex-1">
                   <Link
-                    href={`/sanpham/${
-                      item.category?.toLowerCase() === "màu"
+                    href={`/sanpham/${item.category?.toLowerCase() === "màu"
                         ? "maymau"
                         : "maytrangden"
-                    }/${item.code}`}
+                      }/${item.code}`}
                     className="text-gray-800 font-medium hover:underline"
                   >
                     {item.name}

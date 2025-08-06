@@ -55,7 +55,7 @@ const productsBlackWhite = [
 
 export default function MayTrangDenPage() {
   return (
-    <div className="px-4 sm:px-6 lg:px-10 py-6 max-w-7xl mx-auto">
+    <div className="bg-white/90 max-w-[1100px] mx-auto rounded-2xl shadow-xl p-4 md:p-6 mt-10">
  <div className="mb-4">
      <Swiper
       modules={[Autoplay]}
@@ -126,7 +126,7 @@ export default function MayTrangDenPage() {
   {productsBlackWhite.map((product, index) => (
     <div
       key={index}
-      className="border rounded-2xl shadow-xl p-4 flex flex-col h-full hover:shadow-2xl transition-shadow duration-300 text-center"
+      className=" rounded-2xl shadow-xl p-4 flex flex-col h-full hover:shadow-2xl transition-shadow duration-300 text-center"
     >
 
             <Link href={`/sanpham/maytrangden/${product.code}`}>

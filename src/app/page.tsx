@@ -2,7 +2,6 @@
   import Image from "next/image";
   import Link from "next/link"; 
   import BannerSlider from './components/BannerSlider';
-    import BannerWrapper from './components/BannerWrapper';
   export default function Header() {
     const productsBlackWhite = [
       {
@@ -123,31 +122,32 @@
 
 
     return (
+      
       <div className="w-full">
 
-        <div className="w-full max-w-screen-xl mx-auto py-5 flex justify-center">
+        <div className="bg-white/90 max-w-[1300px] mx-auto rounded-2xl shadow-xl p-4 md:p-6 mt-10 ">
           <BannerSlider />
-          <BannerWrapper />
+          {/* <BannerWrapper /> */}
         </div>
 
         {/* MÁY PHOTOCOPY TRẮNG ĐEN */}
-    <div className="w-full bg-white" id="mau">
+    <div className="bg-white/90 max-w-[1300px] mx-auto rounded-2xl shadow-xl p-4 md:p-6 mt-10" id="mau">
       
-    <div className="w-full max-w-[1000px] mx-auto">
+    <div className="w-full max-w-[1300px] mx-auto">
       <a
             href={`/sanpham/maytrangden/`}
-            className="block bg-red-600 text-white text-lg font-bold pt-2 pb-3 mt-4 text-center rounded-full shadow-2xl hover:bg-red-700 transition"
+            className="block bg-red-600 text-white text-lg font-bold py-2 text-center rounded-full shadow-2xl hover:bg-red-700 transition mb-6"
       >
             MÁY PHOTOCOPY TRẮNG ĐEN
           </a>
           </div>
-        <div className="w-full max-w-[1000px] mx-auto px-4 py-6">
-    <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div className="w-full max-w-[1300px] mx-auto px-4 py-6">
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
       {productsBlackWhite.map((product, index) => (
         <div
           key={index}
           id={product.code}
-          className="border rounded-2xl shadow-xl p-4 flex flex-col h-full hover:shadow-2xl transition-shadow duration-300"
+          className=" rounded-2xl shadow-xl p-4 flex flex-col h-full hover:shadow-2xl transition-shadow duration-300"
         >
           <div className="flex flex-col h-full">
             {/* Hình ảnh sản phẩm */}
@@ -181,20 +181,20 @@
         </div>
 
         {/* MÁY PHOTOCOPY MÀU */}
-  <div className="w-full bg-white" id="mau">
-    <div className="w-full max-w-[1000px] mx-auto">
+  <div className="bg-white/90 max-w-[1300px] mx-auto rounded-2xl shadow-xl p-4 md:p-6 mt-10" id="mau">
+    <div className="w-full max-w-[1300px] mx-auto">
       <a
         href={`/sanpham/maymau/`}
-        className="block bg-red-600 text-white text-lg font-bold pt-2 pb-3 mt-4 text-center rounded-full shadow-2xl hover:bg-red-700 transition"
+        className="block bg-red-600 text-white text-lg font-bold py-2 text-center rounded-full shadow-2xl hover:bg-red-700 transition mb-6"
       >
         MÁY PHOTOCOPY MÀU
       </a>
-  <div className="w-full max-w-[1000px] mx-auto px-4 py-6">
-    <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+  <div className="w-full max-w-[1300px] mx-auto px-2 sm:px-4 py-6">
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
       {productsColor.map((product, index) => (
         <div
           key={index}
-          className="border rounded-2xl shadow-xl p-4 flex flex-col h-full hover:shadow-2xl transition-shadow duration-300"
+          className=" rounded-2xl shadow-xl p-4 flex flex-col h-full hover:shadow-2xl transition-shadow duration-300"
         >
           <div className="flex flex-col h-full">
             {/* Hình ảnh sản phẩm */}

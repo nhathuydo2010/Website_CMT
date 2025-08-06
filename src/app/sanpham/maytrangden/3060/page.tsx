@@ -2,23 +2,23 @@
 'use client';
 
 import Image from 'next/image';
-import Link from 'next/link';
+
 import { useState } from 'react';
 import RelatedProductSlider from '../../../components/RelatedProductSlider'
 // Example productsBlackWhite array, replace with your actual data or import
-const productsBlackWhite = [
-  {
-    name: 'Máy Photocopy Apeos A3060',
-    image: '/productsBlackWhite/Apeos 356030602560.png',
-    price: 'Liên Hệ',
-  },
-  {
-    name: 'Máy Photocopy Apeos 3570',
-    image: '/productsBlackWhite/Apeos 3570.png',
-    price: 'Liên Hệ',
-  },
-  // Add more products as needed
-];
+// const productsBlackWhite = [
+//   {
+//     name: 'Máy Photocopy Apeos A3060',
+//     image: '/productsBlackWhite/Apeos 356030602560.png',
+//     price: 'Liên Hệ',
+//   },
+//   {
+//     name: 'Máy Photocopy Apeos 3570',
+//     image: '/productsBlackWhite/Apeos 3570.png',
+//     price: 'Liên Hệ',
+//   },
+//   // Add more products as needed
+// ];
 
 const product = {
   name: 'Máy Photocopy Apeos A3060',
@@ -44,14 +44,14 @@ const product = {
   ],
 };
 export default function Product7580Page() {
-  const relatedProducts = productsBlackWhite.filter(
-    (product) => product.name !== 'Máy Photocopy Apeos A3060'
-  );
+  // const relatedProducts = productsBlackWhite.filter(
+  //   (product) => product.name !== 'Máy Photocopy Apeos A3060'
+  // );
 
   const [showFullDescription, setShowFullDescription] = useState(false);
   const [showFullSpecs, setShowFullSpecs] = useState(false);
   return (
-    <div className="w-full max-w-6xl mx-auto px-4 py-8">
+    <div className="bg-white/90 max-w-[1100px] mx-auto rounded-2xl shadow-xl p-4 md:p-6 mt-10">
       <div className="flex flex-col lg:flex-row gap-8">
         <div className="relative w-full lg:w-1/2 border p-4">
           <Image

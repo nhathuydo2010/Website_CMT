@@ -1,10 +1,8 @@
 import Image from "next/image";
-import Link from "next/link";
-
 
 export default function GioiThieuPage() {
   return (
-    <div className="w-full">
+    <div className="bg-white/90 max-w-[1100px] mx-auto rounded-2xl shadow-xl p-4 md:p-6 mt-10">
 
       {/* Nội dung chính */}
       <main className="px-6 py-12 max-w-6xl mx-auto text-gray-800">
@@ -23,26 +21,28 @@ export default function GioiThieuPage() {
         </section>
 
         {/* Giới thiệu công ty */}
-        <section className="mb-12 grid md:grid-cols-2 gap-8">
-          <div>
-            <h2 className="text-2xl font-bold mb-4 text-red-600">Công ty Cổ Phần Máy Tính Việt Nam (CMT)</h2>
-            <p className="leading-relaxed text-gray-700">
-              <p className="text-xl leading-relaxed max-w-3xl  mt-2"><strong>Trụ sở:</strong> 26 Đường Lý Tự Trọng - Phường Sài Gòn - TP.Hồ Chí Minh</p>
-              <p className="text-xl leading-relaxed max-w-3xl  mt-2">Công ty chúng tôi chuyên cung cấp các giải pháp về in ấn và quản lý trên các dòng máy thiết bị văn phòng đa chức năng của hãng Fujifilm. Các giải pháp tiên tiến về quản lý thiết bị giúp khách hàng nâng cao hiệu quả công việc và giảm thiểu chi phí…
+        <section className="mb-12 flex flex-col md:flex-row gap-8 items-center">
+          <div className="flex-1">
+            <h2 className="text-2xl font-bold mb-4 text-red-600">
+              Công ty Cổ Phần Máy Tính Việt Nam (CMT)
+            </h2>
+            <p className="text-xl leading-relaxed max-w-3xl mt-2">
+              <strong>Trụ sở:</strong> 26 Đường Lý Tự Trọng - Phường Sài Gòn - TP.Hồ Chí Minh
+            </p>
+            <p className="text-xl leading-relaxed max-w-3xl  mt-2">Công ty chúng tôi chuyên cung cấp các giải pháp về in ấn và quản lý trên các dòng máy thiết bị văn phòng đa chức năng của hãng Fujifilm. Các giải pháp tiên tiến về quản lý thiết bị giúp khách hàng nâng cao hiệu quả công việc và giảm thiểu chi phí…
                 Với đội ngũ kỹ thuật lành nghề trên 30 năm kinh nghiệm được đào tạo chuyên nghiệp từ hãng <strong>Fujifilm</strong> , chúng tôi cam kết chất lượng dịch vụ hoàn hảo , đạt được sự an tâm và tin tưởng Quý khách hàng khi sử dụng sản phẩm và dịch vụ kèm theo của hãng Fujifilm do chúng tôi cung cấp.
                 Với phương châm : Mỗi khách hàng là một cơ hội khẳng định và niềm vui cống hiến của đội ngũ chúng tôi.</p>
-            </p>
           </div>
-          <div>
+          <div className="flex-1 flex justify-center">
             <Image
               src="/images/cmt.png"
               alt="Đội ngũ nhân sự"
               width={600}
               height={400}
-              className="rounded-lg shadow-md w-full h-auto object-cover"
+              className="rounded-lg shadow-md object-cover"
             />
           </div>
-        </section>
+        </section>  
 
         {/* Lịch sử phát triển */}
         <section className="mb-12 grid md:grid-cols-2 gap-8">

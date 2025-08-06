@@ -17,7 +17,7 @@ export default function BannerSlider() {
   return (
     <div className="w-full bg-white">
       {/* Kéo dài full màn hình */}
-      <div className="w-full max-w-[1000px] mx-auto h-auto ">
+      <div className="w-full max-w-[1300px] mx-auto h-auto ">
         <Swiper
           modules={[Autoplay, Pagination]}
           spaceBetween={0}
