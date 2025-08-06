@@ -6,6 +6,8 @@ import TopBar from "./components/TopBar";
 import LogoSearch from "./components/LogoSearch";
 import NavigationMenu from "./components/Navbar";
 import Footer from "./components/Footer";
+import { productsBlackWhite } from "./components/productsBlackWhite";
+import { productsColor } from "./components/productsColor";
 
 // 👇 Khai báo font Google với biến CSS
 const geistSans = Geist({
@@ -25,7 +27,10 @@ export const metadata: Metadata = {
   icons: {
     icon: "/logo.png",
   },
+
 };
+const allProducts = [...productsBlackWhite, ...productsColor];
+
 
 // 👇 Component layout gốc
 export default function RootLayout({
@@ -37,7 +42,7 @@ export default function RootLayout({
     <html lang="vi" className={`${geistSans.variable} ${geistMono.variable}`}>
       <body className="antialiased bg-white text-black">
         <TopBar />
-        <LogoSearch />
+        <LogoSearch  products={allProducts}/>
         <NavigationMenu />
         <main>{children}</main>
         <Footer />
