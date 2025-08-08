@@ -31,7 +31,7 @@ export default function LienHePage() {
       <div className="grid md:grid-cols-2 rounded-lg shadow-md overflow-hidden">
         {/* LEFT: Form */}
         <div className="bg-white p-8 text-black">
-          <h2 className="text-2xl font-semibold mb-6">Liên hệ với chúng tôi</h2>
+          <h2 className="text-2xl font-semibold mb-6">Thông tin khách hàng</h2>
           <form ref={formRef} onSubmit={handleSubmit} className="space-y-4">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div>
