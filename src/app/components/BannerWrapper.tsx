@@ -29,7 +29,7 @@ export default function BannerWrapper() {
     <>
       {/* Banner Trái */}
       <div
-        className={`hidden xl:block fixed left-[160px] top-[220px] z-60 transition-opacity duration-300 ${
+        className={`hidden xl:block fixed left-[90px] top-[220px] z-60 transition-opacity duration-300 ${
           hideBanner ? 'opacity-0 pointer-events-none' : 'opacity-100'
         }`}
       >
@@ -44,7 +44,7 @@ export default function BannerWrapper() {
 
       {/* Banner Phải */}
       <div
-        className={`hidden xl:block fixed right-[160px] top-[220px] z-60 transition-opacity duration-300 ${
+        className={`hidden xl:block fixed right-[90px] top-[220px] z-60 transition-opacity duration-300 ${
           hideBanner ? 'opacity-0 pointer-events-none' : 'opacity-100'
         }`}
       >

@@ -2,6 +2,7 @@
   import Image from "next/image";
   import Link from "next/link"; 
   import BannerSlider from './components/BannerSlider';
+    import BannerWrapper from './components/BannerWrapper';
   export default function Header() {
     const productsBlackWhite = [
       {
@@ -127,7 +128,7 @@
 
         <div className="bg-white/90 max-w-[1300px] mx-auto rounded-2xl shadow-xl p-4 md:p-6 mt-10 ">
           <BannerSlider />
-          {/* <BannerWrapper /> */}
+          <BannerWrapper />
         </div>
 
         {/* MÁY PHOTOCOPY TRẮNG ĐEN */}
