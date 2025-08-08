@@ -24,14 +24,14 @@
     "@eslint/eslintrc": "^3",
     "@tailwindcss/postcss": "^4",
     "@types/next": "^8.0.7",
-    "@types/node": "^20",
-    "@types/react": "^19.1.9",
+    "@types/node": "20.19.9",
+    "@types/react": "19.1.9",
     "@types/react-dom": "^19.1.7",
     "@types/swiper": "^5.4.3",
     "eslint": "^9",
     "eslint-config-next": "15.3.4",
     "tailwindcss": "^4",
-    "typescript": "^5"
+    "typescript": "5.9.2"
   },
   "description": "",
   "repository": {
