@@ -4,7 +4,13 @@ import Link from "next/link";
 import { useState, useEffect } from "react";
 import { usePathname } from "next/navigation";
 
-const navItems = [
+// 1) Khai báo kiểu dữ liệu
+type ChildItem = { label: string; code: string };
+type Submenu = { label: string; href: string; children?: ChildItem[] };
+type NavItem = { label: string; href?: string; submenu?: Submenu[] };
+
+// 2) Gán kiểu cho mảng navItems
+const navItems: NavItem[] = [
   { label: "TRANG CHỦ", href: "/" },
   { label: "GIỚI THIỆU", href: "/gioithieu" },
   {
@@ -59,7 +65,6 @@ export default function Navbar() {
 
   const pathname = usePathname();
 
-  // Đóng tất cả khi đổi route
   useEffect(() => {
     setOpenMenu(null);
     setOpenSub(null);
@@ -76,7 +81,7 @@ export default function Navbar() {
 
   return (
     <nav className="bg-red-600 text-white font-semibold text-sm sticky top-0 z-40">
-      {/* Desktop Menu (state-controlled, không dùng group-hover) */}
+      {/* Desktop */}
       <ul className="hidden md:flex justify-center space-x-10 py-3 relative">
         {navItems.map((item, i) => (
           <li
@@ -97,7 +102,7 @@ export default function Navbar() {
                     openMenu === i ? "opacity-100 visible" : "opacity-0 invisible"
                   }`}
                 >
-                  {item.submenu.map((sub: any, j: number) => (
+                  {item.submenu.map((sub: Submenu, j: number) => (
                     <li
                       key={j}
                       className="relative"
@@ -121,7 +126,7 @@ export default function Navbar() {
                               : "opacity-0 invisible"
                           }`}
                         >
-                          {sub.children.map((child: any, k: number) => (
+                          {sub.children.map((child: ChildItem, k: number) => (
                             <li
                               key={k}
                               className="px-4 py-2 hover:bg-gray-100 rounded-md whitespace-nowrap"
@@ -141,7 +146,7 @@ export default function Navbar() {
                 </ul>
               </>
             ) : (
-              <Link href={item.href} className="hover:underline" onClick={closeAll}>
+              <Link href={item.href ?? "#"} className="hover:underline" onClick={closeAll}>
                 {item.label}
               </Link>
             )}
@@ -149,7 +154,7 @@ export default function Navbar() {
         ))}
       </ul>
 
-      {/* Mobile Menu */}
+      {/* Mobile */}
       <div className="md:hidden px-4 py-3 flex justify-between items-center">
         <h1 className="text-lg font-bold">MENU</h1>
         <button onClick={() => setIsOpen((v) => !v)} className="text-white text-2xl">
@@ -174,7 +179,7 @@ export default function Navbar() {
 
                   {openSubmenu === index && (
                     <ul className="pl-4 space-y-1">
-                      {item.submenu.map((sub: any, subIndex: number) => (
+                      {item.submenu.map((sub: Submenu, subIndex: number) => (
                         <li key={subIndex}>
                           <Link
                             href={sub.href}
@@ -186,7 +191,7 @@ export default function Navbar() {
 
                           {sub.children && (
                             <ul className="pl-4 text-sm text-gray-600">
-                              {sub.children.map((child: any, childIndex: number) => (
+                              {sub.children.map((child: ChildItem, childIndex: number) => (
                                 <li key={childIndex}>
                                   <Link
                                     href={`${sub.href}/${child.code}`}
@@ -206,7 +211,7 @@ export default function Navbar() {
                 </>
               ) : (
                 <Link
-                  href={item.href}
+                  href={item.href ?? "#"}
                   className="block py-2 font-semibold"
                   onClick={closeAll}
                 >
