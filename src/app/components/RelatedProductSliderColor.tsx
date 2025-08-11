@@ -16,12 +16,12 @@ export default function RelatedProductSliderColor() {
       <h2 className="text-xl font-bold text-black mb-4 uppercase">Sản phẩm màu nổi bật</h2>
 
       {/* Nút trái */}
-      <div className="swiper-button-prev-color absolute -left-5 top-[55%] z-10 w-10 h-10 bg-white border rounded-full flex items-center justify-center shadow cursor-pointer">
+      <div className="swiper-button-prev-color absolute -left-5 top-[55%] z-10 w-10 h-10 bg-white  rounded-full flex items-center justify-center shadow cursor-pointer">
         <ChevronLeft className="w-5 h-5 text-blue-600" />
       </div>
 
       {/* Nút phải */}
-      <div className="swiper-button-next-color absolute -right-5 top-[55%] z-10 w-10 h-10 bg-white border rounded-full flex items-center justify-center shadow cursor-pointer">
+      <div className="swiper-button-next-color absolute -right-5 top-[55%] z-10 w-10 h-10 bg-white  rounded-full flex items-center justify-center shadow cursor-pointer">
         <ChevronRight className="w-5 h-5 text-blue-600" />
       </div>
 
@@ -45,7 +45,7 @@ export default function RelatedProductSliderColor() {
       >
         {productsColor.map((item) => (
           <SwiperSlide key={item.code}>
-            <div className="border rounded-md p-3 bg-white shadow-md hover:shadow-xl transition-shadow duration-300 ease-in-out">
+            <div className=" rounded-md p-3 bg-white shadow-md hover:shadow-xl transition-shadow duration-300 ease-in-out">
               <Image
                 src={item.image}
                 alt={item.name}

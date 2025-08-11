@@ -1,7 +1,8 @@
 "use client";
 
 import Link from "next/link";
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import { usePathname } from "next/navigation";
 
 const navItems = [
   { label: "TRANG CHỦ", href: "/" },
@@ -48,35 +49,87 @@ const navItems = [
 ];
 
 export default function Navbar() {
+  // Desktop states
+  const [openMenu, setOpenMenu] = useState<number | null>(null);
+  const [openSub, setOpenSub] = useState<number | null>(null);
+
+  // Mobile states
   const [isOpen, setIsOpen] = useState(false);
   const [openSubmenu, setOpenSubmenu] = useState<number | null>(null);
 
+  const pathname = usePathname();
+
+  // Đóng tất cả khi đổi route
+  useEffect(() => {
+    setOpenMenu(null);
+    setOpenSub(null);
+    setIsOpen(false);
+    setOpenSubmenu(null);
+  }, [pathname]);
+
+  const closeAll = () => {
+    setOpenMenu(null);
+    setOpenSub(null);
+    setIsOpen(false);
+    setOpenSubmenu(null);
+  };
+
   return (
     <nav className="bg-red-600 text-white font-semibold text-sm sticky top-0 z-40">
-      {/* Desktop Menu */}
+      {/* Desktop Menu (state-controlled, không dùng group-hover) */}
       <ul className="hidden md:flex justify-center space-x-10 py-3 relative">
-        {navItems.map((item, index) => (
-          <li key={index} className="relative group">
+        {navItems.map((item, i) => (
+          <li
+            key={i}
+            className="relative"
+            onMouseEnter={() => setOpenMenu(i)}
+            onMouseLeave={() => {
+              setOpenMenu((cur) => (cur === i ? null : cur));
+              setOpenSub(null);
+            }}
+          >
             {item.submenu ? (
               <>
                 <button className="hover:underline">{item.label}</button>
-                <ul className="absolute top-full left-0 bg-white text-black shadow-lg min-w-[250px] rounded-md opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50">
-                  {item.submenu.map((sub, subIndex) => (
-                    <li key={subIndex} className="relative group/submenu">
-                      <div className="flex items-center justify-between px-4 py-2 hover:bg-gray-100 cursor-pointer">
-                        <Link href={sub.href} className="w-full">
+
+                <ul
+                  className={`absolute top-full left-0 bg-white text-black shadow-lg min-w-[250px] rounded-md z-50 transition-all duration-200 ${
+                    openMenu === i ? "opacity-100 visible" : "opacity-0 invisible"
+                  }`}
+                >
+                  {item.submenu.map((sub: any, j: number) => (
+                    <li
+                      key={j}
+                      className="relative"
+                      onMouseEnter={() => setOpenSub(j)}
+                      onMouseLeave={() =>
+                        setOpenSub((cur) => (cur === j ? null : cur))
+                      }
+                    >
+                      <div className="flex items-center justify-between px-4 py-2 hover:bg-gray-100">
+                        <Link href={sub.href} className="w-full" onClick={closeAll}>
                           {sub.label}
                         </Link>
                         {sub.children && <span className="ml-2">&#9656;</span>}
                       </div>
+
                       {sub.children && (
-                        <ul className="absolute top-0 left-full bg-white text-black shadow-lg min-w-[220px] rounded-md opacity-0 invisible group-hover/submenu:opacity-100 group-hover/submenu:visible transition-all duration-300 z-50">
-                          {sub.children.map((child, childIndex) => (
+                        <ul
+                          className={`absolute top-0 left-full bg-white text-black shadow-lg min-w-[220px] rounded-md z-50 transition-all duration-200 ${
+                            openMenu === i && openSub === j
+                              ? "opacity-100 visible"
+                              : "opacity-0 invisible"
+                          }`}
+                        >
+                          {sub.children.map((child: any, k: number) => (
                             <li
-                              key={childIndex}
-                              className="px-4 py-2 hover:bg-gray-100 transition-all duration-200 rounded-md whitespace-nowrap"
+                              key={k}
+                              className="px-4 py-2 hover:bg-gray-100 rounded-md whitespace-nowrap"
                             >
-                              <Link href={`${sub.href}/${child.code}`}>
+                              <Link
+                                href={`${sub.href}/${child.code}`}
+                                onClick={closeAll}
+                              >
                                 Máy Photocopy {child.label}
                               </Link>
                             </li>
@@ -88,7 +141,7 @@ export default function Navbar() {
                 </ul>
               </>
             ) : (
-              <Link href={item.href} className="hover:underline">
+              <Link href={item.href} className="hover:underline" onClick={closeAll}>
                 {item.label}
               </Link>
             )}
@@ -99,10 +152,11 @@ export default function Navbar() {
       {/* Mobile Menu */}
       <div className="md:hidden px-4 py-3 flex justify-between items-center">
         <h1 className="text-lg font-bold">MENU</h1>
-        <button onClick={() => setIsOpen(!isOpen)} className="text-white text-2xl">
+        <button onClick={() => setIsOpen((v) => !v)} className="text-white text-2xl">
           ☰
         </button>
       </div>
+
       {isOpen && (
         <ul className="md:hidden bg-white text-black shadow-lg space-y-2 px-4 py-3">
           {navItems.map((item, index) => (
@@ -110,23 +164,35 @@ export default function Navbar() {
               {item.submenu ? (
                 <>
                   <button
-                    onClick={() => setOpenSubmenu(openSubmenu === index ? null : index)}
+                    onClick={() =>
+                      setOpenSubmenu(openSubmenu === index ? null : index)
+                    }
                     className="w-full text-left py-2 font-semibold flex justify-between items-center"
                   >
                     {item.label} <span>{openSubmenu === index ? "▲" : "▼"}</span>
                   </button>
+
                   {openSubmenu === index && (
                     <ul className="pl-4 space-y-1">
-                      {item.submenu.map((sub, subIndex) => (
+                      {item.submenu.map((sub: any, subIndex: number) => (
                         <li key={subIndex}>
-                          <Link href={sub.href} className="block py-2">
+                          <Link
+                            href={sub.href}
+                            className="block py-2"
+                            onClick={closeAll}
+                          >
                             {sub.label}
                           </Link>
+
                           {sub.children && (
                             <ul className="pl-4 text-sm text-gray-600">
-                              {sub.children.map((child, childIndex) => (
+                              {sub.children.map((child: any, childIndex: number) => (
                                 <li key={childIndex}>
-                                  <Link href={`${sub.href}/${child.code}`} className="block py-1">
+                                  <Link
+                                    href={`${sub.href}/${child.code}`}
+                                    className="block py-1"
+                                    onClick={closeAll}
+                                  >
                                     Máy Photocopy {child.label}
                                   </Link>
                                 </li>
@@ -139,7 +205,11 @@ export default function Navbar() {
                   )}
                 </>
               ) : (
-                <Link href={item.href} className="block py-2 font-semibold">
+                <Link
+                  href={item.href}
+                  className="block py-2 font-semibold"
+                  onClick={closeAll}
+                >
                   {item.label}
                 </Link>
               )}

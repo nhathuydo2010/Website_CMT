@@ -3,7 +3,7 @@ export default function Footer() {
     return (
         <footer
             id="footer"  // ← Thêm dòng này để BannerWrapper nhận diện đúng vị trí
-            className="bg-white border-t mt-12 text-sm text-gray-700">
+            className="bg-white  mt-12 text-sm text-gray-700">
             <div className="max-w-screen-xl mx-auto py-8 px-4 grid grid-cols-1 md:grid-cols-4 gap-x-8">
 
                 {/* Cột 1: Thông tin liên hệ */}
@@ -74,10 +74,10 @@ export default function Footer() {
                 </div>
             </div>
 
-            {/* Dòng bản quyền */}
-            <div className="text-center text-xs text-gray-500 border-t py-3">
-                Copyright © 2025 Ezone. Powered by Haravan
-            </div>
+                {/* Dòng bản quyền
+                <div className="text-center text-xs text-gray-500 border-t py-3">
+                    Copyright © 2025 Ezone. Powered by Haravan
+                </div> */}
         </footer>
     );
 }
