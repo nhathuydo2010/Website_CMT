@@ -90,3 +90,134 @@ body {
     max-width: 100%;
     overflow-x: hidden;
   }}
+/* ===== Viền vàng động cho Nav (áp dụng cho mọi <a> trong .nav-gold) ===== */
+.nav-gold {
+  display: flex;
+  gap: 1px;                 /* tuỳ ý */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-gold a {
+  position: relative;
+  display: inline-block;
+  padding: 8px 16px;        /* giống .nav-link của chị */
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  transition: color .35s ease, background-color .35s ease, box-shadow .35s ease;
+  outline: none;
+}
+
+/* Khi hover vẫn giữ shadow + màu chị đã set trong .nav-link  */
+.nav-gold a:hover,
+.nav-gold a:focus {
+  color: #FFD700;                          /* vàng đẹp hơn khi hover */
+  background-color: rgba(255, 215, 0, .06);
+}
+
+/* Hai góc viền vàng */
+.nav-gold a::before,
+.nav-gold a::after {
+  content: "";
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  border: 2px solid #FFD700;
+  opacity: 0;
+  transition: all .35s ease;
+  pointer-events: none;                  /* không chặn click */
+}
+
+/* Góc trái-dưới */
+.nav-gold a::before {
+  bottom: 10px;
+  left: 10px;
+  border-width: 0 0 2px 2px;
+}
+
+/* Góc phải-trên */
+.nav-gold a::after {
+  top: 10px;
+  right: 10px;
+  border-width: 2px 2px 0 0;
+}
+
+/* Hiển thị & kéo viền ra ngoài khi hover */
+.nav-gold a:hover::before,
+.nav-gold a:focus::before {
+  opacity: 1;
+  bottom: -8px;
+  left: -8px;
+}
+.nav-gold a:hover::after,
+.nav-gold a:focus::after {
+  opacity: 1;
+  top: -8px;
+  right: -8px;
+}
+
+/* Tuỳ chọn: đang ở trang hiện tại */
+.nav-gold a[aria-current="page"],
+.nav-gold a.active {
+  color: #FFD700;
+  background-color: rgba(255, 215, 0, .08);
+}
+/* áp dụng chung */
+.nav-gold a,
+.nav-gold button {
+  position: relative;
+  display: inline-block;
+  padding: 8px 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: .5px;
+  transition: color .35s ease, background-color .35s ease, box-shadow .35s ease;
+  outline: none;
+}
+
+/* reset nút */
+.nav-gold button {
+  background: transparent;
+  border: 0;
+  color: inherit;
+  cursor: pointer;
+}
+
+/* màu hover */
+.nav-gold a:hover,
+.nav-gold a:focus,
+.nav-gold button:hover,
+.nav-gold button:focus {
+  color: #FFD700;
+  background-color: rgba(255, 215, 0, .06);
+}
+
+/* viền vàng 2 góc */
+.nav-gold a::before,
+.nav-gold a::after,
+.nav-gold button::before,
+.nav-gold button::after {
+  content: "";
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  border: 2px solid #FFD700;
+  opacity: 0;
+  transition: all .35s ease;
+  pointer-events: none;
+}
+.nav-gold a::before,
+.nav-gold button::before { bottom: 10px; left: 10px; border-width: 0 0 2px 2px; }
+.nav-gold a::after,
+.nav-gold button::after  { top: 10px; right: 10px; border-width: 2px 2px 0 0; }
+
+.nav-gold a:hover::before,
+.nav-gold button:hover::before,
+.nav-gold a:focus::before,
+.nav-gold button:focus::before { opacity: 1; bottom: -8px; left: -8px; }
+.nav-gold a:hover::after,
+.nav-gold button:hover::after,
+.nav-gold a:focus::after,
+.nav-gold button:focus::after { opacity: 1; top: -8px; right: -8px; }

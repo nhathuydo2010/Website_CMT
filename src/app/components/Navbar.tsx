@@ -1,5 +1,4 @@
 "use client";
-
 import Link from "next/link";
 import { useState, useEffect } from "react";
 import { usePathname } from "next/navigation";
@@ -14,7 +13,9 @@ const navItems: NavItem[] = [
   { label: "TRANG CHỦ", href: "/" },
   { label: "GIỚI THIỆU", href: "/gioithieu" },
   {
+    // Đi tới section trên trang chủ
     label: "SẢN PHẨM",
+    href: "/sanpham",
     submenu: [
       {
         label: "Máy Photocopy Trắng Đen",
@@ -80,9 +81,9 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="bg-red-600 text-white font-semibold text-sm sticky top-0 z-40">
+    <nav className="bg-red-600 text-white font-semibold text-[18px] sticky top-0 z-40">
       {/* Desktop */}
-      <ul className="hidden md:flex justify-center space-x-10 py-3 relative">
+      <ul className="nav-gold hidden md:flex justify-center space-x-10 py-3 relative">
         {navItems.map((item, i) => (
           <li
             key={i}
@@ -92,10 +93,20 @@ export default function Navbar() {
               setOpenMenu((cur) => (cur === i ? null : cur));
               setOpenSub(null);
             }}
+            role="none"
           >
             {item.submenu ? (
               <>
-                <button className="hover:underline">{item.label}</button>
+                {/* Bấm vào chữ sẽ điều hướng tới href, hover vẫn mở menu */}
+                <Link
+                  href={item.href ?? "#"}
+                  onClick={closeAll}
+                  className="nav-gold inline-flex items-center gap-1"
+                  aria-haspopup={true}
+                  aria-expanded={openMenu === i}
+                >
+                  {item.label}
+                </Link>
 
                 <ul
                   className={`absolute top-full left-0 bg-white text-black shadow-lg min-w-[250px] rounded-md z-50 transition-all duration-200 ${
@@ -112,7 +123,7 @@ export default function Navbar() {
                       }
                     >
                       <div className="flex items-center justify-between px-4 py-2 hover:bg-gray-100">
-                        <Link href={sub.href} className="w-full" onClick={closeAll}>
+                        <Link href={sub.href} className="whitespace-nowrap" onClick={closeAll}>
                           {sub.label}
                         </Link>
                         {sub.children && <span className="ml-2">&#9656;</span>}
@@ -157,11 +168,10 @@ export default function Navbar() {
       {/* Mobile */}
       <div className="md:hidden px-4 py-3 flex justify-between items-center">
         <h1 className="text-lg font-bold">MENU</h1>
-        <button onClick={() => setIsOpen((v) => !v)} className="text-white text-2xl">
+        <button onClick={() => setIsOpen((v) => !v)} className="text-white text-2xl" aria-label="Toggle menu">
           ☰
         </button>
       </div>
-
       {isOpen && (
         <ul className="md:hidden bg-white text-black shadow-lg space-y-2 px-4 py-3">
           {navItems.map((item, index) => (
@@ -173,12 +183,17 @@ export default function Navbar() {
                       setOpenSubmenu(openSubmenu === index ? null : index)
                     }
                     className="w-full text-left py-2 font-semibold flex justify-between items-center"
+                    aria-expanded={openSubmenu === index}
+                    aria-controls={`submenu-${index}`}
                   >
                     {item.label} <span>{openSubmenu === index ? "▲" : "▼"}</span>
                   </button>
 
+                  {/* Link đi thẳng tới section sản phẩm trên trang chủ */}
+                
+
                   {openSubmenu === index && (
-                    <ul className="pl-4 space-y-1">
+                    <ul id={`submenu-${index}`} className="pl-4 space-y-1">
                       {item.submenu.map((sub: Submenu, subIndex: number) => (
                         <li key={subIndex}>
                           <Link

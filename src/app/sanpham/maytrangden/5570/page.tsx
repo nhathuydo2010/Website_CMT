@@ -23,11 +23,6 @@ const product = {
     "Độ phân giải: 600 dpi",
     "Dung lượng bộ nhớ: 1 GB + ổ cứng 128 GB",
     "Màn hình cảm ứng màu thông minh",
-    "Tiết kiệm điện năng, tái sử dụng mực thải",
-    "Sử dụng mực: 4500s (~ 20.000 Trang)",
-    "Tuổi thọ Drum: 500.000 bản",
-    "Công suất trung bình: 30.000 bản/tháng",
-    "Tối đa: 100.000 bản/tháng",
     "Khởi động: 10s, Chụp liên tục: 999 bản",
     "Tiêu thụ: 2.0 kW, Nguồn điện: 110V",
     "Kích thước: 670 x 682 x 895 mm, Trọng lượng: 97 Kg"

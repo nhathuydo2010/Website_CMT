@@ -42,10 +42,18 @@ export default function Header({ products = [] }: Props) {
       <div className="flex items-center space-x-3 px-4 py-3 max-w-screen-xl mx-auto">
         {/* Logo */}
         <div className="flex-shrink-0 flex items-center space-x-2 min-w-[70px]">
-          <Image src="/images/Logo.png" alt="Logo" width={95} height={40} />
-          <span className="hidden sm:block text-red-600 text-sm md:text-lg font-bold uppercase">
-            CÔNG TY CỔ PHẦN MÁY TÍNH VIỆT NAM
-          </span>
+          <Link href="/" className="flex items-center space-x-2">
+            <Image
+              src="/images/Logo.png"
+              alt="Logo"
+              width={95}
+              height={40}
+              priority
+            />
+            <span className="hidden sm:block text-red-600 text-sm md:text-lg font-bold uppercase">
+              CÔNG TY CỔ PHẦN MÁY TÍNH VIỆT NAM
+            </span>
+          </Link>
         </div>
 
         {/* Search bar */}
@@ -135,7 +143,7 @@ export default function Header({ products = [] }: Props) {
             </a>
           </div>
         </div>
-        
+
       )}
     </header>
   );
