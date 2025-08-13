@@ -1,9 +1,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import BannerSlider from './components/BannerSlider';
-import BannerWrapper from './components/BannerWrapper';
-import { motion } from "framer-motion";
+
 export default function Header() {
   const productsBlackWhite = [
     {
