@@ -258,7 +258,7 @@ export default function Header() {
                     <div className="mt-4 flex-grow text-center">
                       <p className="text-green-600 font-medium text-base">{product.name}</p>
                       <p className="text-red-600 font-bold text-base mt-1">Giá: {product.price}</p>
-                      <p className="text-sm text-gray-500 mt-1">Mã d sản phẩm: {product.code}</p>
+                      <p className="text-sm text-gray-500 mt-1">Mã sản phẩm: {product.code}</p>
                     </div>
                   </div>
                 </div>
