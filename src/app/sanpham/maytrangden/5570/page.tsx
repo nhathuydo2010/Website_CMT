@@ -15,17 +15,17 @@ const product = {
     "Chức năng: Copy + In trắng đen + Scan màu qua mạng",
     "Bộ nạp và đảo 2 mặt bản gốc tự động (ARDF)",
     "Bộ đảo 2 mặt bản sao tự động (Duplex)",
-    "Tốc độ: 50 bản/phút. Khổ giấy lớn nhất: A3, nhỏ nhất: A5",
-    "Khay giấy vào: 2 khay x 550 tờ",
-    "Khay giấy tay: 100 tờ",
-    "Khay giấy ra bản sao: 500 tờ",
+    "Tốc độ: 55 bản/phút. Khổ giấy lớn nhất: A3, nhỏ nhất: A5",
+    "Khay giấy vào: 2 khay x 520 tờ",
+    "Khay giấy tay: 90 tờ",
+    "Khay giấy ra bản sao: 250 + 250 tờ",
     "Thu Nhỏ / Phóng to: 25% – 400%",
     "Độ phân giải: 600 dpi",
-    "Dung lượng bộ nhớ: 1 GB + ổ cứng 128 GB",
+    "Dung lượng bộ nhớ: 4 GB + ổ cứng 128 GB",
     "Màn hình cảm ứng màu thông minh",
-    "Khởi động: 10s, Chụp liên tục: 999 bản",
-    "Tiêu thụ: 2.0 kW, Nguồn điện: 110V",
-    "Kích thước: 670 x 682 x 895 mm, Trọng lượng: 97 Kg"
+    "Khởi động: 30s, Chụp liên tục: 999 bản",
+    "Tiêu thụ: 2.2 kW, Nguồn điện: AC 220V",
+    "Kích thước: 620 x 720 x 858 mm, Trọng lượng: 91 Kg"
   ]
 };
 

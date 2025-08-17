@@ -4,6 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay } from 'swiper/modules';
+import BannerWrapper from '../../components/BannerWrapper';
 import 'swiper/css';
 const productsBlackWhite = [
   {
@@ -102,7 +103,9 @@ export default function MayTrangDenPage() {
                 className="w-full h-auto object-cover"
               />
             </SwiperSlide>
+            
     </Swiper>
+      <BannerWrapper />
       </div>
      <h1 className="text-xl font-bold mb-6 text-center text-red-700 uppercase">
   Máy Photocopy Trắng Đen – Fujifilm Apeos

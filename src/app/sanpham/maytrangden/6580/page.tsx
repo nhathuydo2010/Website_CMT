@@ -29,8 +29,8 @@ const product = {
     "Bộ đảo bản sao tự động (Duplex) hỗ trợ in 2 mặt",
     "Tốc độ sao chụp: 65 bản/phút với khổ A4 LEF",
     "Khổ giấy hỗ trợ: A5 – A3 / Kích thước tùy chỉnh từ 100 x 148 mm đến 297 x 432 mm",
-    "Khay giấy chuẩn: 2 khay x 1.000 tờ + khay tay 150 tờ",
-    "Tùy chọn mở rộng: Bộ nạp giấy khối lượng lớn B1 (2.000 tờ) hoặc C1-D2 (3.000 tờ)",
+    "Khay giấy chuẩn: 2 khay x 520 tờ + khay tay 95 tờ",
+    "Tùy chọn mở rộng: Bộ nạp giấy khối lượng lớn B1 (2.000 tờ) hoặc C1-D2 (2.000 x 2 tờ)",
     "Thu Nhỏ / Phóng to: 25% – 400% (tăng giảm từng 1%)",
     "Độ phân giải in: Chuẩn 600 x 600dpi, tối đa 1200 x 1200dpi",
     "Bộ nhớ: RAM 4GB (tối đa 6GB) + SSD 128GB (tùy chọn 512GB)",
@@ -39,10 +39,10 @@ const product = {
     "Scan màu độ phân giải 600 x 600dpi, lưu file PDF, TIFF, JPEG,...",
     "Hệ điều hành tương thích: Windows 10/11, macOS, Linux",
     "Ngôn ngữ in: PCL6, PS3, PDF Direct Print, XPS, JPEG, TIFF",
-    "Nguồn điện: AC 220–240V, 10A, 50/60Hz. Công suất tối đa: 1.6 kW",
-    "Thời gian khởi động: <24s. Bản đầu tiên: ~4.1s",
+    "Nguồn điện: AC 220–240V, 10A, 50/60Hz. Công suất tối đa: 2.4 kW",
+    "Thời gian khởi động: <36s. Bản đầu tiên: ~3s",
     "Kích thước máy: 620 x 793 x 1.155 mm (Rộng x Sâu x Cao)",
-    "Trọng lượng: Khoảng 95 kg"
+    "Trọng lượng: Khoảng 188 kg"
   ]
 };
 

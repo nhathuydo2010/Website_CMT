@@ -32,7 +32,7 @@ const product = {
     'In mạng: Tốc độ 35 trang A4/phút, Độ phân giải chuẩn: 600 x 600dpi, tối đa: 1200 x 1200dpi',
     'Hệ điều hành hỗ trợ: Windows 10/11, macOS 10.14 trở lên',
     'Ngôn ngữ mô tả trang: PCL5 / PCL6',
-    'Kết nối mạng: Ethernet 100BASE-TX / 10BASE-T, USB, tuỳ chọn Wi-Fi',
+    'Kết nối mạng: Ethernet 100BASE-TX / 10BASE-T / 1000BASE-T, USB, tuỳ chọn Wi-Fi',
     'Scan màu: Tốc độ 55 trang A4/phút, Scan vào PC/Email/Folder/USB',
     'Định dạng file scan: PDF, TIFF, JPEG,... Độ phân giải tối đa: 600 x 600dpi',
     'Cung cấp nguồn điện: AC220–240V, 8A, 50/60Hz',
@@ -40,7 +40,9 @@ const product = {
     'Trọng lượng: 65 kg (2 khay)',
     'Màn hình: Cảm ứng màu 7 inch nghiêng',
     'Bộ nhớ RAM: 4GB / SSD 128GB',
-    'Khuyến mãi: Tặng chân tủ để máy VN',
+      "Khay giấy vào : 02 khay tự động (500 tờ/khay)",
+    "Khay giấy tay : 96 tờ",
+    "Khay giấy ra bản sao : 250 + 250 tờ",
   ],
 };
 export default function Product7580Page() {
@@ -127,7 +129,7 @@ export default function Product7580Page() {
         {/* Cột trái: Mô tả sản phẩm */}
         <div className="lg:w-2/3 w-full">
           <h2 className="text-xl font-bold text-black mb-4 uppercase">Mô Tả Sản Phẩm</h2>
-          <h3 className="text-[30px] font-bold text-blue-700 mb-2">
+          <h3 className="text-[30px] font-bold text-red-700 mb-2">
             Máy Photocopy Apeos A3560
           </h3>
           <h4 className="text-lg font-semibold text-blue-700 mb-2">

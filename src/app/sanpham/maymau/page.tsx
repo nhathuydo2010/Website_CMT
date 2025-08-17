@@ -5,36 +5,12 @@ import Link from 'next/link';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay } from 'swiper/modules';
 import 'swiper/css';
+import BannerWrapper from '../../components/BannerWrapper';
 const productsColor = [
-  {
-    name: 'Máy Photocopy Apeos C7071',
+{
+    name: 'Máy Photocopy Apeos C2061',
     price: 'Liên Hệ',
-    code: 'C7071',
-    image: '/productsColor/Apeos C7071-C6571-C5571-C4571.png',
-  },
-  {
-    name: 'Máy Photocopy Apeos C6571',
-    price: 'Liên Hệ',
-    code: 'C6571',
-    image: '/productsColor/Apeos C7071-C6571-C5571-C4571.png',
-  },
-  {
-    name: 'Máy Photocopy Apeos C5571',
-    price: 'Liên Hệ',
-    code: 'C5571',
-    image: '/productsColor/Apeos C7071-C6571-C5571-C4571.png',
-  },
-  {
-    name: 'Máy Photocopy Apeos C4571',
-    price: 'Liên Hệ',
-    code: 'C4571',
-    image: '/productsColor/Apeos C7071-C6571-C5571-C4571.png',
-  },
-
-  {
-    name: 'Máy Photocopy Apeos C3061',
-    price: 'Liên Hệ',
-    code: 'C3061',
+    code: 'C2061',
     image: '/productsColor/Apeos C3061-C2561-C2061.png',
   },
   {
@@ -44,26 +20,22 @@ const productsColor = [
     image: '/productsColor/Apeos C3061-C2561-C2061.png',
   },
   {
-    name: 'Máy Photocopy Apeos C2061',
+    name: 'Máy Photocopy Apeos C3061',
     price: 'Liên Hệ',
-    code: 'C2061',
+    code: 'C3061',
     image: '/productsColor/Apeos C3061-C2561-C2061.png',
   },
-  {
-    name: 'Máy Photocopy Apeos C8180',
+    {
+    name: 'Máy Photocopy Apeos C2567',
     price: 'Liên Hệ',
-    code: 'C8180',
-    image: '/productsColor/Apeos C8180-C7580-C6580.png',
-  }, {
-    name: 'Máy Photocopy Apeos C7580',
+    code: 'C2567',
+    image: '/productsColor/Apeos C3567.png',
+  },
+   {
+    name: 'Máy Photocopy Apeos C3067',
     price: 'Liên Hệ',
-    code: 'C7580',
-    image: '/productsColor/Apeos C8180-C7580-C6580.png',
-  }, {
-    name: 'Máy Photocopy Apeos C6580',
-    price: 'Liên Hệ',
-    code: 'C6580',
-    image: '/productsColor/Apeos C8180-C7580-C6580.png',
+    code: 'C3067',
+    image: '/productsColor/Apeos C3567.png',
   },
   {
     name: 'Máy Photocopy Apeos C3567',
@@ -71,7 +43,48 @@ const productsColor = [
     code: 'C3567',
     image: '/productsColor/Apeos C3567.png',
   },
-  // Thêm các sản phẩm màu khác...
+  {
+    name: 'Máy Photocopy Apeos C4571',
+    price: 'Liên Hệ',
+    code: 'C4571',
+    image: '/productsColor/Apeos C7071-C6571-C5571-C4571.png',
+  },
+  {
+    name: 'Máy Photocopy Apeos C5571',
+    price: 'Liên Hệ',
+    code: 'C5571',
+    image: '/productsColor/Apeos C7071-C6571-C5571-C4571.png',
+  },
+  {
+    name: 'Máy Photocopy Apeos C6571',
+    price: 'Liên Hệ',
+    code: 'C6571',
+    image: '/productsColor/Apeos C7071-C6571-C5571-C4571.png',
+  },
+  {
+    name: 'Máy Photocopy Apeos C6580',
+    price: 'Liên Hệ',
+    code: 'C6580',
+    image: '/productsColor/Apeos C8180-C7580-C6580.png',
+  },
+  {
+    name: 'Máy Photocopy Apeos C7071',
+    price: 'Liên Hệ',
+    code: 'C7071',
+    image: '/productsColor/Apeos C7071-C6571-C5571-C4571.png',
+  },
+  {
+    name: 'Máy Photocopy Apeos C7580',
+    price: 'Liên Hệ',
+    code: 'C7580',
+    image: '/productsColor/Apeos C8180-C7580-C6580.png',
+  },
+  {
+    name: 'Máy Photocopy Apeos C8180',
+    price: 'Liên Hệ',
+    code: 'C8180',
+    image: '/productsColor/Apeos C8180-C7580-C6580.png',
+  },
 ];
 
 
@@ -127,7 +140,7 @@ export default function MayMAUPage() {
         />
       </SwiperSlide>
     </Swiper>
-
+<BannerWrapper />
       {/* Tiêu đề chính */}
       <h1 className="text-xl font-bold mb-6 text-center text-red-700 uppercase">
         Máy Photocopy Màu – Fujifilm Apeos

@@ -21,14 +21,14 @@ import RelatedProductSliderColor from '../../../components/RelatedProductSliderC
 //   // Add more products as needed
 // ];
 const product = {
-  name: "Máy Photocopy Apeos C3567",
+  name: "Máy Photocopy Apeos C2567",
   price: "Liên Hệ",
   image: "/productsColor/Apeos C3567.png",
   specs: [
     "Thương hiệu: Fujifilm",
-    "Model: Apeos C3067",
+    "Model: Apeos C2567",
     "Chức năng: Copy / In mạng / Scan mạng màu, SPDF, Duplex",
-    "Tốc độ copy/in: 35 trang/phút (Màu, Đen trắng)",
+    "Tốc độ copy/in: 25 trang/phút (Màu, Đen trắng)",
     "Tốc độ scan: 80 trang/phút (Quét 1 lần 2 mặt: 160 trang/phút)",
     "Bộ nhớ: 6 GB",
     "Ổ cứng SSD: 256 GB",
@@ -134,13 +134,13 @@ export default function Product7580Page() {
         <div className="lg:w-2/3 w-full">
           <h2 className="text-xl font-bold text-black mb-4 uppercase">Mô Tả Sản Phẩm</h2>
           <h3 className="text-[30px] font-bold text-red-700 mb-2">
-            Máy Photocopy Apeos C3567
+            Máy Photocopy Apeos C2567
           </h3>
           <h4 className="text-lg font-semibold text-blue-700 mb-2">
             Thời đại mới, Apeos mới
           </h4>
           <p className="text-black text-justify mb-4">
-            <strong>Apeos 3567</strong> Máy photocopy Fujifilm Apeos C3067 là một lựa chọn tuyệt vời dành cho các văn phòng và doanh nghiệp hiện đại. Với khả năng in, sao chép và quét mạng màu, model này mang đến hiệu suất vượt trội cùng chất lượng hình ảnh sắc nét.
+            <strong>Apeos 2567</strong> Máy photocopy Fujifilm Apeos C2567 là một lựa chọn tuyệt vời dành cho các văn phòng và doanh nghiệp hiện đại. Với khả năng in, sao chép và quét mạng màu, model này mang đến hiệu suất vượt trội cùng chất lượng hình ảnh sắc nét.
           </p>
 
           <div className="w-full flex justify-center my-6">

@@ -24,6 +24,9 @@ const product = {
     "Độ phân giải scan tối đa: 600 x 600 dpi",
     "Nguồn điện: AC220–240V ±10%, 8A, tần số 50/60Hz",
     "Kích thước: Rộng 577 x Sâu 659 x Cao 872 mm",
+    "Khay giấy vào : 02 khay tự động (500 tờ/khay)",
+    "Khay giấy tay : 96 tờ",
+    "Khay giấy ra bản sao : 250 + 250 tờ",
     "Trọng lượng: 75 kg"
   ]
 };

@@ -58,7 +58,7 @@ export default function GioiThieuPage() {
           <div>
             <h2 className="text-2xl font-semibold mb-2">Lịch sử hình thành & phát triển</h2>
             <p className="text-xl leading-relaxed max-w-3xl">
-              CMT ra đời từ cổ phần hóa doanh nghiệp nhà nước Công Ty Cổ Phần Máy Tính Việt Nam 2 năm 1999, 999. Là doanh nghiệp Nhà nước duy nhất trực thuộc Cục Máy Tính của Uy Ban Khoa Học và Kỹ Thuật Nhà Nước ( nay là Bộ Khoa Học và Công Nghệ) có nhiệm vụ duy trì hoạt động các dàn máy Mainframe IBM S/3, IBM 360/20; IBM 360/40; IBM360/50… còn lại sau năm 1975 tại khu vực phía nam phục vụ tất cả các ngành kinh tế, khoa học kỹ thuật, điện lực , an ninh, quốc phòng…
+              CMT ra đời từ cổ phần hóa doanh nghiệp nhà nước của Công Ty Cổ Phần Máy Tính Việt Nam 2 năm 1999. Là doanh nghiệp Nhà nước duy nhất trực thuộc Cục Máy Tính của Uy Ban Khoa Học và Kỹ Thuật Nhà Nước ( nay là Bộ Khoa Học và Công Nghệ) có nhiệm vụ duy trì hoạt động các dàn máy Mainframe IBM S/3, IBM 360/20; IBM 360/40; IBM360/50… còn lại sau năm 1975 tại khu vực phía nam phục vụ tất cả các ngành kinh tế, khoa học kỹ thuật, điện lực , an ninh, quốc phòng…
             </p>
             <p className="text-xl leading-relaxed max-w-3xl mt-4">
               Trước năm 1975 chúng tôi là Công ty Máy Tính Điện Tử IBM của Mỹ tại miền nam trước năm 1975 ( IBM Vietnam Operations ). Đội ngũ kỹ thuật của công ty đã từng gây nên những ngạc nhiên , khâm phục kỳ thú cho những nhà chuyên môn am hiểu máy IBM , họ đã thành công trong việc duy trì hoạt động của các hệ thống máy IBM đến tận năm 1990 , trong điều kiện cấm vận, không nhập khẩu được linh kiện thay thế .

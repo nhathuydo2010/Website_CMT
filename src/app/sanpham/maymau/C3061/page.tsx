@@ -24,7 +24,7 @@ const product = {
   name: "Máy Photocopy Apeos C3061",
   price: "Liên Hệ",
   image: "/productsColor/Apeos C3061-C2561-C2061.png",
- specs: [
+  specs: [
     "Chức năng: Copy / In / Scan 2 mặt tự động",
     "Copy màu: Tốc độ 30 trang A4/phút (trắng đen và màu), độ phân giải 600 x 600 dpi",
     "Khổ giấy hỗ trợ: A5 – A3",
@@ -39,6 +39,9 @@ const product = {
     "Độ phân giải scan tối đa: 600 x 600 dpi",
     "Nguồn điện: AC220–240V ±10%, 8A, tần số 50/60Hz",
     "Kích thước: Rộng 577 x Sâu 659 x Cao 872 mm",
+    "Khay giấy vào : 02 khay tự động (500 tờ/khay)",
+    "Khay giấy tay : 96 tờ",
+    "Khay giấy ra bản sao : 250 + 250 tờ",
     "Trọng lượng: 75 kg"
   ]
 
@@ -69,7 +72,7 @@ export default function Product7580Page() {
           <h1 className="text-2xl font-bold text-red-600 mb-2">{product.name}</h1>
           <p className="text-xl text-green-600 font-semibold mb-4">Giá: {product.price}</p>
           <ul className="list-disc list-inside text-sm text-gray-700 space-y-1">
-           <li>02 khay tự động (520 tờ/khay) & 01 khay tay (96 tờ)</li>
+            <li>02 khay tự động (520 tờ/khay) & 01 khay tay (96 tờ)</li>
             <li>Trọng lượng giấy: 52 – 300 gsm</li>
             <li>Bộ nạp và đảo bản gốc tự động (DADF)</li>
             <li>Bộ đảo bản sao (Duplex)</li>

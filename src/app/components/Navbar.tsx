@@ -21,30 +21,32 @@ const navItems: NavItem[] = [
         label: "Máy Photocopy Trắng Đen",
         href: "/sanpham/maytrangden",
         children: [
-          { label: "Apeos 5570", code: "5570" },
-          { label: "Apeos 4570", code: "4570" },
-          { label: "Apeos 7580", code: "7580" },
-          { label: "Apeos 6580", code: "6580" },
-          { label: "Apeos 3060", code: "3060" },
           { label: "Apeos 2560", code: "2560" },
+          { label: "Apeos 3060", code: "3060" },
           { label: "Apeos 3560", code: "3560" },
+          { label: "Apeos 4570", code: "4570" },
+          { label: "Apeos 5570", code: "5570" },
+          { label: "Apeos 6580", code: "6580" },
+          { label: "Apeos 7580", code: "7580" },
         ],
       },
       {
         label: "Máy Photocopy Màu",
         href: "/sanpham/maymau",
         children: [
-          { label: "Apeos C7071", code: "C7071" },
-          { label: "Apeos C6571", code: "C6571" },
-          { label: "Apeos C5571", code: "C5571" },
-          { label: "Apeos C4571", code: "C4571" },
-          { label: "Apeos C3061", code: "C3061" },
-          { label: "Apeos C2561", code: "C2561" },
           { label: "Apeos C2061", code: "C2061" },
-          { label: "Apeos C8180", code: "C8180" },
-          { label: "Apeos C7580", code: "C7580" },
-          { label: "Apeos C6580", code: "C6580" },
+          { label: "Apeos C2561", code: "C2561" },
+          { label: "Apeos C3061", code: "C3061" },
+          { label: "Apeos C2567", code: "C2567" },
+          { label: "Apeos C3067", code: "C3067" },
           { label: "Apeos C3567", code: "C3567" },
+          { label: "Apeos C4571", code: "C4571" },
+          { label: "Apeos C5571", code: "C5571" },
+          { label: "Apeos C6580", code: "C6580" },
+          { label: "Apeos C6571", code: "C6571" },
+          { label: "Apeos C7071", code: "C7071" },
+          { label: "Apeos C7580", code: "C7580" },
+          { label: "Apeos C8180", code: "C8180" },
         ],
       },
     ],
@@ -109,9 +111,8 @@ export default function Navbar() {
                 </Link>
 
                 <ul
-                  className={`absolute top-full left-0 bg-white text-black shadow-lg min-w-[250px] rounded-md z-50 transition-all duration-200 ${
-                    openMenu === i ? "opacity-100 visible" : "opacity-0 invisible"
-                  }`}
+                  className={`absolute top-full left-0 bg-white text-black shadow-lg min-w-[250px] rounded-md z-50 transition-all duration-200 ${openMenu === i ? "opacity-100 visible" : "opacity-0 invisible"
+                    }`}
                 >
                   {item.submenu.map((sub: Submenu, j: number) => (
                     <li
@@ -131,11 +132,10 @@ export default function Navbar() {
 
                       {sub.children && (
                         <ul
-                          className={`absolute top-0 left-full bg-white text-black shadow-lg min-w-[220px] rounded-md z-50 transition-all duration-200 ${
-                            openMenu === i && openSub === j
-                              ? "opacity-100 visible"
-                              : "opacity-0 invisible"
-                          }`}
+                          className={`absolute top-0 left-full bg-white text-black shadow-lg min-w-[220px] rounded-md z-50 transition-all duration-200 ${openMenu === i && openSub === j
+                            ? "opacity-100 visible"
+                            : "opacity-0 invisible"
+                            }`}
                         >
                           {sub.children.map((child: ChildItem, k: number) => (
                             <li
@@ -173,7 +173,7 @@ export default function Navbar() {
         </button>
       </div>
       {isOpen && (
-        <ul className="md:hidden bg-white text-black shadow-lg space-y-2 px-4 py-3">
+        <ul className="md:hidden nav-mobile bg-white text-black shadow-lg space-y-2 px-4 py-3">
           {navItems.map((item, index) => (
             <li key={index}>
               {item.submenu ? (
@@ -190,7 +190,7 @@ export default function Navbar() {
                   </button>
 
                   {/* Link đi thẳng tới section sản phẩm trên trang chủ */}
-                
+
 
                   {openSubmenu === index && (
                     <ul id={`submenu-${index}`} className="pl-4 space-y-1">

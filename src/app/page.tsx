@@ -5,34 +5,9 @@ import Link from "next/link";
 export default function Header() {
   const productsBlackWhite = [
     {
-      name: 'Máy Photocopy Apeos A5570',
-      price: 'Liên Hệ ',
-      code: '5570',
-      image: '/productsBlackWhite/Apeos 5570 4570.png',
-    },
-    {
-      name: 'Máy Photocopy Apeos A4570',
-      price: 'Liên Hệ ',
-      code: '4570',
-      image: '/productsBlackWhite/Apeos 5570 4570.png',
-    },
-    {
-      name: 'Máy Photocopy Apeos A7580',
+      name: 'Máy Photocopy Apeos A2560',
       price: 'Liên Hệ',
-      code: '7580',
-      image: '/productsBlackWhite/Apeos 75806580.png',
-    },
-    {
-      name: 'Máy Photocopy Apeos A6580',
-      price: 'Liên Hệ',
-      code: '6580',
-      image: '/productsBlackWhite/Apeos 75806580.png',
-    },
-
-    {
-      name: 'Máy Photocopy Apeos A3560',
-      price: 'Liên Hệ',
-      code: '3560',
+      code: '2560',
       image: '/productsBlackWhite/Apeos 356030602560.png',
     },
     {
@@ -42,44 +17,43 @@ export default function Header() {
       image: '/productsBlackWhite/Apeos 356030602560.png',
     },
     {
-      name: 'Máy Photocopy Apeos A2560',
+      name: 'Máy Photocopy Apeos A3560',
       price: 'Liên Hệ',
-      code: '2560',
+      code: '3560',
       image: '/productsBlackWhite/Apeos 356030602560.png',
+    },
+    {
+      name: 'Máy Photocopy Apeos A4570',
+      price: 'Liên Hệ ',
+      code: '4570',
+      image: '/productsBlackWhite/Apeos 5570 4570.png',
+    },
+    {
+      name: 'Máy Photocopy Apeos A5570',
+      price: 'Liên Hệ ',
+      code: '5570',
+      image: '/productsBlackWhite/Apeos 5570 4570.png',
+    },
+    {
+      name: 'Máy Photocopy Apeos A6580',
+      price: 'Liên Hệ',
+      code: '6580',
+      image: '/productsBlackWhite/Apeos 75806580.png',
+    },
+    {
+      name: 'Máy Photocopy Apeos A7580',
+      price: 'Liên Hệ',
+      code: '7580',
+      image: '/productsBlackWhite/Apeos 75806580.png',
     },
     // Thêm các sản phẩm trắng đen khác...
   ];
 
   const productsColor = [
     {
-      name: 'Máy Photocopy Apeos C7071',
+      name: 'Máy Photocopy Apeos C2061',
       price: 'Liên Hệ',
-      code: 'C7071',
-      image: '/productsColor/Apeos C7071-C6571-C5571-C4571.png',
-    },
-    {
-      name: 'Máy Photocopy Apeos C6571',
-      price: 'Liên Hệ',
-      code: 'C6571',
-      image: '/productsColor/Apeos C7071-C6571-C5571-C4571.png',
-    },
-    {
-      name: 'Máy Photocopy Apeos C5571',
-      price: 'Liên Hệ',
-      code: 'C5571',
-      image: '/productsColor/Apeos C7071-C6571-C5571-C4571.png',
-    },
-    {
-      name: 'Máy Photocopy Apeos C4571',
-      price: 'Liên Hệ',
-      code: 'C4571',
-      image: '/productsColor/Apeos C7071-C6571-C5571-C4571.png',
-    },
-
-    {
-      name: 'Máy Photocopy Apeos C3061',
-      price: 'Liên Hệ',
-      code: 'C3061',
+      code: 'C2061',
       image: '/productsColor/Apeos C3061-C2561-C2061.png',
     },
     {
@@ -89,26 +63,22 @@ export default function Header() {
       image: '/productsColor/Apeos C3061-C2561-C2061.png',
     },
     {
-      name: 'Máy Photocopy Apeos C2061',
+      name: 'Máy Photocopy Apeos C3061',
       price: 'Liên Hệ',
-      code: 'C2061',
+      code: 'C3061',
       image: '/productsColor/Apeos C3061-C2561-C2061.png',
     },
     {
-      name: 'Máy Photocopy Apeos C8180',
+      name: 'Máy Photocopy Apeos C2567',
       price: 'Liên Hệ',
-      code: 'C8180',
-      image: '/productsColor/Apeos C8180-C7580-C6580.png',
-    }, {
-      name: 'Máy Photocopy Apeos C7580',
+      code: 'C2567',
+      image: '/productsColor/Apeos C3567.png',
+    },
+    {
+      name: 'Máy Photocopy Apeos C3067',
       price: 'Liên Hệ',
-      code: 'C7580',
-      image: '/productsColor/Apeos C8180-C7580-C6580.png',
-    }, {
-      name: 'Máy Photocopy Apeos C6580',
-      price: 'Liên Hệ',
-      code: 'C6580',
-      image: '/productsColor/Apeos C8180-C7580-C6580.png',
+      code: 'C3067',
+      image: '/productsColor/Apeos C3567.png',
     },
     {
       name: 'Máy Photocopy Apeos C3567',
@@ -116,7 +86,48 @@ export default function Header() {
       code: 'C3567',
       image: '/productsColor/Apeos C3567.png',
     },
-    // Thêm các sản phẩm màu khác...
+    {
+      name: 'Máy Photocopy Apeos C4571',
+      price: 'Liên Hệ',
+      code: 'C4571',
+      image: '/productsColor/Apeos C7071-C6571-C5571-C4571.png',
+    },
+    {
+      name: 'Máy Photocopy Apeos C5571',
+      price: 'Liên Hệ',
+      code: 'C5571',
+      image: '/productsColor/Apeos C7071-C6571-C5571-C4571.png',
+    },
+    {
+      name: 'Máy Photocopy Apeos C6571',
+      price: 'Liên Hệ',
+      code: 'C6571',
+      image: '/productsColor/Apeos C7071-C6571-C5571-C4571.png',
+    },
+    {
+      name: 'Máy Photocopy Apeos C6580',
+      price: 'Liên Hệ',
+      code: 'C6580',
+      image: '/productsColor/Apeos C8180-C7580-C6580.png',
+    },
+    {
+      name: 'Máy Photocopy Apeos C7071',
+      price: 'Liên Hệ',
+      code: 'C7071',
+      image: '/productsColor/Apeos C7071-C6571-C5571-C4571.png',
+    },
+    {
+      name: 'Máy Photocopy Apeos C7580',
+      price: 'Liên Hệ',
+      code: 'C7580',
+      image: '/productsColor/Apeos C8180-C7580-C6580.png',
+    },
+    {
+      name: 'Máy Photocopy Apeos C8180',
+      price: 'Liên Hệ',
+      code: 'C8180',
+      image: '/productsColor/Apeos C8180-C7580-C6580.png',
+    },
   ];
 
 
@@ -143,37 +154,76 @@ export default function Header() {
 
         {/* content */}
         <div className="relative z-10 grid min-h-[100dvh] place-items-center px-4">
-    <div className="mx-auto max-w-3xl text-center space-y-6">
-      <h1 className="font-serif font-extrabold leading-tight tracking-wide
-                     text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-white">
-        PHOTOCOPY FUJIFILM
-      </h1>
+          <div className="mx-auto max-w-3xl text-center space-y-6">
+            <h1 className="font-serif font-extrabold leading-tight tracking-wide
+               text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-red-600 shadow-left-white">
+              PHOTOCOPY FUJIFILM
+            </h1>
 
-      <p className="text-white/90 text-base sm:text-lg">
-        Kỷ nguyên mới cùng Máy Photocopy Apeos
-      </p>
 
-      <div className="flex justify-center gap-4">
-        {/* Nút chính (màu nổi) */}
-        <Link
-          href="#mau"
-          className="rounded px-6 py-3 text-sm font-semibold uppercase tracking-wider
-                     bg-red-500 text-white hover:bg-yellow-600 transition"
-        >
-          Shop Now
-        </Link>
+            <p className="text-white/90 text-base sm:text-lg">
+              Kỷ nguyên mới cùng Máy Photocopy Apeos
+            </p>
 
-        {/* Nút phụ (viền trắng) */}
-        <Link
-          href="lienhe"
-          className="rounded px-6 py-3 text-sm font-semibold uppercase tracking-wider
-                     border border-white text-white hover:bg-white/10 transition"
-        >
-          Contact Now
-        </Link>
-      </div>
-    </div>
-  </div>
+            <div className="flex justify-center gap-4">
+              {/* Nút chính: Shop Now (solid + glow + quét sáng khi hover) */}
+              <Link
+                href="#mau"
+                className="group relative inline-flex items-center justify-center overflow-hidden
+               rounded-xl px-8 py-3 text-sm font-semibold uppercase tracking-wider
+               text-white bg-red-500 transition-all duration-300"
+              >
+                {/* viền & glow khi hover */}
+                <span
+                  className="pointer-events-none absolute inset-0 rounded-xl ring-0 transition-all duration-300
+                 group-hover:ring-2 group-hover:ring-yellow-400/60
+                 group-hover:shadow-[0_0_25px_rgba(250,204,21,0.45)]"
+                />
+                {/* vệt sáng quét ngang khi hover */}
+                <span
+                  className="pointer-events-none absolute -left-1/3 top-0 h-full w-1/3 -skew-x-12
+                 bg-white/20 translate-x-[-120%] transition-transform duration-700 ease-out
+                 group-hover:translate-x-[320%]"
+                />
+                {/* overlay vàng mờ chỉ hiện khi hover */}
+                <span
+                  className="pointer-events-none absolute inset-0 bg-yellow-400/15 opacity-0
+                 transition-opacity duration-300 group-hover:opacity-100"
+                />
+                <span className="relative z-10">Shop Now</span>
+              </Link>
+
+              {/* Nút phụ: Contact Now (ghost + viền trắng + quét sáng khi hover) */}
+              <Link
+                href="lienhe"
+                className="group relative inline-flex items-center justify-center overflow-hidden
+               rounded-xl px-8 py-3 text-sm font-semibold uppercase tracking-wider
+               border border-white text-white transition-all duration-300"
+              >
+                {/* viền sáng khi hover */}
+                <span
+                  className="pointer-events-none absolute inset-0 rounded-xl ring-0 transition-all duration-300
+                 group-hover:ring-2 group-hover:ring-white/70
+                 group-hover:shadow-[0_0_24px_rgba(255,255,255,0.35)]"
+                />
+                {/* vệt sáng quét ngang khi hover */}
+                <span
+                  className="pointer-events-none absolute -left-1/3 top-0 h-full w-1/3 -skew-x-12
+                 bg-white/25 translate-x-[-120%] transition-transform duration-700 ease-out
+                 group-hover:translate-x-[320%]"
+                />
+                {/* nền trắng mờ rất nhẹ khi hover để chữ dễ đọc hơn */}
+                <span
+                  className="pointer-events-none absolute inset-0 bg-white/5 opacity-0
+                 transition-opacity duration-300 group-hover:opacity-100"
+                />
+                <span className="relative z-10">Contact Now</span>
+              </Link>
+            </div>
+
+
+          </div>
+        </div>
       </section>
 
 

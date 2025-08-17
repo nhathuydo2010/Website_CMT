@@ -25,7 +25,7 @@ const product = {
   image: "/productsColor/Apeos C7071-C6571-C5571-C4571.png",
   specs: [
     "Chức năng: Copy / In / Scan 2 mặt tự động",
-    "Copy màu: Tốc độ 45 trang A4/phút (trắng đen và màu), độ phân giải 600 x 600 dpi",
+    "Copy màu: Tốc độ 65 trang A4/phút (trắng đen và màu), độ phân giải 600 x 600 dpi",
     "Khổ giấy hỗ trợ: A5 – A3",
     "Phóng to / Thu nhỏ: 25% – 400% (tăng giảm từng 1%)",
     "In màu qua mạng hoặc USB, tốc độ 65 trang A4/phút (trắng đen/màu)",
@@ -37,8 +37,11 @@ const product = {
     "Scan màu: Tốc độ 80 trang A4/phút (quét hai mặt một lượt: 160 trang/phút)",
     "Scan vào PC, Server, Email. Định dạng: PDF, TIFF, JPEG…",
     "Độ phân giải scan tối đa: 600 x 600 dpi",
-    "Nguồn điện: AC220–240V, 8A, tần số 50/60Hz",
+    "Nguồn điện: AC220–240V, 10A, tần số 50/60Hz",
     "Kích thước: Rộng 658 x Sâu 790 x Cao 1169 mm",
+    "Khay giấy vào : 04 khay tự động (520 tờ/khay)",
+    "Khay giấy tay : 90 tờ",
+    "Khay giấy ra bản sao : 250 + 250 tờ",
     "Trọng lượng: 129 kg"
   ]
 };
