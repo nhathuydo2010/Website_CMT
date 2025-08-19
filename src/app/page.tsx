@@ -129,7 +129,52 @@ export default function Header() {
       image: '/productsColor/Apeos C8180-C7580-C6580.png',
     },
   ];
+  const productsprinter = [
+    {
+      name: 'Toner Cartridge / Drum Cartridge Apeos A1860/A2560/A3060/A3560',
+      price: 'Liên Hệ ',
+      code: 'A1860',
+      image: '/muc/A1860.png',
+    },
+    {
+      name: 'Toner Cartridge A3570',
+      price: 'Liên Hệ ',
+      code: 'A3570',
+      image: '/muc/a3570.png',
+    },
+    {
+      name: 'Toner Cartridge / Drum Cartridge Apeos A4570/A5570',
+      price: 'Liên Hệ',
+      code: 'A4570',
+      image: '/muc/a4570.png',
+    },
+    {
+      name: 'Toner Cartridge / Drum Cartridge Apeos C2060/C2360/C2560/C3060',
+      price: 'Liên Hệ',
+      code: 'C2060',
+      image: '/muc/C2060.png',
+    },
 
+    {
+      name: 'Waste Toner Cartridge Apeos C2061/C2561/C2567/C3061/C3067/C3567',
+      price: 'Liên Hệ',
+      code: 'C2061',
+      image: '/muc/C2061.png',
+    },
+    {
+      name: 'Toner Cartridge Apeos C2061/C2561/C2567/C3061/C3067/C3567',
+      price: 'Liên Hệ',
+      code: 'C3061',
+      image: '/muc/C3061.png',
+    },
+    {
+      name: 'Toner Cartridge / Drum Cartridge Apeos C3070/C3570/C4570/C5570/C6570/C7070',
+      price: 'Liên Hệ',
+      code: 'C3070',
+      image: '/muc/C3070.png',
+    },
+    // Thêm các sản phẩm trắng đen khác...
+  ];
 
 
   return (
@@ -317,6 +362,42 @@ export default function Header() {
           </div>
         </div>
       </div>
+             {/* MỰC MÁY IN */}
+        <div className="bg-white/90 max-w-[1300px] mx-auto rounded-2xl shadow-xl p-4 md:p-6 mt-10" id="muc">
+          <div className="w-full max-w-[1300px] mx-auto">
+            <a
+              href={`/sanpham/muc/`}
+              className="block bg-red-600 text-white text-lg font-bold py-2 text-center rounded-full shadow-2xl hover:bg-red-700 transition mb-6"
+            >
+              MỰC MÁY PHOTOCOPY
+            </a>
+          </div>
+          <div className="w-full max-w-[1300px] mx-auto px-2 sm:px-4 py-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+              {productsprinter.map((product, index) => (
+                <div
+                  key={index}
+                  className="rounded-2xl shadow-xl p-4 flex flex-col h-full hover:shadow-2xl transition-shadow duration-300 text-center"
+                >
+                  <Link href={`/sanpham/muc/${product.code}`}>
+                    <Image
+                      src={product.image}
+                      alt={product.name}
+                      width={300}
+                      height={200}
+                      className="mx-auto object-contain h-[220px] w-auto cursor-pointer hover:scale-105 transition-transform"
+                    />
+                  </Link>
+                  <div className="mt-4">
+                    <p className="text-green-700 font-semibold">{product.name}</p>
+                    <p className="text-red-600 font-bold mt-1">Giá: {product.price}</p>
+                    <p className="text-gray-500 text-sm mt-1">Mã: {product.code}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div> 
     </div>
   );
 }

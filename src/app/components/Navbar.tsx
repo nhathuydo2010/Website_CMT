@@ -49,6 +49,12 @@ const navItems: NavItem[] = [
           { label: "Apeos C8180", code: "C8180" },
         ],
       },
+      {
+        label: "Mực Máy Photocopy",
+        href: "/sanpham/muc",
+        children: [
+        ]
+      },
     ],
   },
   { label: "TIN TỨC & SỰ KIỆN", href: "#" },
