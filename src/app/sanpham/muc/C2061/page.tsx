@@ -3,7 +3,7 @@
 
 import Image from 'next/image';
 
-import { useState } from 'react';
+// import { useState } from 'react';
 import Relatedproductsprinter from '../../../components/Relatedproductsprinter'
 
 
@@ -15,8 +15,8 @@ const product = {
 };
 
 export default function Product7580Page() {
-  const [showFullDescription, setShowFullDescription] = useState(false);
-  const [showFullSpecs, setShowFullSpecs] = useState(false);
+  // const [showFullDescription, setShowFullDescription] = useState(false);
+  // const [showFullSpecs, setShowFullSpecs] = useState(false);
 
   return (
     <div className="bg-white/90 max-w-[1100px] mx-auto rounded-2xl shadow-xl p-4 md:p-6 mt-10">
