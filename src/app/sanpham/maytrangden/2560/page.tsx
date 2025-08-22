@@ -21,7 +21,7 @@ import RelatedProductSlider from '../../../components/RelatedProductSlider'
 // ];
 
 const product = {
-  name: 'Máy Photocopy Apeos A2560',
+  name: 'Máy Photocopy Apeos 2560',
   price: 'Liên Hệ',
   image: '/productsBlackWhite/Apeos 356030602560.png',
  specs: [
@@ -143,7 +143,7 @@ export default function Product7580Page() {
         <div className="lg:w-2/3 w-full">
           <h2 className="text-xl font-bold text-black mb-4 uppercase">Mô Tả Sản Phẩm</h2>
           <h3 className="text-[30px] font-bold text-red-700 mb-2">
-            Máy Photocopy Apeos A2560
+            Máy Photocopy Apeos 2560
           </h3>
           <h4 className="text-lg font-semibold text-blue-700 mb-2">
             Nhỏ gọn – Hiệu suất cao – Bảo mật toàn diện – Hỗ trợ làm việc từ xa

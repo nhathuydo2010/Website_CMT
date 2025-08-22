@@ -7,7 +7,7 @@ import { useState } from 'react';
 import RelatedProductSlider from '../../../components/RelatedProductSlider'
 
 const product = {
-  name: "Máy Photocopy Apeos A5570",
+  name: "Máy Photocopy Apeos 5570",
   price: "Liên Hệ",
   image: "/productsBlackWhite/Apeos 5570 4570.png",
 specs: [
@@ -127,7 +127,7 @@ export default function Product7580Page() {
         <div className="lg:w-2/3 w-full">
           <h2 className="text-xl font-bold text-black mb-4 uppercase">Mô Tả Sản Phẩm</h2>
           <h3 className="text-[30px] font-bold text-red-700 mb-2">
-            Máy Photocopy Apeos A5570
+            Máy Photocopy Apeos 5570
           </h3>
           <h4 className="text-lg font-semibold text-blue-700 mb-2">
             Hiệu suất vượt trội, vận hành thông minh
