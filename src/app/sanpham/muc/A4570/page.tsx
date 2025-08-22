@@ -10,7 +10,7 @@ import Relatedproductsprinter from '../../../components/Relatedproductsprinter'
 const product = {
   name: "Toner Cartridge / Drum Cartridge Apeos A4570/A5570",
   price: "Liên Hệ",
-  image: "/muc/A4570.png",
+  image: "/muc/a4570.png",
 
 };
 
