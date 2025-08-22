@@ -10,7 +10,7 @@ import Relatedproductsprinter from '../../../components/Relatedproductsprinter'
 const product = {
   name: "Toner Cartridge A3570",
   price: "Liên Hệ",
-  image: "/muc/A3570.png",
+  image: "/muc/a3570.png",
 
 };
 
