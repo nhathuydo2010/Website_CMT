@@ -24,32 +24,39 @@ const product = {
   name: "Máy Photocopy Apeos C3567",
   price: "Liên Hệ",
   image: "/productsColor/Apeos C3567.png",
-  specs: [
-    "Thương hiệu: Fujifilm",
-    "Model: Apeos C3067",
-    "Chức năng: Copy / In mạng / Scan mạng màu, SPDF, Duplex",
-    "Tốc độ copy/in: 35 trang/phút (Màu, Đen trắng)",
-    "Tốc độ scan: 80 trang/phút (Quét 1 lần 2 mặt: 160 trang/phút)",
-    "Bộ nhớ: 6 GB",
-    "Ổ cứng SSD: 256 GB",
-    "Độ phân giải in: 1.200 x 2.400 dpi",
-    "Khay giấy chính: 520 tờ",
-    "Khay giấy tay: 96 tờ",
-    "Kích thước giấy hỗ trợ: A5 – A3",
-    "Sao chụp liên tục: Tối đa 999 tờ",
-    "Tỉ lệ thu phóng: 25% – 400%",
-    "Bộ nạp và đảo bản gốc tự động: SPDF (130 tờ) – Có sẵn",
-    "Bộ đảo bản sao tự động (Duplex): Có",
-    "Chia bộ điện tử: Có sẵn",
-    "Giao diện điều khiển: LCD màu 10,1 inch",
-    "Chuẩn kết nối: Ethernet 10/100/1000Base-TX, USB 3.0",
-    "Thời gian in bản đầu tiên: Đen trắng 4,6 giây, Màu 6,0 giây",
-    "Thời gian khởi động: 20 giây hoặc ít hơn (có thể thay đổi tùy điều kiện sử dụng)",
-    "Khay giấy: Khay bypass",
-    "Ngôn ngữ in: Chuẩn PCL5 / PCL6, Tùy chọn Adobe PostScript 3",
-    "Độ phân giải scan: 600 x 600 dpi, 400 x 400 dpi, 300 x 300 dpi, 200 x 200 dpi",
-    "Kích thước máy (Rộng x Sâu x Cao): 587 x 671 x 1.136 mm (4 khay)"
-  ]
+   specs: [
+    'Kiểu: Bảng điều khiển',
+    'Dung lượng bộ nhớ: 6 GB',
+    'Dung lượng thiết bị lưu trữ: 256 GB',
+    'Tính năng màu: Đầy đủ màu sắc',
+    'Độ phân giải quét: 600 x 600 dpi',
+    'Độ phân giải in ấn: 1.200 x 2.400 dpi',
+    'Thời gian khởi động: 20 giây hoặc ít hơn (nhiệt độ phòng là 23°C)',
+    'Khổ giấy bản gốc: Tối đa A3, 11 x 17”, 297 x 432 mm cho cả Tờ bản in và Sách Khay 1: A5 > A3 Khổ Giấy Tùy Chỉnh , Khay 1+ 3+4: Tối đa: A4, Letter, Tối thiểu: JIS B5 ',
+    'Khổ giấy: Khay tay: Tối đa: SRA3 (320 x 450 mm), 12 x 19" (305 x 483 mm), A3, Tối thiểu: A5',
+    'Thời gian ra bản sao chụp đầu tiên: Đen trắng 4,1 giây (A4 LEF / Chế độ ưu tiên đơn sắc), Màu 5,4 giây (A4 LEF / Chế độ ưu tiên màu)',
+    'Tốc độ sao in (A4 LEF): Đen trắng 35 trang/phút – Màu 35 trang/phút',
+    'Dung lượng khay giấy: Chuẩn: 520 tờ + Khay tay 90 tờ; Tùy chọn: Mô-đun 1 khay có tủ: 520 tờ x 1 Khay, Mô-đun 3 khay: 520 tờ x 3 , Khay: Bộ nạp trữ lượng lớn B1: 2.000 tờ',
+    'Trọng lượng giấy: 52 – 300 gsm',
+    'Nguồn điện: AC220–240V ±10%, 8A, 50/60Hz',
+    'Mức tiêu thụ điện: 1,76 kW (Chế độ nghỉ: 0,3 W, , Chế độ sẵn sàng: 97 W)',
+    'Kích thước cơ bản: Rộng 577 x Sâu 671 x Cao 785 mm , Rộng 577 x Sâu 671 x Cao 888 mm (khi có lắp đặt Mô-đun 1 khay tùy chọn.) , Rộng 587 x Sâu 671 x Cao 1.136 mm (khi có lắp đặt Mô-đun 1 khay có Tủ tùy chọn.) , Rộng 587 x Sâu 671 x Cao 1.136 mm (khi có lắp đặt Mô-đun 3 khay tùy chọn.) ',
+    'Trọng lượng cơ bản: 67 kg ,82 kg (khi có lắp đặt Mô-đun 1 khay tùy chọn.), 88 kg (khi có lắp đặt Mô-đun 1 khay có Tủ tùy chọn.), 90 kg (khi có lắp đặt Mô-đun 3 khay tùy chọn.)',
+    'Độ phân giải in (PCL): 1.200 x 2.400 dpi (chuẩn, chất lượng cao, độ phân giải cao)',
+    'Độ phân giải in (PostScript): 1.200 x 2.400 dpi (chuẩn, chất lượng cao, độ phân giải cao)',
+    'Ngôn ngữ mô tả trang: PCL5 / PCL6 (chuẩn), Adobe PostScript 3 (tùy chọn)',
+    'Hệ điều hành hỗ trợ (PCL/Mac OS X): Windows 11 (64 bit), Windows 10 (32/64 bit), Windows Server 2025/2022/2019/2016 (64 bit), MacOS 15/14/13/12/11',
+    'Hệ điều hành hỗ trợ (PostScript): Windows 11 (64 bit), Windows 10 (32/64 bit), Windows Server 2025/2022/2019/2016 (64 bit), MacOS 15/14/13/12/11',
+    'Kết nối: Ethernet 1000BASE-T / 100BASE-TX / 10BASE-T, USB 3.0 / USB 2.0, LAN không dây (tùy chọn)',
+    'Kiểu quét: Màu',
+    'Độ phân giải quét: 600 x 600 dpi, 400 x 400 dpi, 300 x 300 dpi, 200 x 200 dpi',
+    'Tốc độ quét: Phù hợp với tốc độ bộ nạp và đảo bản gốc tự động',
+    'Khổ giấy bản gốc (DADF): Tối đa A3, 11 x 17 inch; Tối thiểu A6',
+    'Trọng lượng giấy (DADF): 38 – 128 gsm (2 mặt: 50 – 128 gsm)',
+    'Dung lượng nạp (DADF): 130 tờ',
+    'Tốc độ sao chụp qua DADF (A4 LEF, 1 mặt): Đen trắng 35 trang/phút - Màu 35 trang/phút;',
+    'Tốc độ quét (DADF): Đen trắng 80 trang/phút – Màu 80 trang/phút; Quét 2 mặt 1 lượt: Đen trắng 160 trang/phút – Màu 160 trang/phút [Tài liệu tiêu chuẩn (A4 LEF), 200 dpi, Lưu trữ vào thư mục]'
+  ],
 };
 
 export default function Product7580Page() {
@@ -57,7 +64,7 @@ export default function Product7580Page() {
   const [showFullSpecs, setShowFullSpecs] = useState(false);
 
   return (
-    <div className="bg-white/90 max-w-[1100px] mx-auto rounded-2xl shadow-xl p-4 md:p-6 mt-10">
+    <div className="bg-white/90 max-w-[1300px] mx-auto rounded-2xl shadow-xl p-4 md:p-6 mt-10">
       <div className="flex flex-col lg:flex-row gap-8">
         <div className="relative w-full lg:w-1/2 p-4">
           <Image
@@ -77,11 +84,12 @@ export default function Product7580Page() {
           <h1 className="text-2xl font-bold text-red-600 mb-2">{product.name}</h1>
           <p className="text-xl text-green-600 font-semibold mb-4">Giá: {product.price}</p>
           <ul className="list-disc list-inside text-sm text-gray-700 space-y-1">
-            <li>04 khay tự động (520 tờ/ khay) & 01 khay tay (96 tờ). (Trọng lượng giấy : 52 - 300 gsm).</li>
-            <li>Bộ nạp và đảo bản gốc tự động (DADF).</li>
-            <li>Bộ đảo bản sao (Duplex).</li>
-            <li>Khay chia bộ điên tử (lệch hướng).</li>
-            <li>Bộ nhớ: 6 GB (Bộ nhớ Hệ thống: 4 GB, Bộ nhớ Trang: 2 GB, Tối đa: 6 GB). 256GB SSD storage</li>
+            <li>04 khay tự động (tùy chọn) & 01 khay tay (96 tờ).</li>
+            <li>Copy màu/In màu/Scan màu.</li>
+            <li>Tốc độ In/sao chụp qua DADF 35 trang/phút.</li>
+            <li> Bộ nạp và đảo bản gốc tự động (DADF).</li>
+            <li>Bộ đảo bản sao (Duplex)</li>
+            <li>Bộ nhớ: Tối đa 6GB. SSD: 256GB</li>
             <li>Giao diện điều khiển : Màn hình cảm ứng màu 10,1 inch.</li>
           </ul>
           <div className="relative w-full max-w-[350px] border border-red-600 mt-4 rounded">

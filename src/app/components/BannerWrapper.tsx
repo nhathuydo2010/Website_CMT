@@ -1,6 +1,7 @@
 'use client';
 
 import Image from 'next/image';
+import Link from 'next/link'; // thêm vào
 import { useEffect, useState } from 'react';
 
 export default function BannerWrapper() {
@@ -33,13 +34,15 @@ export default function BannerWrapper() {
           hideBanner ? 'opacity-0 pointer-events-none' : 'opacity-100'
         }`}
       >
-        <Image
-          src="/skybanner1.png"
-          alt="Banner Trái"
-          width={160}
-          height={600}
-          className="rounded shadow-lg"
-        />
+        <Link href="sanpham\maytrangden\3560">
+          <Image
+            src="/skybanner1.png"
+            alt="Banner Trái"
+            width={160}
+            height={600}
+            className="rounded shadow-lg cursor-pointer"
+          />
+        </Link>
       </div>
 
       {/* Banner Phải */}
@@ -48,13 +51,15 @@ export default function BannerWrapper() {
           hideBanner ? 'opacity-0 pointer-events-none' : 'opacity-100'
         }`}
       >
-        <Image
-          src="/skybanner.png"
-          alt="Banner Phải"
-          width={160}
-          height={600}
-          className="rounded shadow-lg"
-        />
+        <Link href="sanpham\maymau\C8180">
+          <Image
+            src="/skybanner.png"
+            alt="Banner Phải"
+            width={160}
+            height={600}
+            className="rounded shadow-lg cursor-pointer"
+          />
+        </Link>
       </div>
     </>
   );

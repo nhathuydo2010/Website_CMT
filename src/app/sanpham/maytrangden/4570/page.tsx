@@ -23,22 +23,38 @@ const product = {
   price: "Liên Hệ",
   image: "/productsBlackWhite/Apeos 5570 4570.png",
   specs: [
-    "Máy Photocopy kỹ thuật số, Laser trắng đen",
-    "Chức năng: Copy + In trắng đen + Scan màu qua mạng",
-    "Bộ nạp và đảo 2 mặt bản gốc tự động (ARDF)",
-    "Bộ đảo 2 mặt bản sao tự động (Duplex)",
-    "Tốc độ: 45 bản/phút. Khổ giấy lớn nhất: A3, nhỏ nhất: A5",
-    "Khay giấy vào: 2 khay x 520 tờ",
-    "Khay giấy tay: 90 tờ",
-    "Khay giấy ra bản sao: 250 + 250 tờ",
-    "Thu Nhỏ / Phóng to: 25% – 400%",
-    "Độ phân giải: 600 dpi",
-    "Dung lượng bộ nhớ: 4 GB + ổ cứng 128 GB",
-    "Màn hình cảm ứng màu thông minh",
-    "Khởi động: 30s, Chụp liên tục: 999 bản",
-    "Tiêu thụ: 2.2 kW, Nguồn điện: AC 220V",
-    "Kích thước: 620 x 720 x 858 mm, Trọng lượng: 91 Kg"
-  ]
+  'Kiểu: Bảng điều khiển',
+  'Dung lượng bộ nhớ: 4 GB (Tối đa: 4 GB)',
+  'Dung lượng thiết bị lưu trữ: 128 GB',
+  'Độ phân giải quét: 600 x 600 dpi',
+  'Độ phân giải in ấn: Chuẩn 1.200 x 1.200 dpi, 600 x 600 dpi (Văn bản / Văn bản-Ảnh / Ảnh / Bản đồ)',
+  'Thời gian khởi động: 30 giây hoặc ít hơn (nhiệt độ phòng là 23°C)',
+  'Khổ giấy bản gốc: Tối đa A3, 11 x 17”, 297 x 432 mm cho cả Tờ bản in và Sách',
+  'Khổ giấy: Tối đa 13 x 19 inch (330 x 483 mm), 12,6 x 19,2 inch (320 x 488 mm), A3; Tối thiểu A6, Bưu thiếp (100 x 148 mm); Chiều rộng mặt hình: Mép trên 4,0 mm, Mép dưới 4,0 mm, Mép trái/phải 3,0 mm',
+  'Thời gian ra bản sao chụp đầu tiên: 3,6 giây (A4 LEF)',
+  'Tốc độ sao in: 45 trang/phút (A4 LEF)',
+  'Dung lượng khay giấy: Chuẩn - Kiểu máy 2 Khay: 520 tờ x 2 - Khay + Khay tay 90 tờ',
+  'Dung lượng khay giấy ra: 500 tờ (A4 LEF)',
+  'Nguồn điện: AC220–240V ±10%, 10A, 50/60Hz',
+  'Mức tiêu thụ điện: 2,2 kW (Chế độ nghỉ: 0,5 W, Chế độ sẵn sàng: 82 W)',
+  'Kích thước: Rộng 620 x Sâu 720 x Cao 858 mm (Kiểu máy 2 Khay tiêu chuẩn)',
+  'Trọng lượng: 91 kg (Kiểu máy 2 Khay tiêu chuẩn)',
+  'Độ phân giải in (PCL): 1.200 x 1.200 dpi (chuẩn, chất lượng cao, độ phân giải cao)',
+  'Độ phân giải in (PostScript): 1.200 x 1.200 dpi (chuẩn, chất lượng cao, độ phân giải cao)',
+  'Ngôn ngữ mô tả trang: PCL5 / PCL6 (chuẩn), Adobe PostScript 3 (tùy chọn)',
+  'Hệ điều hành hỗ trợ (PCL/Mac OS X): Windows 11 (64 bit), Windows 10 (32/64 bit), Windows Server 2025/2022/2019/2016 (64 bit), MacOS 15/14/13/12/11',
+  'Hệ điều hành hỗ trợ (PostScript): Windows 11 (64 bit), Windows 10 (32/64 bit), Windows Server 2025/2022/2019/2016 (64 bit), MacOS 15/14/13/12/11',
+  'Kết nối: Ethernet 1000BASE-T / 100BASE-TX / 10BASE-T, USB 3.0 / USB 2.0, LAN không dây (tùy chọn)',
+  'Kiểu quét: Màu',
+  'Độ phân giải quét: 600 x 600 dpi, 400 x 400 dpi, 300 x 300 dpi, 200 x 200 dpi',
+  'Tốc độ quét: Phù hợp với tốc độ bộ nạp và đảo bản gốc tự động',
+  'Khổ giấy bản gốc (DADF): Tối đa A3, 11 x 17 inch; Tối thiểu A6',
+  'Trọng lượng giấy (DADF): 38–128 gsm (2 mặt: 50–128 gsm)',
+  'Dung lượng nạp (DADF): 130 tờ',
+  'Tốc độ sao chụp qua DADF (A4 LEF, 1 mặt): 45 trang/phút',
+  'Tốc độ quét (DADF): Đen trắng 80 trang/phút – Màu 80 trang/phút; Quét 2 mặt 1 lượt: Đen trắng 160 trang/phút – Màu 160 trang/phút (Tài liệu tiêu chuẩn A4 LEF, 200 dpi, Lưu trữ vào thư mục)'
+],
+
 };
 
 export default function Product7580Page() {
@@ -46,7 +62,7 @@ export default function Product7580Page() {
   const [showFullSpecs, setShowFullSpecs] = useState(false);
 
   return (
-    <div className="bg-white/90 max-w-[1100px] mx-auto rounded-2xl shadow-xl p-4 md:p-6 mt-10">
+    <div className="bg-white/90 max-w-[1300px] mx-auto rounded-2xl shadow-xl p-4 md:p-6 mt-10">
       <div className="flex flex-col lg:flex-row gap-8">
         <div className="relative w-full lg:w-1/2 p-4">
           <Image
@@ -66,12 +82,12 @@ export default function Product7580Page() {
           <h1 className="text-2xl font-bold text-red-600 mb-2">{product.name}</h1>
           <p className="text-xl text-green-600 font-semibold mb-4">Giá: {product.price}</p>
           <ul className="list-disc list-inside text-sm text-gray-700 space-y-1">
-            <li>02 khay tự động (520 tờ/khay) & 01 khay tay (90 tờ).</li>
-            <li>(Trọng lượng giấy: 52 - 300 gsm).</li>
+            <li>02 khay tự động  & 01 khay tay .</li>
+            <li>Tốc độ In/sao chụp qua DADF 45 trang/phút.</li>
             <li>Bộ nạp và đảo bản gốc tự động (DADF).</li>
             <li>Bộ đảo bản sao (Duplex).</li>
             <li>Bộ nhớ: Tối đa 4GB. SSD: 128GB.</li>
-            <li>Màn hình cảm ứng màu 10 inch.</li>
+            <li>Màn hình cảm ứng màu 10.1 inch.</li>
           </ul>
           <div className="relative w-full max-w-[350px] border border-red-600 mt-4 rounded">
             {/* Ruy băng khuyến mãi */}

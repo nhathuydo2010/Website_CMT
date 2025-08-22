@@ -19,7 +19,7 @@ export default function Product7580Page() {
   // const [showFullSpecs, setShowFullSpecs] = useState(false);
 
   return (
-    <div className="bg-white/90 max-w-[1100px] mx-auto rounded-2xl shadow-xl p-4 md:p-6 mt-10">
+    <div className="bg-white/90 max-w-[1300px] mx-auto rounded-2xl shadow-xl p-4 md:p-6 mt-10">
       <div className="flex flex-col lg:flex-row gap-8">
         <div className="relative w-full lg:w-1/2 p-4">
           <Image

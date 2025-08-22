@@ -24,24 +24,39 @@ const product = {
   name: 'Máy Photocopy Apeos A2560',
   price: 'Liên Hệ',
   image: '/productsBlackWhite/Apeos 356030602560.png',
-  specs: [
-    'Chức năng: Copy/In/Scan 2 mặt tự động',
-    'Tốc độ Copy: 25 trang A4/phút. Độ phân giải: 600 x 600dpi',
-    'Khổ giấy: A5–A3',
-    'Thu nhỏ/phóng to: 25–400% (tăng giảm từng 1%)',
-    'In mạng: Tốc độ 25 trang A4/phút, Độ phân giải chuẩn: 600 x 600dpi, tối đa: 1200 x 1200dpi',
-    'Hệ điều hành hỗ trợ: Windows 10/11, macOS 10.14 trở lên',
-    'Ngôn ngữ mô tả trang: PCL5 / PCL6',
-    'Kết nối mạng: Ethernet 100BASE-TX / 10BASE-T, USB, tuỳ chọn Wi-Fi',
-    'Scan màu: Tốc độ 55 trang A4/phút, Scan vào PC/Email/Folder/USB',
-    'Định dạng file scan: PDF, TIFF, JPEG,... Độ phân giải tối đa: 600 x 600dpi',
-    'Cung cấp nguồn điện: AC220–240V, 8A, 50/60Hz',
-    'Kích thước: Rộng 590 x Sâu 659 x Cao 885 mm (2 khay)',
-    'Trọng lượng: 65 kg (2 khay)',
-    'Màn hình: Cảm ứng màu 7 inch nghiêng',
-    'Bộ nhớ RAM: 4GB / SSD 128GB',
-    'Khuyến mãi: Tặng chân tủ để máy VN',
-  ],
+ specs: [
+  'Kiểu: Bảng điều khiển',
+  'Dung lượng bộ nhớ: 4 GB (Tối đa: 4 GB)',
+  'Dung lượng thiết bị lưu trữ: 128 GB',
+  'Độ phân giải quét: 600 x 600 dpi',
+  'Độ phân giải in ấn: Chuẩn 1.200 x 1.200 dpi, 600 x 600 dpi (Văn bản / Văn bản-Ảnh / Ảnh / Bản đồ)',
+  'Thời gian khởi động: 28 giây hoặc ít hơn (nhiệt độ phòng là 23°C)',
+  'Khổ giấy bản gốc: Tối đa A3, 11 x 17”, 297 x 432 mm cho cả Tờ bản in và Sách',
+  'Khổ giấy: Tối đa 13 x 19 inch (330 x 483 mm), 12,6 x 19,2 inch (320 x 488 mm), A3; Tối thiểu A6, Bưu thiếp (100 x 148 mm); Chiều rộng mặt hình: Mép trên 4,0 mm, Mép dưới 4,0 mm, Mép trái/phải 3,0 mm',
+  'Thời gian ra bản sao chụp đầu tiên: 4,5 giây (A4 LEF)',
+  'Tốc độ sao in: 25 trang/phút (A4 LEF)',
+  'Dung lượng khay giấy: Kiểu máy 2 khay: 500 tờ x 2 - Khay + Khay tay 96 tờ; Kiểu máy 4 khay: 500 tờ x 4 - Khay + Khay tay 96 tờ (tùy chọn)',
+  'Dung lượng khay giấy ra: 500 tờ (A4 LEF)',
+  'Nguồn điện: AC220–240V ±10%, 10A, 50/60Hz',
+  'Mức tiêu thụ điện: Tối đa 1,76 kW (Chế độ nghỉ: 0,4 W, Chế độ sẵn sàng: 93 W)',
+  'Kích thước: Kiểu máy 2 khay: Rộng 590 x Sâu 659 x Cao 885 mm',
+  'Trọng lượng: Kiểu máy 2 khay: 65 kg',
+  'Độ phân giải in (PCL): 1.200 x 1.200 dpi (chuẩn, chất lượng cao, độ phân giải cao)',
+  'Độ phân giải in: 1.200 x 1.200 dpi (chuẩn, chất lượng cao, độ phân giải cao)',
+  'Hệ điều hành hỗ trợ (PCL/Mac OS X): Windows 11 (64 bit), Windows 10 (32/64 bit), Windows Server 2025/2022/2019/2016 (64 bit), MacOS 15/14/13/12/11',
+  'Hệ điều hành hỗ trợ (PostScript): Windows 11 (64 bit), Windows 10 (32/64 bit), Windows Server 2025/2022/2019/2016 (64 bit), MacOS 15/14/13/12/11',
+  'Kết nối: Ethernet 1000BASE-T / 100BASE-TX / 10BASE-T, USB 3.0 / USB 2.0, LAN không dây (tùy chọn)',
+  'Kiểu quét: Màu',
+  'Độ phân giải quét: 600 x 600 dpi, 400 x 400 dpi, 300 x 300 dpi, 200 x 200 dpi',
+  'Tốc độ quét: Phù hợp với tốc độ bộ nạp và đảo bản gốc tự động',
+  'Khổ giấy bản gốc (DADF): Tối đa A3, 11 x 17 inch; Tối thiểu A6',
+  'Trọng lượng giấy (DADF): 38–128 gsm (2 mặt: 50–128 gsm)',
+  'Dung lượng nạp (DADF): 110 tờ',
+  'Tốc độ sao chụp qua DADF (A4 LEF, 1 mặt): 25 trang/phút',
+  'Tốc độ quét (DADF): Đen trắng: 55 trang/phút, Màu: 55 trang/phút (Tài liệu tiêu chuẩn A4 LEF, 200 dpi, lưu trữ vào thư mục)'
+],
+
+
 };
 export default function Product7580Page() {
   // const relatedProducts = productsBlackWhite.filter(
@@ -51,7 +66,7 @@ export default function Product7580Page() {
   const [showFullDescription, setShowFullDescription] = useState(false);
   const [showFullSpecs, setShowFullSpecs] = useState(false);
   return (
-    <div className="bg-white/90 max-w-[1100px] mx-auto rounded-2xl shadow-xl p-4 md:p-6 mt-10">
+    <div className="bg-white/90 max-w-[1300px] mx-auto rounded-2xl shadow-xl p-4 md:p-6 mt-10">
       <div className="flex flex-col lg:flex-row gap-8">
         <div className="relative w-full lg:w-1/2  p-4">
           <Image
@@ -71,7 +86,7 @@ export default function Product7580Page() {
           <h1 className="text-2xl font-bold text-red-600 mb-2">{product.name}</h1>
           <p className="text-xl text-green-600 font-semibold mb-4">Giá: {product.price}</p>
           <ul className="list-disc list-inside text-sm text-gray-700 space-y-1">
-            <li>02 khay tự động (500 tờ/ khay) & 01 khay tay (96 tờ).</li>
+            <li>02 khay tự động & 01 khay tay .</li>
             <li>Trọng lượng giấy: 60 - 256 gsm.</li>
             <li>Bộ nạp và đảo bản gốc tự động (DADF).</li>
             <li>Bộ đảo bản sao (Duplex).</li>

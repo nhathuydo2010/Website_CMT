@@ -56,9 +56,10 @@ const productsBlackWhite = [
 
 export default function MayTrangDenPage() {
   return (
-    <div className="bg-white/90 max-w-[1100px] mx-auto rounded-2xl shadow-xl p-4 md:p-6 mt-10">
- <div className="mb-4">
-     <Swiper
+   <div className="w-full">
+    <div className="bg-white/90 max-w-[1300px] mx-auto rounded-2xl shadow-xl p-4 md:p-6 mt-10">
+      {/* Hình ảnh banner nằm sát navbar */}
+      <Swiper
       modules={[Autoplay]}
       loop={true}
       autoplay={{
@@ -95,61 +96,61 @@ export default function MayTrangDenPage() {
         />
       </SwiperSlide>
          <SwiperSlide>
-              <Image
-                src="/banner6.png"
-                alt="Banner 3"
-                width={1584}
-                height={396}
-                className="w-full h-auto object-cover"
-              />
-            </SwiperSlide>
-            
+        <Image
+          src="/banner6.png"
+          alt="Banner 3"
+          width={1584}
+          height={396}
+          className="w-full h-auto object-cover"
+        />
+      </SwiperSlide>
     </Swiper>
-      <BannerWrapper />
-      </div>
-     <h1 className="text-xl font-bold mb-6 text-center text-red-700 uppercase">
-  Máy Photocopy Trắng Đen – Fujifilm Apeos
-</h1>
-
- {/* Tiêu đề phụ và breadcrumb giống ảnh */}
-      <div className="mb-6">
-        <h2 className="text-2xl font-bold text-red-700">Máy photocopy trắng đen </h2>
-
-        <div className="text-sm text-gray-500 mt-1">
-  <Link href="/" className="mr-1 hover:underline text-gray-500">TRANG CHỦ</Link> / 
-  <Link href="/ban-may-photocopy" className="font-semibold text-black">BÁN MÁY PHOTOCOPY MÀU</Link> 
+    <BannerWrapper />
+    
+    </div>
+    
+      {/* Tiêu đề chính */}
+      
+<div className="max-w-[1300px] mx-auto mt-10">
+      {/* ===== KHỐI SẢN PHẨM TÁCH RIÊNG NHƯ HÌNH 2 ===== */}
+<section className="mt-8">
+   <a
+            
+            className="block bg-red-600 text-white text-lg font-bold py-2 text-center rounded-full shadow-2xl hover:bg-red-700 transition mb-6"
+          >
+            MÁY PHOTOCOPY TRẮNG ĐEN – FUJIFILM APEOS
+          </a>
+    
+  <div className="rounded-2xl bg-white shadow-xl p-4 md:p-6">
   
-</div>
 
-        <p className="mt-2 text-[15px]  text-black">
-          Tất cả 7 Máy Photocopy.
-        </p>
-      </div>
-<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-  {productsBlackWhite.map((product, index) => (
-    <div
-      key={index}
-      className=" rounded-2xl shadow-xl p-4 flex flex-col h-full hover:shadow-2xl transition-shadow duration-300 text-center"
-    >
-
-            <Link href={`/sanpham/maytrangden/${product.code}`}>
-              <Image
-                src={product.image}
-                alt={product.name}
-                width={300}
-                height={200}
-                className="mx-auto object-contain h-[220px] w-auto cursor-pointer hover:scale-105 transition-transform"
-              />
-              
-            </Link>
-            <div className="mt-4">
-              <p className="text-green-700 font-semibold">{product.name}</p>
-              <p className="text-red-600 font-bold mt-1">Giá: {product.price}</p>
-              <p className="text-gray-500 text-sm mt-1">Mã: {product.code}</p>
-            </div>
+    {/* Lưới sản phẩm */}
+    <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+      {productsBlackWhite.map((product, index) => (
+        <div
+          key={index}
+          className="rounded-2xl shadow-xl p-4 flex flex-col h-full hover:shadow-2xl transition-shadow duration-300 text-center"
+        >
+          <Link href={`/sanpham/maytrangden/${product.code}`}>
+            <Image
+              src={product.image}
+              alt={product.name}
+              width={300}
+              height={200}
+              className="mx-auto object-contain h-[220px] w-auto cursor-pointer hover:scale-105 transition-transform"
+            />
+          </Link>
+          <div className="mt-4">
+            <p className="text-green-700 font-semibold">{product.name}</p>
+            <p className="text-red-600 font-bold mt-1">Giá: {product.price}</p>
+            <p className="text-gray-500 text-sm mt-1">Mã: {product.code}</p>
           </div>
-        ))}
-      </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+    </div>
     </div>
   );
 }

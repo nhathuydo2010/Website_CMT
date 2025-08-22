@@ -25,25 +25,38 @@ const product = {
   price: "Liên Hệ",
   image: "/productsColor/Apeos C3061-C2561-C2061.png",
   specs: [
-    "Chức năng: Copy / In / Scan 2 mặt tự động",
-    "Copy màu: Tốc độ 30 trang A4/phút (trắng đen và màu), độ phân giải 600 x 600 dpi",
-    "Khổ giấy hỗ trợ: A5 – A3",
-    "Phóng to / Thu nhỏ: 25% – 400% (tăng giảm từng 1%)",
-    "In màu qua mạng: Tốc độ 30 trang A4/phút (trắng đen và màu)",
-    "Độ phân giải in thường: 1200 x 2400 dpi; độ phân giải cao: 1200 x 1200 dpi",
-    "Hệ điều hành hỗ trợ: Windows 11 (64bit), Windows 10 (32bit & 64bit), Windows Server 2022/2019/2016 (64bit)",
-    "Hỗ trợ macOS: macOS 14 / 13 / 12 / 11 / 10.15",
-    "Ngôn ngữ mô tả trang: PCL5 / PCL6",
-    "Kết nối: Ethernet 1000BASE-T / 100BASE-TX / 10BASE-T, USB",
-    "Scan màu: Tốc độ 55 trang A4/phút; quét vào PC, Email; định dạng: PDF, TIFF, JPEG...",
-    "Độ phân giải scan tối đa: 600 x 600 dpi",
-    "Nguồn điện: AC220–240V ±10%, 8A, tần số 50/60Hz",
-    "Kích thước: Rộng 577 x Sâu 659 x Cao 872 mm",
-    "Khay giấy vào : 02 khay tự động (500 tờ/khay)",
-    "Khay giấy tay : 96 tờ",
-    "Khay giấy ra bản sao : 250 + 250 tờ",
-    "Trọng lượng: 75 kg"
-  ]
+  'Kiểu: Bảng điều khiển',
+  'Dung lượng bộ nhớ: 4 GB',
+  'Dung lượng thiết bị lưu trữ: Model-CPS-ST: 3,6 GB (Tùy chọn: 256 GB)',
+  'Tính năng màu: Đầy đủ màu sắc',
+  'Độ phân giải quét: 600 x 600 dpi',
+  'Độ phân giải in ấn: 1.200 x 2.400 dpi',
+  'Thời gian khởi động: 26 giây hoặc ít hơn (nhiệt độ phòng là 23°C)',
+  'Khổ giấy bản gốc: Tối đa A3, 11 x 17”, 297 x 432 mm cho cả Tờ bản in và Sách',
+  'Khổ giấy: Khay 1 > A5 > A3 Khổ Giấy Tùy Chỉnh; Khay 1+3+4: Tối đa A4, Letter, Tối thiểu JIS B5; Khay tay: Tối đa: SRA3 (320 x 450 mm), 12 x 19” (305 x 483 mm), A3; Tối thiểu: A5',
+  'Thời gian ra bản sao chụp đầu tiên: Đen trắng 4,1 giây (A4 LEF / Chế độ ưu tiên đơn sắc), Màu 5,4 giây (A4 LEF / Chế độ ưu tiên màu)',
+  'Tốc độ sao in (A4 LEF): Đen trắng 30 trang/phút – Màu 30 trang/phút',
+  'Dung lượng khay giấy: Chuẩn: 520 tờ x 1 Khay + Khay tay 96 tờ; Tùy chọn: Mô-đun 1 khay / Mô-đun 1 khay cót: 520 tờ x 1 Khay, Mô-đun 3 khay: 520 tờ x 3 Khay',
+  'Trọng lượng giấy: 52 – 300 gsm',
+  'Nguồn điện: AC220–240V ±10%, 8A, 50/60Hz',
+  'Mức tiêu thụ điện: 1,76 kW (Chế độ nghỉ: 0,3 W, Chế độ sẵn sàng: 66 W)',
+  'Kích thước cơ bản: Rộng 577 x Sâu 659 x Cao 775 mm',
+  'Trọng lượng cơ bản: 60 kg',
+  'Độ phân giải in (PCL): 1.200 x 2.400 dpi (chuẩn, chất lượng cao, độ phân giải cao)',
+  'Độ phân giải in (PostScript): 1.200 x 2.400 dpi (chuẩn, chất lượng cao, độ phân giải cao)',
+  'Ngôn ngữ mô tả trang: PCL5 / PCL6 (chuẩn), Adobe PostScript 3 (tùy chọn)',
+  'Hệ điều hành hỗ trợ (PCL/Mac OS X): Windows 11 (64 bit), Windows 10 (32/64 bit), Windows Server 2025/2022/2019/2016 (64 bit), MacOS 15/14/13/12/11',
+  'Hệ điều hành hỗ trợ (PostScript): Windows 11 (64 bit), Windows 10 (32/64 bit), Windows Server 2025/2022/2019/2016 (64 bit), MacOS 15/14/13/12/11',
+  'Kết nối: Ethernet 1000BASE-T / 100BASE-TX / 10BASE-T, USB 3.0 / USB 2.0, LAN không dây (tùy chọn)',
+  'Kiểu quét: Màu',
+  'Độ phân giải quét: 600 x 600 dpi, 400 x 400 dpi, 300 x 300 dpi, 200 x 200 dpi',
+  'Tốc độ quét: Phù hợp với tốc độ bộ nạp và đảo bản gốc tự động',
+  'Khổ giấy bản gốc (DADF): Tối đa A3, 11 x 17 inch; Tối thiểu A6',
+  'Trọng lượng giấy (DADF): 38 – 128 gsm (2 mặt: 50 – 128 gsm)',
+  'Dung lượng nạp (DADF): 110 tờ',
+  'Tốc độ sao chụp qua DADF (A4 LEF, 1 mặt): Đen trắng 30 trang/phút – Màu 30 trang/phút',
+  'Tốc độ quét (DADF): Đen trắng 55 trang/phút – Màu 55 trang/phút (Tài liệu tiêu chuẩn A4 LEF, 200 dpi, Lưu trữ vào thư mục)'
+],
 
 };
 
@@ -52,7 +65,7 @@ export default function Product7580Page() {
   const [showFullSpecs, setShowFullSpecs] = useState(false);
 
   return (
-    <div className="bg-white/90 max-w-[1100px] mx-auto rounded-2xl shadow-xl p-4 md:p-6 mt-10">
+    <div className="bg-white/90 max-w-[1300px] mx-auto rounded-2xl shadow-xl p-4 md:p-6 mt-10">
       <div className="flex flex-col lg:flex-row gap-8">
         <div className="relative w-full lg:w-1/2  p-4">
           <Image
@@ -72,12 +85,12 @@ export default function Product7580Page() {
           <h1 className="text-2xl font-bold text-red-600 mb-2">{product.name}</h1>
           <p className="text-xl text-green-600 font-semibold mb-4">Giá: {product.price}</p>
           <ul className="list-disc list-inside text-sm text-gray-700 space-y-1">
-            <li>02 khay tự động (520 tờ/khay) & 01 khay tay (96 tờ)</li>
-            <li>Trọng lượng giấy: 52 – 300 gsm</li>
+           <li>04 khay tự động tùy chọn & 01 khay tay (96 tờ)</li>
+            <li>Copy màu/In màu/Scan màu</li>
             <li>Bộ nạp và đảo bản gốc tự động (DADF)</li>
             <li>Bộ đảo bản sao (Duplex)</li>
             <li>Bộ nhớ: tối đa 4GB</li>
-            <li>Ổ cứng SSD: 256GB</li>
+            <li>Ổ cứng SSD: 256GB( tùy chọn)</li>
             <li>Màn hình cảm ứng màu 7 inch</li>
           </ul>
           <div className="relative w-full max-w-[350px] border border-red-600 mt-4 rounded">
