@@ -6,43 +6,43 @@ import BannerWrapper from '../components/BannerWrapper';
 export default function Header() {
   const productsBlackWhite = [
     {
-      name: 'Máy Photocopy Apeos A2560',
+      name: 'Máy Photocopy Apeos 2560',
       price: 'Liên Hệ',
       code: '2560',
       image: '/productsBlackWhite/Apeos 356030602560.png',
     },
     {
-      name: 'Máy Photocopy Apeos A3060',
+      name: 'Máy Photocopy Apeos 3060',
       price: 'Liên Hệ',
       code: '3060',
       image: '/productsBlackWhite/Apeos 356030602560.png',
     },
     {
-      name: 'Máy Photocopy Apeos A3560',
+      name: 'Máy Photocopy Apeos 3560',
       price: 'Liên Hệ',
       code: '3560',
       image: '/productsBlackWhite/Apeos 356030602560.png',
     },
     {
-      name: 'Máy Photocopy Apeos A4570',
+      name: 'Máy Photocopy Apeos 4570',
       price: 'Liên Hệ ',
       code: '4570',
       image: '/productsBlackWhite/Apeos 5570 4570.png',
     },
     {
-      name: 'Máy Photocopy Apeos A5570',
+      name: 'Máy Photocopy Apeos 5570',
       price: 'Liên Hệ ',
       code: '5570',
       image: '/productsBlackWhite/Apeos 5570 4570.png',
     },
     {
-      name: 'Máy Photocopy Apeos A6580',
+      name: 'Máy Photocopy Apeos 6580',
       price: 'Liên Hệ',
       code: '6580',
       image: '/productsBlackWhite/Apeos 75806580.png',
     },
     {
-      name: 'Máy Photocopy Apeos A7580',
+      name: 'Máy Photocopy Apeos 7580',
       price: 'Liên Hệ',
       code: '7580',
       image: '/productsBlackWhite/Apeos 75806580.png',
