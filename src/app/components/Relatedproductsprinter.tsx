@@ -55,7 +55,7 @@ export default function Relatedproductsprinter() {
               />
               <p className="text-black font-bold text-sm">{item.name}</p>
               <p className="text-red-600 font-bold text-sm">{item.price}</p>
-              <Link href={`/sanpham/maytrangden/${item.code}`}>
+              <Link href={`/sanpham/muc/${item.code}`}>
                 <span className="text-blue-600 text-sm hover:underline">Xem chi tiết</span>
               </Link>
             </div>
