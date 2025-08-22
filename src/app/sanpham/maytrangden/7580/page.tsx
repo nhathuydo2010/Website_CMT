@@ -24,38 +24,38 @@ const product = {
   price: "Liên Hệ",
   image: "/productsBlackWhite/Apeos 75806580.png",
   specs: [
-  'Kiểu: Bảng điều khiển',
-  'Dung lượng bộ nhớ: 4 GB (Tối đa: 4 GB)',
-  'Dung lượng thiết bị lưu trữ: 128 GB',
-  'Tính năng màu: Đầy đủ màu sắc',
-  'Độ phân giải quét: 600 x 600 dpi',
-  'Độ phân giải in ấn: 2.400 dpi hoặc tương đương x 600 dpi',
-  'Thời gian khởi động: 36 giây hoặc ít hơn (nhiệt độ phòng là 23°C)',
-  'Khổ giấy bản gốc: Tối đa A3, 11 x 17”, 297 x 432 mm cho cả Tờ bản in và Sách',
-  'Khổ giấy: Tối đa 13 x 19 inch (330 x 483 mm), 12,6 x 19,2 inch (320 x 488 mm), A3; Tối thiểu A6, Bưu thiếp (100 x 148 mm); Chiều rộng mặt hình: Mép trên 4,0 mm, Mép dưới 4,0 mm, Mép trái/phải 3,0 mm',
-  'Thời gian ra bản sao chụp đầu tiên: 3,0 giây (A4 LEF)',
-  'Tốc độ sao in: 75 trang/phút (A4 LEF), 79 trang/phút (JIS B5 LEF)',
-  'Dung lượng khay giấy: Chuẩn – 520 tờ x 2 Khay + 1.560 tờ + 1.950 tờ + Khay tay 95 tờ; Tùy chọn: Bộ nạp trữ lượng lớn B1: 2.000 tờ; Bộ nạp trữ lượng lớn C1-D2: 2.000 tờ x 2 Khay + Khay tay 250 tờ',
-  'Dung lượng khay giấy ra: 500 tờ (A4 LEF)',
-  'Nguồn điện: AC220–240V ±10%, 10A, 50/60Hz',
-  'Mức tiêu thụ điện: 2,4 kW (Chế độ nghỉ: 0,6 W, Chế độ nguồn điện tắt hợp: 103 W, Chế độ sẵn sàng: 167 W)',
-  'Kích thước: Rộng 620 x Sâu 804 x Cao 1.155 mm (Kiểu máy 2 Khay tiêu chuẩn)',
-  'Trọng lượng: 188 kg (Kiểu máy 2 Khay tiêu chuẩn)',
-  'Độ phân giải in (PCL): 1.200 x 1.200 dpi (chuẩn, chất lượng cao, độ phân giải cao)',
-  'Độ phân giải in (PostScript): 1.200 x 1.200 dpi (chuẩn, chất lượng cao, độ phân giải cao)',
-  'Ngôn ngữ mô tả trang: PCL5 / PCL6 (chuẩn), Adobe PostScript 3 (tùy chọn)',
-  'Hệ điều hành hỗ trợ (PCL/Mac OS X): Windows 11 (64 bit), Windows 10 (32/64 bit), Windows Server 2025/2022/2019/2016 (64 bit), MacOS 15/14/13/12/11',
-  'Hệ điều hành hỗ trợ (PostScript): Windows 11 (64 bit), Windows 10 (32/64 bit), Windows Server 2025/2022/2019/2016 (64 bit), MacOS 15/14/13/12/11',
-  'Kết nối: Ethernet 1000BASE-T / 100BASE-TX / 10BASE-T, USB 3.0 / USB 2.0, LAN không dây (tùy chọn)',
-  'Kiểu quét: Màu',
-  'Độ phân giải quét: 600 x 600 dpi, 400 x 400 dpi, 300 x 300 dpi, 200 x 200 dpi',
-  'Tốc độ quét: Phù hợp với tốc độ bộ nạp và đảo bản gốc tự động',
-  'Khổ giấy bản gốc (DADF): Tối đa A3, 11 x 17 inch; Tối thiểu A6',
-  'Trọng lượng giấy (DADF): 38–200 gsm (2 mặt: 50–200 gsm)',
-  'Dung lượng nạp (DADF): 250 tờ',
-  'Tốc độ sao chụp qua DADF (A4 LEF, 1 mặt): Đen trắng 75 trang/phút',
-  'Tốc độ quét (DADF): Đen trắng 135 trang/phút – Màu 135 trang/phút; Quét 2 mặt 1 lượt: Đen trắng 270 trang/phút – Màu 270 trang/phút (Tài liệu tiêu chuẩn A4 LEF, 200 dpi, Lưu trữ vào thư mục)'
-],
+    'Kiểu: Bảng điều khiển',
+    'Dung lượng bộ nhớ: 4 GB (Tối đa: 4 GB)',
+    'Dung lượng thiết bị lưu trữ: 128 GB',
+    'Tính năng màu: Đầy đủ màu sắc',
+    'Độ phân giải quét: 600 x 600 dpi',
+    'Độ phân giải in ấn: 2.400 dpi hoặc tương đương x 600 dpi',
+    'Thời gian khởi động: 36 giây hoặc ít hơn (nhiệt độ phòng là 23°C)',
+    'Khổ giấy bản gốc: Tối đa A3, 11 x 17”, 297 x 432 mm cho cả Tờ bản in và Sách',
+    'Khổ giấy: Tối đa 13 x 19 inch (330 x 483 mm), 12,6 x 19,2 inch (320 x 488 mm), A3; Tối thiểu A6, Bưu thiếp (100 x 148 mm); Chiều rộng mặt hình: Mép trên 4,0 mm, Mép dưới 4,0 mm, Mép trái/phải 3,0 mm',
+    'Thời gian ra bản sao chụp đầu tiên: 3,0 giây (A4 LEF)',
+    'Tốc độ sao in: 75 trang/phút (A4 LEF), 79 trang/phút (JIS B5 LEF)',
+    'Dung lượng khay giấy: Chuẩn – 520 tờ x 2 Khay + 1.560 tờ + 1.950 tờ + Khay tay 95 tờ; Tùy chọn: Bộ nạp trữ lượng lớn B1: 2.000 tờ; Bộ nạp trữ lượng lớn C1-D2: 2.000 tờ x 2 Khay + Khay tay 250 tờ',
+    'Dung lượng khay giấy ra: 500 tờ (A4 LEF)',
+    'Nguồn điện: AC220–240V ±10%, 10A, 50/60Hz',
+    'Mức tiêu thụ điện: 2,4 kW (Chế độ nghỉ: 0,6 W, Chế độ nguồn điện tắt hợp: 103 W, Chế độ sẵn sàng: 167 W)',
+    'Kích thước: Rộng 620 x Sâu 804 x Cao 1.155 mm (Kiểu máy 2 Khay tiêu chuẩn)',
+    'Trọng lượng: 188 kg (Kiểu máy 2 Khay tiêu chuẩn)',
+    'Độ phân giải in (PCL): 1.200 x 1.200 dpi (chuẩn, chất lượng cao, độ phân giải cao)',
+    'Độ phân giải in (PostScript): 1.200 x 1.200 dpi (chuẩn, chất lượng cao, độ phân giải cao)',
+    'Ngôn ngữ mô tả trang: PCL5 / PCL6 (chuẩn), Adobe PostScript 3 (tùy chọn)',
+    'Hệ điều hành hỗ trợ (PCL/Mac OS X): Windows 11 (64 bit), Windows 10 (32/64 bit), Windows Server 2025/2022/2019/2016 (64 bit), MacOS 15/14/13/12/11',
+    'Hệ điều hành hỗ trợ (PostScript): Windows 11 (64 bit), Windows 10 (32/64 bit), Windows Server 2025/2022/2019/2016 (64 bit), MacOS 15/14/13/12/11',
+    'Kết nối: Ethernet 1000BASE-T / 100BASE-TX / 10BASE-T, USB 3.0 / USB 2.0, LAN không dây (tùy chọn)',
+    'Kiểu quét: Màu',
+    'Độ phân giải quét: 600 x 600 dpi, 400 x 400 dpi, 300 x 300 dpi, 200 x 200 dpi',
+    'Tốc độ quét: Phù hợp với tốc độ bộ nạp và đảo bản gốc tự động',
+    'Khổ giấy bản gốc (DADF): Tối đa A3, 11 x 17 inch; Tối thiểu A6',
+    'Trọng lượng giấy (DADF): 38–200 gsm (2 mặt: 50–200 gsm)',
+    'Dung lượng nạp (DADF): 250 tờ',
+    'Tốc độ sao chụp qua DADF (A4 LEF, 1 mặt): Đen trắng 75 trang/phút',
+    'Tốc độ quét (DADF): Đen trắng 135 trang/phút – Màu 135 trang/phút; Quét 2 mặt 1 lượt: Đen trắng 270 trang/phút – Màu 270 trang/phút (Tài liệu tiêu chuẩn A4 LEF, 200 dpi, Lưu trữ vào thư mục)'
+  ],
 
 };
 
@@ -84,12 +84,12 @@ export default function Product7580Page() {
           <h1 className="text-2xl font-bold text-red-600 mb-2">{product.name}</h1>
           <p className="text-xl text-green-600 font-semibold mb-4">Giá: {product.price}</p>
           <ul className="list-disc list-inside text-sm text-gray-700 space-y-1">
-            <li>02 khay tự động (500 tờ/khay) & 01 khay tay (96 tờ)</li>
-            <li>Trọng lượng giấy: 60 – 256 gsm</li>
+            <li>04 khay tự động & 01 khay tay </li>
+            <li>Tốc độ In/sao chụp qua DADF 65 trang/phút</li>
             <li>Bộ nạp và đảo bản gốc tự động (DADF)</li>
             <li>Bộ đảo bản sao (Duplex)</li>
             <li>Bộ nhớ: Tối đa 4GB. SSD: 128GB</li>
-            <li>Màn hình cảm ứng màu 7 inch</li>
+            <li>Màn hình cảm ứng màu 10.1 inch</li>
           </ul>
           <div className="relative w-full max-w-[350px] border border-red-700 mt-4 rounded">
             {/* Ruy băng khuyến mãi */}

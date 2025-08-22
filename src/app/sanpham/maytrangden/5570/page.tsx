@@ -71,7 +71,7 @@ export default function Product7580Page() {
           <p className="text-xl text-green-600 font-semibold mb-4">Giá: {product.price}</p>
           <ul className="list-disc list-inside text-sm text-gray-700 space-y-1">
             <li>02 khay tự động  & 01 khay tay .</li>
-            <li>Tốc độ In/sao chụp qua DADF 45 trang/phút.</li>
+            <li>Tốc độ In/sao chụp qua DADF 55 trang/phút.</li>
             <li>Bộ nạp và đảo bản gốc tự động (DADF).</li>
             <li>Bộ đảo bản sao (Duplex).</li>
             <li>Bộ nhớ: Tối đa 4GB. SSD: 128GB.</li>

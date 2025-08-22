@@ -92,7 +92,7 @@ export default function Product7580Page() {
             <li>Bộ nạp và đảo bản gốc tự động (DADF)</li>
             <li>Bộ đảo bản sao (Duplex)</li>
             <li>Bộ nhớ: Tối đa 4GB. SSD: 128GB</li>
-            <li>Màn hình cảm ứng màu 10 inch</li>
+            <li>Màn hình cảm ứng màu 10.1 inch</li>
           </ul>
           <div className="relative w-full max-w-[350px] border border-red-600 mt-4 rounded">
             {/* Ruy băng khuyến mãi */}
