@@ -194,7 +194,7 @@ export default function Product7580Page() {
                           <li>Đèn LED nút Home sẽ sáng lên</li>
                           <li>Vùng cảm ứng NFC</li>
                           <li>
-                            Dễ dàng kết nối với các thiết bị di động. Sử dụng <strong>Print Utility</strong><sup>1</sup>, bạn có thể thực hiện các thao tác cơ bản với thiết bị đa chức năng*<sup>2</sup> từ điện thoại thông minh.
+                            Dễ dàng kết nối với các thiết bị di động. Sử dụng <strong>Print Utility</strong><sup>1</sup>, bạn có thể thực hiện các thao tác cơ bản với thiết bị đa chức năng<sup>2</sup> từ điện thoại thông minh.
                             <ul>
                               <li>1: Kết nối với máy qua môi trường không dây hoặc kết nối Wi-Fi Direct. Có thể tải xuống miễn phí từ Google Play™ hoặc App Store.</li>
                               <li>2: Sao chụp, fax, in, quét.</li>
@@ -234,7 +234,7 @@ export default function Product7580Page() {
                       <h3 className="font-semibold text-cyan-700 mb-2">
                         Quét hiệu quả các tài liệu có kích thước không theo chuẩn như biên lai
                       </h3>
-                      <p>Tự động quét đến kích thước tiêu chuẩn gần nhất, loại bỏ yêu cầu nhập kích thước thủ công cho các tài liệu kích thước không theo chuẩn hoặc có kích thước nhỏ*. Các loại séc dày và biên lai giấy mỏng* cũng có thể được số hóa và quản lý dễ dàng trên máy tính.</p>
+                      <p>Tự động quét đến kích thước tiêu chuẩn gần nhất, loại bỏ yêu cầu nhập kích thước thủ công cho các tài liệu kích thước không theo chuẩn hoặc có kích thước nhỏ. Các loại séc dày và biên lai giấy mỏng cũng có thể được số hóa và quản lý dễ dàng trên máy tính.</p>
                       <p className="text-sm italic mt-1"> Kích thước không theo chuẩn lên đến 49 x 85 mm. Đối với kích thước từ 49 x 85 mm đến 55 x 91 mm, hỗ trợ định lượng giấy từ 38 đến 209 gsm.</p>
                     </div>
 
@@ -306,7 +306,7 @@ export default function Product7580Page() {
                         Sản xuất tài liệu quảng cáo nội bộ và theo yêu cầu
                       </h3>
                       <p>
-                        Hỗ trợ nhiều kích thước và định lượng giấy khác nhau<><sup>1</sup></>, cho bạn sự linh hoạt trong việc cá nhân hóa và in trên phong bì, thư trực tiếp, áp phích, biểu ngữ quảng cáo hoặc màn hình POP dài<sup>*2</sup>.
+                        Hỗ trợ nhiều kích thước và định lượng giấy khác nhau<><sup>1</sup></>, cho bạn sự linh hoạt trong việc cá nhân hóa và in trên phong bì, thư trực tiếp, áp phích, biểu ngữ quảng cáo hoặc màn hình POP dài<sup>2</sup>.
                       </p>
                       <p className="text-sm italic mt-1">
                         1: Định lượng giấy từ 52 đến 300 gsm<br />
@@ -335,7 +335,7 @@ export default function Product7580Page() {
                       <p>
                         Sử dụng mực in mới và bộ phận sấy mực cho phép giảm mức tiêu thụ điện năng trong quá trình sấy mực, quy trình tiêu tốn nhiều điện năng nhất đối với các thiết bị đa chức năng.
                         <br />
-                        Bằng cách sử dụng nhựa resin chức năng, loại mực mới được phát triển của chúng tôi đạt nhiệt độ*1 cố định thấp hàng đầu trong ngành, thấp hơn 15 độ so với mực được sử dụng trong các mẫu trước đó*2.
+                        Bằng cách sử dụng nhựa resin chức năng, loại mực mới được phát triển của chúng tôi đạt nhiệt độ cố định thấp hàng đầu trong ngành, thấp hơn 15 độ so với mực được sử dụng trong các mẫu trước đó.
                         <br />
                         Ngoài ra, việc sử dụng bộ phận sấy mực mới sẽ giúp đạt được cả nhiệt độ cố định thấp và chất lượng hình ảnh vượt trội.
                       </p>

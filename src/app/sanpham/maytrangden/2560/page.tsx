@@ -5,20 +5,7 @@ import Image from 'next/image';
 
 import { useState } from 'react';
 import RelatedProductSlider from '../../../components/RelatedProductSlider'
-// Example productsBlackWhite array, replace with your actual data or import
-// const productsBlackWhite = [
-//   {
-//     name: 'Máy Photocopy Apeos A2560',
-//     image: '/productsBlackWhite/Apeos 356030602560.png',
-//     price: 'Liên Hệ',
-//   },
-//   {
-//     name: 'Máy Photocopy Apeos A3570',
-//     image: '/productsBlackWhite/Apeos 3570.png',
-//     price: 'Liên Hệ',
-//   },
-//   // Add more products as needed
-// ];
+
 
 const product = {
   name: 'Máy Photocopy Apeos 2560',

@@ -246,7 +246,7 @@ export default function Product7580Page() {
                       <ul className="list-disc pl-5 space-y-1">
                         <li>Dữ liệu có thể được gửi bằng cách sử dụng nhiều tính năng cùng một lúc</li>
                         <li>Cải thiện quy trình số hóa của bạn với các tính năng bao gồm tự động xoay chiều trang được quét về hướng thẳng đứng, sửa trang bị lệch hoặc xóa các trang trống</li>
-                        <li>Bên cạnh định dạng TIFF và JPEG, dữ liệu được quét có thể được chuyển đổi sang tệp PDF hoặc DocuWorks có bật OCR hoặc nén ở mức cao / có màu cụ thể. Ngoài ra, tài liệu còn có thể được chuyển đổi dang tài liệu Excel/Word có thể chỉnh sửa được*</li>
+                        <li>Bên cạnh định dạng TIFF và JPEG, dữ liệu được quét có thể được chuyển đổi sang tệp PDF hoặc DocuWorks có bật OCR hoặc nén ở mức cao / có màu cụ thể. Ngoài ra, tài liệu còn có thể được chuyển đổi dang tài liệu Excel/Word có thể chỉnh sửa được</li>
                         <li>Với ScanAuto, bạn có thể dễ dàng gửi dữ liệu đã quét đến địa chỉ e-mail của mình bằng cách chỉ cần nhấn một nút</li>
                       </ul>
                       <p className="text-sm italic mt-1">
@@ -266,7 +266,7 @@ export default function Product7580Page() {
                         <li>Có thể đọc chính xác 0̸ và các ký tự hay bị nhận diện nhầm khác</li>
                       </ul>
                       <p className="text-sm italic mt-1">
-                        * Tùy chọn.
+                         Tùy chọn.
                       </p>
                     </div>
                   </div>
@@ -449,7 +449,7 @@ export default function Product7580Page() {
                       <ul className="list-disc pl-5 space-y-1">
                         <li>Bằng cách điều chỉnh lực áp lên giấy theo độ dày của giấy, giấy sẽ được nạp ổn định ngay cả với giấy bìa và đạt được độ chính xác chồng màu cao</li>
                         <li>Mô-đun làm thẳng giấy tích hợp sẽ làm thẳng giấy và ổn định hoạt động nạp giấy</li>
-                        <li>Khi đánh giá độ cong của giấy, có thể tiến hành điều chỉnh giấy cong trong thời gian thực*</li>
+                        <li>Khi đánh giá độ cong của giấy, có thể tiến hành điều chỉnh giấy cong trong thời gian thực</li>
                       </ul>
                       <p className="text-sm italic mt-1">Tùy chọn.</p>
                     </div>

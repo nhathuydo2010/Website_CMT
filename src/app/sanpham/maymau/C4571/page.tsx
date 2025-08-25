@@ -304,7 +304,7 @@ export default function Product7580Page() {
                         <p> Bảng điều khiển đóng vai trò là cổng kết nối bạn với nhiều ứng dụng thông minh khác trên thiết bị đa chức
                           năng chỉ bằng một thao tác chạm. Bảng điều khiển cảm ứng điện dung lớn mang lại khả năng hiển thị và
                           hoạt động tuyệt vời, phản hồi mọi thao tác chạm và vuốt để điều hướng một cách dễ dàng.</p>
-                        <p className="text-sm italic">* Giấy 80 gsm.</p>
+                        <p className="text-sm italic">Giấy 80 gsm.</p>
                       </div>
                       <Image src="/images/vanhanh7.png" alt="Bố trí linh hoạt" className="mx-auto rounded-lg shadow  mt-3" />
                     </div>

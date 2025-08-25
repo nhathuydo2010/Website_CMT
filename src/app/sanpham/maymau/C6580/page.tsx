@@ -244,7 +244,7 @@ export default function Product7580Page() {
                       <ul className="list-disc pl-5 space-y-1">
                         <li>Dữ liệu có thể được gửi bằng cách sử dụng nhiều tính năng cùng một lúc</li>
                         <li>Cải thiện quy trình số hóa của bạn với các tính năng bao gồm tự động xoay chiều trang được quét về hướng thẳng đứng, sửa trang bị lệch hoặc xóa các trang trống</li>
-                        <li>Bên cạnh định dạng TIFF và JPEG, dữ liệu được quét có thể được chuyển đổi sang tệp PDF hoặc DocuWorks có bật OCR hoặc nén ở mức cao / có màu cụ thể. Ngoài ra, tài liệu còn có thể được chuyển đổi dang tài liệu Excel/Word có thể chỉnh sửa được*</li>
+                        <li>Bên cạnh định dạng TIFF và JPEG, dữ liệu được quét có thể được chuyển đổi sang tệp PDF hoặc DocuWorks có bật OCR hoặc nén ở mức cao / có màu cụ thể. Ngoài ra, tài liệu còn có thể được chuyển đổi dang tài liệu Excel/Word có thể chỉnh sửa được</li>
                         <li>Với ScanAuto, bạn có thể dễ dàng gửi dữ liệu đã quét đến địa chỉ e-mail của mình bằng cách chỉ cần nhấn một nút</li>
                       </ul>
                       <p className="text-sm italic mt-1">
@@ -324,7 +324,7 @@ export default function Product7580Page() {
                         <li>Ngoài chất lượng in, tốc độ sử dụng máy cũng được cải thiện</li>
                       </ul>
                       <p className="text-sm italic mt-1">
-                        * Simple Image Quality Adjustment
+                        Simple Image Quality Adjustment
                       </p>
                     </div>
 
@@ -449,7 +449,7 @@ export default function Product7580Page() {
                         <li>Mô-đun làm thẳng giấy tích hợp sẽ làm thẳng giấy và ổn định hoạt động nạp giấy</li>
                         <li>Khi đánh giá độ cong của giấy, có thể tiến hành điều chỉnh giấy cong trong thời gian thực</li>
                       </ul>
-                      <p className="text-sm italic mt-1">* Tùy chọn.</p>
+                      <p className="text-sm italic mt-1">Tùy chọn.</p>
                     </div>
 
                     <div>

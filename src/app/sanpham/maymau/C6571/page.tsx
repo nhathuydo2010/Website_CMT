@@ -238,8 +238,8 @@ export default function Product7580Page() {
                         Nhiều tùy chọn hoàn thiện khác nhau sẵn sàng để đáp ứng nhu cầu của bạn
                       </h3>
                       <ul className="list-disc pl-5 space-y-1">
-                        <li>Hỗ trợ Dập không ghim*¹ đơn và đôi</li>
-                        <li>Dập ghim*² / Đục lỗ / Dập ghim lồng / Gập chéo / Gập làm ba / Gập đôi sách</li>
+                        <li>Hỗ trợ Dập không ghim đơn và đôi</li>
+                        <li>Dập ghim / Đục lỗ / Dập ghim lồng / Gập chéo / Gập làm ba / Gập đôi sách</li>
                         <li>Nhiều bộ hoàn thiện: A2 / B4-B5 / C4-C5 / C4-C5 + CD3</li>
                       </ul>
                     </div>
@@ -318,7 +318,7 @@ export default function Product7580Page() {
                         <p> Bảng điều khiển đóng vai trò là cổng kết nối bạn với nhiều ứng dụng thông minh khác trên thiết bị đa chức
                           năng chỉ bằng một thao tác chạm. Bảng điều khiển cảm ứng điện dung lớn mang lại khả năng hiển thị và
                           hoạt động tuyệt vời, phản hồi mọi thao tác chạm và vuốt để điều hướng một cách dễ dàng.</p>
-                        <p className="text-sm italic">* Giấy 80 gsm.</p>
+                        <p className="text-sm italic">Giấy 80 gsm.</p>
                       </div>
                       <Image src="/images/vanhanh7.png" alt="Bố trí linh hoạt" className="mx-auto rounded-lg shadow  mt-3" />
                     </div>
