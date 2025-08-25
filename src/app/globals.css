@@ -2,6 +2,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -15,13 +16,13 @@
 }
 
 @media (prefers-color-scheme: dark) {
-body {
-  background-image: url('/images/background 1.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  
-}
+  body {
+    background-image: url('/images/background 1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+  }
 
 }
 
@@ -31,6 +32,7 @@ body {
   0% {
     transform: translateX(100%);
   }
+
   100% {
     transform: translateX(-100%);
   }
@@ -41,6 +43,7 @@ body {
   display: inline-block;
   white-space: nowrap;
 }
+
 .nav-link {
   padding: 5px 6px;
   border-radius: 20px;
@@ -50,26 +53,40 @@ body {
 .nav-link:hover,
 .nav-link:focus,
 .nav-link.active {
-  box-shadow: 0 4px 10px rgba(99, 99, 100, 0.6); /* Tailwind blue-600 shadow */
+  box-shadow: 0 4px 10px rgba(99, 99, 100, 0.6);
+  /* Tailwind blue-600 shadow */
   color: #d60707;
 }
+
 @keyframes fade-in {
-  from { opacity: 0; transform: translateY(10px); }
-  to { opacity: 1; transform: translateY(0); }
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
+
 .animate-fade-in {
   animation: fade-in 0.4s ease-out;
 }
+
 .swiper-button-next,
 .swiper-button-prev {
-  color: #1d4ed8; /* màu xanh dương đậm */
+  color: #1d4ed8;
+  /* màu xanh dương đậm */
   top: 40%;
 }
+
 @media (max-width: 1023px) {
   .skybanner {
     display: none !important;
   }
 }
+
 /* ✅ Responsive fix cho iPhone và mobile */
 @media (max-width: 1023px) {
   .skybanner {
@@ -89,13 +106,17 @@ body {
   .main-content {
     max-width: 100%;
     overflow-x: hidden;
-  }}
+  }
+}
+
 /* ===== Viền vàng động cho Nav (áp dụng cho mọi <a> trong .nav-gold) ===== */
 @media (min-width: 768px) {
+
   /* ===== Container ===== */
   .nav-gold {
     display: flex;
-    gap: 1px; /* tuỳ ý */
+    gap: 1px;
+    /* tuỳ ý */
     list-style: none;
     padding: 0;
     margin: 0;
@@ -120,9 +141,9 @@ body {
 
   /* ===== Hover màu ===== */
   .nav-gold a:hover,
-  .nav-gold a:focus,
+  .nav-gold a:focus-visible,
   .nav-gold button:hover,
-  .nav-gold button:focus {
+  .nav-gold button:focus-visible  {
     color: #FFD700;
     background-color: rgba(255, 215, 0, .06);
   }
@@ -141,12 +162,14 @@ body {
     transition: all .35s ease;
     pointer-events: none;
   }
+
   .nav-gold a::before,
   .nav-gold button::before {
     bottom: 10px;
     left: 10px;
     border-width: 0 0 2px 2px;
   }
+
   .nav-gold a::after,
   .nav-gold button::after {
     top: 10px;
@@ -163,6 +186,7 @@ body {
     bottom: -8px;
     left: -8px;
   }
+
   .nav-gold a:hover::after,
   .nav-gold button:hover::after,
   .nav-gold a:focus::after,

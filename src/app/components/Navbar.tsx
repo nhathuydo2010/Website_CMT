@@ -80,7 +80,15 @@ export default function Navbar() {
     setIsOpen(false);
     setOpenSubmenu(null);
   }, [pathname]);
-
+  useEffect(() => {
+    const handler = (e: MouseEvent) => {
+      const target = e.target as HTMLElement | null;
+      const el = target?.closest('.nav-gold a, .nav-gold button') as HTMLElement | null;
+      if (el) requestAnimationFrame(() => el.blur());
+    };
+    document.addEventListener('click', handler);
+    return () => document.removeEventListener('click', handler);
+  }, []);
   const closeAll = () => {
     setOpenMenu(null);
     setOpenSub(null);
