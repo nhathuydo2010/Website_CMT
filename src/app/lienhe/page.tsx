@@ -80,7 +80,7 @@ export default function LienHePage() {
             <h2 className="text-xl font-semibold mb-2">Thông tin liên hệ</h2>
             <p><strong>CÔNG TY CỔ PHẦN MÁY TÍNH VIỆT NAM</strong></p>
             <p className="flex items-center gap-2"><FaMapMarkerAlt className="text-red-600" /> 26 Lý Tự Trọng, Phường Sài Gòn, Tp.HCM</p>
-            <p className="flex items-center gap-2"><FaPhoneAlt className="text-red-600" /> 083.8226.166</p>
+            <p className="flex items-center gap-2"><FaPhoneAlt className="text-red-600" /> 028.382.261.66</p>
             <p className="flex items-center gap-2"><FaEnvelope className="text-red-600" /> cmt-market@cmt.vn</p>
             <p className="flex items-start gap-2"> </p>
           </div>

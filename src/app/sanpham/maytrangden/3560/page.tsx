@@ -179,7 +179,7 @@ export default function Product7580Page() {
                       <ul className="list-disc pl-5 space-y-1">
                         <li>Kích thước máy chỉ rộng 590 mm x sâu 659 mm</li>
                         <li>Linh hoạt chọn cấu hình: 2 khay hoặc 4 khay</li>
-                        <li>Chiều cao phù hợp với người dùng khuyết tật (đáp ứng ADA)</li>
+                        <li>Chiều cao phù hợp với người dùng</li>
                       </ul>
                     </div>
 
