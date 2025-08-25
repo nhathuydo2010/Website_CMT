@@ -173,9 +173,9 @@ export default function Product7580Page() {
                       <h3 className="font-semibold text-cyan-700 mb-2">
                         Nâng cấp hiệu quả kinh doanh của bạn lên một tầm cao mới
                       </h3>
-                      <p>Bằng cách liên kết Apeos C3567 / C3067 / C2567 với FUJIFILM IWpro*, bạn có thể tự động hóa quy trình làm việc đã được chuẩn hóa như quét tài liệu, sắp xếp, xử lý, chia sẻ, quản lý và xuất dữ liệu trên đám mây. Các dịch vụ bên thứ ba cũng có thể được tích hợp liền mạch với FUJIFILM IWpro.<br />
+                      <p>Bằng cách liên kết Apeos C3567 / C3067 / C2567 với FUJIFILM IWpro, bạn có thể tự động hóa quy trình làm việc đã được chuẩn hóa như quét tài liệu, sắp xếp, xử lý, chia sẻ, quản lý và xuất dữ liệu trên đám mây. Các dịch vụ bên thứ ba cũng có thể được tích hợp liền mạch với FUJIFILM IWpro.<br />
                         Hơn nữa, nhóm có thể cộng tác từ xa bằng cách sử dụng Không gian làm việc trên đám mây. Có thể xuất an toàn các tài liệu đã đăng ký tại các văn phòng từ xa, cho phép áp dụng các hình thức làm việc kết hợp để có thể làm việc linh hoạt hơn.</p>
-                      <p className="text-sm italic mt-1">* Dịch vụ đám mây do FUJIFILM Business Innovation cung cấp. Cần có hợp đồng riêng cho dịch vụ này.</p>
+                      <p className="text-sm italic mt-1"> Dịch vụ đám mây do FUJIFILM Business Innovation cung cấp. Cần có hợp đồng riêng cho dịch vụ này.</p>
                       <Image src="/images/c3567_vanhanh.jpg" alt="Vận hành c3567_1" className="mx-auto rounded-lg shadow mt-3" />
 
                     </div>
@@ -194,10 +194,10 @@ export default function Product7580Page() {
                           <li>Đèn LED nút Home sẽ sáng lên</li>
                           <li>Vùng cảm ứng NFC</li>
                           <li>
-                            Dễ dàng kết nối với các thiết bị di động. Sử dụng <strong>Print Utility</strong>*<sup>1</sup>, bạn có thể thực hiện các thao tác cơ bản với thiết bị đa chức năng*<sup>2</sup> từ điện thoại thông minh.
+                            Dễ dàng kết nối với các thiết bị di động. Sử dụng <strong>Print Utility</strong><sup>1</sup>, bạn có thể thực hiện các thao tác cơ bản với thiết bị đa chức năng*<sup>2</sup> từ điện thoại thông minh.
                             <ul>
-                              <li>*1: Kết nối với máy qua môi trường không dây hoặc kết nối Wi-Fi Direct. Có thể tải xuống miễn phí từ Google Play™ hoặc App Store.</li>
-                              <li>*2: Sao chụp, fax, in, quét.</li>
+                              <li>1: Kết nối với máy qua môi trường không dây hoặc kết nối Wi-Fi Direct. Có thể tải xuống miễn phí từ Google Play™ hoặc App Store.</li>
+                              <li>2: Sao chụp, fax, in, quét.</li>
                               <li><strong>Ghi chú:</strong> Hỗ trợ in hoặc quét bằng thiết bị di động bằng AirPrint, Mopria® Print Service và Mopria Scan.</li>
                             </ul>
                           </li>
@@ -226,8 +226,8 @@ export default function Product7580Page() {
                       <h3 className="font-semibold text-cyan-700 mb-2">
                         Quét hình 1 lượt, 2 mặt lên đến 160 trang/phút
                       </h3>
-                      <p>Bộ nạp và đảo bản gốc tự động 1 lượt, quét 2 mặt tự động hiệu suất cao chứa được đến 130 tờ* và quét tài liệu 2 mặt trong một lần nạp, cho phép bạn số hóa các tài liệu lớn nhanh chóng và dễ dàng.</p>
-                      <p className="text-sm italic mt-1">* 70 gsm</p>
+                      <p>Bộ nạp và đảo bản gốc tự động 1 lượt, quét 2 mặt tự động hiệu suất cao chứa được đến 130 tờ và quét tài liệu 2 mặt trong một lần nạp, cho phép bạn số hóa các tài liệu lớn nhanh chóng và dễ dàng.</p>
+                      <p className="text-sm italic mt-1"> 70 gsm</p>
                     </div>
 
                     <div>
@@ -235,7 +235,7 @@ export default function Product7580Page() {
                         Quét hiệu quả các tài liệu có kích thước không theo chuẩn như biên lai
                       </h3>
                       <p>Tự động quét đến kích thước tiêu chuẩn gần nhất, loại bỏ yêu cầu nhập kích thước thủ công cho các tài liệu kích thước không theo chuẩn hoặc có kích thước nhỏ*. Các loại séc dày và biên lai giấy mỏng* cũng có thể được số hóa và quản lý dễ dàng trên máy tính.</p>
-                      <p className="text-sm italic mt-1">*  Kích thước không theo chuẩn lên đến 49 x 85 mm. Đối với kích thước từ 49 x 85 mm đến 55 x 91 mm, hỗ trợ định lượng giấy từ 38 đến 209 gsm.</p>
+                      <p className="text-sm italic mt-1"> Kích thước không theo chuẩn lên đến 49 x 85 mm. Đối với kích thước từ 49 x 85 mm đến 55 x 91 mm, hỗ trợ định lượng giấy từ 38 đến 209 gsm.</p>
                     </div>
 
                     <div>
@@ -246,9 +246,9 @@ export default function Product7580Page() {
                       </h3>
                       <ul className="list-disc pl-5 space-y-1">
                         <li>Các hoạt động và truy cập trái phép được ngăn chặn nhờ việc xác thực người dùng và các hạn chế sử dụng.</li>
-                        <li>Mở rộng với Ethernet phụ* cho phép sử dụng một thiết bị đa chức năng duy nhất trên một mạng riêng biệt, v.v.</li>
+                        <li>Mở rộng với Ethernet phụ cho phép sử dụng một thiết bị đa chức năng duy nhất trên một mạng riêng biệt, v.v.</li>
                       </ul>
-                      <p className="text-sm italic mt-1">* Tùy chọn</p>
+                      <p className="text-sm italic mt-1"> Tùy chọn</p>
                     </div>
 
                     <div>
@@ -306,11 +306,11 @@ export default function Product7580Page() {
                         Sản xuất tài liệu quảng cáo nội bộ và theo yêu cầu
                       </h3>
                       <p>
-                        Hỗ trợ nhiều kích thước và định lượng giấy khác nhau<><sup>*1</sup></>, cho bạn sự linh hoạt trong việc cá nhân hóa và in trên phong bì, thư trực tiếp, áp phích, biểu ngữ quảng cáo hoặc màn hình POP dài<sup>*2</sup>.
+                        Hỗ trợ nhiều kích thước và định lượng giấy khác nhau<><sup>1</sup></>, cho bạn sự linh hoạt trong việc cá nhân hóa và in trên phong bì, thư trực tiếp, áp phích, biểu ngữ quảng cáo hoặc màn hình POP dài<sup>2</sup>.
                       </p>
                       <p className="text-sm italic mt-1">
-                        *1: Định lượng giấy từ 52 đến 300 gsm<br />
-                        *2: Giấy dài lên tới 297 x 1.200 mm
+                        1: Định lượng giấy từ 52 đến 300 gsm<br />
+                        2: Giấy dài lên tới 297 x 1.200 mm
                       </p>
                     </div>
 
@@ -318,9 +318,9 @@ export default function Product7580Page() {
                       <h3 className="font-semibold text-cyan-700 mb-2">
                         Kích thước nhỏ gọn phù hợp với mọi không gian văn phòng
                       </h3>
-                      <p>Thiết kế nhỏ gọn với chiều rộng 577 mm và chiều sâu 671 mm* phù hợp với mọi không gian, kể cả những không gian chật hẹp, giúp tối đa hóa việc sử dụng không gian văn phòng.</p>
+                      <p>Thiết kế nhỏ gọn với chiều rộng 577 mm và chiều sâu 671 mm phù hợp với mọi không gian, kể cả những không gian chật hẹp, giúp tối đa hóa việc sử dụng không gian văn phòng.</p>
                       <p className="text-sm italic mt-1">
-                        * Đối với cấu hình 1 Khay tiêu chuẩn.
+                        Đối với cấu hình 1 Khay tiêu chuẩn.
                       </p>
                     </div>
 
@@ -339,8 +339,8 @@ export default function Product7580Page() {
                         <br />
                         Ngoài ra, việc sử dụng bộ phận sấy mực mới sẽ giúp đạt được cả nhiệt độ cố định thấp và chất lượng hình ảnh vượt trội.
                       </p>
-                      <p className="text-sm italic mt-1">*1: Tính đến tháng 7 năm 2024, theo khảo sát của chúng tôi. <br />
-                        *2: Mực sử dụng trong Apeos C3060 / C2560 / C2060</p>
+                      <p className="text-sm italic mt-1">1: Tính đến tháng 7 năm 2024, theo khảo sát của chúng tôi. <br />
+                        2: Mực sử dụng trong Apeos C3060 / C2560 / C2060</p>
                     </div>
 
                     <div>
@@ -348,11 +348,11 @@ export default function Product7580Page() {
                         Thiết kế cho hiện tại và tương lai
                       </h3>
                       <p>
-                        Trong nỗ lực thúc đẩy tái chế tài nguyên, vật liệu nhựa tái chế được sử dụng* cho các bộ phận như nắp trước và khay. Chúng tôi đã khắc phục được trở ngại để tìm ra những cách ngăn chặn tình trạng không đều màu của nhựa tái chế, vốn được cho là khó tạo khuôn. Và bằng cách cải thiện độ bền và độ cứng của các bộ phận, chúng tôi đảm bảo chất lượng của sản phẩm.
+                        Trong nỗ lực thúc đẩy tái chế tài nguyên, vật liệu nhựa tái chế được sử dụng cho các bộ phận như nắp trước và khay. Chúng tôi đã khắc phục được trở ngại để tìm ra những cách ngăn chặn tình trạng không đều màu của nhựa tái chế, vốn được cho là khó tạo khuôn. Và bằng cách cải thiện độ bền và độ cứng của các bộ phận, chúng tôi đảm bảo chất lượng của sản phẩm.
                         <br />
                         Hơn nữa, sản phẩm đã được thiết kế lại để có thể dễ dàng tháo rời và làm sạch, hỗ trợ việc tái sử dụng và tái chế chúng trong tương lai.
                       </p>
-                      <p className="text-sm italic mt-1">* Trong trường hợp cấu hình 4 khay với Bộ nạp và đảo bản gốc tự động, 15 % tổng trọng lượng nhựa của thiết bị là vật liệu tái chế.</p>
+                      <p className="text-sm italic mt-1"> Trong trường hợp cấu hình 4 khay với Bộ nạp và đảo bản gốc tự động, 15 % tổng trọng lượng nhựa của thiết bị là vật liệu tái chế.</p>
                     </div>
 
                     <div>
@@ -370,7 +370,7 @@ export default function Product7580Page() {
                         Góp phần giảm lượng khí CO2 thải ra nhờ thân máy nhẹ
                       </h3>
                       <p>Bằng cách tối ưu hóa nhựa và tấm kim loại bằng công nghệ làm mỏng và sửa đổi cấu trúc khung, chúng tôi đã giảm được 27 %* trọng lượng máy trong khi vẫn duy trì độ bền và góp phần giảm lượng khí CO2 thải ra trong quá trình vận chuyển.</p>
-                      <p className="text-sm italic mt-1">* Đối với Model-CPS cấu hình 4 Khay. So với mẫu Apeos C3070 Model-CPS với cấu hình 4 Khay trước đây, không bao gồm mực.</p>
+                      <p className="text-sm italic mt-1"> Đối với Model-CPS cấu hình 4 Khay. So với mẫu Apeos C3070 Model-CPS với cấu hình 4 Khay trước đây, không bao gồm mực.</p>
                     </div>
                   </div>
                 </div>

@@ -189,7 +189,7 @@ export default function Product7580Page() {
                             <h3 className="font-semibold text-cyan-700 mb-2">
                               Kích thước nhỏ gọn phù hợp với mọi không gian văn phòng
                             </h3>
-                            <p>Thiết kế nhỏ gọn với chiều rộng 577 mm và chiều sâu 659 mm*
+                            <p>Thiết kế nhỏ gọn với chiều rộng 577 mm và chiều sâu 659 mm
                               phù hợp với mọi nơi, kể cả những không gian chật hẹp, giúp tối đa
                               hóa việc sử dụng không gian văn phòng.</p>
       
@@ -198,10 +198,10 @@ export default function Product7580Page() {
                             <h3 className="font-semibold text-cyan-700 mb-2">
                               Sản xuất tài liệu quảng cáo nội bộ và theo yêu cầu
                             </h3>
-                            <p>Hỗ trợ nhiều kích thước và địnhlượng giấy khác nhau*1, cho bạn sự linh hoạt trong việc cá nhân hóa và in trên phong bì, thư trực tiếp, áp phích, biểu ngữ quảng cáo hoặc màn hình POP dài .</p>
+                            <p>Hỗ trợ nhiều kích thước và địnhlượng giấy khác nhau, cho bạn sự linh hoạt trong việc cá nhân hóa và in trên phong bì, thư trực tiếp, áp phích, biểu ngữ quảng cáo hoặc màn hình POP dài .</p>
                             <p className="text-sm italic mt-1">
-                              *1: Định lượng giấy từ 52 đến 300 gsm.
-                              <br />*2: Giấy dài lên tới 297 x 1.200 mm
+                              1: Định lượng giấy từ 52 đến 300 gsm.
+                              <br />2: Giấy dài lên tới 297 x 1.200 mm
                               <Image src="/images/vanhanh9.png" alt="Bố trí linh hoạt" className="w-full max-w-[300px] mx-auto rounded-lg shadow mt-3" />
                             </p>
                           </div>
@@ -224,7 +224,7 @@ export default function Product7580Page() {
                               Số hóa nhanh các bản gốc dung lượng lớn
                             </h3>
                             <ul className="list-disc pl-5 space-y-1">
-                              <li> Quét hình 1 lượt, 2 mặt, lên đến 80 trang/phút*</li>
+                              <li> Quét hình 1 lượt, 2 mặt, lên đến 80 trang/phút</li>
                               <li>Hỗ trợ quét tài liệu khổ nhỏ (49 x 85 mm), séc dày và biên lai giấy mỏng (38 đến 128 gsm).</li>
                               <li>Tài liệu đã quét có thể được chuyển tới e-mail, máy tính hoặc máy chủ dùng chung</li>
                             </ul>

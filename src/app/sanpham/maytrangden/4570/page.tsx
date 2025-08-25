@@ -173,11 +173,11 @@ export default function Product7580Page() {
                         Giảm thiểu thời gian chờ đợi cho năng suất cao hơn
                       </h3>
                       <ul className="list-disc pl-5 space-y-1">
-                        <li>Thời gian cho ra bản sao chụp đầu tiên chỉ trong 3,6*¹ giây</li>
-                        <li>Thời gian khởi động máy chưa đầy 30 giây*² và thời gian khôi phục là 11 giây</li>
+                        <li>Thời gian cho ra bản sao chụp đầu tiên chỉ trong 3,6¹ giây</li>
+                        <li>Thời gian khởi động máy chưa đầy 30 giây² và thời gian khôi phục là 11 giây</li>
                         <li>Smart WelcomeEyes phát hiện người dùng và tự động “đánh thức” máy từ chế độ nghỉ</li>
                       </ul>
-                      <p className="text-sm italic mt-1">*1: A4 LEF – *2: Tính chỉnh khi hợp sẵn / Dịch vụ tùy chỉnh: Khi được kích hoạt.</p>
+                      <p className="text-sm italic mt-1">1: A4 LEF – 2: Tính chỉnh khi hợp sẵn / Dịch vụ tùy chỉnh: Khi được kích hoạt.</p>
                     </div>
 
                     <div>
@@ -208,7 +208,7 @@ export default function Product7580Page() {
                         Trích xuất thông tin nhanh chóng cho các quy trình công việc khối lượng lớn
                       </h3>
                       <ul className="list-disc pl-5 space-y-1">
-                        <li>Có thể đọc lên đến 160 trang/phút* ở tốc độ cao khi Quét</li>
+                        <li>Có thể đọc lên đến 160 trang/phút ở tốc độ cao khi Quét</li>
                         <li>Bộ nạp bản gốc có thể quét đồng thời một lần một hoặc hai mặt tài liệu khối lượng lớn</li>
                         <li>Bộ nạp bản gốc có khả năng phát hiện nhiều loại giấy – Có thể nạp giấy từ 38 đến 209 gsm</li>
                         <li>Thiết kế nạp dễ dàng, hỗ trợ nhiều khổ giấy tùy chỉnh</li>
@@ -220,12 +220,12 @@ export default function Product7580Page() {
                         Thao tác nhanh chóng với tính năng quét Bộ nạp và đảo bản gốc tự động cho các tài liệu có kích thước tùy chỉnh
                       </h3>
                       <ul className="list-disc pl-5 space-y-1">
-                        <li>Hỗ trợ kích cỡ tối thiểu 49 mm (R) x 85 mm (D)*</li>
+                        <li>Hỗ trợ kích cỡ tối thiểu 49 mm (R) x 85 mm (D)</li>
                         <li>Quét ngay lập tức mà không cần nhập thủ công từng kích thước gốc</li>
                         <li>Tự động chuyển đổi bản gốc có kích thước tùy chỉnh thành khổ tiêu chuẩn</li>
                         <li>Nạp và tải nhiều tờ gốc cùng nhau</li>
                       </ul>
-                      <p className="text-sm italic mt-1">* Áp dụng cho giấy có trọng lượng 38 – 209 gsm.</p>
+                      <p className="text-sm italic mt-1"> Áp dụng cho giấy có trọng lượng 38 – 209 gsm.</p>
                     </div>
 
                     <div>
@@ -233,13 +233,13 @@ export default function Product7580Page() {
                         Nhiều tùy chọn hoàn thiện khác nhau sẵn sàng để đáp ứng nhu cầu của bạn
                       </h3>
                       <ul className="list-disc pl-5 space-y-1">
-                        <li>Hỗ trợ Dập không ghim*¹ đơn và đôi</li>
-                        <li>Dập ghim*² / Đục lỗ / Dập ghim lồng / Gập chéo / Gập làm ba / Gập đôi sách</li>
+                        <li>Hỗ trợ Dập không ghim¹ đơn và đôi</li>
+                        <li>Dập ghim² / Đục lỗ / Dập ghim lồng / Gập chéo / Gập làm ba / Gập đôi sách</li>
                         <li>Nhiều bộ hoàn thiện: A2 / B4-B5 / C4-C5 / C4-C5 + CD3</li>
                       </ul>
                       <p className="text-sm italic mt-1">
-                        *1: Các mẫu khung đơn: Bộ hoàn thiện B5, Bộ hoàn thiện C5 và Bộ hoàn thiện C5 có bộ đóng sách.
-                        <br />*2: Sẽ cần bộ hoàn thiện B5 và B6.
+                        1: Các mẫu khung đơn: Bộ hoàn thiện B5, Bộ hoàn thiện C5 và Bộ hoàn thiện C5 có bộ đóng sách.
+                        <br />2: Sẽ cần bộ hoàn thiện B5 và B6.
                       </p>
                     </div>
                   </div>
@@ -273,7 +273,7 @@ export default function Product7580Page() {
                         Điện thoại thông minh trở thành “bảng điều khiển di động”
                       </h3>
                       <p>
-                        Kết nối liền mạch với các thiết bị di động cho các tác vụ sao chụp, Fax, In, Quét*¹ bằng cách sử dụng ứng dụng Print Utility*².
+                        Kết nối liền mạch với các thiết bị di động cho các tác vụ sao chụp, Fax, In, Quét¹ bằng cách sử dụng ứng dụng Print Utility².
                       </p>
                       <ul className="list-disc pl-5 space-y-1">
                         <li>Thiết bị di động có thể được sử dụng làm bảng điều khiển thay thế để kiểm soát hoạt động nhằm giảm tiếp xúc không cần thiết</li>
@@ -283,8 +283,8 @@ export default function Product7580Page() {
                         <li>Thiết lập kết nối Wi-Fi trực tiếp nhanh chóng bằng cách quét mã QR trên bảng điều khiển</li>
                       </ul>
                       <p className="text-sm italic mt-1">
-                        *1: Email, Quét vào thư mục <br />
-                        *2: Tải xuống miễn phí từ Google Play™ hoặc App Store
+                        1: Email, Quét vào thư mục <br />
+                        2: Tải xuống miễn phí từ Google Play™ hoặc App Store
                       </p>
                     </div>
 
@@ -292,16 +292,16 @@ export default function Product7580Page() {
                       <h3 className="font-semibold text-cyan-700 mb-2">
                         Tính linh hoạt trong bố cục văn phòng
                       </h3>
-                      <p>Hỗ trợ môi trường LAN không dây*¹.</p>
+                      <p>Hỗ trợ môi trường LAN không dây¹.</p>
                       <ul className="list-disc pl-5 space-y-1">
                         <li>Hỗ trợ từ cổng di chuyển thiết bị trong văn phòng nhỏ kết nối Wi-Fi</li>
                         <li>Có thể kết nối với tối đa 5 thiết bị đa chức với tính năng kết nối wi-fi trực tiếp (Wi-Fi Direct) cùng lúc</li>
-                        <li>Hỗ trợ in trực tiếp qua thiết bị di động*²</li>
+                        <li>Hỗ trợ in trực tiếp qua thiết bị di động²</li>
                         <li>Hỗ trợ Print Utility, AirPrint và Mopria® Print Service</li>
                       </ul>
                       <p className="text-sm italic mt-1">
-                        *1: Tùy chọn <br />
-                        *2: Khi kết nối Wi-Fi Direct
+                        1: Tùy chọn <br />
+                        2: Khi kết nối Wi-Fi Direct
                       </p>
                     </div>
 
@@ -310,14 +310,14 @@ export default function Product7580Page() {
                         In từ mọi thiết bị đa chức năng trong văn phòng
                       </h3>
                       <p>
-                        Với Server-less On-Demand Print (In theo nhu cầu không qua máy chủ)*, bạn có thể in và nhận bản in từ mọi bản thiết bị đa chức năng được kết nối.
+                        Với Server-less On-Demand Print (In theo nhu cầu không qua máy chủ), bạn có thể in và nhận bản in từ mọi bản thiết bị đa chức năng được kết nối.
                       </p>
                       <ul className="list-disc pl-5 space-y-1">
                         <li>Cải thiện năng suất bằng cách in từ mọi thiết bị đa chức năng khác khi đang được sử dụng</li>
                         <li>Có thể liên kết đến 100 thiết bị</li>
                         <li>Có thể sửa đổi các cài đặt tác vụ cụ thể để đáp ứng để tiết kiệm thời gian (1 mặt đến 2 mặt, thêm dập ghim, tất cả đều đen trắng)</li>
                       </ul>
-                      <p className="text-sm italic mt-1">* Tùy chọn</p>
+                      <p className="text-sm italic mt-1">Tùy chọn</p>
                     </div>
 
                     <div>
@@ -325,14 +325,14 @@ export default function Product7580Page() {
                         Quản lý thiết bị đơn giản với Xác thực không cần máy chủ
                       </h3>
                       <p>
-                        Xác thực không qua máy chủ* cho phép thông tin người dùng được đồng bộ hóa giữa các thiết bị đa chức năng trong cùng một nhóm, giúp giảm khối lượng công việc của quản trị viên.
+                        Xác thực không qua máy chủ cho phép thông tin người dùng được đồng bộ hóa giữa các thiết bị đa chức năng trong cùng một nhóm, giúp giảm khối lượng công việc của quản trị viên.
                       </p>
                       <ul className="list-disc pl-5 space-y-1">
                         <li>Chỉ cần chạm thẻ của bạn để liên kết ID người dùng với thiết bị đa chức năng</li>
                         <li>Thông tin ID được chia sẻ sử dụng được với các thiết bị đa chức năng khác trong cùng một mạng</li>
                         <li>Xác thực có thể được thực hiện với bất kỳ thiết bị nào trong văn phòng</li>
                       </ul>
-                      <p className="text-sm italic mt-1">* Tùy chọn</p>
+                      <p className="text-sm italic mt-1"> Tùy chọn</p>
                     </div>
                   </div>
                 </div>

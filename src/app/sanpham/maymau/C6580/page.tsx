@@ -178,13 +178,13 @@ export default function Product7580Page() {
                       </p>
                       <ul className="list-disc pl-5 space-y-1">
                         <li>Trống quang dẫn có độ mòn thấp với tuổi thọ dài giúp giảm tần suất thay trống</li>
-                        <li>Nạp giấy trữ lượng lớn lên đến 7.360 tờ<sup>*1</sup></li>
-                        <li>Hộp mực<sup>*2</sup> trữ lượng lớn và khay giấy lớn giúp giảm số lần thay</li>
+                        <li>Nạp giấy trữ lượng lớn lên đến 7.360 tờ<sup>1</sup></li>
+                        <li>Hộp mực<sup>2</sup> trữ lượng lớn và khay giấy lớn giúp giảm số lần thay</li>
                         <li>Thay mực và thêm giấy mà không cần dừng công việc in đang chạy</li>
                         <li>Độ bền vượt trội và khả năng xử lý bản in ra lõi và in khối lượng lớn</li>
                       </ul>
-                      <p className="text-sm italic mt-1">*1: 80 gsm giấy. Khi đã lắp đặt Khay tay và Bộ nạp trữ lượng lớn C3-DS tuỳ chọn.<br />
-                        *2: Hộp mực trữ lượng lớn có thể in khoảng 75.200 trang (37.600 trang x 2) đối với mực K và khoảng 39.700 trang đối với mỗi màu của mực CMY. Đây là giá trị tham khảo khi sử dụng bản gốc A4 với mật độ hình ảnh 5% cho mỗi màu. Số lượng tờ có thể in trên thực tế sẽ tùy thuộc vào cách sử dụng, loại bản gốc và mật độ in, vì vậy những giá trị này chỉ mang tính chất tham khảo.</p>
+                      <p className="text-sm italic mt-1">1: 80 gsm giấy. Khi đã lắp đặt Khay tay và Bộ nạp trữ lượng lớn C3-DS tuỳ chọn.<br />
+                        2: Hộp mực trữ lượng lớn có thể in khoảng 75.200 trang (37.600 trang x 2) đối với mực K và khoảng 39.700 trang đối với mỗi màu của mực CMY. Đây là giá trị tham khảo khi sử dụng bản gốc A4 với mật độ hình ảnh 5% cho mỗi màu. Số lượng tờ có thể in trên thực tế sẽ tùy thuộc vào cách sử dụng, loại bản gốc và mật độ in, vì vậy những giá trị này chỉ mang tính chất tham khảo.</p>
                     </div>
 
                     <div>
@@ -193,15 +193,15 @@ export default function Product7580Page() {
                       </h3>
                       <p>Khởi động nhanh và in nhanh chóng. Giảm thời gian chờ đợi.</p>
                       <ul className="list-disc pl-5 space-y-1">
-                        <li>Tốc độ in cao, lên đến 81 trang/phút<sup>*1</sup></li>
+                        <li>Tốc độ in cao, lên đến 81 trang/phút<sup>1</sup></li>
                         <li>Smart WelcomEyes phát hiện người dùng đang đến gần và tự động khởi động từ trạng thái tiết kiệm năng lượng</li>
                         <li>Model cao cấp, khởi động từ chế độ nghỉ trong vòng 30 giây</li>
-                        <li>Thời gian cho ra bản sao chụp đầu tiên 5,4 giây<sup>*2</sup></li>
+                        <li>Thời gian cho ra bản sao chụp đầu tiên 5,4 giây<sup>2</sup></li>
                         <li>Dự đoán thời gian hoàn thành tác vụ in để quản lý công việc hiệu quả hơn</li>
                       </ul>
                       <p className="text-sm italic mt-1">
-                        *1: Dành cho model C8180. C7580 là 75 trang/phút và C6580 là 65 trang/phút.<br />
-                        *2: Chế độ ưu tiên màu sắc.
+                        1: Dành cho model C8180. C7580 là 75 trang/phút và C6580 là 65 trang/phút.<br />
+                        2: Chế độ ưu tiên màu sắc.
                       </p>
                     </div>
 
@@ -209,13 +209,13 @@ export default function Product7580Page() {
                       <h3 className="font-semibold text-cyan-700 mb-2">
                         In từ mọi thiết bị đa chức năng trong văn phòng
                       </h3>
-                      <p>Với Server-less On-Demand Print (In theo nhu cầu không qua máy chủ)*, bạn có thể in và nhận bản in từ mọi bản thiết bị đa chức năng được kết nối.</p>
+                      <p>Với Server-less On-Demand Print (In theo nhu cầu không qua máy chủ), bạn có thể in và nhận bản in từ mọi bản thiết bị đa chức năng được kết nối.</p>
                       <ul className="list-disc pl-5 space-y-1">
                         <li>Cải thiện năng suất bằng cách in từ mọi thiết bị đa chức năng khả dụng khác khi thiết bị hiện tại đang được sử dụng</li>
                         <li>Có thể liên kết đến 100 thiết bị</li>
                         <li>Có thể sửa đổi cài đặt tác vụ cụ thể ở cấp thiết bị để tiết kiệm thời gian (1 mặt đến 2 mặt, thêm dập ghim, tất cả đều đen trắng)</li>
                       </ul>
-                      <p className="text-sm italic mt-1">* Tùy chọn</p>
+                      <p className="text-sm italic mt-1"> Tùy chọn</p>
                     </div>
 
                     <div>
@@ -227,13 +227,13 @@ export default function Product7580Page() {
                       </h3>
                       <ul className="list-disc pl-5 space-y-1">
                         <li>Được trang bị Bộ nạp và đảo bản gốc tự động (DADF) màu một lượt quét</li>
-                        <li>Có thể đạt quy trình công việc nhanh hơn và liên tục với tốc độ quét khoảng 270 trang/phút<sup>*1</sup> và dung lượng khay chứa giấy DADF 250 tờ<sup>*2</sup></li>
-                        <li>Quy trình công việc yêu cầu với DADF có thể trở nên linh hoạt hơn, hỗ trợ nhiều loại giấy, từ 38<sup>*3</sup> đến 200 gsm</li>
+                        <li>Có thể đạt quy trình công việc nhanh hơn và liên tục với tốc độ quét khoảng 270 trang/phút<sup>1</sup> và dung lượng khay chứa giấy DADF 250 tờ<sup>2</sup></li>
+                        <li>Quy trình công việc yêu cầu với DADF có thể trở nên linh hoạt hơn, hỗ trợ nhiều loại giấy, từ 38<sup>3</sup> đến 200 gsm</li>
                         <li>Cải thiện mức độ hiệu quả của quy trình công việc bằng cách tự động quét các tài liệu có kích thước tùy chọn, hoặc kích thước nhỏ như hóa đơn, về kích thước gần với tiêu chuẩn nhất</li>
                       </ul>
-                      <p className="text-sm italic mt-1">*1: Quét hình 1 lượt, 2 mặt. Tài liệu tiêu chuẩn (A4 LEF), 200 dpi, Lưu trữ vào thư mục.<br />
-                        *2: 80 gsm giấy. <br />
-                        *3: Cho bản gốc in một mặt. 50 gsm cho bản gốc in hai mặt.</p>
+                      <p className="text-sm italic mt-1">1: Quét hình 1 lượt, 2 mặt. Tài liệu tiêu chuẩn (A4 LEF), 200 dpi, Lưu trữ vào thư mục.<br />
+                        2: 80 gsm giấy. <br />
+                        3: Cho bản gốc in một mặt. 50 gsm cho bản gốc in hai mặt.</p>
                     </div>
 
                     <div>
@@ -244,11 +244,11 @@ export default function Product7580Page() {
                       <ul className="list-disc pl-5 space-y-1">
                         <li>Dữ liệu có thể được gửi bằng cách sử dụng nhiều tính năng cùng một lúc</li>
                         <li>Cải thiện quy trình số hóa của bạn với các tính năng bao gồm tự động xoay chiều trang được quét về hướng thẳng đứng, sửa trang bị lệch hoặc xóa các trang trống</li>
-                        <li>Bên cạnh định dạng TIFF và JPEG, dữ liệu được quét có thể được chuyển đổi sang tệp PDF hoặc DocuWorks có bật OCR* hoặc nén ở mức cao / có màu cụ thể. Ngoài ra, tài liệu còn có thể được chuyển đổi dang tài liệu Excel/Word có thể chỉnh sửa được*</li>
+                        <li>Bên cạnh định dạng TIFF và JPEG, dữ liệu được quét có thể được chuyển đổi sang tệp PDF hoặc DocuWorks có bật OCR hoặc nén ở mức cao / có màu cụ thể. Ngoài ra, tài liệu còn có thể được chuyển đổi dang tài liệu Excel/Word có thể chỉnh sửa được*</li>
                         <li>Với ScanAuto, bạn có thể dễ dàng gửi dữ liệu đã quét đến địa chỉ e-mail của mình bằng cách chỉ cần nhấn một nút</li>
                       </ul>
                       <p className="text-sm italic mt-1">
-                        * Tùy chọn.
+                        Tùy chọn.
                       </p>
                     </div>
 
@@ -256,15 +256,15 @@ export default function Product7580Page() {
                       <h3 className='font-semibold text-cyan-700 mb-2'>
                         Số hóa tài liệu giấy giúp quản lý tài liệu dễ dàng mà chẳng hề tốn công
                       </h3>
-                      <p>Với tính năng Scan Delivery (Phân phối bản quét đến thư mục lưu trữ định sẵn)*, bạn có thể tự động xử lý và lưu trữ hình ảnh được quét chỉ bằng một nút ấn thao tác cài sẵn dành cho mỗi quy trình công việc hoặc một loại tài liệu nhất định.</p>
+                      <p>Với tính năng Scan Delivery (Phân phối bản quét đến thư mục lưu trữ định sẵn), bạn có thể tự động xử lý và lưu trữ hình ảnh được quét chỉ bằng một nút ấn thao tác cài sẵn dành cho mỗi quy trình công việc hoặc một loại tài liệu nhất định.</p>
                       <ul className="list-disc pl-5 space-y-1">
-                        <li>Tự động hóa để đặt định dạng tập tin, tên tập tin, OCR*, v.v.</li>
+                        <li>Tự động hóa để đặt định dạng tập tin, tên tập tin, OCR, v.v.</li>
                         <li>Tự động lưu trữ tài liệu đã quét và xử lý tại đúng điểm đến định sẵn</li>
                         <li>Chỉ định từ ngữ hoặc ký tự cụ thể trong tài liệu làm tên thư mục hoặc tên tập tin</li>
                         <li>Có thể đọc chính xác 0̸ và các ký tự hay bị nhận diện nhầm khác</li>
                       </ul>
                       <p className="text-sm italic mt-1">
-                        * Tùy chọn.
+                         Tùy chọn.
                       </p>
                     </div>
                   </div>
@@ -284,13 +284,13 @@ export default function Product7580Page() {
                       </h3>
                       <p>Công nghệ hiện đại nhất giúp mang đến hình ảnh có chất lượng chuyên nghiệp và bản in có độ phân giải cao.</p>
                       <ul className="list-disc pl-5 space-y-1">
-                        <li>Đầu in LED đầu tiên trên thế giới* với độ phân giải 2.400 dpi.</li>
+                        <li>Đầu in LED đầu tiên trên thế giới với độ phân giải 2.400 dpi.</li>
                         <li>Màu sắc sống động với mực Super EA Eco và các hạt mực nhỏ nhất giúp phân cấp màu sắc liền mạch.</li>
                         <li>Tái tạo lại hình ảnh rõ nét có đường nét mịn và văn bản nhỏ.</li>
                         <li>Tính năng Gloss mang lại một độ bóng đẹp tuyệt vời cho bài in. (ví dụ như ảnh.)</li>
                       </ul>
                       <p className="text-sm italic mt-1">
-                        * Phương pháp chụp ảnh quang điện khô. Kể từ tháng 3 năm 2021. Theo nghiên cứu của chúng tôi.
+                        Phương pháp chụp ảnh quang điện khô. Kể từ tháng 3 năm 2021. Theo nghiên cứu của chúng tôi.
                       </p>
                     </div>
 
@@ -302,14 +302,14 @@ export default function Product7580Page() {
                         Độ bền vượt trội và khả năng xử lý bản in cốt lõi và in khối lượng lớn.
                       </p>
                       <ul className="list-disc pl-5 space-y-1">
-                        <li>Tốc độ in cao, lên đến 81 trang/phút<sup>*1</sup></li>
+                        <li>Tốc độ in cao, lên đến 81 trang/phút<sup>1</sup></li>
                         <li>Trống quang dẫn có độ mòn thấp với tuổi thọ dài giúp giảm tần suất thay trống</li>
-                        <li>Nạp giấy trữ lượng lớn lên đến 7.360 tờ<sup>*2</sup></li>
+                        <li>Nạp giấy trữ lượng lớn lên đến 7.360 tờ<sup>2</sup></li>
                         <li>Thay mực và thêm giấy mà không cần dừng công việc in đang chạy và tăng thời gian vận hành máy lên mức tối đa</li>
                       </ul>
                       <p className="text-sm italic mt-1">
-                        *1: Dành cho model C8180. C7580 là 75 trang/phút và C6580 là 65 trang/phút.<br />
-                        *2: Giấy 80 gsm. Khi lắp đặt Bộ nạp trữ lượng lớn C3-DS.
+                        1: Dành cho model C8180. C7580 là 75 trang/phút và C6580 là 65 trang/phút.<br />
+                        2: Giấy 80 gsm. Khi lắp đặt Bộ nạp trữ lượng lớn C3-DS.
                       </p>
                     </div>
 
@@ -317,7 +317,7 @@ export default function Product7580Page() {
                       <h3 className="font-semibold text-cyan-700 mb-2">
                         Duy trì chất lượng in với cân chỉnh dễ dàng
                       </h3>
-                      <p>Sử dụng tính năng SIQA* tích hợp để điều chỉnh chất lượng in dễ dàng và nhanh chóng.</p>
+                      <p>Sử dụng tính năng SIQA tích hợp để điều chỉnh chất lượng in dễ dàng và nhanh chóng.</p>
                       <ul className="list-disc pl-5 space-y-1">
                         <li>Chỉ cần quét biểu đồ chuyên dụng để tự động tính giá trị điều chỉnh phù hợp cho cả cân chỉnh trước sau, cân chỉnh độ đều màu và cân chỉnh hình ảnh</li>
                         <li>Người dùng có thể vận hành nhanh chóng và đơn giản mà không cần nhớ các giá trị tinh chỉnh</li>
@@ -337,10 +337,10 @@ export default function Product7580Page() {
                       </p>
                       <ul className="list-disc pl-5 space-y-1">
                         <li>Khay tay tiêu chuẩn được đặt gọn gàng trong thiết bị chính của thiết bị đa năng</li>
-                        <li>Bộ fax tích hợp* trong thiết bị đa năng để tiết kiệm không gian</li>
+                        <li>Bộ fax tích hợp trong thiết bị đa năng để tiết kiệm không gian</li>
                         <li>Để cải thiện khả năng giảm tiếng ồn, thiết kế quạt và vận chuyển giấy đã được tối ưu hóa</li>
                       </ul>
-                      <p className="text-sm italic mt-1">* Tùy chọn</p>
+                      <p className="text-sm italic mt-1"> Tùy chọn</p>
                     </div>
 
                     <div>
@@ -353,11 +353,11 @@ export default function Product7580Page() {
                       </p>
                       <ul className="list-disc pl-5 space-y-1">
                         <li>Có thể chuyển tiếp fax đã nhận đến thiết bị di động của bạn qua email</li>
-                        <li>Có thể sắp xếp theo số fax, ngày nhận được và người phụ trách*</li>
-                        <li>Có thể chuyển đổi thao tác xử lý fax đang đến theo thời gian, ngày trong tuần và khoảng thời gian*</li>
-                        <li>Có thể đặt chỉ bằng một cú chạm*</li>
+                        <li>Có thể sắp xếp theo số fax, ngày nhận được và người phụ trách </li>
+                        <li>Có thể chuyển đổi thao tác xử lý fax đang đến theo thời gian, ngày trong tuần và khoảng thời gian </li>
+                        <li>Có thể đặt chỉ bằng một cú chạm</li>
                       </ul>
-                      <p className="text-sm italic mt-1">* Tùy chọn</p>
+                      <p className="text-sm italic mt-1">Tùy chọn</p>
                     </div>
 
                     <div>
@@ -365,26 +365,26 @@ export default function Product7580Page() {
                         Tính linh hoạt trong bố cục văn phòng
                       </h3>
                       <p>
-                        Hỗ trợ môi trường LAN không dây<sup>*1</sup>.
+                        Hỗ trợ môi trường LAN không dây<sup>1</sup>.
                       </p>
                       <ul className="list-disc pl-5 space-y-1">
                         <li>Hỗ trợ tự do di chuyển thiết bị trong văn phòng nhờ kết nối Wi-Fi.</li>
                         <li>Có thể kết nối với tối đa 5 thiết bị đa chức với tính năng kết nối wi-fi trực tiếp (Wi-Fi Direct) cùng lúc</li>
-                        <li>Hỗ trợ in trực tiếp qua thiết bị di động<sup>*2</sup></li>
+                        <li>Hỗ trợ in trực tiếp qua thiết bị di động<sup>2</sup></li>
                         <li>Hỗ trợ Print Utility, AirPrint và Mopria® Print Service</li>
                       </ul>
-                      <p className="text-sm italic mt-1">*1: Tùy chọn. <br />
-                        *2: Khi kết nối Wi-Fi Direct.</p>
+                      <p className="text-sm italic mt-1">1: Tùy chọn. <br />
+                        2: Khi kết nối Wi-Fi Direct.</p>
                     </div>
                     <div>
                       <h3 className="font-semibold text-cyan-700 mb-2">
                         Hỗ trợ Universal Print của Microsoft
                       </h3>
                       <p>
-                        Bằng cách đăng ký trước các thiết bị đa chức năng với Universal Print của Microsoft, người dùng<sup>*1</sup> được xác thực bằng Microsoft Entra ID<sup>*2</sup> có thể in từ mọi nơi qua đám mây.
+                        Bằng cách đăng ký trước các thiết bị đa chức năng với Universal Print của Microsoft, người dùng<sup>1</sup> được xác thực bằng Microsoft Entra ID<sup>2</sup> có thể in từ mọi nơi qua đám mây.
                       </p>
-                      <p className="text-sm italic mt-1">*1: Các tổ chức có hoặc đăng ký Microsoft Windows Enterprise hoặc Microsoft 365. <br />
-                        *2: Trước đây là Azure Active Directory.</p>
+                      <p className="text-sm italic mt-1">1: Các tổ chức có hoặc đăng ký Microsoft Windows Enterprise hoặc Microsoft 365. <br />
+                        2: Trước đây là Azure Active Directory.</p>
                     </div>
 
                     <div>
@@ -392,14 +392,14 @@ export default function Product7580Page() {
                         In ấn dễ dàng và bảo mật ngay cả khi bạn đang làm việc từ xa
                       </h3>
                       <p>
-                        FUJIFILM IWpro* là giải pháp nền tảng an toàn đáp ứng mọi nhu cầu cho số hóa doanh nghiệp, cung cấp không gian làm việc để cộng tác, tối ưu hóa quy trình làm việc, quản lý tài liệu và siêu dữ liệu hiệu quả cũng như khả năng in linh hoạt trên nền tảng đám mây.
+                        FUJIFILM IWpro là giải pháp nền tảng an toàn đáp ứng mọi nhu cầu cho số hóa doanh nghiệp, cung cấp không gian làm việc để cộng tác, tối ưu hóa quy trình làm việc, quản lý tài liệu và siêu dữ liệu hiệu quả cũng như khả năng in linh hoạt trên nền tảng đám mây.
                       </p>
                       <ul className="list-disc pl-5 space-y-1">
-                        <li>Người dùng có thể truy cập FUJIFILM IWpro* qua một trình duyệt web từ bất kỳ vị trí nào có dịch vụ internet, chẳng hạn như từ văn phòng chi nhánh hoặc khi đang di chuyển</li>
+                        <li>Người dùng có thể truy cập FUJIFILM IWpro qua một trình duyệt web từ bất kỳ vị trí nào có dịch vụ internet, chẳng hạn như từ văn phòng chi nhánh hoặc khi đang di chuyển</li>
                         <li>Môi trường in bảo mật và chất lượng cao luôn sẵn sàng bất kể vị trí của bạn, dù trong hay ngoài văn phòng của bạn</li>
                         <li>Người dùng có thể chọn và in tài liệu được lưu trên đám mây bằng thiết bị đa năng ngoài văn phòng</li>
                       </ul>
-                      <p className="text-sm italic mt-1">* Các dịch vụ đám mây do FUJIFILM Business Innovation cung cấp. Yêu cầu hợp đồng riêng.</p>
+                      <p className="text-sm italic mt-1"> Các dịch vụ đám mây do FUJIFILM Business Innovation cung cấp. Yêu cầu hợp đồng riêng.</p>
                     </div>
 
                     <div>
@@ -407,14 +407,14 @@ export default function Product7580Page() {
                         Tích hợp đám mây tập trung
                       </h3>
                       <p>
-                        Cloud Service Hub* cho phép đăng nhập đơn vào nhiều dịch vụ lưu trữ đám mây.
+                        Cloud Service Hub cho phép đăng nhập đơn vào nhiều dịch vụ lưu trữ đám mây.
                       </p>
                       <ul className="list-disc pl-5 space-y-1">
                         <li>Có thể chỉ định vị trí lưu trữ cụ thể cho tài liệu quét trực tiếp từ thiết bị đa chức năng</li>
                         <li>Hỗ trợ tìm kiếm tài liệu từ nhiều dịch vụ đám mây</li>
                         <li>Có thể tiến hành tìm kiếm toàn văn trên tài liệu đã quét OCR</li>
                       </ul>
-                      <p className="text-sm italic mt-1">* Các dịch vụ đám mây do FUJIFILM Business Innovation cung cấp. Yêu cầu hợp đồng riêng.</p>
+                      <p className="text-sm italic mt-1"> Các dịch vụ đám mây do FUJIFILM Business Innovation cung cấp. Yêu cầu hợp đồng riêng.</p>
                     </div>
 
                     <div>
@@ -432,9 +432,9 @@ export default function Product7580Page() {
                         <li>Hỗ trợ nhiều định lượng giấy từ giấy mỏng 52 gsm đến giấy bìa 350 gsm<sup>2</sup></li>
                         <li>Đổi mới công nghệ lõi để có hình chữ và bản in đẹp ngay cả trên phong bì và giấy gân có bề mặt không bằng phẳng</li>
                       </ul>
-                      <p className="text-sm italic mt-1">*1: Khi nạp giấy từ Khay tay được lắp trực tiếp vào máy in hoặc từ Bộ chèn trang để in Biểu ngữ. Khi in trên một cạnh.
+                      <p className="text-sm italic mt-1">1: Khi nạp giấy từ Khay tay được lắp trực tiếp vào máy in hoặc từ Bộ chèn trang để in Biểu ngữ. Khi in trên một cạnh.
                         In 2 mặt lên đến 330 x 762 mm. <br />
-                        *2: Khi lắp đặt tuỳ chọn Bộ nạp trữ lượng lớn C3-DS. Lên đến 300 gsm trong cấu hình tiêu chuẩn.</p>
+                        2: Khi lắp đặt tuỳ chọn Bộ nạp trữ lượng lớn C3-DS. Lên đến 300 gsm trong cấu hình tiêu chuẩn.</p>
                     </div>
 
                     <div>
@@ -447,7 +447,7 @@ export default function Product7580Page() {
                       <ul className="list-disc pl-5 space-y-1">
                         <li>Bằng cách điều chỉnh lực áp lên giấy theo độ dày của giấy, giấy sẽ được nạp ổn định ngay cả với giấy bìa và đạt được độ chính xác chồng màu cao</li>
                         <li>Mô-đun làm thẳng giấy tích hợp sẽ làm thẳng giấy và ổn định hoạt động nạp giấy</li>
-                        <li>Khi đánh giá độ cong của giấy, có thể tiến hành điều chỉnh giấy cong trong thời gian thực*</li>
+                        <li>Khi đánh giá độ cong của giấy, có thể tiến hành điều chỉnh giấy cong trong thời gian thực</li>
                       </ul>
                       <p className="text-sm italic mt-1">* Tùy chọn.</p>
                     </div>
@@ -463,10 +463,10 @@ export default function Product7580Page() {
                         <li>Hỗ trợ các chức năng văn phòng thường dùng như Đục lỗ, Dập ghim ngang, Dập ghim lồng và Gập đôi</li>
                         <li>Bộ hoàn thiện-C4/C5 có thể được đặt trong văn phòng với kích cỡ gọn gàng, đồng thời cải thiện hiệu suất như khổ giấy tối thiểu và số lượng tờ cho Dập ghim giữa</li>
                         <li>Bộ hoàn thiện D6 có thể thực hiện gia công sau in cho bản in đầu ra ở khối lượng lớn hơn, đồng thời chèn các trang bìa và các trang phân tách</li>
-                        <li>Mô-đun giao diện D1* loại mỏng cũng có ở dạng mô-đun kết nối Bộ hoàn thiện D6</li>
+                        <li>Mô-đun giao diện D1 loại mỏng cũng có ở dạng mô-đun kết nối Bộ hoàn thiện D6</li>
                       </ul>
                       <p className="text-sm italic mt-1"> Ghi chú: Tùy chọn. Xem (Tùy chọn)để biết chi tiết về các tùy chọn đầu ra và gia công sau in. <br />
-                        * Khi mô-đun này được sử dụng, không thể kết nối với Bộ chèn trang D1.</p>
+                         Khi mô-đun này được sử dụng, không thể kết nối với Bộ chèn trang D1.</p>
                     </div>
 
                     <div>
@@ -479,12 +479,12 @@ export default function Product7580Page() {
                       </p>
                       <ul className="list-disc pl-5 space-y-1">
                         <li>Xác thực cục bộ</li>
-                        <li>Xác thực bởi Máy chủ từ xa*</li>
-                        <li>Xác thực thẻ IC*</li>
+                        <li>Xác thực bởi Máy chủ từ xa</li>
+                        <li>Xác thực thẻ IC</li>
                         <li>Quyền truy cập tính năng của người dùng cụ thể</li>
                         <li>In xác thực cá nhân</li>
                       </ul>
-                      <p className="text-sm italic mt-1">* Tùy chọn.</p>
+                      <p className="text-sm italic mt-1">Tùy chọn.</p>
                     </div>
 
                     <div>
@@ -492,9 +492,9 @@ export default function Product7580Page() {
                         Có thể tạo thêm lớp truy cập không mong muốn cho những người dùng cụ thể (ví dụ: khách).
                       </h3>
                       <ul className="list-disc pl-5 space-y-1">
-                        <li>Bộ Ethernet phụ*</li>
+                        <li>Bộ Ethernet phụ</li>
                       </ul>
-                      <p className="text-sm italic mt-1">* Tùy chọn.</p>
+                      <p className="text-sm italic mt-1">Tùy chọn.</p>
                     </div>
 
                     <div>
@@ -506,10 +506,10 @@ export default function Product7580Page() {
                       </p>
                       <ul className="list-disc pl-5 space-y-1">
                         <li>Mã hóa tài liệu đã lưu</li>
-                        <li>Sử dụng chip TPM* 2.0 để quản lý khóa mã hóa</li>
+                        <li>Sử dụng chip TPM 2.0 để quản lý khóa mã hóa</li>
                         <li>Xóa cài đặt và thông tin tài liệu cùng lúc</li>
                       </ul>
-                      <p className="text-sm italic mt-1">* Trusted Platform Module (Mô-đun nền tảng đáng tin cậy)</p>
+                      <p className="text-sm italic mt-1"> Trusted Platform Module (Mô-đun nền tảng đáng tin cậy)</p>
                       <p>Bảo vệ thông tin bằng mã hóa mạnh mẽ khi truyền giữa các thiết bị, máy chủ, v.v.</p>
                       <ul className="list-disc pl-5 space-y-1">
                         <li>Mã hóa đường dẫn giao tiếp bằng SSL/TLS hoặc IPsec</li>
@@ -558,10 +558,10 @@ export default function Product7580Page() {
                         <li>Quét tài liệu để gửi đến đích cố định</li>
                         <li>Nhập lại người nhận fax</li>
                         <li>Ghi chú</li>
-                        <li>In văn bản ẩn*</li>
-                        <li>Chức năng nhúng và theo dõi mã số hóa*</li>
+                        <li>In văn bản ẩn</li>
+                        <li>Chức năng nhúng và theo dõi mã số hóa</li>
                       </ul>
-                      <p className="text-sm italic mt-1">* Tùy chọn</p>
+                      <p className="text-sm italic mt-1">Tùy chọn</p>
                     </div>
 
                     <div>

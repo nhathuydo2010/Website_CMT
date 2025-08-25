@@ -286,8 +286,8 @@ export default function Product7580Page() {
                       <p>Giao diện màu nền đen và xám mang đến độ tương phản cao hơn, giúp nhận diện dễ dàng.</p>
                       <ul className="list-disc pl-5 space-y-1">
                         <li>Xác thực cục bộ</li>
-                        <li>Xác thực bởi Máy chủ từ xa*</li>
-                        <li>Xác thực thẻ IC*</li>
+                        <li>Xác thực bởi Máy chủ từ xa</li>
+                        <li>Xác thực thẻ IC</li>
                         <li>Quyền truy cập tính năng của người dùng cụ thể</li>
                         <li>In xác thực cá nhân</li>
                       </ul>
@@ -333,7 +333,7 @@ export default function Product7580Page() {
                         thiệp sửa đổi cài đặt thiết bị/hệ thống</p>
                       <ul className="list-disc pl-5 space-y-1">
                         <li>Mã hóa tài liệu đã lưu</li>
-                        <li>Sử dụng chip TPM* 2.0 để quản lý khóa mã hóa</li>
+                        <li>Sử dụng chip TPM 2.0 để quản lý khóa mã hóa</li>
                         <li>Xóa cài đặt và thông tin tài liệu cùng lúc</li>
                       </ul>
                       <p>
@@ -363,8 +363,8 @@ export default function Product7580Page() {
                         <li>Quét tài liệu để gửi đến đích cố định</li>
                         <li>Nhập lại người nhận fax</li>
                         <li>Ghi chú</li>
-                        <li>In văn bản ẩn*</li>
-                        <li>Chức năng nhúng và theo dõi mã số hóa*</li>
+                        <li>In văn bản ẩn</li>
+                        <li>Chức năng nhúng và theo dõi mã số hóa</li>
                       </ul>
                     </div>
                   </div>

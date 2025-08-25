@@ -178,11 +178,11 @@ export default function Product7580Page() {
                       <ul className="list-disc pl-5 space-y-1">
                         <li>ScanAuto: Gửi dữ liệu đã quét chỉ bằng một nút bấm</li>
                         <li>Chia sẻ dữ liệu nhanh qua email, URL, PC (SMB/FTP)</li>
-                        <li>Chuyển đổi PDF thành dữ liệu có thể chỉnh sửa: Excel, Word, OCR*</li>
+                        <li>Chuyển đổi PDF thành dữ liệu có thể chỉnh sửa: Excel, Word, OCR</li>
                         <li>Lưu lên cloud: OneDrive, Google Drive, DocuSign, Dropbox, v.v.</li>
                         <li>Hỗ trợ scan ảnh thẻ, danh thiếp và tài liệu khối lượng lớn</li>
                       </ul>
-                      <p className="text-sm italic mt-1">* Tùy chọn nâng cao</p>
+                      <p className="text-sm italic mt-1">Tùy chọn nâng cao</p>
                     </div>
                     <div>
                       <h3 className="font-semibold text-cyan-700 mb-2">
@@ -265,8 +265,8 @@ export default function Product7580Page() {
                     <div className="space-y-4">
                       <div>
                         <h3 className="font-semibold text-cyan-700 mb-2">Quét nhanh các tài liệu có khối lượng lớn</h3>
-                        <p>Bộ nạp và đảo bản gốc tự động C2-PC có thể trữ lên tới 250 tờ tài liệu và đọc các tài liệu này ở tốc độ cao, lên đến 270 trang/phút* cho tác vụ quét hình 1 lượt, 2 mặt để có thể sao chụp hoặc quét nhanh. Hơn nữa, chức năng phát hiện giấy kép giúp ngăn ngừa các hiện tượng như thiếu tờ in do có các tài liệu bị bỏ qua, nhằm đảm bảo công việc xử lý hay lưu dữ liệu ra suôn sẻ.</p>
-                        <p className="text-sm italic">* Quét hình 1 lượt, 2 mặt bằng giấy tiêu chuẩn của FUJIFILM (A4 LEF), 200 dpi, Lưu tới ổ lưu mục.</p>
+                        <p>Bộ nạp và đảo bản gốc tự động C2-PC có thể trữ lên tới 250 tờ tài liệu và đọc các tài liệu này ở tốc độ cao, lên đến 270 trang/phút cho tác vụ quét hình 1 lượt, 2 mặt để có thể sao chụp hoặc quét nhanh. Hơn nữa, chức năng phát hiện giấy kép giúp ngăn ngừa các hiện tượng như thiếu tờ in do có các tài liệu bị bỏ qua, nhằm đảm bảo công việc xử lý hay lưu dữ liệu ra suôn sẻ.</p>
+                        <p className="text-sm italic"> Quét hình 1 lượt, 2 mặt bằng giấy tiêu chuẩn của FUJIFILM (A4 LEF), 200 dpi, Lưu tới ổ lưu mục.</p>
                       </div>
                       <Image src="/images/vanhanh2.png" alt="Quét nhanh" className="mx-auto rounded-lg shadow  mt-3" />
                     </div>
@@ -303,10 +303,10 @@ export default function Product7580Page() {
                         <h3 className="font-semibold text-cyan-700 mb-2"> Tạo ra các tài liệu quảng cáo hấp dẫn từ nhiều
                           kích cỡ giấy và loại giấy khác nhau</h3>
                         <p> Hỗ trợ nhiều loại giấy khác nhau để sản xuất nội bộ các nội dung
-                          quảng cáo như bìa đựng tài liệu trong suốt, bưu thiếp*, phong bì*
+                          quảng cáo như bìa đựng tài liệu trong suốt, bưu thiếp, phong bì
                           và các tấm biểu ngữ dài cho quầy hàng.</p>
-                        <p className="text-sm italic">* Hỗ trợ giấy dài lên đến 320 x 1.200 mm.</p>
-                        <p className="text-sm italic">*  Hỗ trợ giấy từ 52 đến 300 gsm, từ giấy mỏng đến giấy dày như giấy chứng
+                        <p className="text-sm italic"> Hỗ trợ giấy dài lên đến 320 x 1.200 mm.</p>
+                        <p className="text-sm italic"> Hỗ trợ giấy từ 52 đến 300 gsm, từ giấy mỏng đến giấy dày như giấy chứng
                           nhận.</p>
                       </div>
                       <Image src="/images/vanhanh6.png" alt="Bố trí linh hoạt" className="mx-auto rounded-lg shadow  mt-3" />

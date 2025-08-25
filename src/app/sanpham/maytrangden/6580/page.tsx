@@ -172,12 +172,12 @@ export default function Product7580Page() {
                       </h3>
                       <p>Khởi động nhanh, cho ra giấy nhanh là những lợi thế mà thiết bị này có thể đáp ứng cho những tình huống cần thiết, nhờ với các tính năng sau</p>
                       <ul className="list-disc pl-5 space-y-1">
-                        <li>Thời gian cho ra bản sao chụp đầu tiên 3,0 giây*</li>
+                        <li>Thời gian cho ra bản sao chụp đầu tiên 3,0 giây</li>
                         <li>Smart WelcomEyes phát hiện thấy người dùng và tự động đánh thức thiết bị từ chế độ nghỉ.</li>
                         <li>Khởi động từ chế độ nghỉ chỉ trong 30 giây.</li>
                       </ul>
                       <p>Dự đoán thời gian hoàn thành tác vụ in để quản lý công việc hiệu quả hơn</p>
-                      <p className="text-sm italic mt-1">* A4 LEF</p>
+                      <p className="text-sm italic mt-1">A4 LEF</p>
                     </div>
 
                     <div>
@@ -185,14 +185,14 @@ export default function Product7580Page() {
                         Độ bền và năng suất cao
                       </h3>
                       <ul className="list-disc pl-5 space-y-1">
-                        <li>Năng suất cao với tốc độ in cao lên đến 75 trang/phút*1</li>
-                        <li>Khay tiêu chuẩn chứa 4.645 tờ*2 (có thể nâng lên đến 8.800 tờ*2 *3) để bạn có thể in liên tục mà không bị ngắt quãng</li>
+                        <li>Năng suất cao với tốc độ in cao lên đến 75 trang/phút1</li>
+                        <li>Khay tiêu chuẩn chứa 4.645 tờ 2 (có thể nâng lên đến 8.800 tờ 2 3) để bạn có thể in liên tục mà không bị ngắt quãng</li>
                         <li>Bền bỉ, có thể đảm nhiệm in tốc độ cao số lượng lớn</li>
                         <li>Hộp mực dung lượng cao, cùng với trống cảm biến quang tuổi thọ cao giúp duy trì mức năng suất tối ưu với tần suất thay thế các vật tư tiêu hao ít hơn</li>
                       </ul>
-                      <p className="text-sm italic mt-1">*1: A4 LEF cho 7580.
-                        *2: 80 gsm Giấy.
-                        *3: Tiêu chuẩn + Bộ nạp trữ lượng lỡn C1-D2.</p>
+                      <p className="text-sm italic mt-1"> 1: A4 LEF cho 7580.
+                        2: 80 gsm Giấy.
+                        3: Tiêu chuẩn + Bộ nạp trữ lượng lỡn C1-D2.</p>
                     </div>
 
                     <div>
@@ -201,15 +201,15 @@ export default function Product7580Page() {
                       </h3>
                       <ul className="list-disc pl-5 space-y-1">
                         <li>Được trang bị Bộ nạp và đảo bản gốc tự động (DADF) màu một lượt quét</li>
-                        <li>Có thể đạt quy trình công việc nhanh hơn và liên tục với tốc độ quét khoảng 270 trang/phút*1 và dung lượng khay chứa giấy DADF 250 tờ*2</li>
-                        <li>Quy trình công việc yêu cầu với DADF có thể trở nên linh hoạt hơn, hỗ trợ nhiều loại giấy, từ 38*3 đến 200 gsm</li>
+                        <li>Có thể đạt quy trình công việc nhanh hơn và liên tục với tốc độ quét khoảng 270 trang/phút 1 và dung lượng khay chứa giấy DADF 250 tờ </li>
+                        <li>Quy trình công việc yêu cầu với DADF có thể trở nên linh hoạt hơn, hỗ trợ nhiều loại giấy, từ 38 đến 200 gsm</li>
                         <li>Cải thiện mức độ hiệu quả của quy trình công việc bằng cách tự động quét các tài liệu có kích thước tùy chọn, hoặc kích thước nhỏ như hóa đơn, về kích thước gần với tiêu chuẩn nhất</li>
                         <li>Có thể phát hiện giấy dính nhau, để tránh lỗi quét khi sao chụp hay quét nhiều tài liệu</li>
                         <li>Đèn báo hiệu nhắc người dùng thu thập tài liệu gốc</li>
                       </ul>
-                      <p className="text-sm italic mt-1">*1: Quét hình 1 lượt, 2 mặt. Tài liệu tiêu chuẩn (A4 LEF), 200 dpi, Lưu trữ vào thư mục.</p>
-                      <p className="text-sm italic mt-1">*2: 80 gsm giấy.</p>
-                      <p className="text-sm italic mt-1">*3: Cho bản gốc in một mặt. 50 gsm cho bản gốc in hai mặt.</p>
+                      <p className="text-sm italic mt-1">1: Quét hình 1 lượt, 2 mặt. Tài liệu tiêu chuẩn (A4 LEF), 200 dpi, Lưu trữ vào thư mục.</p>
+                      <p className="text-sm italic mt-1">2: 80 gsm giấy.</p>
+                      <p className="text-sm italic mt-1">3: Cho bản gốc in một mặt. 50 gsm cho bản gốc in hai mặt.</p>
                     </div>
 
                     <div>
@@ -234,7 +234,7 @@ export default function Product7580Page() {
                       <h3 className="font-semibold text-cyan-700 mb-2">
                         Điện thoại thông minh trở thành bảng điều khiển di động
                       </h3>
-                      <p>Kết nối liền mạch với các thiết bị di động cho các tác vụ sao chụp, Fax, In, Quét*1 bằng cách sử dụng ứng dụng Print Utility*2.</p>
+                      <p>Kết nối liền mạch với các thiết bị di động cho các tác vụ sao chụp, Fax, In, Quét 1 bằng cách sử dụng ứng dụng Print Utility.</p>
                       <ul className="list-disc pl-5 space-y-1">
                         <li>Thiết bị di động có thể được sử dụng làm giao diện người dùng thay thế để kiểm soát hoạt động nhằm giảm tiếp xúc chung.</li>
                         <li>Các cài đặt thường xuyên sử dụng có thể được lưu dưới dạng Yêu thích</li>
@@ -243,8 +243,8 @@ export default function Product7580Page() {
                         <li>Thiết lập kết nối Wi-Fi trực tiếp nhanh chóng bằng cách quét mã QR trên bảng điều khiển người dùng</li>
                       </ul>
                       <p className="text-sm italic mt-1">Ghi chú: Kết nối với máy thông qua môi trường không dây hoặc kết nối Wi-Fi Direct.</p>
-                      <p className="text-sm italic mt-1">*1: Quét tới Thiết bị di động, Email, Quét vào thư mục.</p>
-                      <p className="text-sm italic mt-1">**2: Tải xuống miễn phí từ Google PlayTM hoặc App Store.</p>
+                      <p className="text-sm italic mt-1">1: Quét tới Thiết bị di động, Email, Quét vào thư mục.</p>
+                      <p className="text-sm italic mt-1">2: Tải xuống miễn phí từ Google PlayTM hoặc App Store.</p>
                     </div>
 
                     <div>
@@ -259,8 +259,8 @@ export default function Product7580Page() {
                         <li>Hỗ trợ in hoặc quét bằng thiết bị di động bằng Print Utility, AirPrint, Mopria® Print Service, và Mopria Scan.</li>
                       </ul>
                       <p className="text-sm italic mt-1">
-                        *1: Tùy chọn.
-                        <br />*2: Khi kết nối Wi-Fi Direct.
+                        1: Tùy chọn.
+                        <br />2: Khi kết nối Wi-Fi Direct.
                       </p>
                     </div>
 
@@ -296,7 +296,7 @@ export default function Product7580Page() {
                       <ul className="list-disc pl-5 space-y-1">
                         <li>Dữ liệu có thể được gửi bằng cách sử dụng nhiều tính năng cùng một lúc</li>
                         <li>Cải thiện quy trình số hóa của bạn với các tính năng bao gồm tự động xoay chiều trang được quét về hướng thẳng đứng, sửa trang bị lệch hoặc xóa các trang trống</li>
-                        <li>Bên cạnh định dạng TIFF và JPEG, dữ liệu được quét có thể được chuyển đổi sang tệp PDF hoặc DocuWorks có bật OCR* hoặc nén ở mức cao/ có màu cụ thể. Ngoài ra, tài liệu còn có thể được chuyển đổi dang tài liệu Excel/Word có thể chỉnh sửa được*</li>
+                        <li>Bên cạnh định dạng TIFF và JPEG, dữ liệu được quét có thể được chuyển đổi sang tệp PDF hoặc DocuWorks có bật OCR hoặc nén ở mức cao/ có màu cụ thể. Ngoài ra, tài liệu còn có thể được chuyển đổi dang tài liệu Excel/Word có thể chỉnh sửa được</li>
                         <li>Với ScanAuto, bạn có thể dễ dàng gửi dữ liệu đã quét đến địa chỉ e-mail của mình bằng cách chỉ cần nhấn một nút</li>
                       </ul>
                     </div>
@@ -307,7 +307,7 @@ export default function Product7580Page() {
                       </h3>
                       <p>Với tính năng Scan Delivery (Phân phối bản quét đến thư mục lưu trữ định sẵn), bạn có thể tự động xử lý và lưu trữ hình ảnh được quét chỉ bằng một nút ấn thao tác cài sẵn dành cho mỗi quy trình công việc hoặc một loại tài liệu nhất định.</p>
                       <ul className="list-disc pl-5 space-y-1">
-                        <li>Tự động hóa để đặt định dạng tập tin, tên tập tin, OCR*, v.v.</li>
+                        <li>Tự động hóa để đặt định dạng tập tin, tên tập tin, OCR, v.v.</li>
                         <li>Tự động lưu trữ tài liệu đã quét và xử lý tại đúng điểm đến định sẵn</li>
                         <li>Chỉ định từ ngữ hoặc ký tự cụ thể trong tài liệu làm tên thư mục hoặc tên tập tin</li>
                         <li>Có thể đọc chính xác 0̸ và các ký tự hay bị nhận diện nhầm khác</li>
@@ -351,7 +351,7 @@ export default function Product7580Page() {
                       </p>
                       <ul className="list-disc pl-5 space-y-1">
                         <li>Mã hóa tài liệu đã lưu</li>
-                        <li>Sử dụng chip TPM* 2.0 để quản lý khóa mã hóa</li>
+                        <li>Sử dụng chip TPM 2.0 để quản lý khóa mã hóa</li>
                         <li>Xóa cài đặt và thông tin tài liệu cùng lúc</li>
                       </ul>
                       <p>
