@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google"; // ✨ Đã bỏ Inter vì không dùng
 import "./globals.css";
-
+import BackToTop from "./components/BackToTop";
 import TopBar from "./components/TopBar";
 import LogoSearch from "./components/LogoSearch";
 import NavigationMenu from "./components/Navbar";
@@ -44,6 +44,7 @@ export default function RootLayout({
         <TopBar />
         <LogoSearch  products={allProducts}/>
         <NavigationMenu />
+          <BackToTop />
         <main>{children}</main>
         <Footer />
       </body>
