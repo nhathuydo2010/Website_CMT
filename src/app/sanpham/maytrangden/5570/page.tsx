@@ -161,8 +161,8 @@ export default function Product7580Page() {
                         Giảm thiểu thời gian chờ đợi cho năng suất cao hơn
                       </h3>
                       <ul className="list-disc pl-5 space-y-1">
-                        <li>Thời gian cho ra bản sao chụp đầu tiên chỉ trong 3,6¹ giây</li>
-                        <li>Thời gian khởi động máy chưa đầy 30 giây² và thời gian khôi phục là 11 giây</li>
+                        <li>Thời gian cho ra bản sao chụp đầu tiên chỉ trong 3,6 giây</li>
+                        <li>Thời gian khởi động máy chưa đầy 30 giây và thời gian khôi phục là 11 giây</li>
                         <li>Smart WelcomeEyes phát hiện người dùng và tự động “đánh thức” máy từ chế độ nghỉ</li>
                       </ul>
                       <p className="text-sm italic mt-1">1: A4 LEF – 2: Tính chỉnh khi hợp sẵn / Dịch vụ tùy chỉnh: Khi được kích hoạt.</p>

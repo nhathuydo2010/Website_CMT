@@ -236,7 +236,7 @@ export default function Product7580Page() {
                       <h3 className="font-semibold text-cyan-700 mb-2">
                         Điện thoại thông minh trở thành bảng điều khiển di động
                       </h3>
-                      <p>Kết nối liền mạch với các thiết bị di động cho các tác vụ sao chụp, Fax, In, Quét*1 bằng cách sử dụng ứng dụng Print Utility*2.</p>
+                      <p>Kết nối liền mạch với các thiết bị di động cho các tác vụ sao chụp, Fax, In, Quét bằng cách sử dụng ứng dụng Print Utility.</p>
                       <ul className="list-disc pl-5 space-y-1">
                         <li>Thiết bị di động có thể được sử dụng làm giao diện người dùng thay thế để kiểm soát hoạt động nhằm giảm tiếp xúc chung.</li>
                         <li>Các cài đặt thường xuyên sử dụng có thể được lưu dưới dạng Yêu thích</li>

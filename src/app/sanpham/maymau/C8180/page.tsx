@@ -177,8 +177,8 @@ export default function Product7580Page() {
                       </p>
                       <ul className="list-disc pl-5 space-y-1">
                         <li>Trống quang dẫn có độ mòn thấp với tuổi thọ dài giúp giảm tần suất thay trống</li>
-                        <li>Nạp giấy trữ lượng lớn lên đến 7.360 tờ<sup>1</sup></li>
-                        <li>Hộp mực<sup>2</sup> trữ lượng lớn và khay giấy lớn giúp giảm số lần thay</li>
+                        <li>Nạp giấy trữ lượng lớn lên đến 7.360 tờ</li>
+                        <li>Hộp mực trữ lượng lớn và khay giấy lớn giúp giảm số lần thay</li>
                         <li>Thay mực và thêm giấy mà không cần dừng công việc in đang chạy</li>
                         <li>Độ bền vượt trội và khả năng xử lý bản in ra lõi và in khối lượng lớn</li>
                       </ul>
@@ -192,10 +192,10 @@ export default function Product7580Page() {
                       </h3>
                       <p>Khởi động nhanh và in nhanh chóng. Giảm thời gian chờ đợi.</p>
                       <ul className="list-disc pl-5 space-y-1">
-                        <li>Tốc độ in cao, lên đến 81 trang/phút<sup>1</sup></li>
+                        <li>Tốc độ in cao, lên đến 81 trang/phút</li>
                         <li>Smart WelcomEyes phát hiện người dùng đang đến gần và tự động khởi động từ trạng thái tiết kiệm năng lượng</li>
                         <li>Model cao cấp, khởi động từ chế độ nghỉ trong vòng 30 giây</li>
-                        <li>Thời gian cho ra bản sao chụp đầu tiên 5,4 giây<sup>2</sup></li>
+                        <li>Thời gian cho ra bản sao chụp đầu tiên 5,4 giây</li>
                         <li>Dự đoán thời gian hoàn thành tác vụ in để quản lý công việc hiệu quả hơn</li>
                       </ul>
                       <p className="text-sm italic mt-1">
@@ -226,8 +226,8 @@ export default function Product7580Page() {
                       </h3>
                       <ul className="list-disc pl-5 space-y-1">
                         <li>Được trang bị Bộ nạp và đảo bản gốc tự động (DADF) màu một lượt quét</li>
-                        <li>Có thể đạt quy trình công việc nhanh hơn và liên tục với tốc độ quét khoảng 270 trang/phút<sup>1</sup> và dung lượng khay chứa giấy DADF 250 tờ<sup>2</sup></li>
-                        <li>Quy trình công việc yêu cầu với DADF có thể trở nên linh hoạt hơn, hỗ trợ nhiều loại giấy, từ 38<sup>3</sup> đến 200 gsm</li>
+                        <li>Có thể đạt quy trình công việc nhanh hơn và liên tục với tốc độ quét khoảng 270 trang/phút và dung lượng khay chứa giấy DADF 250 tờ</li>
+                        <li>Quy trình công việc yêu cầu với DADF có thể trở nên linh hoạt hơn, hỗ trợ nhiều loại giấy, từ 38 đến 200 gsm</li>
                         <li>Cải thiện mức độ hiệu quả của quy trình công việc bằng cách tự động quét các tài liệu có kích thước tùy chọn, hoặc kích thước nhỏ như hóa đơn, về kích thước gần với tiêu chuẩn nhất</li>
                       </ul>
                       <p className="text-sm italic mt-1">1: Quét hình 1 lượt, 2 mặt. Tài liệu tiêu chuẩn (A4 LEF), 200 dpi, Lưu trữ vào thư mục.<br />
@@ -301,9 +301,9 @@ export default function Product7580Page() {
                         Độ bền vượt trội và khả năng xử lý bản in cốt lõi và in khối lượng lớn.
                       </p>
                       <ul className="list-disc pl-5 space-y-1">
-                        <li>Tốc độ in cao, lên đến 81 trang/phút<sup>1</sup></li>
+                        <li>Tốc độ in cao, lên đến 81 trang/phút</li>
                         <li>Trống quang dẫn có độ mòn thấp với tuổi thọ dài giúp giảm tần suất thay trống</li>
-                        <li>Nạp giấy trữ lượng lớn lên đến 7.360 tờ<sup>2</sup></li>
+                        <li>Nạp giấy trữ lượng lớn lên đến 7.360 tờ</li>
                         <li>Thay mực và thêm giấy mà không cần dừng công việc in đang chạy và tăng thời gian vận hành máy lên mức tối đa</li>
                       </ul>
                       <p className="text-sm italic mt-1">
@@ -364,12 +364,12 @@ export default function Product7580Page() {
                         Tính linh hoạt trong bố cục văn phòng
                       </h3>
                       <p>
-                        Hỗ trợ môi trường LAN không dây<sup>1</sup>.
+                        Hỗ trợ môi trường LAN không dây.
                       </p>
                       <ul className="list-disc pl-5 space-y-1">
                         <li>Hỗ trợ tự do di chuyển thiết bị trong văn phòng nhờ kết nối Wi-Fi.</li>
                         <li>Có thể kết nối với tối đa 5 thiết bị đa chức với tính năng kết nối wi-fi trực tiếp (Wi-Fi Direct) cùng lúc</li>
-                        <li>Hỗ trợ in trực tiếp qua thiết bị di động<sup>2</sup></li>
+                        <li>Hỗ trợ in trực tiếp qua thiết bị di động</li>
                         <li>Hỗ trợ Print Utility, AirPrint và Mopria® Print Service</li>
                       </ul>
                       <p className="text-sm italic mt-1">1: Tùy chọn. <br />
@@ -380,7 +380,7 @@ export default function Product7580Page() {
                         Hỗ trợ Universal Print của Microsoft
                       </h3>
                       <p>
-                        Bằng cách đăng ký trước các thiết bị đa chức năng với Universal Print của Microsoft, người dùng<sup>1</sup> được xác thực bằng Microsoft Entra ID<sup>2</sup> có thể in từ mọi nơi qua đám mây.
+                        Bằng cách đăng ký trước các thiết bị đa chức năng với Universal Print của Microsoft, người dùng được xác thực bằng Microsoft Entra ID có thể in từ mọi nơi qua đám mây.
                       </p>
                       <p className="text-sm italic mt-1">1: Các tổ chức có hoặc đăng ký Microsoft Windows Enterprise hoặc Microsoft 365. <br />
                         2: Trước đây là Azure Active Directory.</p>
@@ -427,8 +427,8 @@ export default function Product7580Page() {
                         áp phích để mở rộng kinh doanh.
                       </p>
                       <ul className="list-disc pl-5 space-y-1">
-                        <li>Hỗ trợ nhiều khổ giấy từ bưu thiếp đến giấy dài (330 x 1.300 mm<sup>1</sup>)</li>
-                        <li>Hỗ trợ nhiều định lượng giấy từ giấy mỏng 52 gsm đến giấy bìa 350 gsm<sup>2</sup></li>
+                        <li>Hỗ trợ nhiều khổ giấy từ bưu thiếp đến giấy dài (330 x 1.300 mm)</li>
+                        <li>Hỗ trợ nhiều định lượng giấy từ giấy mỏng 52 gsm đến giấy bìa 350 gsm</li>
                         <li>Đổi mới công nghệ lõi để có hình chữ và bản in đẹp ngay cả trên phong bì và giấy gân có bề mặt không bằng phẳng</li>
                       </ul>
                       <p className="text-sm italic mt-1">1: Khi nạp giấy từ Khay tay được lắp trực tiếp vào máy in hoặc từ Bộ chèn trang để in Biểu ngữ. Khi in trên một cạnh.

@@ -194,7 +194,7 @@ export default function Product7580Page() {
                           <li>Đèn LED nút Home sẽ sáng lên</li>
                           <li>Vùng cảm ứng NFC</li>
                           <li>
-                            Dễ dàng kết nối với các thiết bị di động. Sử dụng <strong>Print Utility</strong><sup>1</sup>, bạn có thể thực hiện các thao tác cơ bản với thiết bị đa chức năng<sup>2</sup> từ điện thoại thông minh.
+                            Dễ dàng kết nối với các thiết bị di động. Sử dụng <strong>Print Utility</strong>, bạn có thể thực hiện các thao tác cơ bản với thiết bị đa chức năng từ điện thoại thông minh.
                             <ul>
                               <li>1: Kết nối với máy qua môi trường không dây hoặc kết nối Wi-Fi Direct. Có thể tải xuống miễn phí từ Google Play™ hoặc App Store.</li>
                               <li>2: Sao chụp, fax, in, quét.</li>
@@ -306,7 +306,7 @@ export default function Product7580Page() {
                         Sản xuất tài liệu quảng cáo nội bộ và theo yêu cầu
                       </h3>
                       <p>
-                        Hỗ trợ nhiều kích thước và định lượng giấy khác nhau<><sup>1</sup></>, cho bạn sự linh hoạt trong việc cá nhân hóa và in trên phong bì, thư trực tiếp, áp phích, biểu ngữ quảng cáo hoặc màn hình POP dài<sup>2</sup>.
+                        Hỗ trợ nhiều kích thước và định lượng giấy khác nhau, cho bạn sự linh hoạt trong việc cá nhân hóa và in trên phong bì, thư trực tiếp, áp phích, biểu ngữ quảng cáo hoặc màn hình POP dài.
                       </p>
                       <p className="text-sm italic mt-1">
                         1: Định lượng giấy từ 52 đến 300 gsm<br />

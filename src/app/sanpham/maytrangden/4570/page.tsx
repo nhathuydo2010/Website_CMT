@@ -292,11 +292,11 @@ export default function Product7580Page() {
                       <h3 className="font-semibold text-cyan-700 mb-2">
                         Tính linh hoạt trong bố cục văn phòng
                       </h3>
-                      <p>Hỗ trợ môi trường LAN không dây¹.</p>
+                      <p>Hỗ trợ môi trường LAN không dây.</p>
                       <ul className="list-disc pl-5 space-y-1">
                         <li>Hỗ trợ từ cổng di chuyển thiết bị trong văn phòng nhỏ kết nối Wi-Fi</li>
                         <li>Có thể kết nối với tối đa 5 thiết bị đa chức với tính năng kết nối wi-fi trực tiếp (Wi-Fi Direct) cùng lúc</li>
-                        <li>Hỗ trợ in trực tiếp qua thiết bị di động²</li>
+                        <li>Hỗ trợ in trực tiếp qua thiết bị di động</li>
                         <li>Hỗ trợ Print Utility, AirPrint và Mopria® Print Service</li>
                       </ul>
                       <p className="text-sm italic mt-1">
