@@ -21,7 +21,7 @@ export default function Footer() {
                     </div>
                     <p className="mb-2">Kinh doanh máy photocopy & cho thuê máy photocopy.</p>
                     <p className="mb-2">Trụ sở: 26 Lý Tự Trọng, Phường Sài Gòn, TP.HCM</p>
-                    <p className="mb-2">📞 028.382.261.66 - 0944.333.986 </p>
+                    <p className="mb-2">📞 028.382.261.66 - 077.674.7388 </p>
                     <p className="mb-2">
                         ✉️ <a href="mailto:cmt-market@cmt.vn" className="text-blue-600 underline">
                             cmt-market@cmt.vn

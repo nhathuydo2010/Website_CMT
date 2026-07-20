@@ -124,7 +124,7 @@ export default function Header({ products = [] }: Props) {
           </div>
           <div className="flex items-center space-x-2">
             <Image src="/images/phone.png" alt="Phone" width={20} height={20} />
-            <a href="tel:0944333986" className="hover:underline">0944.333.986</a>
+            <a href="tel:0944333986" className="hover:underline">077.674.7388</a>
           </div>
         </div>
       </div>
@@ -139,7 +139,7 @@ export default function Header({ products = [] }: Props) {
             </a>
             <a href="tel:0944333986" className="flex items-center space-x-2">
               <Image src="/images/phone.png" alt="Phone" width={20} height={20} />
-              <span>0944.333.986</span>
+              <span>077.674.7388</span>
             </a>
           </div>
         </div>
