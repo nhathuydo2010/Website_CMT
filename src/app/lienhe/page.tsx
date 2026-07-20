@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useRef } from 'react';
-import emailjs from 'emailjs-com';
+import emailjs from "@emailjs/browser";
 import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa';
 
 export default function LienHePage() {
